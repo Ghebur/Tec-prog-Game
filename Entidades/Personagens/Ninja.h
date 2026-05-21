@@ -9,7 +9,8 @@ class Ninja : public Personagens {
     sf::RectangleShape corpo;
 public:
     Ninja(float x, float y);
+    ~Ninja();
     void update();
     void render(sf::RenderWindow& window);
-
+    void movimentaçao();
 };

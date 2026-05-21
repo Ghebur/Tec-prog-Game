@@ -1,15 +1,17 @@
 #include <SFML/Graphics.hpp>
+#include "../Ent.h"
 #pragma once
 
-class Entidades{
+class Entidades:public Ent{
     protected:
         sf::Vector2f posicao;
         float tamanho;
         //TODO: ver 0oq é o buffer e tals
     public:
-        Entidades(sf::Vector2f pos ={0,0}, float tamanho=12.f);
+        Entidades(int id, float tamanho=12.f,sf::Vector2f pos ={0,0});
         virtual ~Entidades();
         sf::Vector2f getPos();
+        float getTamanho();
         virtual void executar() = 0;
         virtual void desenhar() = 0;
 };

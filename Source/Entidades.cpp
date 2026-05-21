@@ -1,7 +1,9 @@
 #include "../Entidades/Entidades.h"
 
-Entidades::Entidades(sf::Vector2f pos):
-posicao(pos)
+Entidades::Entidades(int id, float tam, sf::Vector2f pos):
+Ent(id),
+posicao(pos),
+tamanho(tam)
 {
 }
 
