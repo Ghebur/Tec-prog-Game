@@ -1,6 +1,8 @@
 #include <SFML/Graphics.hpp>
+#include "Obstaculos.h"
+#pragma once
 
-class oleo{
+class oleo:public Obstaculos{
     private:
         sf::Sprite sprite;
         sf::Texture textura;

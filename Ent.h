@@ -2,7 +2,7 @@
 
 class Ent{
     protected:
-        
+        int id;
 
 
 
