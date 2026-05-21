@@ -1,0 +1,1 @@
+#include "../Entidades/Obstaculos/Obstaculos.h"

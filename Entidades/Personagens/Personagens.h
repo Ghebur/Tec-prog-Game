@@ -2,11 +2,12 @@
 #include "../Ent.h"
 #pragma once
 
-class Personagem:public Ent{
+class Personagens:public Ent{
     protected:  
         int vida;
+        float velocidade;
     public:
-        Personagem();
-        ~Personagem();  
+        Personagens(int id, int vida=5,float velocidade=4.5f,float tamanho=12.f);
+        ~Personagens();  
 
 };

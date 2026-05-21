@@ -4,11 +4,12 @@
 
 class oleo:public Obstaculos{
     private:
-        sf::Sprite sprite;
-        sf::Texture textura;
-        float largura;
+        //sf::Sprite sprite;
+        //sf::Texture textura;
+        sf::RectangleShape forma;
     public:
         oleo();
         ~oleo();
+        
 
 };
