@@ -5,10 +5,12 @@
 class Personagens:public Entidades{
     protected:  
         int vida;
-        float velocidade;
+        sf::Vector2f velocidade;
+        bool noChao;
         
     public:
-        Personagens(int id, int vida=5,float velocidade=4.5f,float tamanho=12.f,sf::Vector2f pos={0,0});
-        ~Personagens();  
+        Personagens(int id, int vida=5,sf::Vector2f velocidade={4.5f, 0.f},float tamanho=12.f,sf::Vector2f pos={0,0});
+        ~Personagens();
         virtual void movimentaçao() = 0;
+        void aplicarGravidade(float deltaTime);
 };

@@ -7,7 +7,11 @@
             "command": "g++ -g (Get-ChildItem -Recurse -Filter *.cpp | Select-Object -ExpandProperty FullName) -o ${workspaceFolder}/meu_jogo.exe -I${workspaceFolder}/include -L${workspaceFolder}/lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio",
             "args": [],
             "options": {
-                "cwd": "${workspaceFolder}"
+                "cwd": "${workspaceFolder}",
+                "shell": {
+                    "executable": "powershell.exe",
+                    "args": ["-Command"]
+                }
             },
             "problemMatcher": [
                 "$gcc"

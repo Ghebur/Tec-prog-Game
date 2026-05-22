@@ -3,7 +3,7 @@
 
 Jogo::Jogo() :
     window(sf::VideoMode({800, 600}), "Meu Jogo UTFPR"),
-    ninja(400.f, 300.f),
+    ninja(300.f, 400.f),
     mapa1()
 {
     window.setFramerateLimit(60);  
@@ -19,8 +19,8 @@ void Jogo::Atualizar(){
     camera.setCenter(posJogador);
 
 
-    ninja.movimentaçao();
-    ninja.update();
+
+    ninja.update(mapa1);
 }
 
 void Jogo::Renderizar() {
