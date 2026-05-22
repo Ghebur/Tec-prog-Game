@@ -3,7 +3,7 @@
 
 Ninja::Ninja(float x, float y) : Personagens(1, 5, 4.5f, 12.f, sf::Vector2f(x, y)) {
     corpo.setSize(sf::Vector2f(tamanho, tamanho/2.0f));
-    corpo.setFillColor(sf::Color::Black);
+    corpo.setFillColor(sf::Color::White);
     corpo.setPosition(posicao);
 }
 
@@ -13,7 +13,7 @@ void Ninja::update() {
     movimentaçao();
     corpo.setPosition(posicao);
 }
-void Ninja::render(sf::RenderWindow& window) {
+void Ninja::desenhar(sf::RenderWindow& window) {
     window.draw(corpo);
 }
 
@@ -31,4 +31,6 @@ void Ninja::movimentaçao() {
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)) {
             posicao.x += velocidade;
         }
+
+
 }

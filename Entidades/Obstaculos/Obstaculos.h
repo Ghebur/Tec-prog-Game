@@ -1,6 +1,6 @@
+#pragma once
 #include <SFML/Graphics.hpp>
 #include "../Ent.h"
-#pragma once
 
 class Obstaculos:public Ent{
     protected:  

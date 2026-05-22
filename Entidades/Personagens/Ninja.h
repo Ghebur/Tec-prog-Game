@@ -1,3 +1,4 @@
+#pragma once
 #include <SFML/Graphics.hpp>
 #include "Personagens.h"
 
@@ -11,6 +12,6 @@ public:
     Ninja(float x, float y);
     ~Ninja();
     void update();
-    void render(sf::RenderWindow& window);
+    void desenhar(sf::RenderWindow& window);
     void movimentaçao();
 };

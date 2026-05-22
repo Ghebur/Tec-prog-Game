@@ -1,6 +1,6 @@
-#include <SFML/Graphics.hpp>
-#include "../Entidades/Entidades.h"
 #pragma once
+#include <SFML/Graphics.hpp>
+#include "../Entidades.h"
 
 class Personagens:public Entidades{
     protected:  

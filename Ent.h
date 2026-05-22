@@ -1,14 +1,13 @@
+#pragma once
 #include <SFML/Graphics.hpp>
-#include "../Gerenciadores/Gerenciador_Grafico.h"
-
+class Gerenciador_Grafico;
 
 class Ent{
     protected:
         int id;
-
         Gerenciador_Grafico* pGG;
     public:
-        Ent(int id);
+        Ent(int id=0,Gerenciador_Grafico* pGG = nullptr);
         ~Ent();
 
 

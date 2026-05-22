@@ -1,6 +1,6 @@
+#pragma once
 #include <SFML/Graphics.hpp>
 #include "../Ent.h"
-#pragma once
 
 class Entidades:public Ent{
     protected:
@@ -9,9 +9,8 @@ class Entidades:public Ent{
         //TODO: ver 0oq é o buffer e tals
     public:
         Entidades(int id, float tamanho=12.f,sf::Vector2f pos ={0,0});
-        virtual ~Entidades();
+        ~Entidades();
         sf::Vector2f getPos();
         float getTamanho();
-        virtual void executar() = 0;
-        virtual void desenhar() = 0;
+
 };

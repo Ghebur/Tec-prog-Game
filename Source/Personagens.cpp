@@ -6,3 +6,5 @@ Entidades(id, tamanho, pos),
 vida(vida),
 velocidade(velocidade)
 {}
+
+Personagens::~Personagens() {}

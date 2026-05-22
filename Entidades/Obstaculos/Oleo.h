@@ -1,6 +1,6 @@
+#pragma once
 #include <SFML/Graphics.hpp>
 #include "Obstaculos.h"
-#pragma once
 
 class oleo:public Obstaculos{
     private:
