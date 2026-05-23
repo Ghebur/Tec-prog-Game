@@ -4,7 +4,7 @@
 #define DELTA_TIME (1.0f / 60.0f) // Supondo 60 FPS
 
 Ninja::Ninja(float x, float y) : Personagens(1, 5, sf::Vector2f(4.5f, 4.5f), 12.f, sf::Vector2f(x, y)) {
-    corpo.setSize(sf::Vector2f(tamanho, tamanho/2.0f));
+    corpo.setSize(sf::Vector2f(tamanho/1.5f, tamanho));
     corpo.setFillColor(sf::Color::White);
     corpo.setPosition({750.0, 550.0});
 }
@@ -12,12 +12,10 @@ Ninja::Ninja(float x, float y) : Personagens(1, 5, sf::Vector2f(4.5f, 4.5f), 12.
 Ninja::~Ninja() {}
 
 void Ninja::update(Mapa1& mapa) {
-    movimentaçao();
-    aplicarGravidade(DELTA_TIME); // Supondo 60 FPS
+    aplicarGravidade(DELTA_TIME);
     verificarColisaoChao(mapa);
-
+    movimentaçao();
     corpo.setPosition(posicao);
-  
 }
 void Ninja::desenhar(sf::RenderWindow& window) {
     window.draw(corpo);
@@ -27,11 +25,12 @@ void Ninja::movimentaçao() {
 
        
 
+        float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)) {
-            posicao.x -= velocidade.x;
+            posicao.x -= velX;
         }
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)) {
-            posicao.x += velocidade.x;
+            posicao.x += velX;
         }
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W) && noChao) {
             velocidade.y = -500.f;
@@ -42,11 +41,13 @@ void Ninja::movimentaçao() {
 }
 
 void Ninja::verificarColisaoChao(Mapa1& mapa) {
-    // Verificar colisão com o chão
     if (posicao.y + corpo.getSize().y >= 550.f) {
-        posicao.y = 550.f - corpo.getSize().y; 
-        noChao = true; 
+        posicao.y = 550.f - corpo.getSize().y;
+        noChao = true;
+        sf::Vector2f pe = {posicao.x + corpo.getSize().x / 2.f, posicao.y + corpo.getSize().y + 1.f};
+        emOleo = (mapa.getTile(pe) == 2);
     } else {
-        noChao = false; // O personagem está no ar
+        noChao = false;
+        emOleo = false;
     }
 }

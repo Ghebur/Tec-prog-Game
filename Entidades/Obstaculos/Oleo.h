@@ -2,14 +2,12 @@
 #include <SFML/Graphics.hpp>
 #include "Obstaculos.h"
 
-class oleo:public Obstaculos{
+class oleo : public Obstaculos {
     private:
-        //sf::Sprite sprite;
-        //sf::Texture textura;
         sf::RectangleShape forma;
     public:
-        oleo();
+        oleo(sf::Vector2f pos, sf::Vector2f tamanho = sf::Vector2f(80.f, 20.f));
         ~oleo();
-        
-
+        void obstaculizar(Personagens& p) override;
+        void desenhar(sf::RenderWindow& window) override;
 };

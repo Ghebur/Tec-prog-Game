@@ -19,7 +19,7 @@ void Jogo::Atualizar(){
     camera.setCenter(posJogador);
 
 
-
+    
     ninja.update(mapa1);
 }
 

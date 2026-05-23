@@ -17,5 +17,6 @@ private:
 public:
     Mapa1();
     void desenhar(sf::RenderWindow& window);
+    int getTile(sf::Vector2f pos);
 
 };

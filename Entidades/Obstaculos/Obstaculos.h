@@ -1,12 +1,15 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-#include "../Ent.h"
+#include "../Entidades.h"
 
-class Obstaculos:public Ent{
-    protected:  
+class Personagens;
+
+class Obstaculos : public Entidades {
+    protected:
         bool danoso;
     public:
-        Obstaculos(bool dano = false);
-        ~Obstaculos();  
-
+        Obstaculos(int id, bool dano, float tamanho, sf::Vector2f pos);
+        virtual ~Obstaculos();
+        virtual void obstaculizar(Personagens& p) = 0;
+        virtual void desenhar(sf::RenderWindow& window) = 0;
 };

@@ -5,7 +5,8 @@ Personagens::Personagens(int id, int vida, sf::Vector2f velocidade, float tamanh
 Entidades(id, tamanho, pos),
 vida(vida),
 velocidade(velocidade),
-noChao(false)
+noChao(false),
+emOleo(false)
 {
 
 }
