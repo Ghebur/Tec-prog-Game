@@ -15,5 +15,4 @@ public:
     void update(Mapa1& mapa);
     void desenhar(sf::RenderWindow& window);
     void movimentaçao();
-    void verificarColisaoChao(Mapa1& mapa);
 };

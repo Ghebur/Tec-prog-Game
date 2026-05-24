@@ -13,7 +13,7 @@ Ninja::~Ninja() {}
 
 void Ninja::update(Mapa1& mapa) {
     aplicarGravidade(DELTA_TIME);
-    verificarColisaoChao(mapa);
+    verificarColisaoChao(mapa, corpo.getSize().y);
     movimentaçao();
     corpo.setPosition(posicao);
 }
@@ -40,14 +40,3 @@ void Ninja::movimentaçao() {
 
 }
 
-void Ninja::verificarColisaoChao(Mapa1& mapa) {
-    if (posicao.y + corpo.getSize().y >= 550.f) {
-        posicao.y = 550.f - corpo.getSize().y;
-        noChao = true;
-        sf::Vector2f pe = {posicao.x + corpo.getSize().x / 2.f, posicao.y + corpo.getSize().y + 1.f};
-        emOleo = (mapa.getTile(pe) == 2);
-    } else {
-        noChao = false;
-        emOleo = false;
-    }
-}

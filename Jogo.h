@@ -4,6 +4,7 @@
 #include "Entidades/Personagens/Ninja.h"
 #include "Fases/Mapas.h"
 #include "Entidades/Obstaculos/Oleo.h"
+#include "Entidades/Personagens/Samurai.h"
 
 class Jogo {
     private:
@@ -12,6 +13,7 @@ class Jogo {
         oleo oleo1{sf::Vector2f(400.f, 500.f)};
         sf::RenderWindow window;
         sf::View camera;
+        Samurai samurai1;
         void ProcessarEventos();
         void Atualizar();
         void Renderizar();

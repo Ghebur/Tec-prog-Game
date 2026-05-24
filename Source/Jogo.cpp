@@ -4,7 +4,8 @@
 Jogo::Jogo() :
     window(sf::VideoMode({800, 600}), "Meu Jogo UTFPR"),
     ninja(300.f, 400.f),
-    mapa1()
+    mapa1(),
+    samurai1(800.f, 400.f)
 {
     window.setFramerateLimit(60);  
     camera.setSize(sf::Vector2f(800.f, 600.f));
@@ -19,8 +20,10 @@ void Jogo::Atualizar(){
     camera.setCenter(posJogador);
 
 
-    
+    samurai1.update(mapa1, ninja);
     ninja.update(mapa1);
+
+    
 }
 
 void Jogo::Renderizar() {
@@ -29,7 +32,7 @@ void Jogo::Renderizar() {
 
     mapa1.desenhar(window);
     ninja.desenhar(window); 
-    
+    samurai1.desenhar(window);
 
     window.display();
 }
