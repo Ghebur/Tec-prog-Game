@@ -26,6 +26,7 @@ void Ninja::movimentaçao() {
        
 
         float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
+        
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)) {
             posicao.x -= velX;
         }
@@ -33,7 +34,7 @@ void Ninja::movimentaçao() {
             posicao.x += velX;
         }
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W) && noChao) {
-            velocidade.y = -500.f;
+            velocidade.y = emOleo ? -250.f : -500.f;
             noChao = false;
         }
 
