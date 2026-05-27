@@ -14,6 +14,7 @@ Ninja::~Ninja() {}
 void Ninja::update(Mapa1& mapa) {
     aplicarGravidade(DELTA_TIME);
     verificarColisaoChao(mapa, corpo.getSize().y);
+    mapa.colidirComPersonagens(*this);
     movimentaçao();
     corpo.setPosition(posicao);
 }

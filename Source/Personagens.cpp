@@ -38,7 +38,7 @@ void Personagens::receberKnockback(sf::Vector2f forca) {
     impulso.x = forca.x;
     velocidade.y = forca.y;
     noChao = false;
-    framesSemDano = 60;
+    framesSemDano = 45;
 }
 
 Personagens::~Personagens() {}

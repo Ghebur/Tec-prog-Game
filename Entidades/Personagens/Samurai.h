@@ -1,6 +1,6 @@
 #pragma once
 #include "Inimigos.h"
-#include "../Fases/Mapas.h"
+#include "../../Fases/Mapas.h"
 #include <cmath>
 
 class Samurai : public Inimigo {
@@ -16,4 +16,5 @@ class Samurai : public Inimigo {
         void desenhar(sf::RenderWindow& window);
         void update(Mapa1& mapa, Personagens& p);
         void colidirComPersonagem(Personagens& p);
+        sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
 };

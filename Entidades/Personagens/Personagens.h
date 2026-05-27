@@ -20,6 +20,10 @@ class Personagens:public Entidades{
         void verificarColisaoChao(Mapa1& mapa, float alturaCorpo);
         void receberKnockback(sf::Vector2f forca);
         bool podeReceberDano() const { return framesSemDano <= 0; }
-        sf::FloatRect getBounds() { return {posicao, {tamanho, tamanho}}; }
+        virtual sf::FloatRect getBounds() { return {posicao, {tamanho, tamanho}}; }
         void setEmOleo(bool v) { emOleo = v; }
+        void setPos(sf::Vector2f pos) { posicao = pos; }
+        void setNoChao(bool v) { noChao = v; }
+        void setVelocidadeY(float vy) { velocidade.y = vy; }
+        float getVelocidadeY() const { return velocidade.y; }
 };

@@ -27,6 +27,7 @@ void Samurai::update(Mapa1& mapa, Personagens& p) {
     movimentaçao();
     aplicarGravidade(1.f / 60.f);
     verificarColisaoChao(mapa, corpo.getSize().y);
+    mapa.colidirComPersonagens(*this);
     colidirComPersonagem(p);
 }
 

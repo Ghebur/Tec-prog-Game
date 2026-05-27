@@ -1,6 +1,7 @@
 #include "../Entidades/Obstaculos/Oleo.h"
 #include "../Entidades/Personagens/Personagens.h"
 
+
 oleo::oleo(sf::Vector2f pos, sf::Vector2f tam):
 Obstaculos(0, false, tam.x, pos)
 {
