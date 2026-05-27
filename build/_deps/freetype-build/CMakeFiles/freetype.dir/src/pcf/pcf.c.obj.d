@@ -1,0 +1,76 @@
+_deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj: \
+ C:\codigos\Jogo_simao\build\_deps\freetype-src\src\pcf\pcf.c \
+ C:\codigos\Jogo_simao\build\_deps\freetype-src\src\pcf\pcfdrivr.c \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/internal/ftdebug.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/ft2build.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/config/ftheader.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-build/include/freetype/config/ftconfig.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-build/include/freetype/config/ftoption.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/config/ftstdlib.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+ C:/msys64/ucrt64/include/stddef.h C:/msys64/ucrt64/include/crtdefs.h \
+ C:/msys64/ucrt64/include/corecrt.h C:/msys64/ucrt64/include/_mingw.h \
+ C:/msys64/ucrt64/include/_mingw_mac.h \
+ C:/msys64/ucrt64/include/_mingw_secapi.h \
+ C:/msys64/ucrt64/include/vadefs.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+ C:/msys64/ucrt64/include/limits.h C:/msys64/ucrt64/include/string.h \
+ C:/msys64/ucrt64/include/sec_api/string_s.h \
+ C:/msys64/ucrt64/include/stdio.h \
+ C:/msys64/ucrt64/include/corecrt_stdio_config.h \
+ C:/msys64/ucrt64/include/_mingw_off_t.h \
+ C:/msys64/ucrt64/include/swprintf.inl \
+ C:/msys64/ucrt64/include/sec_api/stdio_s.h \
+ C:/msys64/ucrt64/include/stdlib.h \
+ C:/msys64/ucrt64/include/corecrt_wstdlib.h \
+ C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+ C:/msys64/ucrt64/include/malloc.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+ C:/msys64/ucrt64/include/errno.h C:/msys64/ucrt64/include/setjmp.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+ C:/msys64/ucrt64/include/stdarg.h \
+ C:/msys64/ucrt64/include/_mingw_stdarg.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/config/integer-types.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/config/public-macros.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/config/mac-support.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/freetype.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/fttypes.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftsystem.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftimage.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/fterrors.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftmoderr.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/fterrdef.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/internal/compiler-macros.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/internal/ftstream.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/internal/ftobjs.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftrender.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftmodapi.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftglyph.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftsizes.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftlcdfil.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftparams.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/internal/ftmemory.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/internal/ftgloadr.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/internal/ftdrv.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/internal/autohint.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/internal/ftserv.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/internal/ftcalc.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftincrem.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftgzip.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftlzw.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftbzip2.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftbdf.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ttnameid.h \
+ C:\codigos\Jogo_simao\build\_deps\freetype-src\src\pcf\pcf.h \
+ C:\codigos\Jogo_simao\build\_deps\freetype-src\src\pcf\pcfdrivr.h \
+ C:\codigos\Jogo_simao\build\_deps\freetype-src\src\pcf\pcfread.h \
+ C:\codigos\Jogo_simao\build\_deps\freetype-src\src\pcf\pcferror.h \
+ C:\codigos\Jogo_simao\build\_deps\freetype-src\src\pcf\pcfutil.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/internal/compiler-macros.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/internal/services/svbdf.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/internal/services/svfntfmt.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/internal/services/svprop.h \
+ C:/codigos/Jogo_simao/build/_deps/freetype-src/include/freetype/ftdriver.h \
+ C:\codigos\Jogo_simao\build\_deps\freetype-src\src\pcf\pcfread.c \
+ C:\codigos\Jogo_simao\build\_deps\freetype-src\src\pcf\pcfutil.c

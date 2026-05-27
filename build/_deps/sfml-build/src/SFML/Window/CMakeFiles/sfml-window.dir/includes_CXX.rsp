@@ -1,0 +1,1 @@
+-I"C:/codigos/Jogo_simao/build/_deps/sfml-src/include" -I"C:/codigos/Jogo_simao/build/_deps/sfml-src/src" -isystem "C:/codigos/Jogo_simao/build/_deps/sfml-src/extlibs/headers/glad/include" -isystem "C:/codigos/Jogo_simao/build/_deps/sfml-src/extlibs/headers/vulkan"

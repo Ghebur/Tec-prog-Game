@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/codigos/Jogo_simao/build/_deps/sfml-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
