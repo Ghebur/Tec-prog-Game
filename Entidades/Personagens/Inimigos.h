@@ -10,6 +10,7 @@ class Inimigo : public Personagens {
         int getNivelDeMaldade() const { return nivelDeMaldade; }
         virtual void movimentaçao() = 0;
         virtual void danifcar() = 0;
+        void colidirComPersonagem(Personagens& p);
 
 
 

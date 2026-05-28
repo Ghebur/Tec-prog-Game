@@ -7,3 +7,10 @@ nivelDeMaldade(nivelDeMaldade)
 {}
 
 Inimigo::~Inimigo() {}
+
+void Inimigo::colidirComPersonagem(Personagens& p) {
+    if (p.podeReceberDano() && getBounds().findIntersection(p.getBounds())) {
+        float dir = (p.getPos().x < getPos().x) ? -1.f : 1.f;
+        p.receberKnockback({dir * 700.f, -400.f});
+    }
+}

@@ -15,6 +15,5 @@ class Samurai : public Inimigo {
         void danifcar() override;
         void desenhar(sf::RenderWindow& window);
         void update(Mapa1& mapa, Personagens& p);
-        void colidirComPersonagem(Personagens& p);
         sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
 };

@@ -31,9 +31,3 @@ void Samurai::update(Mapa1& mapa, Personagens& p) {
     colidirComPersonagem(p);
 }
 
-void Samurai::colidirComPersonagem(Personagens& p) {
-    if (p.podeReceberDano() && getBounds().findIntersection(p.getBounds())) {
-        float dir = (p.getPos().x < getPos().x) ? -1.f : 1.f;
-        p.receberKnockback({dir * 700.f, -400.f});
-    }
-}
