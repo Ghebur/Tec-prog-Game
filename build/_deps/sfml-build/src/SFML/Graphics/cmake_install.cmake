@@ -1,4 +1,4 @@
-# Install script for directory: C:/codigos/Jogo_simao/build/_deps/sfml-src/src/SFML/Graphics
+# Install script for directory: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/src/SFML/Graphics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,25 +34,25 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/msys64/ucrt64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/nicol/compiladores/ucrt64/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/codigos/Jogo_simao/build/_deps/sfml-build/lib/libsfml-graphics.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-build/lib/libsfml-graphics.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "devel" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "C:/codigos/Jogo_simao/build/_deps/sfml-build/src/SFML/Graphics/SFMLGraphicsDependencies.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-build/src/SFML/Graphics/SFMLGraphicsDependencies.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/codigos/Jogo_simao/build/_deps/freetype-build/cmake_install.cmake")
+  include("C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/freetype-build/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/codigos/Jogo_simao/build/_deps/sfml-build/src/SFML/Graphics/install_local_manifest.txt"
+  file(WRITE "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-build/src/SFML/Graphics/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

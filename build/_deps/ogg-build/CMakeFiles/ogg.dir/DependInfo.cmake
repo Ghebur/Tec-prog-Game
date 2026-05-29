@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/codigos/Jogo_simao/build/_deps/ogg-src/src/bitwise.c" "_deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj" "gcc" "_deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj.d"
-  "C:/codigos/Jogo_simao/build/_deps/ogg-src/src/framing.c" "_deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj" "gcc" "_deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj.d"
+  "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-src/src/bitwise.c" "_deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj" "gcc" "_deps/ogg-build/CMakeFiles/ogg.dir/src/bitwise.c.obj.d"
+  "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-src/src/framing.c" "_deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj" "gcc" "_deps/ogg-build/CMakeFiles/ogg.dir/src/framing.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

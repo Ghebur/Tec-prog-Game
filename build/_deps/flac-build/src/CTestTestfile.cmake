@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: C:/codigos/Jogo_simao/build/_deps/flac-src/src
-# Build directory: C:/codigos/Jogo_simao/build/_deps/flac-build/src
+# Source directory: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-src/src
+# Build directory: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-build/src
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

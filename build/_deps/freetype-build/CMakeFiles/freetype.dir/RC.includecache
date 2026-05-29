@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/codigos/Jogo_simao/build/_deps/freetype-src/src/base/ftver.rc
+C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/freetype-src/src/base/ftver.rc
 windows.h
 -
 

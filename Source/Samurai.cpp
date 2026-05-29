@@ -1,7 +1,7 @@
 #include "../Entidades/Personagens/Samurai.h"
 
 Samurai::Samurai(float x, float y) :
-Inimigo(2, 5, {3.f, 0.f}, 12.f, {x, y}, 1),
+Inimigo(2, 2, {3.f, 0.f}, 12.f, {x, y}, 1),
 corpo(sf::Vector2f(12.f, 12.f)),
 origemX(x)
 {

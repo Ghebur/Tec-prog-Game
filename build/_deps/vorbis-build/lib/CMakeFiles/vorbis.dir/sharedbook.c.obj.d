@@ -1,30 +1,35 @@
 _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/sharedbook.c.obj: \
- C:\codigos\Jogo_simao\build\_deps\vorbis-src\lib\sharedbook.c \
- C:/msys64/ucrt64/include/stdlib.h C:/msys64/ucrt64/include/corecrt.h \
- C:/msys64/ucrt64/include/_mingw.h C:/msys64/ucrt64/include/_mingw_mac.h \
- C:/msys64/ucrt64/include/_mingw_secapi.h \
- C:/msys64/ucrt64/include/vadefs.h \
- C:/msys64/ucrt64/include/corecrt_wstdlib.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
- C:/msys64/ucrt64/include/limits.h C:/msys64/ucrt64/include/crtdefs.h \
- C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
- C:/msys64/ucrt64/include/malloc.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
- C:/msys64/ucrt64/include/errno.h C:/msys64/ucrt64/include/math.h \
- C:/msys64/ucrt64/include/string.h \
- C:/msys64/ucrt64/include/sec_api/string_s.h \
- C:/codigos/Jogo_simao/build/_deps/ogg-src/include/ogg/ogg.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
- C:/msys64/ucrt64/include/stddef.h \
- C:/codigos/Jogo_simao/build/_deps/ogg-src/include/ogg/os_types.h \
- C:/msys64/ucrt64/include/sys/types.h \
- C:/msys64/ucrt64/include/_mingw_off_t.h \
- C:\codigos\Jogo_simao\build\_deps\vorbis-src\lib\os.h \
- C:\codigos\Jogo_simao\build\_deps\vorbis-src\lib\misc.h \
- C:/codigos/Jogo_simao/build/_deps/vorbis-src/include/vorbis/codec.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
- C:\codigos\Jogo_simao\build\_deps\vorbis-src\lib\codebook.h \
- C:\codigos\Jogo_simao\build\_deps\vorbis-src\lib\scales.h
+ C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-src\lib\sharedbook.c \
+ C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+ C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+ C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+ C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+ C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+ C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+ C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+ C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+ C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+ C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+ C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+ C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+ C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+ C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+ C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+ C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+ C:/Users/nicol/compiladores/ucrt64/include/math.h \
+ C:/Users/nicol/compiladores/ucrt64/include/string.h \
+ C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-src/include/ogg/ogg.h \
+ C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+ C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-src/include/ogg/os_types.h \
+ C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+ C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+ C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-src\lib\os.h \
+ C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-src\lib\misc.h \
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/vorbis-src/include/vorbis/codec.h \
+ C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+ C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+ C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+ C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-src\lib\codebook.h \
+ C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-src\lib\scales.h

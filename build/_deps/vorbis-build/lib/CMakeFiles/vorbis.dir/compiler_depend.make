@@ -5,35 +5,36 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/analysis.c.obj: _deps/vorbis-src/li
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/backends.h \
   _deps/vorbis-src/lib/bitrate.h \
   _deps/vorbis-src/lib/codebook.h \
@@ -52,31 +53,32 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/bitrate.c.obj: _deps/vorbis-src/lib
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/backends.h \
   _deps/vorbis-src/lib/bitrate.h \
   _deps/vorbis-src/lib/codebook.h \
@@ -93,35 +95,36 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/block.c.obj: _deps/vorbis-src/lib/b
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/backends.h \
   _deps/vorbis-src/lib/bitrate.h \
   _deps/vorbis-src/lib/codebook.h \
@@ -141,31 +144,32 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/codebook.c.obj: _deps/vorbis-src/li
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/codebook.h \
   _deps/vorbis-src/lib/misc.h \
   _deps/vorbis-src/lib/os.h \
@@ -175,35 +179,36 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/envelope.c.obj: _deps/vorbis-src/li
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/backends.h \
   _deps/vorbis-src/lib/bitrate.h \
   _deps/vorbis-src/lib/codebook.h \
@@ -221,35 +226,36 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/floor0.c.obj: _deps/vorbis-src/lib/
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/backends.h \
   _deps/vorbis-src/lib/bitrate.h \
   _deps/vorbis-src/lib/codebook.h \
@@ -270,35 +276,36 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/floor1.c.obj: _deps/vorbis-src/lib/
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/backends.h \
   _deps/vorbis-src/lib/bitrate.h \
   _deps/vorbis-src/lib/codebook.h \
@@ -317,31 +324,32 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/info.c.obj: _deps/vorbis-src/lib/in
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/backends.h \
   _deps/vorbis-src/lib/bitrate.h \
   _deps/vorbis-src/lib/codebook.h \
@@ -360,29 +368,30 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/lookup.c.obj: _deps/vorbis-src/lib/
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/lookup.h \
   _deps/vorbis-src/lib/lookup_data.h \
   _deps/vorbis-src/lib/misc.h \
@@ -392,31 +401,32 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/lpc.c.obj: _deps/vorbis-src/lib/lpc
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/lpc.h \
   _deps/vorbis-src/lib/misc.h \
   _deps/vorbis-src/lib/os.h \
@@ -427,31 +437,32 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/lsp.c.obj: _deps/vorbis-src/lib/lsp
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/lookup.h \
   _deps/vorbis-src/lib/lsp.h \
   _deps/vorbis-src/lib/misc.h \
@@ -462,35 +473,36 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/mapping0.c.obj: _deps/vorbis-src/li
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/backends.h \
   _deps/vorbis-src/lib/bitrate.h \
   _deps/vorbis-src/lib/codebook.h \
@@ -512,35 +524,36 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/mdct.c.obj: _deps/vorbis-src/lib/md
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/mdct.h \
   _deps/vorbis-src/lib/misc.h \
   _deps/vorbis-src/lib/os.h
@@ -549,35 +562,36 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/psy.c.obj: _deps/vorbis-src/lib/psy
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/backends.h \
   _deps/vorbis-src/lib/bitrate.h \
   _deps/vorbis-src/lib/codebook.h \
@@ -597,29 +611,30 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/registry.c.obj: _deps/vorbis-src/li
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/backends.h \
   _deps/vorbis-src/lib/bitrate.h \
   _deps/vorbis-src/lib/codebook.h \
@@ -637,31 +652,32 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/res0.c.obj: _deps/vorbis-src/lib/re
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/backends.h \
   _deps/vorbis-src/lib/bitrate.h \
   _deps/vorbis-src/lib/codebook.h \
@@ -679,31 +695,32 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/sharedbook.c.obj: _deps/vorbis-src/
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/codebook.h \
   _deps/vorbis-src/lib/misc.h \
   _deps/vorbis-src/lib/os.h \
@@ -713,31 +730,32 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/smallft.c.obj: _deps/vorbis-src/lib
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/misc.h \
   _deps/vorbis-src/lib/os.h \
   _deps/vorbis-src/lib/smallft.h
@@ -746,33 +764,34 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/synthesis.c.obj: _deps/vorbis-src/l
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/backends.h \
   _deps/vorbis-src/lib/bitrate.h \
   _deps/vorbis-src/lib/codebook.h \
@@ -802,31 +821,32 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/vorbisenc.c.obj: _deps/vorbis-src/l
   _deps/vorbis-src/lib/modes/residue_44.h \
   _deps/vorbis-src/lib/modes/residue_44p51.h \
   _deps/vorbis-src/lib/modes/residue_44u.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/backends.h \
   _deps/vorbis-src/lib/bitrate.h \
   _deps/vorbis-src/lib/codebook.h \
@@ -857,39 +877,34 @@ _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/window.c.obj: _deps/vorbis-src/lib/
   _deps/ogg-src/include/ogg/ogg.h \
   _deps/ogg-src/include/ogg/os_types.h \
   _deps/vorbis-src/include/vorbis/codec.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/math.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/sys/types.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/math.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/vorbis-src/lib/misc.h \
   _deps/vorbis-src/lib/os.h \
   _deps/vorbis-src/lib/window.h
 
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h:
-
-C:/msys64/ucrt64/include/string.h:
-
-C:/msys64/ucrt64/include/_mingw_mac.h:
 
 _deps/vorbis-src/lib/books/floor/floor_books.h:
 
@@ -897,93 +912,87 @@ _deps/vorbis-src/include/vorbis/codec.h:
 
 _deps/vorbis-src/lib/analysis.c:
 
-_deps/vorbis-src/lib/mdct.h:
-
-C:/msys64/ucrt64/include/corecrt_wstdlib.h:
-
-C:/msys64/ucrt64/include/stdlib.h:
-
-C:/msys64/ucrt64/include/stddef.h:
-
-C:/msys64/ucrt64/include/_mingw_off_t.h:
-
 _deps/vorbis-src/lib/lsp.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h:
 
 _deps/ogg-src/include/ogg/ogg.h:
 
-_deps/vorbis-src/lib/floor0.c:
-
-C:/msys64/ucrt64/include/_mingw_secapi.h:
-
-_deps/vorbis-src/lib/res0.c:
-
-_deps/vorbis-src/lib/scales.h:
-
-C:/msys64/ucrt64/include/_mingw.h:
-
-C:/msys64/ucrt64/include/sec_api/stdlib_s.h:
+C:/Users/nicol/compiladores/ucrt64/include/math.h:
 
 _deps/ogg-src/include/ogg/os_types.h:
 
-C:/msys64/ucrt64/include/corecrt.h:
+C:/Users/nicol/compiladores/ucrt64/include/errno.h:
 
-_deps/vorbis-src/lib/window.h:
+C:/Users/nicol/compiladores/ucrt64/include/string.h:
 
-_deps/vorbis-src/lib/floor1.c:
+C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h:
 
-_deps/vorbis-src/lib/block.c:
+C:/Users/nicol/compiladores/ucrt64/include/_mingw.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h:
+
+_deps/vorbis-src/lib/codebook.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/corecrt.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h:
+
+_deps/vorbis-src/lib/envelope.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/stdlib.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/limits.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/malloc.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/stdio.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h:
 
 _deps/vorbis-src/lib/info.c:
 
-C:/msys64/ucrt64/include/corecrt_stdio_config.h:
-
-_deps/vorbis-src/lib/psy.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h:
-
-C:/msys64/ucrt64/include/crtdefs.h:
-
-C:/msys64/ucrt64/include/errno.h:
-
-C:/msys64/ucrt64/include/limits.h:
-
-C:/msys64/ucrt64/include/malloc.h:
-
-C:/msys64/ucrt64/include/math.h:
-
-_deps/vorbis-src/lib/bitrate.c:
-
-C:/msys64/ucrt64/include/sec_api/stdio_s.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h:
-
-C:/msys64/ucrt64/include/sec_api/string_s.h:
-
-_deps/vorbis-src/lib/mdct.c:
-
-C:/msys64/ucrt64/include/stdio.h:
-
-_deps/vorbis-src/lib/modes/residue_44u.h:
-
-C:/msys64/ucrt64/include/swprintf.inl:
-
-C:/msys64/ucrt64/include/sys/types.h:
-
-C:/msys64/ucrt64/include/vadefs.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h:
-
-_deps/vorbis-src/lib/codebook.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h:
+C:/Users/nicol/compiladores/ucrt64/include/stddef.h:
 
 _deps/vorbis-src/lib/bitrate.h:
 
 _deps/vorbis-src/lib/backends.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl:
+
+C:/Users/nicol/compiladores/ucrt64/include/sys/types.h:
+
+_deps/vorbis-src/lib/psy.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/vadefs.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h:
+
+_deps/vorbis-src/lib/highlevel.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h:
+
+_deps/vorbis-src/lib/codebook.h:
 
 _deps/vorbis-src/lib/lookup.h:
 
@@ -991,23 +1000,31 @@ _deps/vorbis-src/lib/codec_internal.h:
 
 _deps/vorbis-src/lib/envelope.h:
 
-_deps/vorbis-src/lib/highlevel.h:
+_deps/vorbis-src/lib/mdct.h:
 
 _deps/vorbis-src/lib/misc.h:
 
 _deps/vorbis-src/lib/os.h:
 
-_deps/vorbis-src/lib/psy.h:
-
 _deps/vorbis-src/lib/registry.h:
+
+_deps/vorbis-src/lib/res0.c:
+
+_deps/vorbis-src/lib/scales.h:
 
 _deps/vorbis-src/lib/smallft.h:
 
+_deps/vorbis-src/lib/bitrate.c:
+
+_deps/vorbis-src/lib/window.h:
+
+_deps/vorbis-src/lib/floor1.c:
+
+_deps/vorbis-src/lib/block.c:
+
 _deps/vorbis-src/lib/lpc.h:
 
-_deps/vorbis-src/lib/codebook.c:
-
-_deps/vorbis-src/lib/envelope.c:
+_deps/vorbis-src/lib/floor0.c:
 
 _deps/vorbis-src/lib/lookup_data.h:
 
@@ -1018,6 +1035,10 @@ _deps/vorbis-src/lib/lookup.c:
 _deps/vorbis-src/lib/lpc.c:
 
 _deps/vorbis-src/lib/mapping0.c:
+
+_deps/vorbis-src/lib/mdct.c:
+
+_deps/vorbis-src/lib/psy.c:
 
 _deps/vorbis-src/lib/masking.h:
 
@@ -1048,6 +1069,8 @@ _deps/vorbis-src/lib/modes/psych_44.h:
 _deps/vorbis-src/lib/modes/residue_44.h:
 
 _deps/vorbis-src/lib/modes/residue_44p51.h:
+
+_deps/vorbis-src/lib/modes/residue_44u.h:
 
 _deps/vorbis-src/lib/modes/psych_11.h:
 

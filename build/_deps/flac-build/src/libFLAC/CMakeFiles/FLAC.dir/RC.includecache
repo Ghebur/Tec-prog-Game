@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/codigos/Jogo_simao/build/_deps/flac-src/src/libFLAC/version.rc
+C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-src/src/libFLAC/version.rc
 winver.h
 -
 config.h
-C:/codigos/Jogo_simao/build/_deps/flac-src/src/libFLAC/config.h
+C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-src/src/libFLAC/config.h
 FLAC/export.h
-C:/codigos/Jogo_simao/build/_deps/flac-src/src/libFLAC/FLAC/export.h
+C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-src/src/libFLAC/FLAC/export.h
 
 _deps/flac-build/config.h
 

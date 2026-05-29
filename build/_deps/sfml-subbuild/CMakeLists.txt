@@ -19,17 +19,17 @@ project(sfml-populate NONE)
 # Pass through things we've already detected in the main project to avoid
 # paying the cost of redetecting them again in ExternalProject_Add()
 set(GIT_EXECUTABLE [==[C:/Program Files/Git/mingw64/bin/git.exe]==])
-set(Git_VERSION [==[2.52.0.windows.1]==])
+set(Git_VERSION [==[2.53.0.windows.1]==])
 set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
-  [==[C:/Program Files/Git/mingw64/bin/git.exe;2.52.0.windows.1]==]
+  [==[C:/Program Files/Git/mingw64/bin/git.exe;2.53.0.windows.1]==]
 )
 
 
 include(ExternalProject)
 ExternalProject_Add(sfml-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/SFML/SFML.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "3.0.0"
-                    SOURCE_DIR          "C:/codigos/Jogo_simao/build/_deps/sfml-src"
-                    BINARY_DIR          "C:/codigos/Jogo_simao/build/_deps/sfml-build"
+                    SOURCE_DIR          "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src"
+                    BINARY_DIR          "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

@@ -50,14 +50,14 @@ unset(_cmake_expected_targets)
 add_library(Ogg::ogg STATIC IMPORTED)
 
 set_target_properties(Ogg::ogg PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/codigos/Jogo_simao/build/_deps/ogg-src/include;C:/codigos/Jogo_simao/build/_deps/ogg-build/include"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-src/include;C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-build/include"
 )
 
 # Import target "Ogg::ogg" for configuration ""
 set_property(TARGET Ogg::ogg APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(Ogg::ogg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "C"
-  IMPORTED_LOCATION_NOCONFIG "C:/codigos/Jogo_simao/build/_deps/sfml-build/lib/libogg.a"
+  IMPORTED_LOCATION_NOCONFIG "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-build/lib/libogg.a"
   )
 
 # This file does not depend on other imported targets which have

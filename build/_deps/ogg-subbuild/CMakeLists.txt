@@ -19,17 +19,17 @@ project(ogg-populate NONE)
 # Pass through things we've already detected in the main project to avoid
 # paying the cost of redetecting them again in ExternalProject_Add()
 set(GIT_EXECUTABLE [==[C:/Program Files/Git/mingw64/bin/git.exe]==])
-set(Git_VERSION [==[2.52.0.windows.1]==])
+set(Git_VERSION [==[2.53.0.windows.1]==])
 set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
-  [==[C:/Program Files/Git/mingw64/bin/git.exe;2.52.0.windows.1]==]
+  [==[C:/Program Files/Git/mingw64/bin/git.exe;2.53.0.windows.1]==]
 )
 
 
 include(ExternalProject)
 ExternalProject_Add(ogg-populate
-                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/xiph/ogg.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v1.3.5" "GIT_SHALLOW" "ON" "PATCH_COMMAND" "C:/Program Files/CMake/bin/cmake.exe" "-DOGG_DIR=C:/codigos/Jogo_simao/build/_deps/ogg-src" "-P" "C:/codigos/Jogo_simao/build/_deps/sfml-src/tools/ogg/PatchOgg.cmake"
-                    SOURCE_DIR          "C:/codigos/Jogo_simao/build/_deps/ogg-src"
-                    BINARY_DIR          "C:/codigos/Jogo_simao/build/_deps/ogg-build"
+                     "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/xiph/ogg.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "v1.3.5" "GIT_SHALLOW" "ON" "PATCH_COMMAND" "C:/Program Files/CMake/bin/cmake.exe" "-DOGG_DIR=C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-src" "-P" "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/tools/ogg/PatchOgg.cmake"
+                    SOURCE_DIR          "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-src"
+                    BINARY_DIR          "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

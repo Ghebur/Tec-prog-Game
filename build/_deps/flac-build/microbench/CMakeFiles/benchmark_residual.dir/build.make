@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\codigos\Jogo_simao
+CMAKE_SOURCE_DIR = C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\codigos\Jogo_simao\build
+CMAKE_BINARY_DIR = C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build
 
 # Include any dependencies generated for this target.
 include _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/depend.make
@@ -75,31 +75,31 @@ _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.obj: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/includes_C.rsp
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.obj: _deps/flac-src/microbench/benchmark_residual.c
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.obj: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\codigos\Jogo_simao\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.obj"
-	cd /d C:\codigos\Jogo_simao\build\_deps\flac-build\microbench && C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.obj -MF CMakeFiles\benchmark_residual.dir\benchmark_residual.c.obj.d -o CMakeFiles\benchmark_residual.dir\benchmark_residual.c.obj -c C:\codigos\Jogo_simao\build\_deps\flac-src\microbench\benchmark_residual.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.obj"
+	cd /d C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-build\microbench && C:\Users\nicol\compiladores\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.obj -MF CMakeFiles\benchmark_residual.dir\benchmark_residual.c.obj.d -o CMakeFiles\benchmark_residual.dir\benchmark_residual.c.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-src\microbench\benchmark_residual.c
 
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/benchmark_residual.dir/benchmark_residual.c.i"
-	cd /d C:\codigos\Jogo_simao\build\_deps\flac-build\microbench && C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\codigos\Jogo_simao\build\_deps\flac-src\microbench\benchmark_residual.c > CMakeFiles\benchmark_residual.dir\benchmark_residual.c.i
+	cd /d C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-build\microbench && C:\Users\nicol\compiladores\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-src\microbench\benchmark_residual.c > CMakeFiles\benchmark_residual.dir\benchmark_residual.c.i
 
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/benchmark_residual.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/benchmark_residual.dir/benchmark_residual.c.s"
-	cd /d C:\codigos\Jogo_simao\build\_deps\flac-build\microbench && C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\codigos\Jogo_simao\build\_deps\flac-src\microbench\benchmark_residual.c -o CMakeFiles\benchmark_residual.dir\benchmark_residual.c.s
+	cd /d C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-build\microbench && C:\Users\nicol\compiladores\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-src\microbench\benchmark_residual.c -o CMakeFiles\benchmark_residual.dir\benchmark_residual.c.s
 
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.obj: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/flags.make
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.obj: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/includes_C.rsp
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.obj: _deps/flac-src/microbench/util.c
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.obj: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\codigos\Jogo_simao\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.obj"
-	cd /d C:\codigos\Jogo_simao\build\_deps\flac-build\microbench && C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.obj -MF CMakeFiles\benchmark_residual.dir\util.c.obj.d -o CMakeFiles\benchmark_residual.dir\util.c.obj -c C:\codigos\Jogo_simao\build\_deps\flac-src\microbench\util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.obj"
+	cd /d C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-build\microbench && C:\Users\nicol\compiladores\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.obj -MF CMakeFiles\benchmark_residual.dir\util.c.obj.d -o CMakeFiles\benchmark_residual.dir\util.c.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-src\microbench\util.c
 
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/benchmark_residual.dir/util.c.i"
-	cd /d C:\codigos\Jogo_simao\build\_deps\flac-build\microbench && C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\codigos\Jogo_simao\build\_deps\flac-src\microbench\util.c > CMakeFiles\benchmark_residual.dir\util.c.i
+	cd /d C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-build\microbench && C:\Users\nicol\compiladores\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-src\microbench\util.c > CMakeFiles\benchmark_residual.dir\util.c.i
 
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/benchmark_residual.dir/util.c.s"
-	cd /d C:\codigos\Jogo_simao\build\_deps\flac-build\microbench && C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\codigos\Jogo_simao\build\_deps\flac-src\microbench\util.c -o CMakeFiles\benchmark_residual.dir\util.c.s
+	cd /d C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-build\microbench && C:\Users\nicol\compiladores\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-src\microbench\util.c -o CMakeFiles\benchmark_residual.dir\util.c.s
 
 # Object files for target benchmark_residual
 benchmark_residual_OBJECTS = \
@@ -117,18 +117,18 @@ objs/benchmark_residual.exe: _deps/sfml-build/lib/libogg.a
 objs/benchmark_residual.exe: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/linkLibs.rsp
 objs/benchmark_residual.exe: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/objects1.rsp
 objs/benchmark_residual.exe: _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\codigos\Jogo_simao\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ..\..\..\objs\benchmark_residual.exe"
-	cd /d C:\codigos\Jogo_simao\build\_deps\flac-build\microbench && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\benchmark_residual.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ..\..\..\objs\benchmark_residual.exe"
+	cd /d C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-build\microbench && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\benchmark_residual.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build: objs/benchmark_residual.exe
 .PHONY : _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/build
 
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/clean:
-	cd /d C:\codigos\Jogo_simao\build\_deps\flac-build\microbench && $(CMAKE_COMMAND) -P CMakeFiles\benchmark_residual.dir\cmake_clean.cmake
+	cd /d C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-build\microbench && $(CMAKE_COMMAND) -P CMakeFiles\benchmark_residual.dir\cmake_clean.cmake
 .PHONY : _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/clean
 
 _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\codigos\Jogo_simao C:\codigos\Jogo_simao\build\_deps\flac-src\microbench C:\codigos\Jogo_simao\build C:\codigos\Jogo_simao\build\_deps\flac-build\microbench C:\codigos\Jogo_simao\build\_deps\flac-build\microbench\CMakeFiles\benchmark_residual.dir\DependInfo.cmake "--color=$(COLOR)" benchmark_residual
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-src\microbench C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-build\microbench C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\flac-build\microbench\CMakeFiles\benchmark_residual.dir\DependInfo.cmake "--color=$(COLOR)" benchmark_residual
 .PHONY : _deps/flac-build/microbench/CMakeFiles/benchmark_residual.dir/depend
 

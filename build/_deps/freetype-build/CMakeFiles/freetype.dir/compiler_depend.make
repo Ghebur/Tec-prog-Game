@@ -34,34 +34,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftdebug.c.obj: _deps
   _deps/freetype-src/include/freetype/internal/ftobjs.h \
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj: _deps/freetype-src/builds/windows/ftsystem.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -96,231 +97,232 @@ _deps/freetype-build/CMakeFiles/freetype.dir/builds/windows/ftsystem.c.obj: _dep
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/freetype/internal/ftstream.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/_mingw_unicode.h \
-  C:/msys64/ucrt64/include/apiset.h \
-  C:/msys64/ucrt64/include/apisetcconv.h \
-  C:/msys64/ucrt64/include/basetsd.h \
-  C:/msys64/ucrt64/include/bemapiset.h \
-  C:/msys64/ucrt64/include/concurrencysal.h \
-  C:/msys64/ucrt64/include/consoleapi.h \
-  C:/msys64/ucrt64/include/consoleapi2.h \
-  C:/msys64/ucrt64/include/consoleapi3.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wctype.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/ctype.h \
-  C:/msys64/ucrt64/include/datetimeapi.h \
-  C:/msys64/ucrt64/include/debugapi.h \
-  C:/msys64/ucrt64/include/driverspecs.h \
-  C:/msys64/ucrt64/include/errhandlingapi.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/excpt.h \
-  C:/msys64/ucrt64/include/fibersapi.h \
-  C:/msys64/ucrt64/include/fileapi.h \
-  C:/msys64/ucrt64/include/fltwinerror.h \
-  C:/msys64/ucrt64/include/guiddef.h \
-  C:/msys64/ucrt64/include/handleapi.h \
-  C:/msys64/ucrt64/include/heapapi.h \
-  C:/msys64/ucrt64/include/imm.h \
-  C:/msys64/ucrt64/include/interlockedapi.h \
-  C:/msys64/ucrt64/include/ioapiset.h \
-  C:/msys64/ucrt64/include/jobapi.h \
-  C:/msys64/ucrt64/include/ktmtypes.h \
-  C:/msys64/ucrt64/include/libloaderapi.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/mcx.h \
-  C:/msys64/ucrt64/include/memoryapi.h \
-  C:/msys64/ucrt64/include/minwinbase.h \
-  C:/msys64/ucrt64/include/minwindef.h \
-  C:/msys64/ucrt64/include/namedpipeapi.h \
-  C:/msys64/ucrt64/include/namespaceapi.h \
-  C:/msys64/ucrt64/include/poppack.h \
-  C:/msys64/ucrt64/include/processenv.h \
-  C:/msys64/ucrt64/include/processthreadsapi.h \
-  C:/msys64/ucrt64/include/processtopologyapi.h \
-  C:/msys64/ucrt64/include/profileapi.h \
-  C:/msys64/ucrt64/include/psdk_inc/intrin-impl.h \
-  C:/msys64/ucrt64/include/pshpack1.h \
-  C:/msys64/ucrt64/include/pshpack2.h \
-  C:/msys64/ucrt64/include/pshpack4.h \
-  C:/msys64/ucrt64/include/pshpack8.h \
-  C:/msys64/ucrt64/include/realtimeapiset.h \
-  C:/msys64/ucrt64/include/reason.h \
-  C:/msys64/ucrt64/include/sal.h \
-  C:/msys64/ucrt64/include/sdkddkver.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/stralign_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/securityappcontainer.h \
-  C:/msys64/ucrt64/include/securitybaseapi.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/specstrings.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/stralign.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/stringapiset.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/synchapi.h \
-  C:/msys64/ucrt64/include/sysinfoapi.h \
-  C:/msys64/ucrt64/include/systemtopologyapi.h \
-  C:/msys64/ucrt64/include/threadpoolapiset.h \
-  C:/msys64/ucrt64/include/threadpoollegacyapiset.h \
-  C:/msys64/ucrt64/include/timezoneapi.h \
-  C:/msys64/ucrt64/include/tvout.h \
-  C:/msys64/ucrt64/include/utilapiset.h \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/include/virtdisk.h \
-  C:/msys64/ucrt64/include/winapifamily.h \
-  C:/msys64/ucrt64/include/winbase.h \
-  C:/msys64/ucrt64/include/wincon.h \
-  C:/msys64/ucrt64/include/wincontypes.h \
-  C:/msys64/ucrt64/include/windef.h \
-  C:/msys64/ucrt64/include/windows.h \
-  C:/msys64/ucrt64/include/winerror.h \
-  C:/msys64/ucrt64/include/wingdi.h \
-  C:/msys64/ucrt64/include/winnetwk.h \
-  C:/msys64/ucrt64/include/winnls.h \
-  C:/msys64/ucrt64/include/winnt.h \
-  C:/msys64/ucrt64/include/winreg.h \
-  C:/msys64/ucrt64/include/winsvc.h \
-  C:/msys64/ucrt64/include/winuser.h \
-  C:/msys64/ucrt64/include/winver.h \
-  C:/msys64/ucrt64/include/wnnc.h \
-  C:/msys64/ucrt64/include/wow64apiset.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxbf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxcomplexintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxfp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxfp8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxmovrsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtf32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtileintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtransposeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512convertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512mediaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512minmaxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512satcvtintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2convertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2copyintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2mediaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2minmaxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2satcvtintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512cdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512dqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmavlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlbwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vldqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnnivlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqvlintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxifmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxneconvertintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint16intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint8intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmi2intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cldemoteintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clflushoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clwbintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clzerointrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cmpccxaddintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/enqcmdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/f16cintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fma4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fmaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fxsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/gfniintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/hresetintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ia32intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/immintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/keylockerintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/lwpintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/lzcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm3dnow.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movdirintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movrsintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pconfigintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pkuintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/popcntintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchiintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchwintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/raointintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rdseedintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rtmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/serializeintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sgxintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sha512intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/shaintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm3intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm4intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/smmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tbmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tsxldtrkintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/uintrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/usermsrintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vaesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vpclmulqdqintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/waitpkgintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wbnoinvdintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86gprintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xopintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavecintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsaveintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsaveoptintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavesintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xtestintrin.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_unicode.h \
+  C:/Users/nicol/compiladores/ucrt64/include/apiset.h \
+  C:/Users/nicol/compiladores/ucrt64/include/apisetcconv.h \
+  C:/Users/nicol/compiladores/ucrt64/include/basetsd.h \
+  C:/Users/nicol/compiladores/ucrt64/include/bemapiset.h \
+  C:/Users/nicol/compiladores/ucrt64/include/concurrencysal.h \
+  C:/Users/nicol/compiladores/ucrt64/include/consoleapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/consoleapi2.h \
+  C:/Users/nicol/compiladores/ucrt64/include/consoleapi3.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wctype.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/ctype.h \
+  C:/Users/nicol/compiladores/ucrt64/include/datetimeapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/debugapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/driverspecs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errhandlingapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/excpt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/fibersapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/fileapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/fltwinerror.h \
+  C:/Users/nicol/compiladores/ucrt64/include/guiddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/handleapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/heapapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/imm.h \
+  C:/Users/nicol/compiladores/ucrt64/include/interlockedapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/ioapiset.h \
+  C:/Users/nicol/compiladores/ucrt64/include/jobapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/ktmtypes.h \
+  C:/Users/nicol/compiladores/ucrt64/include/libloaderapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/mcx.h \
+  C:/Users/nicol/compiladores/ucrt64/include/memoryapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/minwinbase.h \
+  C:/Users/nicol/compiladores/ucrt64/include/minwindef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/namedpipeapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/namespaceapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/poppack.h \
+  C:/Users/nicol/compiladores/ucrt64/include/processenv.h \
+  C:/Users/nicol/compiladores/ucrt64/include/processthreadsapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/processtopologyapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/profileapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/psdk_inc/intrin-impl.h \
+  C:/Users/nicol/compiladores/ucrt64/include/pshpack1.h \
+  C:/Users/nicol/compiladores/ucrt64/include/pshpack2.h \
+  C:/Users/nicol/compiladores/ucrt64/include/pshpack4.h \
+  C:/Users/nicol/compiladores/ucrt64/include/pshpack8.h \
+  C:/Users/nicol/compiladores/ucrt64/include/realtimeapiset.h \
+  C:/Users/nicol/compiladores/ucrt64/include/reason.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sal.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdkddkver.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stralign_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/securityappcontainer.h \
+  C:/Users/nicol/compiladores/ucrt64/include/securitybaseapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/specstrings.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stralign.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stringapiset.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/synchapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sysinfoapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/systemtopologyapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/threadpoolapiset.h \
+  C:/Users/nicol/compiladores/ucrt64/include/threadpoollegacyapiset.h \
+  C:/Users/nicol/compiladores/ucrt64/include/timezoneapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/tvout.h \
+  C:/Users/nicol/compiladores/ucrt64/include/utilapiset.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/virtdisk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/winapifamily.h \
+  C:/Users/nicol/compiladores/ucrt64/include/winbase.h \
+  C:/Users/nicol/compiladores/ucrt64/include/wincon.h \
+  C:/Users/nicol/compiladores/ucrt64/include/wincontypes.h \
+  C:/Users/nicol/compiladores/ucrt64/include/windef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/windows.h \
+  C:/Users/nicol/compiladores/ucrt64/include/winerror.h \
+  C:/Users/nicol/compiladores/ucrt64/include/wingdi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/winnetwk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/winnls.h \
+  C:/Users/nicol/compiladores/ucrt64/include/winnt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/winreg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/winsvc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/winuser.h \
+  C:/Users/nicol/compiladores/ucrt64/include/winver.h \
+  C:/Users/nicol/compiladores/ucrt64/include/wnnc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/wow64apiset.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxbf16intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxcomplexintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxfp16intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxfp8intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxint8intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxmovrsintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtf32intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtileintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtransposeintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512bf16intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512convertintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512mediaintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512minmaxintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512satcvtintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2bf16intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2convertintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2copyintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2mediaintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2minmaxintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2satcvtintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx2intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16vlintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgvlintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bwintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512cdintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512dqintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16vlintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmaintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmavlintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2vlintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmiintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmivlintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlbwintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vldqintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnniintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnnivlintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectvlintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqvlintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxifmaintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxneconvertintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint16intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint8intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmi2intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmiintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cetintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cldemoteintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clflushoptintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clwbintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clzerointrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cmpccxaddintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/enqcmdintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/f16cintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fma4intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fmaintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fxsrintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/gfniintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/hresetintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ia32intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/immintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/keylockerintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/lwpintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/lzcntintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm3dnow.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movdirintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movrsintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitxintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pconfigintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pkuintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/popcntintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchiintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchwintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/raointintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rdseedintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rtmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/serializeintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sgxintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sha512intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/shaintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm3intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm4intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/smmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tbmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tsxldtrkintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/uintrintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/usermsrintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vaesintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vpclmulqdqintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/waitpkgintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wbnoinvdintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86gprintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xopintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavecintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsaveintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsaveoptintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavesintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xtestintrin.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj: _deps/freetype-src/src/autofit/autofit.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -359,34 +361,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/autofit/autofit.c.obj: _deps/fr
   _deps/freetype-src/include/freetype/internal/services/svprop.h \
   _deps/freetype-src/include/freetype/tttables.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/autofit/afblue.c \
   _deps/freetype-src/src/autofit/afblue.h \
   _deps/freetype-src/src/autofit/afcjk.c \
@@ -487,34 +490,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbase.c.obj: _deps/freety
   _deps/freetype-src/include/freetype/tttables.h \
   _deps/freetype-src/include/freetype/tttags.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/base/ftadvanc.c \
   _deps/freetype-src/src/base/ftbase.h \
   _deps/freetype-src/src/base/ftcalc.c \
@@ -569,34 +573,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbbox.c.obj: _deps/freety
   _deps/freetype-src/include/freetype/internal/ftobjs.h \
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj: _deps/freetype-src/src/base/ftbdf.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -632,34 +637,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbdf.c.obj: _deps/freetyp
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/freetype/internal/services/svbdf.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj: _deps/freetype-src/src/base/ftbitmap.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -695,34 +701,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftbitmap.c.obj: _deps/free
   _deps/freetype-src/include/freetype/internal/ftobjs.h \
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.obj: _deps/freetype-src/src/base/ftcid.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -757,34 +764,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftcid.c.obj: _deps/freetyp
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/freetype/internal/services/svcid.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj: _deps/freetype-src/src/base/ftfstype.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -824,34 +832,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftfstype.c.obj: _deps/free
   _deps/freetype-src/include/freetype/t1tables.h \
   _deps/freetype-src/include/freetype/tttables.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj: _deps/freetype-src/src/base/ftgasp.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -890,34 +899,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgasp.c.obj: _deps/freety
   _deps/freetype-src/include/freetype/t1tables.h \
   _deps/freetype-src/include/freetype/tttables.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj: _deps/freetype-src/src/base/ftglyph.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -955,34 +965,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftglyph.c.obj: _deps/freet
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/freetype/otsvg.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/base/ftbase.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj: _deps/freetype-src/src/base/ftgxval.c \
@@ -1020,34 +1031,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftgxval.c.obj: _deps/freet
   _deps/freetype-src/include/freetype/internal/ftvalid.h \
   _deps/freetype-src/include/freetype/internal/services/svgxval.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.obj: _deps/freetype-src/src/base/ftinit.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -1082,34 +1094,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftinit.c.obj: _deps/freety
   _deps/freetype-src/include/freetype/internal/ftobjs.h \
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.obj: _deps/freetype-src/src/base/ftmm.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -1148,34 +1161,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftmm.c.obj: _deps/freetype
   _deps/freetype-src/include/freetype/internal/services/svmm.h \
   _deps/freetype-src/include/freetype/t1tables.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.obj: _deps/freetype-src/src/base/ftotval.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -1212,34 +1226,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftotval.c.obj: _deps/freet
   _deps/freetype-src/include/freetype/internal/ftvalid.h \
   _deps/freetype-src/include/freetype/internal/services/svotval.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj: _deps/freetype-src/src/base/ftpatent.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -1277,34 +1292,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpatent.c.obj: _deps/free
   _deps/freetype-src/include/freetype/tttables.h \
   _deps/freetype-src/include/freetype/tttags.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj: _deps/freetype-src/src/base/ftpfr.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -1340,34 +1356,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftpfr.c.obj: _deps/freetyp
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/freetype/internal/services/svpfr.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj: _deps/freetype-src/src/base/ftstroke.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -1404,34 +1421,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftstroke.c.obj: _deps/free
   _deps/freetype-src/include/freetype/internal/ftobjs.h \
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj: _deps/freetype-src/src/base/ftsynth.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -1469,34 +1487,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftsynth.c.obj: _deps/freet
   _deps/freetype-src/include/freetype/internal/ftobjs.h \
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.obj: _deps/freetype-src/src/base/fttype1.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -1536,34 +1555,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/fttype1.c.obj: _deps/freet
   _deps/freetype-src/include/freetype/internal/t1types.h \
   _deps/freetype-src/include/freetype/t1tables.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj: _deps/freetype-src/src/base/ftwinfnt.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -1599,34 +1619,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/base/ftwinfnt.c.obj: _deps/free
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/freetype/internal/services/svwinfnt.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj: _deps/freetype-src/src/bdf/bdf.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -1666,34 +1687,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/bdf/bdf.c.obj: _deps/freetype-s
   _deps/freetype-src/include/freetype/internal/services/svfntfmt.h \
   _deps/freetype-src/include/freetype/ttnameid.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/bdf/bdf.h \
   _deps/freetype-src/src/bdf/bdfdrivr.c \
   _deps/freetype-src/src/bdf/bdfdrivr.h \
@@ -1734,34 +1756,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/bzip2/ftbzip2.c.obj: _deps/free
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/freetype/internal/ftstream.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj: _deps/freetype-src/src/cache/ftcache.c \
   _deps/freetype-build/include/freetype/config/ftconfig.h \
@@ -1796,34 +1819,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/cache/ftcache.c.obj: _deps/free
   _deps/freetype-src/include/freetype/internal/ftobjs.h \
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/cache/ftcbasic.c \
   _deps/freetype-src/src/cache/ftccache.c \
   _deps/freetype-src/src/cache/ftccache.h \
@@ -1905,34 +1929,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/cff/cff.c.obj: _deps/freetype-s
   _deps/freetype-src/include/freetype/tttables.h \
   _deps/freetype-src/include/freetype/tttags.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/cff/cffcmap.c \
   _deps/freetype-src/src/cff/cffcmap.h \
   _deps/freetype-src/src/cff/cffdrivr.c \
@@ -2001,34 +2026,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/cid/type1cid.c.obj: _deps/freet
   _deps/freetype-src/include/freetype/t1tables.h \
   _deps/freetype-src/include/freetype/tttables.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/cid/ciderrs.h \
   _deps/freetype-src/src/cid/cidgload.c \
   _deps/freetype-src/src/cid/cidgload.h \
@@ -2076,34 +2102,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/gzip/ftgzip.c.obj: _deps/freety
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/freetype/internal/ftstream.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/gzip/adler32.c \
   _deps/freetype-src/src/gzip/crc32.c \
   _deps/freetype-src/src/gzip/crc32.h \
@@ -2153,34 +2180,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/lzw/ftlzw.c.obj: _deps/freetype
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/freetype/internal/ftstream.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/lzw/ftzopen.c \
   _deps/freetype-src/src/lzw/ftzopen.h
 
@@ -2226,34 +2254,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/pcf/pcf.c.obj: _deps/freetype-s
   _deps/freetype-src/include/freetype/internal/services/svprop.h \
   _deps/freetype-src/include/freetype/ttnameid.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/pcf/pcf.h \
   _deps/freetype-src/src/pcf/pcfdrivr.c \
   _deps/freetype-src/src/pcf/pcfdrivr.h \
@@ -2301,34 +2330,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/pfr/pfr.c.obj: _deps/freetype-s
   _deps/freetype-src/include/freetype/internal/services/svpfr.h \
   _deps/freetype-src/include/freetype/ttnameid.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/pfr/pfrcmap.c \
   _deps/freetype-src/src/pfr/pfrcmap.h \
   _deps/freetype-src/src/pfr/pfrdrivr.c \
@@ -2393,34 +2423,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/psaux/psaux.c.obj: _deps/freety
   _deps/freetype-src/include/freetype/t1tables.h \
   _deps/freetype-src/include/freetype/tttables.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/psaux/afmparse.c \
   _deps/freetype-src/src/psaux/afmparse.h \
   _deps/freetype-src/src/psaux/cffdecode.c \
@@ -2492,34 +2523,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/pshinter/pshinter.c.obj: _deps/
   _deps/freetype-src/include/freetype/internal/pshints.h \
   _deps/freetype-src/include/freetype/t1tables.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/pshinter/pshalgo.c \
   _deps/freetype-src/src/pshinter/pshalgo.h \
   _deps/freetype-src/src/pshinter/pshglob.c \
@@ -2563,34 +2595,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/psnames/psnames.c.obj: _deps/fr
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/freetype/internal/services/svpscmap.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/psnames/psmodule.c \
   _deps/freetype-src/src/psnames/psmodule.h \
   _deps/freetype-src/src/psnames/psnamerr.h \
@@ -2629,34 +2662,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/raster/raster.c.obj: _deps/free
   _deps/freetype-src/include/freetype/internal/ftobjs.h \
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/raster/ftraster.c \
   _deps/freetype-src/src/raster/ftraster.h \
   _deps/freetype-src/src/raster/ftrend1.c \
@@ -2700,34 +2734,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/sdf/sdf.c.obj: _deps/freetype-s
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/freetype/internal/services/svprop.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/sdf/ftbsdf.c \
   _deps/freetype-src/src/sdf/ftsdf.c \
   _deps/freetype-src/src/sdf/ftsdf.h \
@@ -2794,34 +2829,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/sfnt/sfnt.c.obj: _deps/freetype
   _deps/freetype-src/include/freetype/tttables.h \
   _deps/freetype-src/include/freetype/tttags.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/sfnt/pngshim.c \
   _deps/freetype-src/src/sfnt/pngshim.h \
   _deps/freetype-src/src/sfnt/sfdriver.c \
@@ -2890,37 +2926,38 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/smooth/smooth.c.obj: _deps/free
   _deps/freetype-src/include/freetype/internal/ftobjs.h \
   _deps/freetype-src/include/freetype/internal/ftserv.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   _deps/freetype-src/src/smooth/ftgrays.c \
   _deps/freetype-src/src/smooth/ftgrays.h \
   _deps/freetype-src/src/smooth/ftsmerrs.h \
@@ -2963,34 +3000,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/svg/svg.c.obj: _deps/freetype-s
   _deps/freetype-src/include/freetype/internal/svginterface.h \
   _deps/freetype-src/include/freetype/otsvg.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/svg/ftsvg.c \
   _deps/freetype-src/src/svg/ftsvg.h \
   _deps/freetype-src/src/svg/svgtypes.h
@@ -3048,34 +3086,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/truetype/truetype.c.obj: _deps/
   _deps/freetype-src/include/freetype/tttables.h \
   _deps/freetype-src/include/freetype/tttags.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/truetype/ttdriver.c \
   _deps/freetype-src/src/truetype/ttdriver.h \
   _deps/freetype-src/src/truetype/tterrors.h \
@@ -3147,34 +3186,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/type1/type1.c.obj: _deps/freety
   _deps/freetype-src/include/freetype/ttnameid.h \
   _deps/freetype-src/include/freetype/tttables.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/type1/t1afm.c \
   _deps/freetype-src/src/type1/t1afm.h \
   _deps/freetype-src/src/type1/t1driver.c \
@@ -3241,34 +3281,35 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/type42/type42.c.obj: _deps/free
   _deps/freetype-src/include/freetype/ttnameid.h \
   _deps/freetype-src/include/freetype/tttables.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/type42/t42drivr.c \
   _deps/freetype-src/src/type42/t42drivr.h \
   _deps/freetype-src/src/type42/t42error.h \
@@ -3315,41 +3356,42 @@ _deps/freetype-build/CMakeFiles/freetype.dir/src/winfonts/winfnt.c.obj: _deps/fr
   _deps/freetype-src/include/freetype/internal/services/svwinfnt.h \
   _deps/freetype-src/include/freetype/ttnameid.h \
   _deps/freetype-src/include/ft2build.h \
-  C:/msys64/ucrt64/include/_mingw.h \
-  C:/msys64/ucrt64/include/_mingw_mac.h \
-  C:/msys64/ucrt64/include/_mingw_off_t.h \
-  C:/msys64/ucrt64/include/_mingw_secapi.h \
-  C:/msys64/ucrt64/include/_mingw_stdarg.h \
-  C:/msys64/ucrt64/include/corecrt.h \
-  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
-  C:/msys64/ucrt64/include/corecrt_wstdlib.h \
-  C:/msys64/ucrt64/include/crtdefs.h \
-  C:/msys64/ucrt64/include/errno.h \
-  C:/msys64/ucrt64/include/limits.h \
-  C:/msys64/ucrt64/include/malloc.h \
-  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
-  C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
-  C:/msys64/ucrt64/include/sec_api/string_s.h \
-  C:/msys64/ucrt64/include/setjmp.h \
-  C:/msys64/ucrt64/include/stdarg.h \
-  C:/msys64/ucrt64/include/stddef.h \
-  C:/msys64/ucrt64/include/stdio.h \
-  C:/msys64/ucrt64/include/stdlib.h \
-  C:/msys64/ucrt64/include/string.h \
-  C:/msys64/ucrt64/include/swprintf.inl \
-  C:/msys64/ucrt64/include/vadefs.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
-  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/setjmp.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   _deps/freetype-src/src/winfonts/fnterrs.h \
   _deps/freetype-src/src/winfonts/winfnt.h
 
 
 _deps/freetype-src/include/freetype/config/ftheader.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fma4intrin.h:
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wmmintrin.h:
 
 _deps/freetype-src/src/base/ftglyph.c:
 
@@ -3361,23 +3403,57 @@ _deps/freetype-src/include/freetype/internal/services/svpscmap.h:
 
 _deps/freetype-src/include/freetype/internal/compiler-macros.h:
 
+C:/Users/nicol/compiladores/ucrt64/include/timezoneapi.h:
+
 _deps/freetype-src/include/freetype/config/integer-types.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wmmintrin.h:
+C:/Users/nicol/compiladores/ucrt64/include/stdio.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/setjmp.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchiintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/enqcmdintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/psdk_inc/intrin-impl.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/_mingw_stdarg.h:
+
+_deps/freetype-src/src/psaux/psaux.c:
 
 _deps/freetype-src/src/truetype/ttgxvar.c:
 
-C:/msys64/ucrt64/include/errno.h:
-
 _deps/freetype-src/include/freetype/config/ftstdlib.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/synchapi.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxcomplexintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/stdarg.h:
 
 _deps/freetype-src/include/freetype/internal/ftdebug.h:
 
+C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h:
+
+_deps/freetype-src/src/pcf/pcfutil.c:
+
 _deps/freetype-build/include/freetype/config/ftconfig.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fintrin.h:
+C:/Users/nicol/compiladores/ucrt64/include/sec_api/string_s.h:
+
+_deps/freetype-src/src/sfnt/ttbdf.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/corecrt.h:
 
 _deps/freetype-build/include/freetype/config/ftoption.h:
+
+_deps/freetype-src/src/sfnt/woff2tags.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm3intrin.h:
 
 _deps/freetype-src/src/cid/cidgload.c:
 
@@ -3389,43 +3465,27 @@ _deps/freetype-src/include/freetype/config/mac-support.h:
 
 _deps/freetype-src/src/autofit/afindic.h:
 
-_deps/freetype-src/src/sfnt/sfwoff2.h:
-
-C:/msys64/ucrt64/include/sec_api/stdlib_s.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxfp8intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512cdintrin.h:
-
-C:/msys64/ucrt64/include/namespaceapi.h:
+C:/Users/nicol/compiladores/ucrt64/include/errno.h:
 
 _deps/freetype-src/include/freetype/freetype.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h:
+C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h:
 
 _deps/freetype-src/include/freetype/fterrdef.h:
-
-C:/msys64/ucrt64/include/apisetcconv.h:
 
 _deps/freetype-src/src/autofit/afmodule.c:
 
 _deps/freetype-src/include/freetype/fterrors.h:
 
-C:/msys64/ucrt64/include/errhandlingapi.h:
-
 _deps/freetype-src/include/freetype/ftlogging.h:
-
-C:/msys64/ucrt64/include/stdio.h:
-
-C:/msys64/ucrt64/include/_mingw_stdarg.h:
 
 _deps/freetype-src/include/freetype/ftrender.h:
 
 _deps/freetype-src/src/cache/ftcimage.h:
 
-_deps/freetype-src/include/freetype/ftglyph.h:
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint8intrin.h:
 
-C:/msys64/ucrt64/include/sec_api/stdio_s.h:
+_deps/freetype-src/include/freetype/ftglyph.h:
 
 _deps/freetype-src/include/freetype/ftimage.h:
 
@@ -3433,29 +3493,23 @@ _deps/freetype-src/include/freetype/tttags.h:
 
 _deps/freetype-src/include/freetype/ftincrem.h:
 
-_deps/freetype-src/src/type1/t1tokens.h:
-
-_deps/freetype-src/src/sfnt/ttkern.c:
-
-_deps/freetype-src/src/autofit/afshaper.h:
-
-C:/msys64/ucrt64/include/setjmp.h:
+C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h:
 
 _deps/freetype-src/include/freetype/internal/ftdrv.h:
 
+C:/Users/nicol/compiladores/ucrt64/include/utilapiset.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtransposeintrin.h:
+
 _deps/freetype-src/include/freetype/ftlcdfil.h:
-
-C:/msys64/ucrt64/include/memoryapi.h:
-
-C:/msys64/ucrt64/include/vadefs.h:
-
-C:/msys64/ucrt64/include/fibersapi.h:
 
 _deps/freetype-src/include/freetype/ftmodapi.h:
 
-_deps/freetype-src/include/freetype/ftmoderr.h:
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmivlintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:
+C:/Users/nicol/compiladores/ucrt64/include/vadefs.h:
+
+_deps/freetype-src/include/freetype/ftmoderr.h:
 
 _deps/freetype-src/include/freetype/ftparams.h:
 
@@ -3467,9 +3521,7 @@ _deps/freetype-src/src/psaux/t1decode.h:
 
 _deps/freetype-src/builds/windows/ftsystem.c:
 
-C:/msys64/ucrt64/include/_mingw_secapi.h:
-
-_deps/freetype-src/src/autofit/afcover.h:
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512bf16intrin.h:
 
 _deps/freetype-src/include/freetype/ftsizes.h:
 
@@ -3477,11 +3529,9 @@ _deps/freetype-src/src/autofit/afloader.c:
 
 _deps/freetype-src/include/ft2build.h:
 
-C:/msys64/ucrt64/include/processtopologyapi.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vaesintrin.h:
-
 _deps/freetype-src/include/freetype/ftsystem.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/corecrt_wctype.h:
 
 _deps/freetype-src/src/bzip2/ftbzip2.c:
 
@@ -3489,17 +3539,19 @@ _deps/freetype-src/include/freetype/fttypes.h:
 
 _deps/freetype-src/include/freetype/internal/autohint.h:
 
-_deps/freetype-src/include/freetype/internal/services/svttglyf.h:
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cldemoteintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h:
+_deps/freetype-src/include/freetype/internal/services/svttglyf.h:
 
 _deps/freetype-src/src/gzip/ftgzip.c:
 
-C:/msys64/ucrt64/include/swprintf.inl:
+C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h:
 
 _deps/freetype-src/src/sfnt/sfwoff.c:
 
 _deps/freetype-src/include/freetype/internal/ftcalc.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h:
 
 _deps/freetype-src/src/cid/cidriver.c:
 
@@ -3509,11 +3561,13 @@ _deps/freetype-src/include/freetype/internal/ftgloadr.h:
 
 _deps/freetype-src/src/pcf/pcfread.c:
 
-C:/msys64/ucrt64/include/corecrt.h:
-
 _deps/freetype-src/src/cff/cffgload.h:
 
 _deps/freetype-src/include/freetype/internal/ftmemory.h:
+
+_deps/freetype-src/src/smooth/ftsmerrs.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxbf16intrin.h:
 
 _deps/freetype-src/include/freetype/internal/ftobjs.h:
 
@@ -3521,605 +3575,629 @@ _deps/freetype-src/src/sfnt/sfdriver.h:
 
 _deps/freetype-src/include/freetype/internal/ftserv.h:
 
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/usermsrintrin.h:
+
 _deps/freetype-src/src/base/ftrfork.c:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2convertintrin.h:
+_deps/freetype-src/src/psaux/psstack.c:
 
-C:/msys64/ucrt64/include/_mingw.h:
+C:/Users/nicol/compiladores/ucrt64/include/_mingw.h:
 
-C:/msys64/ucrt64/include/imm.h:
+C:/Users/nicol/compiladores/ucrt64/include/debugapi.h:
 
-C:/msys64/ucrt64/include/string.h:
+C:/Users/nicol/compiladores/ucrt64/include/string.h:
 
-C:/msys64/ucrt64/include/concurrencysal.h:
+C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/uintrintrin.h:
+_deps/freetype-src/src/pfr/pfrobjs.c:
 
-C:/msys64/ucrt64/include/_mingw_mac.h:
+C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h:
 
-C:/msys64/ucrt64/include/corecrt_wstdlib.h:
+C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h:
 
-C:/msys64/ucrt64/include/stdlib.h:
+_deps/freetype-src/src/pfr/pfrgload.h:
 
-_deps/freetype-src/src/truetype/ttdriver.c:
+C:/Users/nicol/compiladores/ucrt64/include/stdlib.h:
 
-_deps/freetype-src/src/autofit/afstyles.h:
+C:/Users/nicol/compiladores/ucrt64/include/limits.h:
 
-C:/msys64/ucrt64/include/stddef.h:
-
-C:/msys64/ucrt64/include/winsvc.h:
-
-C:/msys64/ucrt64/include/_mingw_off_t.h:
-
-C:/msys64/ucrt64/include/corecrt_stdio_config.h:
-
-_deps/freetype-src/include/freetype/internal/services/svtteng.h:
-
-_deps/freetype-src/include/freetype/ftbdf.h:
-
-C:/msys64/ucrt64/include/crtdefs.h:
-
-_deps/freetype-src/src/base/ftsnames.c:
-
-_deps/freetype-src/src/raster/raster.c:
-
-C:/msys64/ucrt64/include/limits.h:
-
-C:/msys64/ucrt64/include/malloc.h:
-
-C:/msys64/ucrt64/include/mcx.h:
-
-_deps/freetype-src/src/base/ftfstype.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h:
-
-_deps/freetype-src/src/type1/t1afm.c:
-
-C:/msys64/ucrt64/include/sec_api/string_s.h:
-
-C:/msys64/ucrt64/include/libloaderapi.h:
-
-_deps/freetype-src/src/pfr/pfr.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2minmaxintrin.h:
-
-_deps/freetype-src/src/cache/ftccache.c:
-
-C:/msys64/ucrt64/include/stdarg.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h:
-
-_deps/freetype-src/src/psaux/psfixed.h:
-
-C:/msys64/ucrt64/include/_mingw_unicode.h:
-
-_deps/freetype-src/include/freetype/internal/ftstream.h:
-
-_deps/freetype-src/src/pcf/pcferror.h:
-
-_deps/freetype-src/include/freetype/internal/services/svpsinfo.h:
-
-C:/msys64/ucrt64/include/apiset.h:
-
-C:/msys64/ucrt64/include/consoleapi3.h:
-
-_deps/freetype-src/src/base/ftbbox.c:
-
-C:/msys64/ucrt64/include/basetsd.h:
-
-_deps/freetype-src/src/psaux/pshints.c:
-
-C:/msys64/ucrt64/include/bemapiset.h:
-
-C:/msys64/ucrt64/include/consoleapi.h:
-
-C:/msys64/ucrt64/include/consoleapi2.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cetintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clwbintrin.h:
-
-C:/msys64/ucrt64/include/ctype.h:
-
-_deps/freetype-src/include/freetype/internal/services/svmetric.h:
-
-C:/msys64/ucrt64/include/corecrt_wctype.h:
-
-C:/msys64/ucrt64/include/datetimeapi.h:
-
-C:/msys64/ucrt64/include/ktmtypes.h:
-
-C:/msys64/ucrt64/include/debugapi.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2intrin.h:
-
-_deps/freetype-src/include/freetype/ftbitmap.h:
-
-C:/msys64/ucrt64/include/driverspecs.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cmpccxaddintrin.h:
-
-C:/msys64/ucrt64/include/excpt.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2mediaintrin.h:
-
-C:/msys64/ucrt64/include/fileapi.h:
-
-C:/msys64/ucrt64/include/fltwinerror.h:
-
-_deps/freetype-src/src/cff/cffdrivr.h:
-
-C:/msys64/ucrt64/include/guiddef.h:
-
-C:/msys64/ucrt64/include/interlockedapi.h:
-
-C:/msys64/ucrt64/include/handleapi.h:
-
-C:/msys64/ucrt64/include/heapapi.h:
-
-_deps/freetype-src/src/raster/ftrend1.h:
-
-C:/msys64/ucrt64/include/ioapiset.h:
-
-C:/msys64/ucrt64/include/jobapi.h:
-
-_deps/freetype-src/include/freetype/ttnameid.h:
-
-C:/msys64/ucrt64/include/minwinbase.h:
-
-C:/msys64/ucrt64/include/minwindef.h:
-
-C:/msys64/ucrt64/include/namedpipeapi.h:
-
-C:/msys64/ucrt64/include/wincontypes.h:
-
-C:/msys64/ucrt64/include/poppack.h:
-
-_deps/freetype-src/src/psaux/psaux.c:
-
-C:/msys64/ucrt64/include/processenv.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmiintrin.h:
-
-C:/msys64/ucrt64/include/processthreadsapi.h:
-
-C:/msys64/ucrt64/include/profileapi.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmaintrin.h:
-
-C:/msys64/ucrt64/include/psdk_inc/intrin-impl.h:
-
-_deps/freetype-src/src/cff/cffdrivr.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2satcvtintrin.h:
-
-_deps/freetype-src/src/cid/cidload.h:
-
-C:/msys64/ucrt64/include/pshpack1.h:
-
-C:/msys64/ucrt64/include/pshpack2.h:
-
-C:/msys64/ucrt64/include/pshpack4.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cldemoteintrin.h:
-
-C:/msys64/ucrt64/include/pshpack8.h:
-
-C:/msys64/ucrt64/include/wincon.h:
-
-C:/msys64/ucrt64/include/realtimeapiset.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16intrin.h:
-
-_deps/freetype-src/src/cff/cffparse.c:
-
-_deps/freetype-src/include/freetype/internal/cfftypes.h:
-
-C:/msys64/ucrt64/include/reason.h:
-
-C:/msys64/ucrt64/include/sal.h:
-
-C:/msys64/ucrt64/include/sdkddkver.h:
-
-C:/msys64/ucrt64/include/sec_api/stralign_s.h:
-
-_deps/freetype-src/src/gzip/inffixed.h:
-
-C:/msys64/ucrt64/include/securityappcontainer.h:
-
-C:/msys64/ucrt64/include/securitybaseapi.h:
-
-_deps/freetype-src/src/type42/t42objs.h:
-
-C:/msys64/ucrt64/include/specstrings.h:
-
-_deps/freetype-src/include/freetype/internal/services/svwinfnt.h:
-
-C:/msys64/ucrt64/include/stralign.h:
-
-C:/msys64/ucrt64/include/stringapiset.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectvlintrin.h:
-
-_deps/freetype-src/src/autofit/afglobal.h:
-
-C:/msys64/ucrt64/include/synchapi.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16intrin.h:
-
-_deps/freetype-src/src/pfr/pfrdrivr.c:
-
-C:/msys64/ucrt64/include/sysinfoapi.h:
-
-_deps/freetype-src/src/pshinter/pshinter.c:
-
-C:/msys64/ucrt64/include/systemtopologyapi.h:
-
-_deps/freetype-src/include/freetype/ftbzip2.h:
-
-C:/msys64/ucrt64/include/threadpoolapiset.h:
-
-_deps/freetype-src/src/gzip/adler32.c:
-
-C:/msys64/ucrt64/include/threadpoollegacyapiset.h:
-
-C:/msys64/ucrt64/include/timezoneapi.h:
-
-_deps/freetype-src/src/autofit/afindic.c:
-
-C:/msys64/ucrt64/include/tvout.h:
-
-_deps/freetype-src/src/psaux/psintrp.h:
-
-C:/msys64/ucrt64/include/utilapiset.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint8intrin.h:
-
-C:/msys64/ucrt64/include/virtdisk.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxmovrsintrin.h:
-
-_deps/freetype-src/src/gzip/crc32.h:
-
-C:/msys64/ucrt64/include/winapifamily.h:
-
-C:/msys64/ucrt64/include/winbase.h:
-
-C:/msys64/ucrt64/include/windef.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtileintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnnivlintrin.h:
-
-_deps/freetype-src/include/freetype/ftstroke.h:
-
-C:/msys64/ucrt64/include/windows.h:
-
-_deps/freetype-src/include/freetype/t1tables.h:
-
-C:/msys64/ucrt64/include/winerror.h:
-
-_deps/freetype-src/src/cache/ftcimage.c:
-
-C:/msys64/ucrt64/include/wingdi.h:
-
-C:/msys64/ucrt64/include/winnetwk.h:
-
-_deps/freetype-src/src/base/ftbase.h:
-
-C:/msys64/ucrt64/include/winnls.h:
-
-C:/msys64/ucrt64/include/winnt.h:
-
-C:/msys64/ucrt64/include/winreg.h:
-
-C:/msys64/ucrt64/include/winuser.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxifmaintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsaveoptintrin.h:
-
-C:/msys64/ucrt64/include/winver.h:
-
-C:/msys64/ucrt64/include/wnnc.h:
-
-_deps/freetype-src/src/base/ftpatent.c:
-
-C:/msys64/ucrt64/include/wow64apiset.h:
-
-_deps/freetype-src/src/sdf/ftsdfrend.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h:
-
-_deps/freetype-src/src/svg/svgtypes.h:
-
-_deps/freetype-src/src/pfr/pfrdrivr.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h:
-
-_deps/freetype-src/src/pfr/pfrtypes.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxbf16intrin.h:
-
-_deps/freetype-src/include/freetype/internal/services/svgldict.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxcomplexintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pkuintrin.h:
-
-_deps/freetype-src/include/freetype/internal/services/svpfr.h:
-
-_deps/freetype-src/src/pcf/pcf.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxfp16intrin.h:
-
-_deps/freetype-src/src/autofit/aflatin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxint8intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtf32intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtransposeintrin.h:
-
-_deps/freetype-src/src/cff/cffparse.h:
-
-_deps/freetype-src/src/cache/ftccmap.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512bf16intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512convertintrin.h:
-
-_deps/freetype-src/include/freetype/internal/cffotypes.h:
-
-_deps/freetype-src/src/autofit/afdummy.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512mediaintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512minmaxintrin.h:
-
-_deps/freetype-src/src/sfnt/sfdriver.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512satcvtintrin.h:
-
-_deps/freetype-src/src/pcf/pcf.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2bf16intrin.h:
-
-_deps/freetype-src/src/autofit/aflatin.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2copyintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx2intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16vlintrin.h:
-
-_deps/freetype-src/src/bdf/bdfdrivr.c:
-
-_deps/freetype-src/src/psaux/psarrst.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgintrin.h:
-
-_deps/freetype-src/src/psaux/pshints.h:
-
-_deps/freetype-src/include/freetype/internal/services/svkern.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgvlintrin.h:
-
-_deps/freetype-src/src/raster/ftrend1.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bwintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512dqintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16vlintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmavlintrin.h:
-
-_deps/freetype-src/src/gzip/inffast.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2vlintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmivlintrin.h:
-
-_deps/freetype-src/src/pcf/pcfdrivr.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlbwintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmi2intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vldqintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlintrin.h:
-
-_deps/freetype-src/include/freetype/internal/services/svttcmap.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnniintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectintrin.h:
-
-_deps/freetype-src/src/bdf/bdferror.h:
-
-_deps/freetype-src/src/psaux/pserror.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqvlintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxintrin.h:
-
-_deps/freetype-src/src/sfnt/ttcolr.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxneconvertintrin.h:
-
-_deps/freetype-src/src/cache/ftcglyph.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint16intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniintrin.h:
-
-_deps/freetype-src/src/autofit/afdummy.c:
-
-_deps/freetype-src/src/base/fthash.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmiintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clflushoptintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clzerointrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h:
-
-_deps/freetype-src/src/psaux/psauxmod.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/enqcmdintrin.h:
-
-_deps/freetype-src/src/gzip/ftzconf.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/f16cintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/popcntintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fmaintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fxsrintrin.h:
-
-_deps/freetype-src/src/cache/ftcerror.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/gfniintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/hresetintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/waitpkgintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ia32intrin.h:
-
-_deps/freetype-src/include/freetype/ftadvanc.h:
-
-_deps/freetype-src/include/freetype/otsvg.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/immintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/keylockerintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/lwpintrin.h:
-
-_deps/freetype-src/src/psaux/pserror.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/lzcntintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm3dnow.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movdirintrin.h:
-
-_deps/freetype-src/include/freetype/ftlzw.h:
-
-_deps/freetype-src/src/pfr/pfrsbit.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movrsintrin.h:
-
-_deps/freetype-src/include/freetype/fttrigon.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitintrin.h:
-
-_deps/freetype-src/include/freetype/internal/t1types.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitxintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pconfigintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchwintrin.h:
-
-_deps/freetype-src/include/freetype/internal/services/svgxval.h:
-
-_deps/freetype-src/src/cff/cfferrs.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pmmintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchiintrin.h:
-
-_deps/freetype-src/include/freetype/ftwinfnt.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/raointintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rdseedintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rtmintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/serializeintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sgxintrin.h:
-
-_deps/freetype-src/include/freetype/ftoutln.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sha512intrin.h:
-
-_deps/freetype-src/src/sfnt/ttcpal.c:
-
-_deps/freetype-src/src/base/ftoutln.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/shaintrin.h:
-
-_deps/freetype-src/src/autofit/aferrors.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm3intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm4intrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/smmintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tbmintrin.h:
-
-_deps/freetype-src/src/cff/cffcmap.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tmmintrin.h:
-
-_deps/freetype-src/src/base/ftlcdfil.c:
-
-_deps/freetype-src/src/base/ftstream.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tsxldtrkintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/usermsrintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vpclmulqdqintrin.h:
-
-_deps/freetype-src/include/freetype/ftsnames.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wbnoinvdintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86gprintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h:
-
-_deps/freetype-src/src/autofit/afhints.c:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xopintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavecintrin.h:
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtf32intrin.h:
 
 _deps/freetype-src/include/freetype/internal/services/svmm.h:
 
 _deps/freetype-src/src/cid/cidobjs.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsaveintrin.h:
+C:/Users/nicol/compiladores/ucrt64/include/malloc.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavesintrin.h:
+C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xtestintrin.h:
+C:/Users/nicol/compiladores/ucrt64/include/stddef.h:
+
+_deps/freetype-src/include/freetype/internal/services/svtteng.h:
+
+_deps/freetype-src/include/freetype/ftbdf.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsaveintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2intrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/wow64apiset.h:
 
 _deps/freetype-src/src/cache/ftcsbits.c:
 
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h:
+
 _deps/freetype-src/src/autofit/autofit.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/wincon.h:
+
+_deps/freetype-src/src/psaux/psfixed.h:
+
+_deps/freetype-src/include/freetype/internal/ftstream.h:
+
+_deps/freetype-src/src/pcf/pcferror.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h:
+
+_deps/freetype-src/include/freetype/ttnameid.h:
+
+_deps/freetype-src/include/freetype/internal/services/svcfftl.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/_mingw_unicode.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/apiset.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/apisetcconv.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/basetsd.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/bemapiset.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/smmintrin.h:
+
+_deps/freetype-src/include/freetype/ftgzip.h:
+
+_deps/freetype-src/src/autofit/afws-iter.h:
+
+_deps/freetype-src/src/psaux/psft.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/concurrencysal.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/consoleapi.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/consoleapi2.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/consoleapi3.h:
+
+_deps/freetype-src/src/cid/ciderrs.h:
+
+_deps/freetype-src/src/autofit/afranges.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/ctype.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/datetimeapi.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/driverspecs.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/errhandlingapi.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/excpt.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/fibersapi.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/reason.h:
+
+_deps/freetype-src/include/freetype/ftwinfnt.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/fileapi.h:
+
+_deps/freetype-src/src/sdf/ftsdfcommon.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/fltwinerror.h:
+
+_deps/freetype-src/include/freetype/internal/services/svcid.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/guiddef.h:
+
+_deps/freetype-src/src/pcf/pcfread.h:
+
+_deps/freetype-src/src/cid/cidriver.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/handleapi.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/processenv.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/libloaderapi.h:
+
+_deps/freetype-src/src/lzw/ftzopen.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/heapapi.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/imm.h:
+
+_deps/freetype-src/include/freetype/ftlzw.h:
+
+_deps/freetype-src/src/pfr/pfrsbit.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/interlockedapi.h:
+
+_deps/freetype-src/src/sfnt/ttcolr.c:
+
+_deps/freetype-src/src/cache/ftcglyph.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/ioapiset.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/lzcntintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/jobapi.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/ktmtypes.h:
+
+_deps/freetype-src/src/psaux/psfont.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/mcx.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/memoryapi.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/minwinbase.h:
+
+_deps/freetype-src/include/freetype/internal/sfnt.h:
+
+_deps/freetype-src/src/bdf/bdf.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/minwindef.h:
+
+_deps/freetype-src/src/smooth/ftgrays.c:
+
+_deps/freetype-src/src/base/fttype1.c:
+
+_deps/freetype-src/src/type42/t42parse.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/namedpipeapi.h:
+
+_deps/freetype-src/include/freetype/internal/ftmmtypes.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/namespaceapi.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/windef.h:
+
+_deps/freetype-src/include/freetype/ftbzip2.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512mediaintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h:
+
+_deps/freetype-src/src/gzip/ftzconf.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/poppack.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/processthreadsapi.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/processtopologyapi.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/profileapi.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/pshpack1.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/pshpack2.h:
+
+_deps/freetype-src/src/gzip/inflate.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/immintrin.h:
+
+_deps/freetype-src/include/freetype/internal/ftvalid.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/pshpack4.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/lwpintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/pshpack8.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/realtimeapiset.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fma4intrin.h:
+
+_deps/freetype-src/include/freetype/ftstroke.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/sal.h:
+
+_deps/freetype-src/include/freetype/t1tables.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/sdkddkver.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/sec_api/stralign_s.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/securityappcontainer.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/securitybaseapi.h:
+
+_deps/freetype-src/src/psaux/afmparse.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/specstrings.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/stralign.h:
+
+_deps/freetype-src/include/freetype/internal/services/svpfr.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/stringapiset.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/serializeintrin.h:
+
+_deps/freetype-src/src/sfnt/sferrors.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/sysinfoapi.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/systemtopologyapi.h:
+
+_deps/freetype-src/src/pcf/pcf.h:
+
+_deps/freetype-src/src/autofit/aflatin.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/threadpoolapiset.h:
+
+_deps/freetype-src/include/freetype/ftlist.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/threadpoollegacyapiset.h:
+
+_deps/freetype-src/src/type1/t1tokens.h:
+
+_deps/freetype-src/src/sfnt/ttkern.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/tvout.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ammintrin.h:
+
+_deps/freetype-src/src/autofit/afshaper.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/virtdisk.h:
+
+_deps/freetype-src/src/psaux/pshints.h:
+
+_deps/freetype-src/include/freetype/internal/services/svkern.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/winapifamily.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxmovrsintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xtestintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/winbase.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fmaintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/wincontypes.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/windows.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavesintrin.h:
+
+_deps/freetype-src/include/freetype/internal/pshints.h:
+
+_deps/freetype-src/include/freetype/internal/psaux.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/winerror.h:
+
+_deps/freetype-src/src/base/fthash.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/wingdi.h:
+
+_deps/freetype-src/src/sfnt/ttsvg.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/winnetwk.h:
+
+_deps/freetype-src/src/cache/ftcmanag.h:
+
+_deps/freetype-src/src/type42/type42.c:
+
+_deps/freetype-src/include/freetype/internal/services/svfntfmt.h:
+
+_deps/freetype-src/src/cache/ftcmru.h:
+
+_deps/freetype-src/src/psaux/psconv.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/winnls.h:
+
+_deps/freetype-src/src/gzip/zlib.h:
+
+_deps/freetype-src/src/lzw/ftlzw.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/winnt.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/winreg.h:
+
+_deps/freetype-src/src/pfr/pfrgload.c:
+
+C:/Users/nicol/compiladores/ucrt64/include/winsvc.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/winuser.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/winver.h:
+
+_deps/freetype-src/src/autofit/afloader.h:
+
+C:/Users/nicol/compiladores/ucrt64/include/wnnc.h:
+
+_deps/freetype-src/src/bdf/bdflib.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/adxintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/fxsrintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxavx512intrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxfp16intrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxfp8intrin.h:
+
+_deps/freetype-src/include/freetype/internal/services/svpostnm.h:
+
+_deps/freetype-src/src/sdf/ftsdferrs.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxint8intrin.h:
+
+_deps/freetype-src/src/base/ftbdf.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/amxtileintrin.h:
+
+_deps/freetype-src/src/sfnt/sfwoff.h:
+
+_deps/freetype-src/src/base/ftsynth.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512convertintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512minmaxintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2-512satcvtintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2bf16intrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2convertintrin.h:
+
+_deps/freetype-src/src/cid/cidobjs.c:
+
+_deps/freetype-src/src/cache/ftcache.c:
+
+_deps/freetype-src/include/freetype/ftbbox.h:
+
+_deps/freetype-src/src/psaux/psblues.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2copyintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/hresetintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2mediaintrin.h:
+
+_deps/freetype-src/src/autofit/ft-hb.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2minmaxintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx10_2satcvtintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitxintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tbmintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx2intrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16intrin.h:
+
+_deps/freetype-src/src/psaux/cffdecode.c:
+
+_deps/freetype-src/src/base/ftcolor.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bf16vlintrin.h:
+
+_deps/freetype-src/src/smooth/smooth.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512cdintrin.h:
+
+_deps/freetype-src/include/freetype/ftfntfmt.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bitalgvlintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512bwintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512dqintrin.h:
+
+_deps/freetype-src/src/raster/ftrend1.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fintrin.h:
+
+_deps/freetype-src/src/winfonts/winfnt.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16intrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512fp16vlintrin.h:
+
+_deps/freetype-src/src/psnames/psnamerr.h:
+
+_deps/freetype-src/src/base/ftbitmap.c:
+
+_deps/freetype-src/src/type1/type1.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmaintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512ifmavlintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmi2vlintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vbmiintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm3dnow.h:
+
+_deps/freetype-src/src/base/ftfntfmt.c:
+
+_deps/freetype-src/src/cid/cidparse.h:
+
+_deps/freetype-src/src/psaux/psread.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlbwintrin.h:
+
+_deps/freetype-src/src/pshinter/pshinter.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vldqintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnniintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vnnivlintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchwintrin.h:
+
+_deps/freetype-src/src/cache/ftccback.h:
+
+_deps/freetype-src/src/type1/t1gload.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectvlintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqintrin.h:
+
+_deps/freetype-src/src/sfnt/ttkern.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vpopcntdqvlintrin.h:
+
+_deps/freetype-src/src/autofit/afshaper.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxifmaintrin.h:
+
+_deps/freetype-src/src/truetype/ttdriver.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxneconvertintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avxvnniint16intrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmi2intrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmiintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cetintrin.h:
+
+_deps/freetype-src/src/type42/t42drivr.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clflushoptintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clwbintrin.h:
 
 _deps/freetype-src/include/freetype/ftdriver.h:
 
 _deps/freetype-src/include/freetype/internal/services/svbdf.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clzerointrin.h:
+
+_deps/freetype-src/src/autofit/afws-decl.h:
+
+_deps/freetype-src/src/type1/t1objs.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/cmpccxaddintrin.h:
+
+_deps/freetype-src/src/autofit/afhints.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/f16cintrin.h:
+
+_deps/freetype-src/src/cache/ftcerror.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/gfniintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ia32intrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/keylockerintrin.h:
+
+_deps/freetype-src/include/freetype/ftsynth.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/popcntintrin.h:
+
+_deps/freetype-src/include/freetype/config/ftmodule.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movdirintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/movrsintrin.h:
+
+_deps/freetype-src/src/cache/ftcmru.c:
+
+_deps/freetype-src/src/psaux/psconv.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tsxldtrkintrin.h:
+
+_deps/freetype-src/src/gzip/inffast.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pconfigintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sha512intrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pkuintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pmmintrin.h:
+
+_deps/freetype-src/src/truetype/ttgload.c:
+
+_deps/freetype-src/include/freetype/internal/ftpsprop.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/raointintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rdseedintrin.h:
+
+_deps/freetype-src/src/base/ftinit.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/rtmintrin.h:
+
+_deps/freetype-src/src/autofit/afglobal.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sgxintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/shaintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm4intrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/tmmintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsaveoptintrin.h:
+
+_deps/freetype-src/src/cff/cffload.c:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/uintrintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vaesintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/vpclmulqdqintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/waitpkgintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/wbnoinvdintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86gprintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h:
+
+_deps/freetype-src/src/psaux/psglue.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xopintrin.h:
+
+C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavecintrin.h:
+
+_deps/freetype-src/include/freetype/ftadvanc.h:
+
+_deps/freetype-src/include/freetype/otsvg.h:
+
+_deps/freetype-src/include/freetype/ftoutln.h:
 
 _deps/freetype-src/src/sdf/sdf.c:
 
@@ -4139,87 +4217,75 @@ _deps/freetype-src/src/autofit/afcjk.c:
 
 _deps/freetype-src/src/autofit/afcjk.h:
 
-_deps/freetype-src/src/autofit/afglobal.c:
+_deps/freetype-src/src/autofit/afcover.h:
 
-_deps/freetype-src/src/autofit/afhints.h:
+_deps/freetype-src/src/autofit/afdummy.c:
 
-_deps/freetype-src/src/autofit/afloader.h:
+_deps/freetype-src/include/freetype/internal/cffotypes.h:
+
+_deps/freetype-src/src/autofit/afdummy.h:
+
+_deps/freetype-src/src/sfnt/ttcpal.c:
+
+_deps/freetype-src/src/base/ftoutln.c:
+
+_deps/freetype-src/src/autofit/aferrors.h:
+
+_deps/freetype-src/src/autofit/afglobal.h:
+
+_deps/freetype-src/src/autofit/afhints.c:
+
+_deps/freetype-src/src/autofit/afindic.c:
+
+_deps/freetype-src/src/pcf/pcf.c:
+
+_deps/freetype-src/src/autofit/aflatin.h:
 
 _deps/freetype-src/src/autofit/afmodule.h:
 
 _deps/freetype-src/src/autofit/afranges.c:
 
-_deps/freetype-src/src/autofit/afranges.h:
-
 _deps/freetype-src/src/autofit/afscript.h:
 
-_deps/freetype-src/src/sfnt/ttkern.h:
+_deps/freetype-src/src/truetype/ttdriver.c:
 
-_deps/freetype-src/src/autofit/afshaper.c:
+_deps/freetype-src/src/autofit/afstyles.h:
 
 _deps/freetype-src/src/autofit/aftypes.h:
-
-_deps/freetype-src/src/autofit/afws-decl.h:
-
-_deps/freetype-src/include/freetype/ftgzip.h:
-
-_deps/freetype-src/src/autofit/afws-iter.h:
-
-_deps/freetype-src/src/autofit/ft-hb.c:
 
 _deps/freetype-src/src/base/ftbase.c:
 
 _deps/freetype-src/include/freetype/ftcolor.h:
 
-_deps/freetype-src/src/smooth/smooth.c:
-
-_deps/freetype-src/include/freetype/ftfntfmt.h:
-
-_deps/freetype-src/include/freetype/ftlist.h:
-
 _deps/freetype-src/src/psaux/psstack.h:
 
 _deps/freetype-src/include/freetype/ftmm.h:
+
+_deps/freetype-src/include/freetype/ftsnames.h:
+
+_deps/freetype-src/include/freetype/fttrigon.h:
+
+_deps/freetype-src/src/cff/cffparse.c:
+
+_deps/freetype-src/include/freetype/internal/cfftypes.h:
 
 _deps/freetype-src/src/type42/t42parse.c:
 
 _deps/freetype-src/include/freetype/internal/fthash.h:
 
-_deps/freetype-src/src/truetype/ttgload.c:
-
-_deps/freetype-src/include/freetype/internal/ftpsprop.h:
-
 _deps/freetype-src/src/psaux/psfont.c:
 
 _deps/freetype-src/include/freetype/internal/ftrfork.h:
 
-_deps/freetype-src/include/freetype/internal/ftvalid.h:
+_deps/freetype-src/include/freetype/internal/services/svgldict.h:
 
-_deps/freetype-src/include/freetype/internal/pshints.h:
-
-_deps/freetype-src/include/freetype/internal/psaux.h:
-
-_deps/freetype-src/src/type42/type42.c:
-
-_deps/freetype-src/include/freetype/internal/services/svfntfmt.h:
-
-_deps/freetype-src/src/cache/ftcmru.h:
-
-_deps/freetype-src/src/psaux/psconv.c:
-
-_deps/freetype-src/src/gzip/zlib.h:
-
-_deps/freetype-src/src/lzw/ftlzw.c:
-
-_deps/freetype-src/include/freetype/internal/services/svpostnm.h:
-
-_deps/freetype-src/include/freetype/internal/sfnt.h:
-
-_deps/freetype-src/src/bdf/bdf.c:
+_deps/freetype-src/include/freetype/internal/services/svttcmap.h:
 
 _deps/freetype-src/src/lzw/ftzopen.h:
 
 _deps/freetype-src/include/freetype/internal/svginterface.h:
+
+_deps/freetype-src/include/freetype/internal/t1types.h:
 
 _deps/freetype-src/src/cid/cidload.c:
 
@@ -4233,11 +4299,11 @@ _deps/freetype-src/include/freetype/internal/wofftypes.h:
 
 _deps/freetype-src/src/base/ftadvanc.c:
 
+_deps/freetype-src/src/base/ftbase.h:
+
 _deps/freetype-src/src/truetype/truetype.c:
 
 _deps/freetype-src/src/base/ftcalc.c:
-
-_deps/freetype-src/src/base/ftcolor.c:
 
 _deps/freetype-src/src/base/ftdbgmem.c:
 
@@ -4245,13 +4311,13 @@ _deps/freetype-src/src/truetype/ttpload.c:
 
 _deps/freetype-src/src/base/fterrors.c:
 
-_deps/freetype-src/src/base/ftfntfmt.c:
-
-_deps/freetype-src/src/cid/cidparse.h:
-
 _deps/freetype-src/src/base/ftgloadr.c:
 
 _deps/freetype-src/src/gzip/inflate.h:
+
+_deps/freetype-src/src/cff/cffcmap.c:
+
+_deps/freetype-src/src/base/ftlcdfil.c:
 
 _deps/freetype-src/src/base/ftmac.c:
 
@@ -4263,31 +4329,27 @@ _deps/freetype-src/src/psaux/t1cmap.c:
 
 _deps/freetype-src/src/base/ftpsprop.c:
 
+_deps/freetype-src/src/base/ftsnames.c:
+
+_deps/freetype-src/src/base/ftstream.c:
+
 _deps/freetype-src/src/base/fttrigon.c:
 
 _deps/freetype-src/src/psnames/psmodule.h:
 
 _deps/freetype-src/src/base/ftutil.c:
 
-_deps/freetype-src/include/freetype/ftbbox.h:
+_deps/freetype-src/include/freetype/internal/services/svpsinfo.h:
 
-_deps/freetype-src/src/psaux/psblues.h:
+_deps/freetype-src/src/base/ftbbox.c:
 
-_deps/freetype-src/src/sdf/ftsdferrs.h:
-
-_deps/freetype-src/src/base/ftbdf.c:
-
-_deps/freetype-src/src/psnames/psnamerr.h:
-
-_deps/freetype-src/src/base/ftbitmap.c:
+_deps/freetype-src/include/freetype/ftbitmap.h:
 
 _deps/freetype-src/src/base/ftcid.c:
 
 _deps/freetype-src/include/freetype/ftcid.h:
 
-_deps/freetype-src/src/sdf/ftsdfcommon.c:
-
-_deps/freetype-src/include/freetype/internal/services/svcid.h:
+_deps/freetype-src/src/base/ftfstype.c:
 
 _deps/freetype-src/src/base/ftgasp.c:
 
@@ -4299,23 +4361,19 @@ _deps/freetype-src/src/base/ftotval.c:
 
 _deps/freetype-src/include/freetype/ftgxval.h:
 
-_deps/freetype-src/src/base/ftinit.c:
+_deps/freetype-src/include/freetype/internal/services/svgxval.h:
 
-_deps/freetype-src/include/freetype/config/ftmodule.h:
+_deps/freetype-src/src/cff/cfferrs.h:
 
 _deps/freetype-src/src/base/ftmm.c:
 
-_deps/freetype-src/src/smooth/ftgrays.c:
-
-_deps/freetype-src/src/base/fttype1.c:
-
-_deps/freetype-src/src/type42/t42parse.h:
-
-_deps/freetype-src/include/freetype/internal/ftmmtypes.h:
+_deps/freetype-src/include/freetype/internal/services/svmetric.h:
 
 _deps/freetype-src/include/freetype/ftotval.h:
 
 _deps/freetype-src/include/freetype/internal/services/svotval.h:
+
+_deps/freetype-src/src/base/ftpatent.c:
 
 _deps/freetype-src/src/base/ftpfr.c:
 
@@ -4325,37 +4383,43 @@ _deps/freetype-src/src/gzip/inftrees.h:
 
 _deps/freetype-src/src/base/ftstroke.c:
 
-_deps/freetype-src/src/sfnt/sfwoff.h:
-
-_deps/freetype-src/src/base/ftsynth.c:
-
-_deps/freetype-src/include/freetype/ftsynth.h:
-
 _deps/freetype-src/include/freetype/ftcache.h:
 
 _deps/freetype-src/src/base/ftwinfnt.c:
 
 _deps/freetype-src/src/bdf/bdf.h:
 
+_deps/freetype-src/src/type42/t42objs.h:
+
+_deps/freetype-src/include/freetype/internal/services/svwinfnt.h:
+
+_deps/freetype-src/src/bdf/bdfdrivr.c:
+
+_deps/freetype-src/src/psaux/psarrst.h:
+
 _deps/freetype-src/src/bdf/bdfdrivr.h:
 
 _deps/freetype-src/src/psaux/psarrst.c:
 
-_deps/freetype-src/src/bdf/bdflib.c:
+_deps/freetype-src/src/bdf/bdferror.h:
 
-_deps/freetype-src/src/cid/cidobjs.c:
-
-_deps/freetype-src/src/cache/ftcache.c:
+_deps/freetype-src/src/psaux/pserror.h:
 
 _deps/freetype-src/src/cache/ftcbasic.c:
 
+_deps/freetype-src/src/cache/ftccache.c:
+
 _deps/freetype-src/src/cache/ftccache.h:
 
-_deps/freetype-src/src/cache/ftccback.h:
+_deps/freetype-src/src/cff/cffparse.h:
 
-_deps/freetype-src/src/sfnt/ttcolr.c:
+_deps/freetype-src/src/cache/ftccmap.c:
 
-_deps/freetype-src/src/cache/ftcglyph.c:
+_deps/freetype-src/src/sfnt/ttcolr.h:
+
+_deps/freetype-src/src/cache/ftcglyph.h:
+
+_deps/freetype-src/src/cache/ftcimage.c:
 
 _deps/freetype-src/src/sfnt/ttsvg.c:
 
@@ -4363,25 +4427,17 @@ _deps/freetype-src/src/cache/ftcmanag.c:
 
 _deps/freetype-src/src/pfr/pfrerror.h:
 
-_deps/freetype-src/src/sfnt/ttsvg.h:
-
-_deps/freetype-src/src/cache/ftcmanag.h:
-
-_deps/freetype-src/src/cache/ftcmru.c:
-
-_deps/freetype-src/src/psaux/psconv.h:
-
 _deps/freetype-src/src/cache/ftcsbits.h:
 
 _deps/freetype-src/src/cff/cff.c:
 
-_deps/freetype-src/include/freetype/internal/services/svcfftl.h:
-
 _deps/freetype-src/src/cff/cffcmap.h:
 
-_deps/freetype-src/src/cff/cffgload.c:
+_deps/freetype-src/src/cff/cffdrivr.c:
 
-_deps/freetype-src/src/cff/cffload.c:
+_deps/freetype-src/src/cff/cffdrivr.h:
+
+_deps/freetype-src/src/cff/cffgload.c:
 
 _deps/freetype-src/src/cff/cffload.h:
 
@@ -4391,23 +4447,23 @@ _deps/freetype-src/src/cff/cfftoken.h:
 
 _deps/freetype-src/src/cid/type1cid.c:
 
-_deps/freetype-src/src/cid/ciderrs.h:
-
 _deps/freetype-src/src/cid/cidgload.h:
+
+_deps/freetype-src/src/cid/cidload.h:
 
 _deps/freetype-src/src/cid/cidparse.c:
 
-_deps/freetype-src/src/pcf/pcfread.h:
-
-_deps/freetype-src/src/cid/cidriver.h:
-
 _deps/freetype-src/src/cid/cidtoken.h:
+
+_deps/freetype-src/src/gzip/adler32.c:
 
 _deps/freetype-src/src/gzip/crc32.c:
 
+_deps/freetype-src/src/gzip/crc32.h:
+
 _deps/freetype-src/src/gzip/inffast.c:
 
-_deps/freetype-src/src/gzip/inflate.c:
+_deps/freetype-src/src/gzip/inffixed.h:
 
 _deps/freetype-src/src/gzip/inftrees.c:
 
@@ -4415,21 +4471,25 @@ _deps/freetype-src/src/gzip/zutil.c:
 
 _deps/freetype-src/src/gzip/zutil.h:
 
-_deps/freetype-src/src/lzw/ftzopen.c:
-
 _deps/freetype-src/src/pcf/pcfdrivr.c:
 
-_deps/freetype-src/src/pcf/pcfutil.c:
+_deps/freetype-src/src/pcf/pcfdrivr.h:
 
 _deps/freetype-src/src/pcf/pcfutil.h:
+
+_deps/freetype-src/src/type1/t1afm.c:
+
+_deps/freetype-src/src/pfr/pfr.c:
 
 _deps/freetype-src/src/psnames/psnames.c:
 
 _deps/freetype-src/src/pfr/pfrcmap.h:
 
-_deps/freetype-src/src/pfr/pfrgload.c:
+_deps/freetype-src/src/pfr/pfrdrivr.c:
 
-_deps/freetype-src/src/pfr/pfrgload.h:
+_deps/freetype-src/src/svg/svgtypes.h:
+
+_deps/freetype-src/src/pfr/pfrdrivr.h:
 
 _deps/freetype-src/src/pshinter/pshrec.c:
 
@@ -4439,41 +4499,35 @@ _deps/freetype-src/src/pshinter/pshrec.h:
 
 _deps/freetype-src/src/pfr/pfrload.h:
 
-_deps/freetype-src/src/pfr/pfrobjs.c:
-
 _deps/freetype-src/src/pfr/pfrobjs.h:
 
 _deps/freetype-src/src/pfr/pfrsbit.h:
 
-_deps/freetype-src/src/psaux/afmparse.c:
+_deps/freetype-src/src/pfr/pfrtypes.h:
 
 _deps/freetype-src/src/psaux/afmparse.h:
 
-_deps/freetype-src/src/psaux/cffdecode.c:
-
 _deps/freetype-src/src/psaux/cffdecode.h:
+
+_deps/freetype-src/src/psaux/psauxmod.c:
 
 _deps/freetype-src/src/psaux/psauxmod.h:
 
 _deps/freetype-src/src/psaux/psblues.c:
 
-_deps/freetype-src/src/psaux/psfont.h:
-
-_deps/freetype-src/src/psaux/psft.c:
+_deps/freetype-src/src/psaux/pserror.c:
 
 _deps/freetype-src/src/psaux/psft.h:
 
-_deps/freetype-src/src/psaux/psglue.h:
+_deps/freetype-src/src/psaux/pshints.c:
 
 _deps/freetype-src/src/psaux/psintrp.c:
 
+_deps/freetype-src/src/psaux/psintrp.h:
+
 _deps/freetype-src/src/psaux/psobjs.c:
 
-_deps/freetype-src/src/psaux/psread.c:
-
 _deps/freetype-src/src/psaux/psread.h:
-
-_deps/freetype-src/src/psaux/psstack.c:
 
 _deps/freetype-src/src/psaux/pstypes.h:
 
@@ -4501,9 +4555,13 @@ _deps/freetype-src/src/psnames/psmodule.c:
 
 _deps/freetype-src/src/psnames/pstables.h:
 
+_deps/freetype-src/src/raster/raster.c:
+
 _deps/freetype-src/src/raster/ftraster.c:
 
 _deps/freetype-src/src/raster/ftraster.h:
+
+_deps/freetype-src/src/raster/ftrend1.h:
 
 _deps/freetype-src/src/raster/rasterrs.h:
 
@@ -4515,13 +4573,15 @@ _deps/freetype-src/src/sdf/ftsdf.h:
 
 _deps/freetype-src/src/sdf/ftsdfcommon.h:
 
+_deps/freetype-src/src/sdf/ftsdfrend.h:
+
 _deps/freetype-src/src/sfnt/sfnt.c:
 
 _deps/freetype-src/src/sfnt/pngshim.c:
 
 _deps/freetype-src/src/sfnt/pngshim.h:
 
-_deps/freetype-src/src/sfnt/sferrors.h:
+_deps/freetype-src/src/sfnt/sfdriver.c:
 
 _deps/freetype-src/src/sfnt/sfobjs.c:
 
@@ -4529,7 +4589,7 @@ _deps/freetype-src/src/sfnt/sfobjs.h:
 
 _deps/freetype-src/src/sfnt/sfwoff2.c:
 
-_deps/freetype-src/src/sfnt/ttbdf.c:
+_deps/freetype-src/src/sfnt/sfwoff2.h:
 
 _deps/freetype-src/src/sfnt/ttbdf.h:
 
@@ -4559,11 +4619,7 @@ _deps/freetype-src/src/sfnt/ttsbit.c:
 
 _deps/freetype-src/src/sfnt/woff2tags.c:
 
-_deps/freetype-src/src/sfnt/woff2tags.h:
-
 _deps/freetype-src/src/smooth/ftgrays.h:
-
-_deps/freetype-src/src/smooth/ftsmerrs.h:
 
 _deps/freetype-src/src/smooth/ftsmooth.c:
 
@@ -4575,8 +4631,6 @@ _deps/freetype-src/src/type1/t1driver.h:
 
 _deps/freetype-src/src/svg/ftsvg.h:
 
-_deps/freetype-src/src/truetype/ttdriver.h:
-
 _deps/freetype-src/src/truetype/tterrors.h:
 
 _deps/freetype-src/src/truetype/ttgload.h:
@@ -4587,15 +4641,11 @@ _deps/freetype-src/src/truetype/ttinterp.h:
 
 _deps/freetype-src/src/truetype/ttpload.h:
 
-_deps/freetype-src/src/type1/type1.c:
-
 _deps/freetype-src/src/type1/t1afm.h:
 
 _deps/freetype-src/src/type1/t1errors.h:
 
 _deps/freetype-src/src/type1/t1gload.c:
-
-_deps/freetype-src/src/type1/t1gload.h:
 
 _deps/freetype-src/src/type1/t1load.c:
 
@@ -4603,23 +4653,17 @@ _deps/freetype-src/src/type1/t1load.h:
 
 _deps/freetype-src/src/type1/t1objs.c:
 
-_deps/freetype-src/src/type1/t1objs.h:
-
 _deps/freetype-src/src/type1/t1parse.c:
 
 _deps/freetype-src/src/type1/t1parse.h:
 
 _deps/freetype-src/src/type42/t42drivr.c:
 
-_deps/freetype-src/src/type42/t42drivr.h:
-
 _deps/freetype-src/src/type42/t42error.h:
 
 _deps/freetype-src/src/type42/t42objs.c:
 
 _deps/freetype-src/src/type42/t42types.h:
-
-_deps/freetype-src/src/winfonts/winfnt.c:
 
 _deps/freetype-src/src/winfonts/fnterrs.h:
 

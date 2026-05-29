@@ -1,1 +1,1 @@
--IC:/codigos/Jogo_simao -I"C:/codigos/Jogo_simao/build/_deps/sfml-src/include"
+-I"C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game" -I"C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/include"

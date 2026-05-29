@@ -21,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/meu_jogo.dir/Source/Plataforma.cpp.obj.d"
   "CMakeFiles/meu_jogo.dir/Source/Samurai.cpp.obj"
   "CMakeFiles/meu_jogo.dir/Source/Samurai.cpp.obj.d"
+  "CMakeFiles/meu_jogo.dir/Source/cobra.cpp.obj"
+  "CMakeFiles/meu_jogo.dir/Source/cobra.cpp.obj.d"
   "CMakeFiles/meu_jogo.dir/Source/main.cpp.obj"
   "CMakeFiles/meu_jogo.dir/Source/main.cpp.obj.d"
   "libmeu_jogo.dll.a"

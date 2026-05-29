@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: C:/codigos/Jogo_simao/build/_deps/flac-src/microbench
-# Build directory: C:/codigos/Jogo_simao/build/_deps/flac-build/microbench
+# Source directory: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-src/microbench
+# Build directory: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-build/microbench
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

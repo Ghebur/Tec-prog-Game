@@ -1,4 +1,4 @@
-# Install script for directory: C:/codigos/Jogo_simao/build/_deps/flac-src/microbench
+# Install script for directory: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-src/microbench
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/msys64/ucrt64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/nicol/compiladores/ucrt64/bin/objdump.exe")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/codigos/Jogo_simao/build/_deps/flac-build/microbench/install_local_manifest.txt"
+  file(WRITE "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-build/microbench/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

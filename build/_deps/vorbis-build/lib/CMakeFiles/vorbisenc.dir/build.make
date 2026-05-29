@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\codigos\Jogo_simao
+CMAKE_SOURCE_DIR = C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\codigos\Jogo_simao\build
+CMAKE_BINARY_DIR = C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build
 
 # Include any dependencies generated for this target.
 include _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/depend.make
@@ -75,16 +75,16 @@ _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj: _deps/vorbis-bu
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/includes_C.rsp
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj: _deps/vorbis-src/lib/vorbisenc.c
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\codigos\Jogo_simao\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj"
-	cd /d C:\codigos\Jogo_simao\build\_deps\vorbis-build\lib && C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj -MF CMakeFiles\vorbisenc.dir\vorbisenc.c.obj.d -o CMakeFiles\vorbisenc.dir\vorbisenc.c.obj -c C:\codigos\Jogo_simao\build\_deps\vorbis-src\lib\vorbisenc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj"
+	cd /d C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-build\lib && C:\Users\nicol\compiladores\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj -MF CMakeFiles\vorbisenc.dir\vorbisenc.c.obj.d -o CMakeFiles\vorbisenc.dir\vorbisenc.c.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-src\lib\vorbisenc.c
 
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vorbisenc.dir/vorbisenc.c.i"
-	cd /d C:\codigos\Jogo_simao\build\_deps\vorbis-build\lib && C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\codigos\Jogo_simao\build\_deps\vorbis-src\lib\vorbisenc.c > CMakeFiles\vorbisenc.dir\vorbisenc.c.i
+	cd /d C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-build\lib && C:\Users\nicol\compiladores\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-src\lib\vorbisenc.c > CMakeFiles\vorbisenc.dir\vorbisenc.c.i
 
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vorbisenc.dir/vorbisenc.c.s"
-	cd /d C:\codigos\Jogo_simao\build\_deps\vorbis-build\lib && C:\msys64\ucrt64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\codigos\Jogo_simao\build\_deps\vorbis-src\lib\vorbisenc.c -o CMakeFiles\vorbisenc.dir\vorbisenc.c.s
+	cd /d C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-build\lib && C:\Users\nicol\compiladores\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-src\lib\vorbisenc.c -o CMakeFiles\vorbisenc.dir\vorbisenc.c.s
 
 # Object files for target vorbisenc
 vorbisenc_OBJECTS = \
@@ -96,19 +96,19 @@ vorbisenc_EXTERNAL_OBJECTS =
 _deps/sfml-build/lib/libvorbisenc.a: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj
 _deps/sfml-build/lib/libvorbisenc.a: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/build.make
 _deps/sfml-build/lib/libvorbisenc.a: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\codigos\Jogo_simao\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ..\..\sfml-build\lib\libvorbisenc.a"
-	cd /d C:\codigos\Jogo_simao\build\_deps\vorbis-build\lib && $(CMAKE_COMMAND) -P CMakeFiles\vorbisenc.dir\cmake_clean_target.cmake
-	cd /d C:\codigos\Jogo_simao\build\_deps\vorbis-build\lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\vorbisenc.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library ..\..\sfml-build\lib\libvorbisenc.a"
+	cd /d C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-build\lib && $(CMAKE_COMMAND) -P CMakeFiles\vorbisenc.dir\cmake_clean_target.cmake
+	cd /d C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-build\lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\vorbisenc.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/build: _deps/sfml-build/lib/libvorbisenc.a
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/build
 
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/clean:
-	cd /d C:\codigos\Jogo_simao\build\_deps\vorbis-build\lib && $(CMAKE_COMMAND) -P CMakeFiles\vorbisenc.dir\cmake_clean.cmake
+	cd /d C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-build\lib && $(CMAKE_COMMAND) -P CMakeFiles\vorbisenc.dir\cmake_clean.cmake
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/clean
 
 _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\codigos\Jogo_simao C:\codigos\Jogo_simao\build\_deps\vorbis-src\lib C:\codigos\Jogo_simao\build C:\codigos\Jogo_simao\build\_deps\vorbis-build\lib C:\codigos\Jogo_simao\build\_deps\vorbis-build\lib\CMakeFiles\vorbisenc.dir\DependInfo.cmake "--color=$(COLOR)" vorbisenc
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-src\lib C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-build\lib C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\_deps\vorbis-build\lib\CMakeFiles\vorbisenc.dir\DependInfo.cmake "--color=$(COLOR)" vorbisenc
 .PHONY : _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/depend
 

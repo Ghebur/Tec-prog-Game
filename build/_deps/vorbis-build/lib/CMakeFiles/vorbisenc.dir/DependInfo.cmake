@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/codigos/Jogo_simao/build/_deps/vorbis-src/lib/vorbisenc.c" "_deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj" "gcc" "_deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj.d"
+  "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/vorbis-src/lib/vorbisenc.c" "_deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj" "gcc" "_deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/vorbisenc.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

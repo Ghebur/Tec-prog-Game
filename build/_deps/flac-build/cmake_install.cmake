@@ -1,4 +1,4 @@
-# Install script for directory: C:/codigos/Jogo_simao/build/_deps/flac-src
+# Install script for directory: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,14 +34,14 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/msys64/ucrt64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/nicol/compiladores/ucrt64/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/FLAC/targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/FLAC/targets.cmake"
-         "C:/codigos/Jogo_simao/build/_deps/flac-build/CMakeFiles/Export/baf7b64a9c1b56d368d1c4c52c93ff8a/targets.cmake")
+         "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-build/CMakeFiles/Export/baf7b64a9c1b56d368d1c4c52c93ff8a/targets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/FLAC/targets-*.cmake")
       if(_cmake_old_config_files)
@@ -54,36 +54,36 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FLAC" TYPE FILE FILES "C:/codigos/Jogo_simao/build/_deps/flac-build/CMakeFiles/Export/baf7b64a9c1b56d368d1c4c52c93ff8a/targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FLAC" TYPE FILE FILES "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-build/CMakeFiles/Export/baf7b64a9c1b56d368d1c4c52c93ff8a/targets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FLAC" TYPE FILE FILES "C:/codigos/Jogo_simao/build/_deps/flac-build/CMakeFiles/Export/baf7b64a9c1b56d368d1c4c52c93ff8a/targets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FLAC" TYPE FILE FILES "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-build/CMakeFiles/Export/baf7b64a9c1b56d368d1c4c52c93ff8a/targets-noconfig.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FLAC" TYPE FILE FILES
-    "C:/codigos/Jogo_simao/build/_deps/flac-build/flac-config.cmake"
-    "C:/codigos/Jogo_simao/build/_deps/flac-build/flac-config-version.cmake"
+    "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-build/flac-config.cmake"
+    "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-build/flac-config-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/FLAC" TYPE FILE FILES
-    "C:/codigos/Jogo_simao/build/_deps/flac-build/flac-config.cmake"
-    "C:/codigos/Jogo_simao/build/_deps/flac-build/flac-config-version.cmake"
+    "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-build/flac-config.cmake"
+    "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-build/flac-config-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/codigos/Jogo_simao/build/_deps/flac-build/src/cmake_install.cmake")
-  include("C:/codigos/Jogo_simao/build/_deps/flac-build/microbench/cmake_install.cmake")
+  include("C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-build/src/cmake_install.cmake")
+  include("C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-build/microbench/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/codigos/Jogo_simao/build/_deps/flac-build/install_local_manifest.txt"
+  file(WRITE "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/flac-build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

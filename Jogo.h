@@ -5,6 +5,7 @@
 #include "Fases/Mapas.h"
 #include "Entidades/Obstaculos/Oleo.h"
 #include "Entidades/Personagens/Samurai.h"
+#include "Entidades/Personagens/Cobra.h"
 
 class Jogo {
     private:
@@ -14,6 +15,7 @@ class Jogo {
         sf::RenderWindow window;
         sf::View camera;
         Samurai samurai1;
+        Cobra cobra1;
         void ProcessarEventos();
         void Atualizar();
         void Renderizar();

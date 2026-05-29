@@ -6,22 +6,22 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 # If CMAKE_DISABLE_SOURCE_CHANGES is set to true and the source directory is an
 # existing directory in our source tree, calling file(MAKE_DIRECTORY) on it
 # would cause a fatal error, even though it would be a no-op.
-if(NOT EXISTS "C:/codigos/Jogo_simao/build/_deps/ogg-src")
-  file(MAKE_DIRECTORY "C:/codigos/Jogo_simao/build/_deps/ogg-src")
+if(NOT EXISTS "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-src")
+  file(MAKE_DIRECTORY "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-src")
 endif()
 file(MAKE_DIRECTORY
-  "C:/codigos/Jogo_simao/build/_deps/ogg-build"
-  "C:/codigos/Jogo_simao/build/_deps/ogg-subbuild/ogg-populate-prefix"
-  "C:/codigos/Jogo_simao/build/_deps/ogg-subbuild/ogg-populate-prefix/tmp"
-  "C:/codigos/Jogo_simao/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp"
-  "C:/codigos/Jogo_simao/build/_deps/ogg-subbuild/ogg-populate-prefix/src"
-  "C:/codigos/Jogo_simao/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp"
+  "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-build"
+  "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-subbuild/ogg-populate-prefix"
+  "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-subbuild/ogg-populate-prefix/tmp"
+  "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp"
+  "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-subbuild/ogg-populate-prefix/src"
+  "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/codigos/Jogo_simao/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/codigos/Jogo_simao/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\codigos\Jogo_simao
+CMAKE_SOURCE_DIR = C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\codigos\Jogo_simao\build
+CMAKE_BINARY_DIR = C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -151,9 +151,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\codigos\Jogo_simao\build\CMakeFiles C:\codigos\Jogo_simao\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\codigos\Jogo_simao\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -626,6 +626,30 @@ Source/Samurai.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Samurai.cpp.s
 .PHONY : Source/Samurai.cpp.s
 
+Source/cobra.obj: Source/cobra.cpp.obj
+.PHONY : Source/cobra.obj
+
+# target to build an object file
+Source/cobra.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/cobra.cpp.obj
+.PHONY : Source/cobra.cpp.obj
+
+Source/cobra.i: Source/cobra.cpp.i
+.PHONY : Source/cobra.i
+
+# target to preprocess a source file
+Source/cobra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/cobra.cpp.i
+.PHONY : Source/cobra.cpp.i
+
+Source/cobra.s: Source/cobra.cpp.s
+.PHONY : Source/cobra.s
+
+# target to generate assembly for a file
+Source/cobra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/cobra.cpp.s
+.PHONY : Source/cobra.cpp.s
+
 Source/main.obj: Source/main.cpp.obj
 .PHONY : Source/main.obj
 
@@ -711,6 +735,9 @@ help:
 	@echo ... Source/Samurai.obj
 	@echo ... Source/Samurai.i
 	@echo ... Source/Samurai.s
+	@echo ... Source/cobra.obj
+	@echo ... Source/cobra.i
+	@echo ... Source/cobra.s
 	@echo ... Source/main.obj
 	@echo ... Source/main.i
 	@echo ... Source/main.s
