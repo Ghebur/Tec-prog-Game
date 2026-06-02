@@ -12,6 +12,8 @@ protected:
         if (spawns.size() >= 1) inimigos.incluir(new Cobra(spawns[0].x, spawns[0].y));
         if (spawns.size() >= 2) inimigos.incluir(new Samurai(spawns[1].x, spawns[1].y));
         if (spawns.size() >= 3) inimigos.incluir(new Cobra(spawns[2].x, spawns[2].y));
+        
+
 
         // spawns de plataforma (50% de chance cada)
         auto platSpawns = mapa.getSpawnPoints(5);

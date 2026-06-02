@@ -12,5 +12,7 @@ class Entidades:public Ent{
         ~Entidades();
         sf::Vector2f getPos();
         float getTamanho();
+        //virtual void executar()=0;
+        //virtual void salvar()=0;
 
 };

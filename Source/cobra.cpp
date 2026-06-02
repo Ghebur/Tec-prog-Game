@@ -13,8 +13,10 @@ origemX(x)
 Cobra::~Cobra() {}
 
 void Cobra::movimentaçao() {
+    float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
     float tempo = relogio.getElapsedTime().asSeconds();
-    posicao.x = origemX + std::sin(tempo * velocidade.x) * 100.f;
+    
+    posicao.x = origemX + std::sin(tempo * velX) * 100.f;
     corpo.setPosition(posicao);
 }
 
