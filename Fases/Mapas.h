@@ -22,4 +22,5 @@ public:
     void desenhar(sf::RenderWindow& window);
     int getTile(sf::Vector2f pos);
     void colidirComPersonagens(Personagens& p);
+    std::vector<sf::Vector2f> getSpawnPoints(int tile = 4);
 };

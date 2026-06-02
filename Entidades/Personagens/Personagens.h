@@ -20,6 +20,11 @@ class Personagens:public Entidades{
         void verificarColisaoChao(Mapa1& mapa, float alturaCorpo);
         void receberKnockback(sf::Vector2f forca);
         bool podeReceberDano() const { return framesSemDano <= 0; }
+        bool estaVivo() const { return vida > 0; }
+        void perderVida() { if (vida > 0) vida--; }
+        int getVida() const { return vida; }
+        virtual bool estaArmado() const { return false; }
+        void empurrar(float forcaX) { impulso.x = forcaX; }
         virtual sf::FloatRect getBounds() { return {posicao, {tamanho, tamanho}}; }
         void setEmOleo(bool v) { emOleo = v; }
         void setPos(sf::Vector2f pos) { posicao = pos; }

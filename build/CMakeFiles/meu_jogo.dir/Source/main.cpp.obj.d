@@ -298,8 +298,12 @@ CMakeFiles/meu_jogo.dir/Source/main.cpp.obj: \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Obstaculos/Plataforma.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Obstaculos/Obstaculos.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Obstaculos/Oleo.h \
- C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Samurai.h \
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Fases/FasePrimeira.h \
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Fases/Fase.h \
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Listas/Lista.h \
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Elemento.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Inimigos.h \
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Samurai.h \
  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/cmath \
  C:/Users/nicol/compiladores/ucrt64/include/math.h \
  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/specfun.h \

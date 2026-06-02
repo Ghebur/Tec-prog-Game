@@ -889,6 +889,7 @@ CMakeFiles/meu_jogo.dir/Source/Inimigos.cpp.obj
 
 CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Jogo.cpp
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Elemento.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Ent.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Entidades.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Obstaculos/Obstaculos.h
@@ -899,8 +900,11 @@ CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Ninja.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Personagens.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Samurai.h
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Fases/Fase.h
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Fases/FasePrimeira.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Fases/Mapas.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Jogo.h
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Listas/Lista.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/include/SFML/Config.hpp
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/include/SFML/Graphics.hpp
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp
@@ -3625,6 +3629,7 @@ CMakeFiles/meu_jogo.dir/Source/cobra.cpp.obj
 
 CMakeFiles/meu_jogo.dir/Source/main.cpp.obj
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/main.cpp
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Elemento.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Ent.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Entidades.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Obstaculos/Obstaculos.h
@@ -3635,8 +3640,11 @@ CMakeFiles/meu_jogo.dir/Source/main.cpp.obj
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Ninja.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Personagens.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Samurai.h
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Fases/Fase.h
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Fases/FasePrimeira.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Fases/Mapas.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Jogo.h
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Listas/Lista.h
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/include/SFML/Config.hpp
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/include/SFML/Graphics.hpp
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp
