@@ -11,9 +11,12 @@ origemX(x)
 
 Samurai::~Samurai() {}
 
+#define DELTA_TIME (1.0f / 60.0f)
+
 void Samurai::movimentaçao() {
-    float tempo = relogio.getElapsedTime().asSeconds();
-    posicao.x = origemX + std::sin(tempo * velocidade.x) * 100.f;
+    float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
+    angulo += velX * DELTA_TIME;
+    posicao.x = origemX + std::sin(angulo) * 100.f;
     corpo.setPosition(posicao);
 }
 

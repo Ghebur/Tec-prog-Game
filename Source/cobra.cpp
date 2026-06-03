@@ -14,9 +14,8 @@ Cobra::~Cobra() {}
 
 void Cobra::movimentaçao() {
     float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
-    float tempo = relogio.getElapsedTime().asSeconds();
-    
-    posicao.x = origemX + std::sin(tempo * velX) * 100.f;
+    angulo += velX * DELTA_TIME;
+    posicao.x = origemX + std::sin(angulo) * 100.f;
     corpo.setPosition(posicao);
 }
 

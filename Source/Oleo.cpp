@@ -1,9 +1,8 @@
 #include "../Entidades/Obstaculos/Oleo.h"
 #include "../Entidades/Personagens/Personagens.h"
 
-
-oleo::oleo(sf::Vector2f pos, sf::Vector2f tam):
-Obstaculos(0, false, tam.x, pos)
+oleo::oleo(sf::Vector2f pos, sf::Vector2f tam) :
+    Obstaculos(0, false, tam.y, pos)
 {
     forma.setSize(tam);
     forma.setPosition(pos);
@@ -13,12 +12,8 @@ Obstaculos(0, false, tam.x, pos)
 oleo::~oleo() {}
 
 void oleo::obstaculizar(Personagens& p) {
-    sf::FloatRect bounds = forma.getGlobalBounds();
-    sf::FloatRect pBounds = {p.getPos(), {p.getTamanho(), p.getTamanho()}};
-
-    if (bounds.findIntersection(pBounds)) {
+    if (forma.getGlobalBounds().findIntersection(p.getBounds()))
         p.setEmOleo(true);
-    }
 }
 
 void oleo::desenhar(sf::RenderWindow& window) {

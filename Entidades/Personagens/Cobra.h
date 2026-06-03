@@ -6,8 +6,8 @@
 class Cobra : public Inimigo {
     private:
         sf::RectangleShape corpo;
-        sf::Clock relogio;
         float origemX;
+        float angulo = 0.f;
     public:
         Cobra(float x, float y);
         ~Cobra();

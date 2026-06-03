@@ -9,17 +9,22 @@ private:
 
 public:
     ListaEntidades() {}
-    ~ListaEntidades() {}
+
+    ~ListaEntidades() {
+        for (Elemento<Entidades>* e = LEs.getPrimeiro(); e != nullptr; e = e->getProximo())
+            delete e->getInfo();
+    }
 
     void incluir(Entidades* pE) {
         LEs.incluir(pE);
     }
 
     void percorrer(sf::RenderWindow& window) {
-        Elemento<Entidades>* atual = LEs.getPrimeiro();
-        while (atual != nullptr) {
-            atual->getInfo()->desenhar(window);
-            atual = atual->getProximo();
-        }
+        for (Elemento<Entidades>* e = LEs.getPrimeiro(); e != nullptr; e = e->getProximo())
+            e->getInfo()->desenhar(window);
+    }
+
+    Elemento<Entidades>* getPrimeiro() const {
+        return LEs.getPrimeiro();
     }
 };

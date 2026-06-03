@@ -101,11 +101,56 @@ CMakeFiles/meu_jogo.dir/Source/Entidades.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/meu_jogo.dir/Source/Entidades.cpp.s"
 	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Entidades.cpp -o CMakeFiles\meu_jogo.dir\Source\Entidades.cpp.s
 
+CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.obj: CMakeFiles/meu_jogo.dir/flags.make
+CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.obj: CMakeFiles/meu_jogo.dir/includes_CXX.rsp
+CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Espinho.cpp
+CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.obj: CMakeFiles/meu_jogo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.obj"
+	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.obj -MF CMakeFiles\meu_jogo.dir\Source\Espinho.cpp.obj.d -o CMakeFiles\meu_jogo.dir\Source\Espinho.cpp.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Espinho.cpp
+
+CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.i"
+	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Espinho.cpp > CMakeFiles\meu_jogo.dir\Source\Espinho.cpp.i
+
+CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.s"
+	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Espinho.cpp -o CMakeFiles\meu_jogo.dir\Source\Espinho.cpp.s
+
+CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj: CMakeFiles/meu_jogo.dir/flags.make
+CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj: CMakeFiles/meu_jogo.dir/includes_CXX.rsp
+CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Fase.cpp
+CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj: CMakeFiles/meu_jogo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj"
+	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj -MF CMakeFiles\meu_jogo.dir\Source\Fase.cpp.obj.d -o CMakeFiles\meu_jogo.dir\Source\Fase.cpp.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Fase.cpp
+
+CMakeFiles/meu_jogo.dir/Source/Fase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/meu_jogo.dir/Source/Fase.cpp.i"
+	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Fase.cpp > CMakeFiles\meu_jogo.dir\Source\Fase.cpp.i
+
+CMakeFiles/meu_jogo.dir/Source/Fase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/meu_jogo.dir/Source/Fase.cpp.s"
+	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Fase.cpp -o CMakeFiles\meu_jogo.dir\Source\Fase.cpp.s
+
+CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj: CMakeFiles/meu_jogo.dir/flags.make
+CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj: CMakeFiles/meu_jogo.dir/includes_CXX.rsp
+CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/FasePrimeira.cpp
+CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj: CMakeFiles/meu_jogo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj"
+	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj -MF CMakeFiles\meu_jogo.dir\Source\FasePrimeira.cpp.obj.d -o CMakeFiles\meu_jogo.dir\Source\FasePrimeira.cpp.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\FasePrimeira.cpp
+
+CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.i"
+	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\FasePrimeira.cpp > CMakeFiles\meu_jogo.dir\Source\FasePrimeira.cpp.i
+
+CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.s"
+	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\FasePrimeira.cpp -o CMakeFiles\meu_jogo.dir\Source\FasePrimeira.cpp.s
+
 CMakeFiles/meu_jogo.dir/Source/Inimigos.cpp.obj: CMakeFiles/meu_jogo.dir/flags.make
 CMakeFiles/meu_jogo.dir/Source/Inimigos.cpp.obj: CMakeFiles/meu_jogo.dir/includes_CXX.rsp
 CMakeFiles/meu_jogo.dir/Source/Inimigos.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Inimigos.cpp
 CMakeFiles/meu_jogo.dir/Source/Inimigos.cpp.obj: CMakeFiles/meu_jogo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Inimigos.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Inimigos.cpp.obj"
 	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meu_jogo.dir/Source/Inimigos.cpp.obj -MF CMakeFiles\meu_jogo.dir\Source\Inimigos.cpp.obj.d -o CMakeFiles\meu_jogo.dir\Source\Inimigos.cpp.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Inimigos.cpp
 
 CMakeFiles/meu_jogo.dir/Source/Inimigos.cpp.i: cmake_force
@@ -120,7 +165,7 @@ CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj: CMakeFiles/meu_jogo.dir/flags.make
 CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj: CMakeFiles/meu_jogo.dir/includes_CXX.rsp
 CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Jogo.cpp
 CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj: CMakeFiles/meu_jogo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj"
 	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj -MF CMakeFiles\meu_jogo.dir\Source\Jogo.cpp.obj.d -o CMakeFiles\meu_jogo.dir\Source\Jogo.cpp.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Jogo.cpp
 
 CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.i: cmake_force
@@ -135,7 +180,7 @@ CMakeFiles/meu_jogo.dir/Source/Mapa1.cpp.obj: CMakeFiles/meu_jogo.dir/flags.make
 CMakeFiles/meu_jogo.dir/Source/Mapa1.cpp.obj: CMakeFiles/meu_jogo.dir/includes_CXX.rsp
 CMakeFiles/meu_jogo.dir/Source/Mapa1.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Mapa1.cpp
 CMakeFiles/meu_jogo.dir/Source/Mapa1.cpp.obj: CMakeFiles/meu_jogo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Mapa1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Mapa1.cpp.obj"
 	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meu_jogo.dir/Source/Mapa1.cpp.obj -MF CMakeFiles\meu_jogo.dir\Source\Mapa1.cpp.obj.d -o CMakeFiles\meu_jogo.dir\Source\Mapa1.cpp.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Mapa1.cpp
 
 CMakeFiles/meu_jogo.dir/Source/Mapa1.cpp.i: cmake_force
@@ -150,7 +195,7 @@ CMakeFiles/meu_jogo.dir/Source/Ninja.cpp.obj: CMakeFiles/meu_jogo.dir/flags.make
 CMakeFiles/meu_jogo.dir/Source/Ninja.cpp.obj: CMakeFiles/meu_jogo.dir/includes_CXX.rsp
 CMakeFiles/meu_jogo.dir/Source/Ninja.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Ninja.cpp
 CMakeFiles/meu_jogo.dir/Source/Ninja.cpp.obj: CMakeFiles/meu_jogo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Ninja.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Ninja.cpp.obj"
 	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meu_jogo.dir/Source/Ninja.cpp.obj -MF CMakeFiles\meu_jogo.dir\Source\Ninja.cpp.obj.d -o CMakeFiles\meu_jogo.dir\Source\Ninja.cpp.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Ninja.cpp
 
 CMakeFiles/meu_jogo.dir/Source/Ninja.cpp.i: cmake_force
@@ -165,7 +210,7 @@ CMakeFiles/meu_jogo.dir/Source/Obstaculos.cpp.obj: CMakeFiles/meu_jogo.dir/flags
 CMakeFiles/meu_jogo.dir/Source/Obstaculos.cpp.obj: CMakeFiles/meu_jogo.dir/includes_CXX.rsp
 CMakeFiles/meu_jogo.dir/Source/Obstaculos.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Obstaculos.cpp
 CMakeFiles/meu_jogo.dir/Source/Obstaculos.cpp.obj: CMakeFiles/meu_jogo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Obstaculos.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Obstaculos.cpp.obj"
 	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meu_jogo.dir/Source/Obstaculos.cpp.obj -MF CMakeFiles\meu_jogo.dir\Source\Obstaculos.cpp.obj.d -o CMakeFiles\meu_jogo.dir\Source\Obstaculos.cpp.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Obstaculos.cpp
 
 CMakeFiles/meu_jogo.dir/Source/Obstaculos.cpp.i: cmake_force
@@ -180,7 +225,7 @@ CMakeFiles/meu_jogo.dir/Source/Oleo.cpp.obj: CMakeFiles/meu_jogo.dir/flags.make
 CMakeFiles/meu_jogo.dir/Source/Oleo.cpp.obj: CMakeFiles/meu_jogo.dir/includes_CXX.rsp
 CMakeFiles/meu_jogo.dir/Source/Oleo.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Oleo.cpp
 CMakeFiles/meu_jogo.dir/Source/Oleo.cpp.obj: CMakeFiles/meu_jogo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Oleo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Oleo.cpp.obj"
 	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meu_jogo.dir/Source/Oleo.cpp.obj -MF CMakeFiles\meu_jogo.dir\Source\Oleo.cpp.obj.d -o CMakeFiles\meu_jogo.dir\Source\Oleo.cpp.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Oleo.cpp
 
 CMakeFiles/meu_jogo.dir/Source/Oleo.cpp.i: cmake_force
@@ -195,7 +240,7 @@ CMakeFiles/meu_jogo.dir/Source/Personagens.cpp.obj: CMakeFiles/meu_jogo.dir/flag
 CMakeFiles/meu_jogo.dir/Source/Personagens.cpp.obj: CMakeFiles/meu_jogo.dir/includes_CXX.rsp
 CMakeFiles/meu_jogo.dir/Source/Personagens.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Personagens.cpp
 CMakeFiles/meu_jogo.dir/Source/Personagens.cpp.obj: CMakeFiles/meu_jogo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Personagens.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Personagens.cpp.obj"
 	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meu_jogo.dir/Source/Personagens.cpp.obj -MF CMakeFiles\meu_jogo.dir\Source\Personagens.cpp.obj.d -o CMakeFiles\meu_jogo.dir\Source\Personagens.cpp.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Personagens.cpp
 
 CMakeFiles/meu_jogo.dir/Source/Personagens.cpp.i: cmake_force
@@ -210,7 +255,7 @@ CMakeFiles/meu_jogo.dir/Source/Plataforma.cpp.obj: CMakeFiles/meu_jogo.dir/flags
 CMakeFiles/meu_jogo.dir/Source/Plataforma.cpp.obj: CMakeFiles/meu_jogo.dir/includes_CXX.rsp
 CMakeFiles/meu_jogo.dir/Source/Plataforma.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Plataforma.cpp
 CMakeFiles/meu_jogo.dir/Source/Plataforma.cpp.obj: CMakeFiles/meu_jogo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Plataforma.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Plataforma.cpp.obj"
 	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meu_jogo.dir/Source/Plataforma.cpp.obj -MF CMakeFiles\meu_jogo.dir\Source\Plataforma.cpp.obj.d -o CMakeFiles\meu_jogo.dir\Source\Plataforma.cpp.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Plataforma.cpp
 
 CMakeFiles/meu_jogo.dir/Source/Plataforma.cpp.i: cmake_force
@@ -225,7 +270,7 @@ CMakeFiles/meu_jogo.dir/Source/Samurai.cpp.obj: CMakeFiles/meu_jogo.dir/flags.ma
 CMakeFiles/meu_jogo.dir/Source/Samurai.cpp.obj: CMakeFiles/meu_jogo.dir/includes_CXX.rsp
 CMakeFiles/meu_jogo.dir/Source/Samurai.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Samurai.cpp
 CMakeFiles/meu_jogo.dir/Source/Samurai.cpp.obj: CMakeFiles/meu_jogo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Samurai.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/meu_jogo.dir/Source/Samurai.cpp.obj"
 	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meu_jogo.dir/Source/Samurai.cpp.obj -MF CMakeFiles\meu_jogo.dir\Source\Samurai.cpp.obj.d -o CMakeFiles\meu_jogo.dir\Source\Samurai.cpp.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Samurai.cpp
 
 CMakeFiles/meu_jogo.dir/Source/Samurai.cpp.i: cmake_force
@@ -240,7 +285,7 @@ CMakeFiles/meu_jogo.dir/Source/cobra.cpp.obj: CMakeFiles/meu_jogo.dir/flags.make
 CMakeFiles/meu_jogo.dir/Source/cobra.cpp.obj: CMakeFiles/meu_jogo.dir/includes_CXX.rsp
 CMakeFiles/meu_jogo.dir/Source/cobra.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/cobra.cpp
 CMakeFiles/meu_jogo.dir/Source/cobra.cpp.obj: CMakeFiles/meu_jogo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/meu_jogo.dir/Source/cobra.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/meu_jogo.dir/Source/cobra.cpp.obj"
 	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meu_jogo.dir/Source/cobra.cpp.obj -MF CMakeFiles\meu_jogo.dir\Source\cobra.cpp.obj.d -o CMakeFiles\meu_jogo.dir\Source\cobra.cpp.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\cobra.cpp
 
 CMakeFiles/meu_jogo.dir/Source/cobra.cpp.i: cmake_force
@@ -255,7 +300,7 @@ CMakeFiles/meu_jogo.dir/Source/main.cpp.obj: CMakeFiles/meu_jogo.dir/flags.make
 CMakeFiles/meu_jogo.dir/Source/main.cpp.obj: CMakeFiles/meu_jogo.dir/includes_CXX.rsp
 CMakeFiles/meu_jogo.dir/Source/main.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/main.cpp
 CMakeFiles/meu_jogo.dir/Source/main.cpp.obj: CMakeFiles/meu_jogo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/meu_jogo.dir/Source/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/meu_jogo.dir/Source/main.cpp.obj"
 	C:\Users\nicol\compiladores\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/meu_jogo.dir/Source/main.cpp.obj -MF CMakeFiles\meu_jogo.dir\Source\main.cpp.obj.d -o CMakeFiles\meu_jogo.dir\Source\main.cpp.obj -c C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\main.cpp
 
 CMakeFiles/meu_jogo.dir/Source/main.cpp.i: cmake_force
@@ -270,6 +315,9 @@ CMakeFiles/meu_jogo.dir/Source/main.cpp.s: cmake_force
 meu_jogo_OBJECTS = \
 "CMakeFiles/meu_jogo.dir/Source/Ent.cpp.obj" \
 "CMakeFiles/meu_jogo.dir/Source/Entidades.cpp.obj" \
+"CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.obj" \
+"CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj" \
+"CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj" \
 "CMakeFiles/meu_jogo.dir/Source/Inimigos.cpp.obj" \
 "CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj" \
 "CMakeFiles/meu_jogo.dir/Source/Mapa1.cpp.obj" \
@@ -287,6 +335,9 @@ meu_jogo_EXTERNAL_OBJECTS =
 
 meu_jogo.exe: CMakeFiles/meu_jogo.dir/Source/Ent.cpp.obj
 meu_jogo.exe: CMakeFiles/meu_jogo.dir/Source/Entidades.cpp.obj
+meu_jogo.exe: CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.obj
+meu_jogo.exe: CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj
+meu_jogo.exe: CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj
 meu_jogo.exe: CMakeFiles/meu_jogo.dir/Source/Inimigos.cpp.obj
 meu_jogo.exe: CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj
 meu_jogo.exe: CMakeFiles/meu_jogo.dir/Source/Mapa1.cpp.obj
@@ -313,7 +364,7 @@ meu_jogo.exe: _deps/sfml-build/lib/libogg.a
 meu_jogo.exe: CMakeFiles/meu_jogo.dir/linkLibs.rsp
 meu_jogo.exe: CMakeFiles/meu_jogo.dir/objects1.rsp
 meu_jogo.exe: CMakeFiles/meu_jogo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable meu_jogo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable meu_jogo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\meu_jogo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -23,4 +23,5 @@ public:
     int getTile(sf::Vector2f pos);
     void colidirComPersonagens(Personagens& p);
     std::vector<sf::Vector2f> getSpawnPoints(int tile = 4);
+    void adicionarPlataforma(float x, float y);
 };

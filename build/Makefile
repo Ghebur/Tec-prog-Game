@@ -410,6 +410,78 @@ Source/Entidades.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Entidades.cpp.s
 .PHONY : Source/Entidades.cpp.s
 
+Source/Espinho.obj: Source/Espinho.cpp.obj
+.PHONY : Source/Espinho.obj
+
+# target to build an object file
+Source/Espinho.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.obj
+.PHONY : Source/Espinho.cpp.obj
+
+Source/Espinho.i: Source/Espinho.cpp.i
+.PHONY : Source/Espinho.i
+
+# target to preprocess a source file
+Source/Espinho.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.i
+.PHONY : Source/Espinho.cpp.i
+
+Source/Espinho.s: Source/Espinho.cpp.s
+.PHONY : Source/Espinho.s
+
+# target to generate assembly for a file
+Source/Espinho.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.s
+.PHONY : Source/Espinho.cpp.s
+
+Source/Fase.obj: Source/Fase.cpp.obj
+.PHONY : Source/Fase.obj
+
+# target to build an object file
+Source/Fase.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj
+.PHONY : Source/Fase.cpp.obj
+
+Source/Fase.i: Source/Fase.cpp.i
+.PHONY : Source/Fase.i
+
+# target to preprocess a source file
+Source/Fase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Fase.cpp.i
+.PHONY : Source/Fase.cpp.i
+
+Source/Fase.s: Source/Fase.cpp.s
+.PHONY : Source/Fase.s
+
+# target to generate assembly for a file
+Source/Fase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Fase.cpp.s
+.PHONY : Source/Fase.cpp.s
+
+Source/FasePrimeira.obj: Source/FasePrimeira.cpp.obj
+.PHONY : Source/FasePrimeira.obj
+
+# target to build an object file
+Source/FasePrimeira.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj
+.PHONY : Source/FasePrimeira.cpp.obj
+
+Source/FasePrimeira.i: Source/FasePrimeira.cpp.i
+.PHONY : Source/FasePrimeira.i
+
+# target to preprocess a source file
+Source/FasePrimeira.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.i
+.PHONY : Source/FasePrimeira.cpp.i
+
+Source/FasePrimeira.s: Source/FasePrimeira.cpp.s
+.PHONY : Source/FasePrimeira.s
+
+# target to generate assembly for a file
+Source/FasePrimeira.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.s
+.PHONY : Source/FasePrimeira.cpp.s
+
 Source/Inimigos.obj: Source/Inimigos.cpp.obj
 .PHONY : Source/Inimigos.obj
 
@@ -708,6 +780,15 @@ help:
 	@echo ... Source/Entidades.obj
 	@echo ... Source/Entidades.i
 	@echo ... Source/Entidades.s
+	@echo ... Source/Espinho.obj
+	@echo ... Source/Espinho.i
+	@echo ... Source/Espinho.s
+	@echo ... Source/Fase.obj
+	@echo ... Source/Fase.i
+	@echo ... Source/Fase.s
+	@echo ... Source/FasePrimeira.obj
+	@echo ... Source/FasePrimeira.i
+	@echo ... Source/FasePrimeira.s
 	@echo ... Source/Inimigos.obj
 	@echo ... Source/Inimigos.i
 	@echo ... Source/Inimigos.s

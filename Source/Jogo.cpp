@@ -7,23 +7,20 @@ Jogo::Jogo() :
     mapa1(),
     fase1(mapa1)
 {
-    window.setFramerateLimit(60);  
+    window.setFramerateLimit(60);
     camera.setSize(sf::Vector2f(800.f, 600.f));
 }
 
 Jogo::~Jogo() {}
 
-void Jogo::Atualizar(){
-
+void Jogo::Atualizar() {
     sf::Vector2f posJogador = ninja.getPos();
-    posJogador.y = 300;
+    posJogador.y=300.f;
     camera.setCenter(posJogador);
-
 
     fase1.atualizarInimigos(mapa1, ninja);
     if (ninja.estaVivo()) ninja.update(mapa1);
-
-    
+    fase1.processarObstaculos(ninja);
 }
 
 void Jogo::Renderizar() {
@@ -32,17 +29,15 @@ void Jogo::Renderizar() {
 
     mapa1.desenhar(window);
     if (ninja.estaVivo()) ninja.desenhar(window);
-    fase1.desenharInimigos(window);
+    fase1.desenharEntidades(window);
 
     window.display();
 }
-void Jogo::ProcessarEventos() {
 
+void Jogo::ProcessarEventos() {
     while (const std::optional event = window.pollEvent()) {
-        
-        if (event->is<sf::Event::Closed>()) {
+        if (event->is<sf::Event::Closed>())
             window.close();
-        }
     }
 }
 

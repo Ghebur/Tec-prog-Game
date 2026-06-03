@@ -10,7 +10,7 @@ class Ninja : public Personagens {
     enum class EstadoLanca { NORMAL, ARMADO, COOLDOWN };
     EstadoLanca estadoLanca = EstadoLanca::NORMAL;
     sf::Clock relogioLanca;
-    bool armado = false;
+    bool armado;
 
 public:
     Ninja(float x, float y);

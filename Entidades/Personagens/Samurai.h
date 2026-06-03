@@ -6,8 +6,8 @@
 class Samurai : public Inimigo {
     private:
         sf::RectangleShape corpo;
-        sf::Clock relogio;
         float origemX;
+        float angulo = 0.f;
     public:
         Samurai(float x, float y);
         ~Samurai();

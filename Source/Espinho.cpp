@@ -1,22 +1,26 @@
 #include "../Entidades/Obstaculos/Espinho.h"
+#include "../Entidades/Personagens/Personagens.h"
 
-
-Espinho::Espinho(sf::Vector2f pos, sf::Vector2f tam):
-Obstaculos(0, true, tam.x, pos)
+Espinho::Espinho(sf::Vector2f pos, sf::Vector2f tam) :
+    Obstaculos(0, true, tam.x, pos),
+    danosidade(1)
 {
     forma.setSize(tam);
     forma.setPosition(pos);
-    forma.setFillColor(sf::Color(0,0,255));
-}
-Espinho::~Espinho(){    
+    forma.setFillColor(sf::Color(200, 200, 0));
 }
 
-void Espinho::obstaculizar(Ninja& p){
-    sf::FloatRect bounds = forma.getGlobalBounds();
-    sf::FloatRect pBounds = {p.getPos(), {p.getTamanho(), p.getTamanho()}};
+Espinho::~Espinho() {}
 
-    if (bounds.findIntersection(pBounds)) {
-        p.receberKnockback({300.f,400.f});
-        p.perderVida();
-    }
+void Espinho::obstaculizar(Personagens& p) {
+    if (!forma.getGlobalBounds().findIntersection(p.getBounds())) return;
+    if (!p.podeReceberDano()) return;
+
+    float dir = (p.getPos().x < posicao.x) ? -1.f : 1.f;
+    p.receberKnockback({dir * 700.f, -400.f});
+    p.perderVida();
+}
+
+void Espinho::desenhar(sf::RenderWindow& window) {
+    window.draw(forma);
 }

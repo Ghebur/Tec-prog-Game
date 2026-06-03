@@ -300,6 +300,7 @@ CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj: \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Obstaculos/Oleo.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Fases/FasePrimeira.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Fases/Fase.h \
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Listas/Lista_De_Entidades.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Listas/Lista.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Elemento.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Inimigos.h \

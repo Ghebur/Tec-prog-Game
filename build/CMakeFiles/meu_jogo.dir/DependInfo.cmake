@@ -10,6 +10,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Ent.cpp" "CMakeFiles/meu_jogo.dir/Source/Ent.cpp.obj" "gcc" "CMakeFiles/meu_jogo.dir/Source/Ent.cpp.obj.d"
   "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Entidades.cpp" "CMakeFiles/meu_jogo.dir/Source/Entidades.cpp.obj" "gcc" "CMakeFiles/meu_jogo.dir/Source/Entidades.cpp.obj.d"
+  "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Espinho.cpp" "CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.obj" "gcc" "CMakeFiles/meu_jogo.dir/Source/Espinho.cpp.obj.d"
+  "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Fase.cpp" "CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj" "gcc" "CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj.d"
+  "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/FasePrimeira.cpp" "CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj" "gcc" "CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj.d"
   "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Inimigos.cpp" "CMakeFiles/meu_jogo.dir/Source/Inimigos.cpp.obj" "gcc" "CMakeFiles/meu_jogo.dir/Source/Inimigos.cpp.obj.d"
   "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Jogo.cpp" "CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj" "gcc" "CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj.d"
   "C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Mapa1.cpp" "CMakeFiles/meu_jogo.dir/Source/Mapa1.cpp.obj" "gcc" "CMakeFiles/meu_jogo.dir/Source/Mapa1.cpp.obj.d"

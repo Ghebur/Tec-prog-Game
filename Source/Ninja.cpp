@@ -10,6 +10,7 @@ Ninja::Ninja(float x, float y) : Personagens(1, 3, sf::Vector2f(4.5f, 4.5f), 12.
 
     lanca.setSize({20.f, 4.f});
     lanca.setFillColor(sf::Color(200, 200, 50));
+    armado=false;
 }
 
 Ninja::~Ninja() {}
@@ -35,7 +36,7 @@ void Ninja::movimentaçao() {
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D))
         posicao.x += velX;
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W) && noChao) {
-        velocidade.y = emOleo ? -250.f : -500.f;
+        velocidade.y = emOleo ? -250.f : -700.f;
         noChao = false;
     }
 
