@@ -440,16 +440,16 @@ CMakeFiles/meu_jogo.dir/all: _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-aud
 CMakeFiles/meu_jogo.dir/all: _deps/ogg-build/CMakeFiles/ogg.dir/all
 CMakeFiles/meu_jogo.dir/all: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/all
 CMakeFiles/meu_jogo.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all
-CMakeFiles/meu_jogo.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all
 CMakeFiles/meu_jogo.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/all
+CMakeFiles/meu_jogo.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=36,37,38,39,40,41,42,43 "Built target meu_jogo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=36,37,38,39,40,41,42,43,44 "Built target meu_jogo"
 .PHONY : CMakeFiles/meu_jogo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/meu_jogo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles 93
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles 94
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/meu_jogo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles 0
 .PHONY : CMakeFiles/meu_jogo.dir/rule
@@ -461,7 +461,7 @@ meu_jogo: CMakeFiles/meu_jogo.dir/rule
 # codegen rule for target.
 CMakeFiles/meu_jogo.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=36,37,38,39,40,41,42,43 "Finished codegen for target meu_jogo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=36,37,38,39,40,41,42,43,44 "Finished codegen for target meu_jogo"
 .PHONY : CMakeFiles/meu_jogo.dir/codegen
 
 # clean rule for target.
@@ -508,7 +508,7 @@ _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/clean:
 _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=67 "Built target sfml-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=68 "Built target sfml-main"
 .PHONY : _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -525,7 +525,7 @@ sfml-main: _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/rule
 # codegen rule for target.
 _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Main\CMakeFiles\sfml-main.dir\build.make _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=67 "Finished codegen for target sfml-main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=68 "Finished codegen for target sfml-main"
 .PHONY : _deps/sfml-build/src/SFML/Main/CMakeFiles/sfml-main.dir/codegen
 
 # clean rule for target.
@@ -572,12 +572,12 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/clean:
 _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/all: _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Network\CMakeFiles\sfml-network.dir\build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Network\CMakeFiles\sfml-network.dir\build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=68,69,70,71,72 "Built target sfml-network"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=69,70,71,72 "Built target sfml-network"
 .PHONY : _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles 0
 .PHONY : _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/rule
@@ -589,7 +589,7 @@ sfml-network: _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/rule
 # codegen rule for target.
 _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Network\CMakeFiles\sfml-network.dir\build.make _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=68,69,70,71,72 "Finished codegen for target sfml-network"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=69,70,71,72 "Finished codegen for target sfml-network"
 .PHONY : _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/codegen
 
 # clean rule for target.
@@ -606,7 +606,7 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: _deps/sfml-
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: _deps/freetype-build/CMakeFiles/freetype.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Graphics\CMakeFiles\sfml-graphics.dir\build.make _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Graphics\CMakeFiles\sfml-graphics.dir\build.make _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=55,56,57,58,59,60,61,62,63,64,65,66 "Built target sfml-graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=56,57,58,59,60,61,62,63,64,65,66,67 "Built target sfml-graphics"
 .PHONY : _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 
 # Build rule for subdir invocation for target.
@@ -623,7 +623,7 @@ sfml-graphics: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/r
 # codegen rule for target.
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Graphics\CMakeFiles\sfml-graphics.dir\build.make _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=55,56,57,58,59,60,61,62,63,64,65,66 "Finished codegen for target sfml-graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=56,57,58,59,60,61,62,63,64,65,66,67 "Finished codegen for target sfml-graphics"
 .PHONY : _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/codegen
 
 # clean rule for target.
@@ -671,11 +671,11 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/sfml-build/
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/ogg-build/CMakeFiles/ogg.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/flac-build/src/libFLAC/CMakeFiles/FLAC.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbis.dir/all
-_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisenc.dir/all
+_deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54 "Built target sfml-audio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=46,47,48,49,50,51,52,53,54,55 "Built target sfml-audio"
 .PHONY : _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 
 # Build rule for subdir invocation for target.
@@ -692,7 +692,7 @@ sfml-audio: _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule
 # codegen rule for target.
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\sfml-build\src\SFML\Audio\CMakeFiles\sfml-audio.dir\build.make _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54 "Finished codegen for target sfml-audio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=46,47,48,49,50,51,52,53,54,55 "Finished codegen for target sfml-audio"
 .PHONY : _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/codegen
 
 # clean rule for target.
@@ -707,7 +707,7 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/clean:
 _deps/ogg-build/CMakeFiles/ogg.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\ogg-build\CMakeFiles\ogg.dir\build.make _deps/ogg-build/CMakeFiles/ogg.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\ogg-build\CMakeFiles\ogg.dir\build.make _deps/ogg-build/CMakeFiles/ogg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=44 "Built target ogg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=45 "Built target ogg"
 .PHONY : _deps/ogg-build/CMakeFiles/ogg.dir/all
 
 # Build rule for subdir invocation for target.
@@ -724,7 +724,7 @@ ogg: _deps/ogg-build/CMakeFiles/ogg.dir/rule
 # codegen rule for target.
 _deps/ogg-build/CMakeFiles/ogg.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f _deps\ogg-build\CMakeFiles\ogg.dir\build.make _deps/ogg-build/CMakeFiles/ogg.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=44 "Finished codegen for target ogg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\build\CMakeFiles --progress-num=45 "Finished codegen for target ogg"
 .PHONY : _deps/ogg-build/CMakeFiles/ogg.dir/codegen
 
 # clean rule for target.

@@ -1,0 +1,362 @@
+{
+  "_type": "Project",
+  "_id": "PROJ001",
+  "name": "TecProgGame",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "MDL001",
+      "name": "TecProgGame",
+      "_parent": { "$ref": "PROJ001" },
+      "ownedElements": [
+
+        { "_type": "UMLClass", "_id": "CLS_ENT", "name": "Ent", "_parent": { "$ref": "MDL001" }, "isAbstract": true,
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_ENT_ID",  "_parent": { "$ref": "CLS_ENT" }, "name": "id",  "visibility": "protected", "type": "int" },
+            { "_type": "UMLAttribute", "_id": "A_ENT_PGG", "_parent": { "$ref": "CLS_ENT" }, "name": "pGG", "visibility": "protected", "type": "Gerenciador_Grafico*", "isStatic": true },
+            { "_type": "UMLOperation", "_id": "O_ENT_SETGG",    "_parent": { "$ref": "CLS_ENT" }, "name": "setGG",   "visibility": "public", "isStatic": true },
+            { "_type": "UMLOperation", "_id": "O_ENT_DESENHAR", "_parent": { "$ref": "CLS_ENT" }, "name": "desenhar","visibility": "public", "isAbstract": true }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_ENTIDADES", "name": "Entidades", "_parent": { "$ref": "MDL001" }, "isAbstract": true,
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_ENTS_POS", "_parent": { "$ref": "CLS_ENTIDADES" }, "name": "posicao", "visibility": "protected", "type": "sf::Vector2f" },
+            { "_type": "UMLAttribute", "_id": "A_ENTS_TAM", "_parent": { "$ref": "CLS_ENTIDADES" }, "name": "tamanho", "visibility": "protected", "type": "float" },
+            { "_type": "UMLOperation", "_id": "O_ENTS_GETPOS", "_parent": { "$ref": "CLS_ENTIDADES" }, "name": "getPos",     "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_ENTS_GETTAM", "_parent": { "$ref": "CLS_ENTIDADES" }, "name": "getTamanho", "visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_PERSONAGENS", "name": "Personagens", "_parent": { "$ref": "MDL001" }, "isAbstract": true,
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_PER_VIDA",  "_parent": { "$ref": "CLS_PERSONAGENS" }, "name": "vida",         "visibility": "protected", "type": "int" },
+            { "_type": "UMLAttribute", "_id": "A_PER_VEL",   "_parent": { "$ref": "CLS_PERSONAGENS" }, "name": "velocidade",   "visibility": "protected", "type": "sf::Vector2f" },
+            { "_type": "UMLAttribute", "_id": "A_PER_CHAO",  "_parent": { "$ref": "CLS_PERSONAGENS" }, "name": "noChao",       "visibility": "protected", "type": "bool" },
+            { "_type": "UMLAttribute", "_id": "A_PER_OLEO",  "_parent": { "$ref": "CLS_PERSONAGENS" }, "name": "emOleo",       "visibility": "protected", "type": "bool" },
+            { "_type": "UMLAttribute", "_id": "A_PER_FDANO", "_parent": { "$ref": "CLS_PERSONAGENS" }, "name": "framesSemDano","visibility": "protected", "type": "int" },
+            { "_type": "UMLOperation", "_id": "O_PER_GRAV",  "_parent": { "$ref": "CLS_PERSONAGENS" }, "name": "aplicarGravidade",      "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_PER_VCHAO", "_parent": { "$ref": "CLS_PERSONAGENS" }, "name": "verificarColisaoChao",  "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_PER_KB",    "_parent": { "$ref": "CLS_PERSONAGENS" }, "name": "receberKnockback",      "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_PER_PDR",   "_parent": { "$ref": "CLS_PERSONAGENS" }, "name": "podeReceberDano",       "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_PER_VIVO",  "_parent": { "$ref": "CLS_PERSONAGENS" }, "name": "estaVivo",              "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_PER_PVIDA", "_parent": { "$ref": "CLS_PERSONAGENS" }, "name": "perderVida",            "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_PER_MOV",   "_parent": { "$ref": "CLS_PERSONAGENS" }, "name": "movimentacao",          "visibility": "public", "isAbstract": true },
+            { "_type": "UMLOperation", "_id": "O_PER_GBND",  "_parent": { "$ref": "CLS_PERSONAGENS" }, "name": "getBounds",             "visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_NINJA", "name": "Ninja", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_NIN_CORPO", "_parent": { "$ref": "CLS_NINJA" }, "name": "corpo",  "visibility": "private", "type": "sf::RectangleShape" },
+            { "_type": "UMLAttribute", "_id": "A_NIN_LANCA", "_parent": { "$ref": "CLS_NINJA" }, "name": "lanca",  "visibility": "private", "type": "sf::RectangleShape" },
+            { "_type": "UMLAttribute", "_id": "A_NIN_ARM",   "_parent": { "$ref": "CLS_NINJA" }, "name": "armado", "visibility": "private", "type": "bool" },
+            { "_type": "UMLOperation", "_id": "O_NIN_UPD",  "_parent": { "$ref": "CLS_NINJA" }, "name": "update",     "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_NIN_ARM",  "_parent": { "$ref": "CLS_NINJA" }, "name": "estaArmado", "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_NIN_GBND", "_parent": { "$ref": "CLS_NINJA" }, "name": "getBounds",  "visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_INIMIGO", "name": "Inimigo", "_parent": { "$ref": "MDL001" }, "isAbstract": true,
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_INI_NM",    "_parent": { "$ref": "CLS_INIMIGO" }, "name": "nivelDeMaldade", "visibility": "private", "type": "int" },
+            { "_type": "UMLOperation", "_id": "O_INI_COLID", "_parent": { "$ref": "CLS_INIMIGO" }, "name": "colidirComPersonagem", "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_INI_UPD",   "_parent": { "$ref": "CLS_INIMIGO" }, "name": "update",   "visibility": "public", "isAbstract": true },
+            { "_type": "UMLOperation", "_id": "O_INI_DAN",   "_parent": { "$ref": "CLS_INIMIGO" }, "name": "danifcar", "visibility": "public", "isAbstract": true }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_COBRA", "name": "Cobra", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_COB_CORPO",  "_parent": { "$ref": "CLS_COBRA" }, "name": "corpo",   "visibility": "private", "type": "sf::RectangleShape" },
+            { "_type": "UMLAttribute", "_id": "A_COB_ORIGEM", "_parent": { "$ref": "CLS_COBRA" }, "name": "origemX", "visibility": "private", "type": "float" },
+            { "_type": "UMLAttribute", "_id": "A_COB_ANGULO", "_parent": { "$ref": "CLS_COBRA" }, "name": "angulo",  "visibility": "private", "type": "float" },
+            { "_type": "UMLOperation", "_id": "O_COB_UPD",    "_parent": { "$ref": "CLS_COBRA" }, "name": "update",  "visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_SAMURAI", "name": "Samurai", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_SAM_CORPO",  "_parent": { "$ref": "CLS_SAMURAI" }, "name": "corpo",   "visibility": "private", "type": "sf::RectangleShape" },
+            { "_type": "UMLAttribute", "_id": "A_SAM_ORIGEM", "_parent": { "$ref": "CLS_SAMURAI" }, "name": "origemX", "visibility": "private", "type": "float" },
+            { "_type": "UMLAttribute", "_id": "A_SAM_ANGULO", "_parent": { "$ref": "CLS_SAMURAI" }, "name": "angulo",  "visibility": "private", "type": "float" },
+            { "_type": "UMLOperation", "_id": "O_SAM_UPD",    "_parent": { "$ref": "CLS_SAMURAI" }, "name": "update",  "visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_OBSTACULOS", "name": "Obstaculos", "_parent": { "$ref": "MDL001" }, "isAbstract": true,
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_OBS_DAN", "_parent": { "$ref": "CLS_OBSTACULOS" }, "name": "danoso", "visibility": "protected", "type": "bool" },
+            { "_type": "UMLOperation", "_id": "O_OBS_OBS", "_parent": { "$ref": "CLS_OBSTACULOS" }, "name": "obstaculizar", "visibility": "public", "isAbstract": true }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_PLATAFORMA", "name": "Plataforma", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_PLAT_SHAPE", "_parent": { "$ref": "CLS_PLATAFORMA" }, "name": "plataforma", "visibility": "private", "type": "sf::RectangleShape" },
+            { "_type": "UMLOperation", "_id": "O_PLAT_OBS",   "_parent": { "$ref": "CLS_PLATAFORMA" }, "name": "obstaculizar","visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_OLEO", "name": "oleo", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_OLE_LARG", "_parent": { "$ref": "CLS_OLEO" }, "name": "largura",    "visibility": "private", "type": "float" },
+            { "_type": "UMLOperation", "_id": "O_OLE_OBS",  "_parent": { "$ref": "CLS_OLEO" }, "name": "obstaculizar","visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_ESPINHO", "name": "Espinho", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_ESP_DAN",   "_parent": { "$ref": "CLS_ESPINHO" }, "name": "danosidade","visibility": "private", "type": "short int" },
+            { "_type": "UMLAttribute", "_id": "A_ESP_FORMA", "_parent": { "$ref": "CLS_ESPINHO" }, "name": "forma",     "visibility": "private", "type": "sf::RectangleShape" },
+            { "_type": "UMLOperation", "_id": "O_ESP_OBS",   "_parent": { "$ref": "CLS_ESPINHO" }, "name": "obstaculizar","visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_BLOCOFINAL", "name": "BlocoFinal", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_BF_FORMA",  "_parent": { "$ref": "CLS_BLOCOFINAL" }, "name": "forma",    "visibility": "private", "type": "sf::RectangleShape" },
+            { "_type": "UMLAttribute", "_id": "A_BF_ATING",  "_parent": { "$ref": "CLS_BLOCOFINAL" }, "name": "atingido", "visibility": "private", "type": "bool" },
+            { "_type": "UMLOperation", "_id": "O_BF_OBS",    "_parent": { "$ref": "CLS_BLOCOFINAL" }, "name": "obstaculizar","visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_BF_FOI",    "_parent": { "$ref": "CLS_BLOCOFINAL" }, "name": "foiAtingido", "visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_PROJETIL", "name": "Projetil", "_parent": { "$ref": "MDL001" }, "isAbstract": true,
+          "ownedElements": []
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_MAPA1", "name": "Mapa1", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_MAP_GRADE", "_parent": { "$ref": "CLS_MAPA1" }, "name": "grade",      "visibility": "private", "type": "int[12][100]" },
+            { "_type": "UMLAttribute", "_id": "A_MAP_PLATS", "_parent": { "$ref": "CLS_MAPA1" }, "name": "plataformas","visibility": "private", "type": "vector<Plataforma>" },
+            { "_type": "UMLOperation", "_id": "O_MAP_DES",  "_parent": { "$ref": "CLS_MAPA1" }, "name": "desenhar",            "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_MAP_TILE", "_parent": { "$ref": "CLS_MAPA1" }, "name": "getTile",             "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_MAP_COL",  "_parent": { "$ref": "CLS_MAPA1" }, "name": "colidirComPersonagens","visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_MAP_SP",   "_parent": { "$ref": "CLS_MAPA1" }, "name": "getSpawnPoints",      "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_MAP_AP",   "_parent": { "$ref": "CLS_MAPA1" }, "name": "adicionarPlataforma", "visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_LISTA", "name": "Lista", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_LST_PRIM", "_parent": { "$ref": "CLS_LISTA" }, "name": "pPrimeiro", "visibility": "private", "type": "Elemento<TL>*" },
+            { "_type": "UMLAttribute", "_id": "A_LST_ULT",  "_parent": { "$ref": "CLS_LISTA" }, "name": "pUltimo",   "visibility": "private", "type": "Elemento<TL>*" },
+            { "_type": "UMLOperation", "_id": "O_LST_INC",  "_parent": { "$ref": "CLS_LISTA" }, "name": "incluir",   "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_LST_LIM",  "_parent": { "$ref": "CLS_LISTA" }, "name": "limpar",    "visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_ELEMENTO", "name": "Elemento", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_ELE_PROX", "_parent": { "$ref": "CLS_ELEMENTO" }, "name": "pProx", "visibility": "private", "type": "Elemento<TE>*" },
+            { "_type": "UMLAttribute", "_id": "A_ELE_INFO", "_parent": { "$ref": "CLS_ELEMENTO" }, "name": "pInfo", "visibility": "private", "type": "TE*" },
+            { "_type": "UMLOperation", "_id": "O_ELE_PROX", "_parent": { "$ref": "CLS_ELEMENTO" }, "name": "getProximo","visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_ELE_INFO", "_parent": { "$ref": "CLS_ELEMENTO" }, "name": "getInfo",   "visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_LISTAENT", "name": "ListaEntidades", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLOperation", "_id": "O_LE_INC",  "_parent": { "$ref": "CLS_LISTAENT" }, "name": "incluir",     "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_LE_PRIM", "_parent": { "$ref": "CLS_LISTAENT" }, "name": "getPrimeiro", "visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_FASE", "name": "Fase", "_parent": { "$ref": "MDL001" }, "isAbstract": true,
+          "ownedElements": [
+            { "_type": "UMLOperation", "_id": "O_FASE_AINM", "_parent": { "$ref": "CLS_FASE" }, "name": "atualizarInimigos",  "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_FASE_POBS", "_parent": { "$ref": "CLS_FASE" }, "name": "processarObstaculos","visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_FASE_DENT", "_parent": { "$ref": "CLS_FASE" }, "name": "desenharEntidades",  "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_FASE_FF",   "_parent": { "$ref": "CLS_FASE" }, "name": "faseFinalizada",     "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_FASE_CI",   "_parent": { "$ref": "CLS_FASE" }, "name": "criarInimigos",      "visibility": "protected", "isAbstract": true },
+            { "_type": "UMLOperation", "_id": "O_FASE_CO",   "_parent": { "$ref": "CLS_FASE" }, "name": "criarObstaculos",    "visibility": "protected", "isAbstract": true },
+            { "_type": "UMLOperation", "_id": "O_FASE_CF",   "_parent": { "$ref": "CLS_FASE" }, "name": "criarFinal",         "visibility": "protected", "isAbstract": true },
+            { "_type": "UMLOperation", "_id": "O_FASE_CP",   "_parent": { "$ref": "CLS_FASE" }, "name": "criarPlataformas",   "visibility": "protected" },
+            { "_type": "UMLOperation", "_id": "O_FASE_PG",   "_parent": { "$ref": "CLS_FASE" }, "name": "popularGerenciador", "visibility": "protected" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_FASEP", "name": "FasePrimeira", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_FP_BF",  "_parent": { "$ref": "CLS_FASEP" }, "name": "blocoFinal",   "visibility": "private", "type": "BlocoFinal*" },
+            { "_type": "UMLOperation", "_id": "O_FP_FF",  "_parent": { "$ref": "CLS_FASEP" }, "name": "faseFinalizada","visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_FP_CI",  "_parent": { "$ref": "CLS_FASEP" }, "name": "criarInimigos", "visibility": "protected" },
+            { "_type": "UMLOperation", "_id": "O_FP_CO",  "_parent": { "$ref": "CLS_FASEP" }, "name": "criarObstaculos","visibility": "protected" },
+            { "_type": "UMLOperation", "_id": "O_FP_CF",  "_parent": { "$ref": "CLS_FASEP" }, "name": "criarFinal",    "visibility": "protected" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_GG", "name": "Gerenciador_Grafico", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_GG_JANELA", "_parent": { "$ref": "CLS_GG" }, "name": "janela",      "visibility": "private", "type": "sf::RenderWindow" },
+            { "_type": "UMLOperation", "_id": "O_GG_DES",    "_parent": { "$ref": "CLS_GG" }, "name": "desenharEnte","visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_GG_GET",    "_parent": { "$ref": "CLS_GG" }, "name": "getJanela",   "visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_GC", "name": "Gerenciador_Colisoes", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_GC_LIS",  "_parent": { "$ref": "CLS_GC" }, "name": "LIs",  "visibility": "private", "type": "vector<Inimigo*>" },
+            { "_type": "UMLAttribute", "_id": "A_GC_LOS",  "_parent": { "$ref": "CLS_GC" }, "name": "LOs",  "visibility": "private", "type": "list<Obstaculos*>" },
+            { "_type": "UMLAttribute", "_id": "A_GC_LPS",  "_parent": { "$ref": "CLS_GC" }, "name": "LPs",  "visibility": "private", "type": "set<Projetil*>" },
+            { "_type": "UMLAttribute", "_id": "A_GC_LOG1", "_parent": { "$ref": "CLS_GC" }, "name": "log1", "visibility": "private", "type": "Ninja*" },
+            { "_type": "UMLOperation", "_id": "O_GC_SJ",  "_parent": { "$ref": "CLS_GC" }, "name": "setJogador",              "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_GC_VC",  "_parent": { "$ref": "CLS_GC" }, "name": "verificarColisao",        "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_GC_TO",  "_parent": { "$ref": "CLS_GC" }, "name": "tratarColisoesJogsObstacs",  "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_GC_TI",  "_parent": { "$ref": "CLS_GC" }, "name": "tratarColisoesJogsInimigs",  "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_GC_TP",  "_parent": { "$ref": "CLS_GC" }, "name": "tratarColisoesJogsProjeteis","visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_GC_II",  "_parent": { "$ref": "CLS_GC" }, "name": "induzirInimigo",   "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_GC_IO",  "_parent": { "$ref": "CLS_GC" }, "name": "induzirObstaculo", "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_GC_IP",  "_parent": { "$ref": "CLS_GC" }, "name": "induzirProjetil",  "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_GC_EX",  "_parent": { "$ref": "CLS_GC" }, "name": "executar",         "visibility": "public" }
+          ]
+        },
+
+        { "_type": "UMLClass", "_id": "CLS_JOGO", "name": "Jogo", "_parent": { "$ref": "MDL001" },
+          "ownedElements": [
+            { "_type": "UMLAttribute", "_id": "A_JGO_GG",  "_parent": { "$ref": "CLS_JOGO" }, "name": "GG",           "visibility": "private", "type": "Gerenciador_Grafico" },
+            { "_type": "UMLAttribute", "_id": "A_JGO_NIN", "_parent": { "$ref": "CLS_JOGO" }, "name": "ninja",        "visibility": "private", "type": "Ninja" },
+            { "_type": "UMLAttribute", "_id": "A_JGO_MAP", "_parent": { "$ref": "CLS_JOGO" }, "name": "mapa1",        "visibility": "private", "type": "Mapa1" },
+            { "_type": "UMLAttribute", "_id": "A_JGO_FAS", "_parent": { "$ref": "CLS_JOGO" }, "name": "fase1",        "visibility": "private", "type": "FasePrimeira" },
+            { "_type": "UMLAttribute", "_id": "A_JGO_CAM", "_parent": { "$ref": "CLS_JOGO" }, "name": "camera",       "visibility": "private", "type": "sf::View" },
+            { "_type": "UMLAttribute", "_id": "A_JGO_FT",  "_parent": { "$ref": "CLS_JOGO" }, "name": "faseTerminada","visibility": "private", "type": "bool" },
+            { "_type": "UMLOperation", "_id": "O_JGO_ROD", "_parent": { "$ref": "CLS_JOGO" }, "name": "Rodar",            "visibility": "public" },
+            { "_type": "UMLOperation", "_id": "O_JGO_ATU", "_parent": { "$ref": "CLS_JOGO" }, "name": "Atualizar",        "visibility": "private" },
+            { "_type": "UMLOperation", "_id": "O_JGO_REN", "_parent": { "$ref": "CLS_JOGO" }, "name": "Renderizar",       "visibility": "private" },
+            { "_type": "UMLOperation", "_id": "O_JGO_EVT", "_parent": { "$ref": "CLS_JOGO" }, "name": "ProcessarEventos", "visibility": "private" }
+          ]
+        },
+
+        { "_type": "UMLGeneralization", "_id": "GEN_ENT_ENTS",  "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_ENTIDADES"  }, "target": { "$ref": "CLS_ENT"        } },
+        { "_type": "UMLGeneralization", "_id": "GEN_ENT_MAP1",  "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_MAPA1"      }, "target": { "$ref": "CLS_ENT"        } },
+        { "_type": "UMLGeneralization", "_id": "GEN_ENTS_PER",  "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_PERSONAGENS"}, "target": { "$ref": "CLS_ENTIDADES"  } },
+        { "_type": "UMLGeneralization", "_id": "GEN_ENTS_OBS",  "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_OBSTACULOS" }, "target": { "$ref": "CLS_ENTIDADES"  } },
+        { "_type": "UMLGeneralization", "_id": "GEN_ENTS_PROJ", "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_PROJETIL"   }, "target": { "$ref": "CLS_ENTIDADES"  } },
+        { "_type": "UMLGeneralization", "_id": "GEN_PER_NIN",   "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_NINJA"      }, "target": { "$ref": "CLS_PERSONAGENS"} },
+        { "_type": "UMLGeneralization", "_id": "GEN_PER_INI",   "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_INIMIGO"    }, "target": { "$ref": "CLS_PERSONAGENS"} },
+        { "_type": "UMLGeneralization", "_id": "GEN_INI_COB",   "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_COBRA"      }, "target": { "$ref": "CLS_INIMIGO"    } },
+        { "_type": "UMLGeneralization", "_id": "GEN_INI_SAM",   "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_SAMURAI"    }, "target": { "$ref": "CLS_INIMIGO"    } },
+        { "_type": "UMLGeneralization", "_id": "GEN_OBS_PLAT",  "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_PLATAFORMA" }, "target": { "$ref": "CLS_OBSTACULOS" } },
+        { "_type": "UMLGeneralization", "_id": "GEN_OBS_OLEO",  "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_OLEO"       }, "target": { "$ref": "CLS_OBSTACULOS" } },
+        { "_type": "UMLGeneralization", "_id": "GEN_OBS_ESP",   "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_ESPINHO"    }, "target": { "$ref": "CLS_OBSTACULOS" } },
+        { "_type": "UMLGeneralization", "_id": "GEN_OBS_BF",    "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_BLOCOFINAL" }, "target": { "$ref": "CLS_OBSTACULOS" } },
+        { "_type": "UMLGeneralization", "_id": "GEN_LST_LE",    "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_LISTAENT"   }, "target": { "$ref": "CLS_LISTA"      } },
+        { "_type": "UMLGeneralization", "_id": "GEN_FASE_FP",   "_parent": { "$ref": "MDL001" }, "source": { "$ref": "CLS_FASEP"      }, "target": { "$ref": "CLS_FASE"       } },
+
+        { "_type": "UMLAssociation", "_id": "ASSOC_LST_ELE", "_parent": { "$ref": "MDL001" },
+          "end1": { "_type": "UMLAssociationEnd", "_id": "AE_LST_ELE_1", "reference": { "$ref": "CLS_LISTA"    }, "aggregation": "composite", "multiplicity": "1" },
+          "end2": { "_type": "UMLAssociationEnd", "_id": "AE_LST_ELE_2", "reference": { "$ref": "CLS_ELEMENTO" }, "multiplicity": "0..*" }
+        },
+        { "_type": "UMLAssociation", "_id": "ASSOC_FASE_LE", "_parent": { "$ref": "MDL001" },
+          "end1": { "_type": "UMLAssociationEnd", "_id": "AE_FASE_LE_1", "reference": { "$ref": "CLS_FASE"     }, "aggregation": "composite", "name": "entidades" },
+          "end2": { "_type": "UMLAssociationEnd", "_id": "AE_FASE_LE_2", "reference": { "$ref": "CLS_LISTAENT" } }
+        },
+        { "_type": "UMLAssociation", "_id": "ASSOC_FASE_GC", "_parent": { "$ref": "MDL001" },
+          "end1": { "_type": "UMLAssociationEnd", "_id": "AE_FASE_GC_1", "reference": { "$ref": "CLS_FASE" }, "aggregation": "composite", "name": "gerenciador" },
+          "end2": { "_type": "UMLAssociationEnd", "_id": "AE_FASE_GC_2", "reference": { "$ref": "CLS_GC"   } }
+        },
+        { "_type": "UMLAssociation", "_id": "ASSOC_FP_BF", "_parent": { "$ref": "MDL001" },
+          "end1": { "_type": "UMLAssociationEnd", "_id": "AE_FP_BF_1", "reference": { "$ref": "CLS_FASEP"     }, "name": "blocoFinal" },
+          "end2": { "_type": "UMLAssociationEnd", "_id": "AE_FP_BF_2", "reference": { "$ref": "CLS_BLOCOFINAL" } }
+        },
+        { "_type": "UMLAssociation", "_id": "ASSOC_JOGO_GG", "_parent": { "$ref": "MDL001" },
+          "end1": { "_type": "UMLAssociationEnd", "_id": "AE_JOGO_GG_1", "reference": { "$ref": "CLS_JOGO" }, "aggregation": "composite", "name": "GG" },
+          "end2": { "_type": "UMLAssociationEnd", "_id": "AE_JOGO_GG_2", "reference": { "$ref": "CLS_GG"   } }
+        },
+        { "_type": "UMLAssociation", "_id": "ASSOC_JOGO_NIN", "_parent": { "$ref": "MDL001" },
+          "end1": { "_type": "UMLAssociationEnd", "_id": "AE_JOGO_NIN_1", "reference": { "$ref": "CLS_JOGO"  }, "aggregation": "composite", "name": "ninja" },
+          "end2": { "_type": "UMLAssociationEnd", "_id": "AE_JOGO_NIN_2", "reference": { "$ref": "CLS_NINJA" } }
+        },
+        { "_type": "UMLAssociation", "_id": "ASSOC_JOGO_MAP", "_parent": { "$ref": "MDL001" },
+          "end1": { "_type": "UMLAssociationEnd", "_id": "AE_JOGO_MAP_1", "reference": { "$ref": "CLS_JOGO"  }, "aggregation": "composite", "name": "mapa1" },
+          "end2": { "_type": "UMLAssociationEnd", "_id": "AE_JOGO_MAP_2", "reference": { "$ref": "CLS_MAPA1" } }
+        },
+        { "_type": "UMLAssociation", "_id": "ASSOC_JOGO_FAS", "_parent": { "$ref": "MDL001" },
+          "end1": { "_type": "UMLAssociationEnd", "_id": "AE_JOGO_FAS_1", "reference": { "$ref": "CLS_JOGO"  }, "aggregation": "composite", "name": "fase1" },
+          "end2": { "_type": "UMLAssociationEnd", "_id": "AE_JOGO_FAS_2", "reference": { "$ref": "CLS_FASEP" } }
+        },
+        { "_type": "UMLAssociation", "_id": "ASSOC_GC_INI", "_parent": { "$ref": "MDL001" },
+          "end1": { "_type": "UMLAssociationEnd", "_id": "AE_GC_INI_1", "reference": { "$ref": "CLS_GC"      }, "aggregation": "shared", "name": "LIs", "multiplicity": "1" },
+          "end2": { "_type": "UMLAssociationEnd", "_id": "AE_GC_INI_2", "reference": { "$ref": "CLS_INIMIGO" }, "multiplicity": "0..*" }
+        },
+        { "_type": "UMLAssociation", "_id": "ASSOC_GC_OBS", "_parent": { "$ref": "MDL001" },
+          "end1": { "_type": "UMLAssociationEnd", "_id": "AE_GC_OBS_1", "reference": { "$ref": "CLS_GC"        }, "aggregation": "shared", "name": "LOs", "multiplicity": "1" },
+          "end2": { "_type": "UMLAssociationEnd", "_id": "AE_GC_OBS_2", "reference": { "$ref": "CLS_OBSTACULOS" }, "multiplicity": "0..*" }
+        },
+        { "_type": "UMLAssociation", "_id": "ASSOC_GC_PROJ", "_parent": { "$ref": "MDL001" },
+          "end1": { "_type": "UMLAssociationEnd", "_id": "AE_GC_PROJ_1", "reference": { "$ref": "CLS_GC"      }, "aggregation": "shared", "name": "LPs", "multiplicity": "1" },
+          "end2": { "_type": "UMLAssociationEnd", "_id": "AE_GC_PROJ_2", "reference": { "$ref": "CLS_PROJETIL" }, "multiplicity": "0..*" }
+        },
+        { "_type": "UMLAssociation", "_id": "ASSOC_GC_NIN", "_parent": { "$ref": "MDL001" },
+          "end1": { "_type": "UMLAssociationEnd", "_id": "AE_GC_NIN_1", "reference": { "$ref": "CLS_GC"    }, "name": "log1" },
+          "end2": { "_type": "UMLAssociationEnd", "_id": "AE_GC_NIN_2", "reference": { "$ref": "CLS_NINJA" }, "multiplicity": "1" }
+        },
+        { "_type": "UMLDependency", "_id": "DEP_ENT_GG", "_parent": { "$ref": "MDL001" },
+          "source": { "$ref": "CLS_ENT" }, "target": { "$ref": "CLS_GG" }, "name": "usa (pGG static)"
+        },
+
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "DIAG001",
+          "name": "Diagrama de Classes",
+          "_parent": { "$ref": "MDL001" },
+          "ownedViews": [
+            { "_type": "UMLClassView", "_id": "V_ENT",    "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_ENT"        }, "left":  480, "top":   50, "width": 230, "height": 110 },
+            { "_type": "UMLClassView", "_id": "V_GG",     "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_GG"         }, "left":  780, "top":   50, "width": 230, "height": 110 },
+            { "_type": "UMLClassView", "_id": "V_JOGO",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_JOGO"       }, "left": 1080, "top":   50, "width": 230, "height": 200 },
+            { "_type": "UMLClassView", "_id": "V_LST",    "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_LISTA"      }, "left":   50, "top":  280, "width": 200, "height":  90 },
+            { "_type": "UMLClassView", "_id": "V_ELE",    "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_ELEMENTO"   }, "left":  280, "top":  280, "width": 190, "height":  90 },
+            { "_type": "UMLClassView", "_id": "V_ENTS",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_ENTIDADES"  }, "left":  480, "top":  280, "width": 220, "height":  90 },
+            { "_type": "UMLClassView", "_id": "V_MAP1",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_MAPA1"      }, "left":  780, "top":  280, "width": 230, "height": 170 },
+            { "_type": "UMLClassView", "_id": "V_GC",     "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_GC"         }, "left": 1080, "top":  280, "width": 260, "height": 280 },
+            { "_type": "UMLClassView", "_id": "V_LE",     "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_LISTAENT"   }, "left":   50, "top":  510, "width": 200, "height":  80 },
+            { "_type": "UMLClassView", "_id": "V_PER",    "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_PERSONAGENS"}, "left":  280, "top":  510, "width": 240, "height": 230 },
+            { "_type": "UMLClassView", "_id": "V_OBS",    "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_OBSTACULOS" }, "left":  580, "top":  510, "width": 210, "height":  90 },
+            { "_type": "UMLClassView", "_id": "V_PROJ",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_PROJETIL"   }, "left":  860, "top":  510, "width": 170, "height":  70 },
+            { "_type": "UMLClassView", "_id": "V_FASE",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_FASE"       }, "left":   50, "top":  760, "width": 230, "height": 240 },
+            { "_type": "UMLClassView", "_id": "V_NIN",    "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_NINJA"      }, "left":  320, "top":  760, "width": 210, "height": 130 },
+            { "_type": "UMLClassView", "_id": "V_INI",    "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_INIMIGO"    }, "left":  560, "top":  760, "width": 220, "height": 110 },
+            { "_type": "UMLClassView", "_id": "V_PLAT",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_PLATAFORMA" }, "left":  800, "top":  760, "width": 200, "height":  90 },
+            { "_type": "UMLClassView", "_id": "V_OLE",    "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_OLEO"       }, "left": 1020, "top":  760, "width": 190, "height":  90 },
+            { "_type": "UMLClassView", "_id": "V_FASEP",  "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_FASEP"      }, "left":   50, "top": 1060, "width": 220, "height": 130 },
+            { "_type": "UMLClassView", "_id": "V_COB",    "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_COBRA"      }, "left":  320, "top": 1060, "width": 200, "height": 100 },
+            { "_type": "UMLClassView", "_id": "V_SAM",    "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_SAMURAI"    }, "left":  540, "top": 1060, "width": 200, "height": 100 },
+            { "_type": "UMLClassView", "_id": "V_ESP",    "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_ESPINHO"    }, "left":  760, "top": 1060, "width": 200, "height": 100 },
+            { "_type": "UMLClassView", "_id": "V_BF",     "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "CLS_BLOCOFINAL" }, "left":  980, "top": 1060, "width": 200, "height": 100 },
+
+            { "_type": "UMLGeneralizationView", "_id": "VG_ENT_ENTS",  "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_ENT_ENTS"  }, "source": { "$ref": "V_ENTS" }, "target": { "$ref": "V_ENT"  } },
+            { "_type": "UMLGeneralizationView", "_id": "VG_ENT_MAP1",  "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_ENT_MAP1"  }, "source": { "$ref": "V_MAP1" }, "target": { "$ref": "V_ENT"  } },
+            { "_type": "UMLGeneralizationView", "_id": "VG_ENTS_PER",  "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_ENTS_PER"  }, "source": { "$ref": "V_PER"  }, "target": { "$ref": "V_ENTS" } },
+            { "_type": "UMLGeneralizationView", "_id": "VG_ENTS_OBS",  "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_ENTS_OBS"  }, "source": { "$ref": "V_OBS"  }, "target": { "$ref": "V_ENTS" } },
+            { "_type": "UMLGeneralizationView", "_id": "VG_ENTS_PROJ", "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_ENTS_PROJ" }, "source": { "$ref": "V_PROJ" }, "target": { "$ref": "V_ENTS" } },
+            { "_type": "UMLGeneralizationView", "_id": "VG_PER_NIN",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_PER_NIN"   }, "source": { "$ref": "V_NIN"  }, "target": { "$ref": "V_PER"  } },
+            { "_type": "UMLGeneralizationView", "_id": "VG_PER_INI",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_PER_INI"   }, "source": { "$ref": "V_INI"  }, "target": { "$ref": "V_PER"  } },
+            { "_type": "UMLGeneralizationView", "_id": "VG_INI_COB",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_INI_COB"   }, "source": { "$ref": "V_COB"  }, "target": { "$ref": "V_INI"  } },
+            { "_type": "UMLGeneralizationView", "_id": "VG_INI_SAM",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_INI_SAM"   }, "source": { "$ref": "V_SAM"  }, "target": { "$ref": "V_INI"  } },
+            { "_type": "UMLGeneralizationView", "_id": "VG_OBS_PLAT",  "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_OBS_PLAT"  }, "source": { "$ref": "V_PLAT" }, "target": { "$ref": "V_OBS"  } },
+            { "_type": "UMLGeneralizationView", "_id": "VG_OBS_OLE",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_OBS_OLEO"  }, "source": { "$ref": "V_OLE"  }, "target": { "$ref": "V_OBS"  } },
+            { "_type": "UMLGeneralizationView", "_id": "VG_OBS_ESP",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_OBS_ESP"   }, "source": { "$ref": "V_ESP"  }, "target": { "$ref": "V_OBS"  } },
+            { "_type": "UMLGeneralizationView", "_id": "VG_OBS_BF",    "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_OBS_BF"    }, "source": { "$ref": "V_BF"   }, "target": { "$ref": "V_OBS"  } },
+            { "_type": "UMLGeneralizationView", "_id": "VG_LST_LE",    "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_LST_LE"    }, "source": { "$ref": "V_LE"   }, "target": { "$ref": "V_LST"  } },
+            { "_type": "UMLGeneralizationView", "_id": "VG_FASE_FP",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "GEN_FASE_FP"   }, "source": { "$ref": "V_FASEP"}, "target": { "$ref": "V_FASE" } },
+
+            { "_type": "UMLAssociationView", "_id": "VA_LST_ELE",  "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "ASSOC_LST_ELE"  }, "source": { "$ref": "V_LST"   }, "target": { "$ref": "V_ELE"   } },
+            { "_type": "UMLAssociationView", "_id": "VA_FASE_LE",  "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "ASSOC_FASE_LE"  }, "source": { "$ref": "V_FASE"  }, "target": { "$ref": "V_LE"    } },
+            { "_type": "UMLAssociationView", "_id": "VA_FASE_GC",  "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "ASSOC_FASE_GC"  }, "source": { "$ref": "V_FASE"  }, "target": { "$ref": "V_GC"    } },
+            { "_type": "UMLAssociationView", "_id": "VA_FP_BF",    "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "ASSOC_FP_BF"    }, "source": { "$ref": "V_FASEP" }, "target": { "$ref": "V_BF"    } },
+            { "_type": "UMLAssociationView", "_id": "VA_JOGO_GG",  "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "ASSOC_JOGO_GG"  }, "source": { "$ref": "V_JOGO"  }, "target": { "$ref": "V_GG"    } },
+            { "_type": "UMLAssociationView", "_id": "VA_JOGO_NIN", "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "ASSOC_JOGO_NIN" }, "source": { "$ref": "V_JOGO"  }, "target": { "$ref": "V_NIN"   } },
+            { "_type": "UMLAssociationView", "_id": "VA_JOGO_MAP", "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "ASSOC_JOGO_MAP" }, "source": { "$ref": "V_JOGO"  }, "target": { "$ref": "V_MAP1"  } },
+            { "_type": "UMLAssociationView", "_id": "VA_JOGO_FAS", "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "ASSOC_JOGO_FAS" }, "source": { "$ref": "V_JOGO"  }, "target": { "$ref": "V_FASEP" } },
+            { "_type": "UMLAssociationView", "_id": "VA_GC_INI",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "ASSOC_GC_INI"   }, "source": { "$ref": "V_GC"    }, "target": { "$ref": "V_INI"   } },
+            { "_type": "UMLAssociationView", "_id": "VA_GC_OBS",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "ASSOC_GC_OBS"   }, "source": { "$ref": "V_GC"    }, "target": { "$ref": "V_OBS"   } },
+            { "_type": "UMLAssociationView", "_id": "VA_GC_PROJ",  "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "ASSOC_GC_PROJ"  }, "source": { "$ref": "V_GC"    }, "target": { "$ref": "V_PROJ"  } },
+            { "_type": "UMLAssociationView", "_id": "VA_GC_NIN",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "ASSOC_GC_NIN"   }, "source": { "$ref": "V_GC"    }, "target": { "$ref": "V_NIN"   } },
+            { "_type": "UMLDependencyView",  "_id": "VD_ENT_GG",   "_parent": { "$ref": "DIAG001" }, "model": { "$ref": "DEP_ENT_GG"     }, "source": { "$ref": "V_ENT"   }, "target": { "$ref": "V_GG"    } }
+          ]
+        }
+      ]
+    }
+  ]
+}

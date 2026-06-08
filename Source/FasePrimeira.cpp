@@ -7,6 +7,8 @@ FasePrimeira::FasePrimeira(Mapa1& mapa) {
     criarInimigos(mapa);
     criarPlataformas(mapa);
     criarObstaculos(mapa);
+    criarFinal(mapa);
+    popularGerenciador();
 }
 
 FasePrimeira::~FasePrimeira() {}
@@ -62,4 +64,13 @@ void FasePrimeira::criarInimigos(Mapa1& mapa) {
     // Cobra aleatoria em plataforma fixa (spawns5[5] = x=3500)
     if (spawns5.size() >= 6 && dist(rng))
         entidades.incluir(new Cobra(spawns5[5].x, spawns5[5].y));
+}
+
+void FasePrimeira::criarFinal(Mapa1& mapa) {
+    blocoFinal = new BlocoFinal({4950.f, 0.f});
+    entidades.incluir(blocoFinal);
+}
+
+bool FasePrimeira::faseFinalizada() const {
+    return blocoFinal && blocoFinal->foiAtingido();
 }

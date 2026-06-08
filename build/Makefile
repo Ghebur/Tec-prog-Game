@@ -362,6 +362,30 @@ vorbisfile/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\vorbis-build\lib\CMakeFiles\vorbisfile.dir\build.make _deps/vorbis-build/lib/CMakeFiles/vorbisfile.dir/build
 .PHONY : vorbisfile/fast
 
+Source/BlocoFinal.obj: Source/BlocoFinal.cpp.obj
+.PHONY : Source/BlocoFinal.obj
+
+# target to build an object file
+Source/BlocoFinal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/BlocoFinal.cpp.obj
+.PHONY : Source/BlocoFinal.cpp.obj
+
+Source/BlocoFinal.i: Source/BlocoFinal.cpp.i
+.PHONY : Source/BlocoFinal.i
+
+# target to preprocess a source file
+Source/BlocoFinal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/BlocoFinal.cpp.i
+.PHONY : Source/BlocoFinal.cpp.i
+
+Source/BlocoFinal.s: Source/BlocoFinal.cpp.s
+.PHONY : Source/BlocoFinal.s
+
+# target to generate assembly for a file
+Source/BlocoFinal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/BlocoFinal.cpp.s
+.PHONY : Source/BlocoFinal.cpp.s
+
 Source/Ent.obj: Source/Ent.cpp.obj
 .PHONY : Source/Ent.obj
 
@@ -481,6 +505,54 @@ Source/FasePrimeira.s: Source/FasePrimeira.cpp.s
 Source/FasePrimeira.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.s
 .PHONY : Source/FasePrimeira.cpp.s
+
+Source/Gerenciador_Colisoes.obj: Source/Gerenciador_Colisoes.cpp.obj
+.PHONY : Source/Gerenciador_Colisoes.obj
+
+# target to build an object file
+Source/Gerenciador_Colisoes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Gerenciador_Colisoes.cpp.obj
+.PHONY : Source/Gerenciador_Colisoes.cpp.obj
+
+Source/Gerenciador_Colisoes.i: Source/Gerenciador_Colisoes.cpp.i
+.PHONY : Source/Gerenciador_Colisoes.i
+
+# target to preprocess a source file
+Source/Gerenciador_Colisoes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Gerenciador_Colisoes.cpp.i
+.PHONY : Source/Gerenciador_Colisoes.cpp.i
+
+Source/Gerenciador_Colisoes.s: Source/Gerenciador_Colisoes.cpp.s
+.PHONY : Source/Gerenciador_Colisoes.s
+
+# target to generate assembly for a file
+Source/Gerenciador_Colisoes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Gerenciador_Colisoes.cpp.s
+.PHONY : Source/Gerenciador_Colisoes.cpp.s
+
+Source/Gerenciador_Grafico.obj: Source/Gerenciador_Grafico.cpp.obj
+.PHONY : Source/Gerenciador_Grafico.obj
+
+# target to build an object file
+Source/Gerenciador_Grafico.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Gerenciador_Grafico.cpp.obj
+.PHONY : Source/Gerenciador_Grafico.cpp.obj
+
+Source/Gerenciador_Grafico.i: Source/Gerenciador_Grafico.cpp.i
+.PHONY : Source/Gerenciador_Grafico.i
+
+# target to preprocess a source file
+Source/Gerenciador_Grafico.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Gerenciador_Grafico.cpp.i
+.PHONY : Source/Gerenciador_Grafico.cpp.i
+
+Source/Gerenciador_Grafico.s: Source/Gerenciador_Grafico.cpp.s
+.PHONY : Source/Gerenciador_Grafico.s
+
+# target to generate assembly for a file
+Source/Gerenciador_Grafico.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Gerenciador_Grafico.cpp.s
+.PHONY : Source/Gerenciador_Grafico.cpp.s
 
 Source/Inimigos.obj: Source/Inimigos.cpp.obj
 .PHONY : Source/Inimigos.obj
@@ -674,6 +746,30 @@ Source/Plataforma.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Plataforma.cpp.s
 .PHONY : Source/Plataforma.cpp.s
 
+Source/Projetil.obj: Source/Projetil.cpp.obj
+.PHONY : Source/Projetil.obj
+
+# target to build an object file
+Source/Projetil.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Projetil.cpp.obj
+.PHONY : Source/Projetil.cpp.obj
+
+Source/Projetil.i: Source/Projetil.cpp.i
+.PHONY : Source/Projetil.i
+
+# target to preprocess a source file
+Source/Projetil.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Projetil.cpp.i
+.PHONY : Source/Projetil.cpp.i
+
+Source/Projetil.s: Source/Projetil.cpp.s
+.PHONY : Source/Projetil.s
+
+# target to generate assembly for a file
+Source/Projetil.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\meu_jogo.dir\build.make CMakeFiles/meu_jogo.dir/Source/Projetil.cpp.s
+.PHONY : Source/Projetil.cpp.s
+
 Source/Samurai.obj: Source/Samurai.cpp.obj
 .PHONY : Source/Samurai.obj
 
@@ -774,6 +870,9 @@ help:
 	@echo ... vorbis
 	@echo ... vorbisenc
 	@echo ... vorbisfile
+	@echo ... Source/BlocoFinal.obj
+	@echo ... Source/BlocoFinal.i
+	@echo ... Source/BlocoFinal.s
 	@echo ... Source/Ent.obj
 	@echo ... Source/Ent.i
 	@echo ... Source/Ent.s
@@ -789,6 +888,12 @@ help:
 	@echo ... Source/FasePrimeira.obj
 	@echo ... Source/FasePrimeira.i
 	@echo ... Source/FasePrimeira.s
+	@echo ... Source/Gerenciador_Colisoes.obj
+	@echo ... Source/Gerenciador_Colisoes.i
+	@echo ... Source/Gerenciador_Colisoes.s
+	@echo ... Source/Gerenciador_Grafico.obj
+	@echo ... Source/Gerenciador_Grafico.i
+	@echo ... Source/Gerenciador_Grafico.s
 	@echo ... Source/Inimigos.obj
 	@echo ... Source/Inimigos.i
 	@echo ... Source/Inimigos.s
@@ -813,6 +918,9 @@ help:
 	@echo ... Source/Plataforma.obj
 	@echo ... Source/Plataforma.i
 	@echo ... Source/Plataforma.s
+	@echo ... Source/Projetil.obj
+	@echo ... Source/Projetil.i
+	@echo ... Source/Projetil.s
 	@echo ... Source/Samurai.obj
 	@echo ... Source/Samurai.i
 	@echo ... Source/Samurai.s

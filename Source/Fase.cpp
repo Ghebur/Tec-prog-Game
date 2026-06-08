@@ -2,6 +2,7 @@
 #include <random>
 #include "../Fases/Fase.h"
 #include "../Entidades/Personagens/Cobra.h"
+#include "../gerenciadores/Gerenciador_Grafico.h"
 
 Fase::Fase() {}
 
@@ -42,20 +43,32 @@ void Fase::atualizarInimigos(Mapa1& mapa, Personagens& jogador) {
     }
 }
 
-void Fase::processarObstaculos(Personagens& jogador) {
+void Fase::popularGerenciador() {
     for (Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
-        Obstaculos* obs = dynamic_cast<Obstaculos*>(e->getInfo());
-        if (obs) obs->obstaculizar(jogador);
+        Entidades* ent = e->getInfo();
+        if (Inimigo* ini = dynamic_cast<Inimigo*>(ent)) {
+            gerenciador.induzirInimigo(ini);
+        } else if (Obstaculos* obs = dynamic_cast<Obstaculos*>(ent)) {
+            gerenciador.induzirObstaculo(obs);
+        } 
+        //else if (Projetil* proj = dynamic_cast<Projetil*>(ent)) {
+        //  gerenciador.induzirProjetil(proj);
+        //}
     }
 }
 
-void Fase::desenharEntidades(sf::RenderWindow& window) {
+void Fase::processarObstaculos(Ninja& jogador) {
+    gerenciador.setJogador(&jogador);
+    gerenciador.executar();
+}
+
+void Fase::desenharEntidades(Gerenciador_Grafico& gg) {
     for (Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
         Inimigo* ini = dynamic_cast<Inimigo*>(e->getInfo());
         if (ini) {
-            if (ini->estaVivo()) ini->desenhar(window);
+            if (ini->estaVivo()) gg.desenharEnte(ini);
         } else {
-            e->getInfo()->desenhar(window);
+            gg.desenharEnte(e->getInfo());
         }
     }
 }

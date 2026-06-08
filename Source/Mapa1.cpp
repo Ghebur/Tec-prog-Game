@@ -28,7 +28,7 @@ int valores[LINHAS][COLUNAS] = {
     grade[7][10] = 5;   // x=500  y=350  - garantida 1
     grade[7][35] = 5;   // x=1750 y=350  - garantida 2
     grade[7][62] = 5;   // x=3100 y=350  - garantida 3
-    grade[12][35] = 5;   // x=1250 y=400  - cobra aleatoria 1
+    grade[8][25] = 5;   // x=1250 y=400  - cobra aleatoria 1
     grade[8][70] = 5;   // x=3500 y=400  - cobra aleatoria 2
 
     // tile 7 = spawn de plataforma aleatoria (rows 7-8)

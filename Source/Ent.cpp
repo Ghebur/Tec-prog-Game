@@ -1,7 +1,9 @@
 #include "../Ent.h"
 
-Ent::Ent(int id,Gerenciador_Grafico* pGG):  
-id(id), pGG(pGG)
-{}
+Gerenciador_Grafico* Ent::pGG = nullptr;
+
+Ent::Ent(int id) : id(id) {}
 
 Ent::~Ent() {}
+
+void Ent::setGG(Gerenciador_Grafico* pG) { pGG = pG; }

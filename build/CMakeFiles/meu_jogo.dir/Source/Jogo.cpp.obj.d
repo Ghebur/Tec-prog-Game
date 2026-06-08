@@ -1,6 +1,7 @@
 CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj: \
  C:\Users\nicol\.vscode\codigos_proprios\Tec-prog-Game\Source\Jogo.cpp \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Jogo.h \
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Ent.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/include/SFML/Graphics.hpp \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
@@ -290,7 +291,7 @@ CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj: \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/build/_deps/sfml-src/include/SFML/System/Sleep.hpp \
- C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Ent.h \
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/gerenciadores/Gerenciador_Grafico.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Ninja.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Personagens.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Entidades.h \
@@ -304,6 +305,15 @@ CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj: \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Listas/Lista.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Elemento.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Inimigos.h \
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/gerenciadores/Gerenciador_De_Colisao.h \
+ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/list \
+ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_list.h \
+ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/list.tcc \
+ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/set \
+ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_tree.h \
+ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_set.h \
+ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_multiset.h \
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Projetil.h \
  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Samurai.h \
  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/cmath \
  C:/Users/nicol/compiladores/ucrt64/include/math.h \
@@ -320,4 +330,5 @@ CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj: \
  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/tr1/poly_hermite.tcc \
  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/tr1/poly_laguerre.tcc \
  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/tr1/riemann_zeta.tcc \
- C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Cobra.h
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Personagens/Cobra.h \
+ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Obstaculos/BlocoFinal.h
