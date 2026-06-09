@@ -11,6 +11,7 @@ class Samurai : public Inimigo {
     public:
         Samurai(float x, float y);
         ~Samurai();
+        void executar() override {}
         void movimentaçao() override;
         void danifcar() override;
         void desenhar(sf::RenderWindow& window);

@@ -1276,6 +1276,7 @@ CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj: C:/Users/nicol/.vscode/codigos_prop
   _deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
   _deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
   C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/gerenciadores/Gerenciador_De_Colisao.h \
+  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/gerenciadores/Gerenciador_Grafico.h \
   C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
   C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
   C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
@@ -2176,6 +2177,299 @@ CMakeFiles/meu_jogo.dir/Source/Gerenciador_Colisoes.cpp.obj: C:/Users/nicol/.vsc
   C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
+CMakeFiles/meu_jogo.dir/Source/Gerenciador_Grafico.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Gerenciador_Grafico.cpp \
+  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Ent.h \
+  _deps/sfml-src/include/SFML/Config.hpp \
+  _deps/sfml-src/include/SFML/Graphics.hpp \
+  _deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
+  _deps/sfml-src/include/SFML/Graphics/CircleShape.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Color.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Color.inl \
+  _deps/sfml-src/include/SFML/Graphics/ConvexShape.hpp \
+  _deps/sfml-src/include/SFML/Graphics/CoordinateType.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Drawable.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Export.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Font.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Glsl.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Glsl.inl \
+  _deps/sfml-src/include/SFML/Graphics/Glyph.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Image.hpp \
+  _deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Rect.inl \
+  _deps/sfml-src/include/SFML/Graphics/RectangleShape.hpp \
+  _deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
+  _deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
+  _deps/sfml-src/include/SFML/Graphics/RenderTexture.hpp \
+  _deps/sfml-src/include/SFML/Graphics/RenderWindow.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Shader.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Shape.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Sprite.hpp \
+  _deps/sfml-src/include/SFML/Graphics/StencilMode.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Text.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Texture.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Transform.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Transform.inl \
+  _deps/sfml-src/include/SFML/Graphics/Transformable.hpp \
+  _deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
+  _deps/sfml-src/include/SFML/Graphics/VertexArray.hpp \
+  _deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp \
+  _deps/sfml-src/include/SFML/Graphics/View.hpp \
+  _deps/sfml-src/include/SFML/System.hpp \
+  _deps/sfml-src/include/SFML/System/Angle.hpp \
+  _deps/sfml-src/include/SFML/System/Angle.inl \
+  _deps/sfml-src/include/SFML/System/Clock.hpp \
+  _deps/sfml-src/include/SFML/System/Err.hpp \
+  _deps/sfml-src/include/SFML/System/Exception.hpp \
+  _deps/sfml-src/include/SFML/System/Export.hpp \
+  _deps/sfml-src/include/SFML/System/FileInputStream.hpp \
+  _deps/sfml-src/include/SFML/System/InputStream.hpp \
+  _deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
+  _deps/sfml-src/include/SFML/System/Sleep.hpp \
+  _deps/sfml-src/include/SFML/System/String.hpp \
+  _deps/sfml-src/include/SFML/System/String.inl \
+  _deps/sfml-src/include/SFML/System/Time.hpp \
+  _deps/sfml-src/include/SFML/System/Time.inl \
+  _deps/sfml-src/include/SFML/System/Utf.hpp \
+  _deps/sfml-src/include/SFML/System/Utf.inl \
+  _deps/sfml-src/include/SFML/System/Vector2.hpp \
+  _deps/sfml-src/include/SFML/System/Vector2.inl \
+  _deps/sfml-src/include/SFML/System/Vector3.hpp \
+  _deps/sfml-src/include/SFML/System/Vector3.inl \
+  _deps/sfml-src/include/SFML/Window.hpp \
+  _deps/sfml-src/include/SFML/Window/Clipboard.hpp \
+  _deps/sfml-src/include/SFML/Window/Context.hpp \
+  _deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
+  _deps/sfml-src/include/SFML/Window/Cursor.hpp \
+  _deps/sfml-src/include/SFML/Window/Event.hpp \
+  _deps/sfml-src/include/SFML/Window/Event.inl \
+  _deps/sfml-src/include/SFML/Window/Export.hpp \
+  _deps/sfml-src/include/SFML/Window/GlResource.hpp \
+  _deps/sfml-src/include/SFML/Window/Joystick.hpp \
+  _deps/sfml-src/include/SFML/Window/Keyboard.hpp \
+  _deps/sfml-src/include/SFML/Window/Mouse.hpp \
+  _deps/sfml-src/include/SFML/Window/Sensor.hpp \
+  _deps/sfml-src/include/SFML/Window/Touch.hpp \
+  _deps/sfml-src/include/SFML/Window/VideoMode.hpp \
+  _deps/sfml-src/include/SFML/Window/Vulkan.hpp \
+  _deps/sfml-src/include/SFML/Window/Window.hpp \
+  _deps/sfml-src/include/SFML/Window/WindowBase.hpp \
+  _deps/sfml-src/include/SFML/Window/WindowBase.inl \
+  _deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
+  _deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/gerenciadores/Gerenciador_Grafico.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_secapi.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_mingw_stat64.h \
+  C:/Users/nicol/compiladores/ucrt64/include/_timeval.h \
+  C:/Users/nicol/compiladores/ucrt64/include/assert.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/array \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/backward/auto_ptr.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/backward/binders.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bit \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/align.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/alloc_traits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/allocated_ptr.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/allocator.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/atomic_base.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/atomic_lockfree_defines.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/basic_ios.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/basic_ios.tcc \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/basic_string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/basic_string.tcc \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/char_traits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/charconv.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/chrono.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/codecvt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/concept_check.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/cpp_type_traits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/cxxabi_forced.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/cxxabi_init_exception.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/enable_special_members.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/erase_if.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/exception.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/exception_defines.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/exception_ptr.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/fs_dir.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/fs_fwd.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/fs_ops.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/fs_path.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/functexcept.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/functional_hash.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/hash_bytes.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/hashtable.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/hashtable_policy.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/invoke.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/ios_base.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/istream.tcc \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/locale_classes.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/locale_classes.tcc \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/locale_conv.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/locale_facets.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/locale_facets.tcc \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/locale_facets_nonio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/locale_facets_nonio.tcc \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/localefwd.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/memory_resource.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/memoryfwd.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/monostate.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/move.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/nested_exception.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/new_allocator.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/node_handle.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/ostream.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/ostream.tcc \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/ostream_insert.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/parse_numbers.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/postypes.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/predefined_ops.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/ptr_traits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/quoted_string.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/range_access.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/refwrap.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/shared_ptr.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/shared_ptr_atomic.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/shared_ptr_base.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/sstream.tcc \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/std_abs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_algobase.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_bvector.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_construct.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_function.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_iterator.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_iterator_base_types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_pair.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_relops.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_tempbuf.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_uninitialized.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_vector.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stream_iterator.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/streambuf.tcc \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/streambuf_iterator.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/string_view.tcc \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stringfwd.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/unique_ptr.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/unordered_map.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/uses_allocator.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/uses_allocator_args.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/utility.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/vector.tcc \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/version.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/cassert \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/cctype \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/cerrno \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/chrono \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/clocale \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/codecvt \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/compare \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/concepts \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/cstddef \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/cstdint \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/cstdio \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/cstdlib \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ctime \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/cwchar \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/cwctype \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/debug/assertions.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/debug/debug.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/exception \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ext/aligned_buffer.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ext/alloc_traits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ext/atomicity.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ext/concurrence.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ext/numeric_traits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ext/string_conversions.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ext/type_traits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/filesystem \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/initializer_list \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/iomanip \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ios \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/iosfwd \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/istream \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/iterator \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/limits \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/locale \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/memory \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/new \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/optional \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ostream \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/pstl/execution_defs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/pstl/glue_memory_defs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/pstl/pstl_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ratio \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/sstream \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/stdexcept \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/streambuf \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/string \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/string_view \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/system_error \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/tuple \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/type_traits \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/typeinfo \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/unordered_map \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/utility \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/variant \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/vector \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/messages_members.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/time_members.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_startup.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_stdio_config.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wctype.h \
+  C:/Users/nicol/compiladores/ucrt64/include/corecrt_wstdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/crtdefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/ctype.h \
+  C:/Users/nicol/compiladores/ucrt64/include/errno.h \
+  C:/Users/nicol/compiladores/ucrt64/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/include/locale.h \
+  C:/Users/nicol/compiladores/ucrt64/include/malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/include/process.h \
+  C:/Users/nicol/compiladores/ucrt64/include/pthread.h \
+  C:/Users/nicol/compiladores/ucrt64/include/pthread_compat.h \
+  C:/Users/nicol/compiladores/ucrt64/include/pthread_signal.h \
+  C:/Users/nicol/compiladores/ucrt64/include/pthread_time.h \
+  C:/Users/nicol/compiladores/ucrt64/include/pthread_unistd.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sched.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sdks/_mingw_ddk.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdio_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/sys/timeb_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sec_api/wchar_s.h \
+  C:/Users/nicol/compiladores/ucrt64/include/signal.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdint.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdio.h \
+  C:/Users/nicol/compiladores/ucrt64/include/stdlib.h \
+  C:/Users/nicol/compiladores/ucrt64/include/swprintf.inl \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/timeb.h \
+  C:/Users/nicol/compiladores/ucrt64/include/sys/types.h \
+  C:/Users/nicol/compiladores/ucrt64/include/time.h \
+  C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
+  C:/Users/nicol/compiladores/ucrt64/include/wchar.h \
+  C:/Users/nicol/compiladores/ucrt64/include/wctype.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
+
 CMakeFiles/meu_jogo.dir/Source/Inimigos.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Inimigos.cpp \
   C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Ent.h \
   C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Entidades.h \
@@ -2573,6 +2867,7 @@ CMakeFiles/meu_jogo.dir/Source/Jogo.cpp.obj: C:/Users/nicol/.vscode/codigos_prop
   _deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
   _deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
   C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/gerenciadores/Gerenciador_De_Colisao.h \
+  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/gerenciadores/Gerenciador_Grafico.h \
   C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
   C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
   C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
@@ -5609,6 +5904,7 @@ CMakeFiles/meu_jogo.dir/Source/main.cpp.obj: C:/Users/nicol/.vscode/codigos_prop
   _deps/sfml-src/include/SFML/Window/WindowEnums.hpp \
   _deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
   C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/gerenciadores/Gerenciador_De_Colisao.h \
+  C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/gerenciadores/Gerenciador_Grafico.h \
   C:/Users/nicol/compiladores/ucrt64/include/_mingw.h \
   C:/Users/nicol/compiladores/ucrt64/include/_mingw_mac.h \
   C:/Users/nicol/compiladores/ucrt64/include/_mingw_off_t.h \
@@ -6508,6 +6804,8 @@ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Projetil.h:
 
 C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Listas/Lista_De_Entidades.h:
 
+C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/gerenciadores/Gerenciador_Grafico.h:
+
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/list.tcc:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/specfun.h:
@@ -6557,6 +6855,8 @@ C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/FasePrimeira.cpp:
 C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Entidades/Obstaculos/Oleo.h:
 
 C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Fases/FasePrimeira.h:
+
+C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Gerenciador_Grafico.cpp:
 
 C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Jogo.cpp:
 

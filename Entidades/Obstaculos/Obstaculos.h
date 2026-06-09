@@ -11,6 +11,7 @@ class Obstaculos : public Entidades {
     public:
         Obstaculos(int id, bool dano, float tamanho, sf::Vector2f pos);
         virtual ~Obstaculos();
+        void executar() override {}
         virtual void obstaculizar(Personagens& p) = 0;
         virtual void desenhar(sf::RenderWindow& window) = 0;
 };

@@ -12,4 +12,5 @@ public:
     virtual ~Ent();
     static void setGG(Gerenciador_Grafico* pG);
     virtual void desenhar(sf::RenderWindow& window) = 0;
+    virtual void executar() = 0;
 };

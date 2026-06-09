@@ -11,6 +11,7 @@ class Cobra : public Inimigo {
     public:
         Cobra(float x, float y);
         ~Cobra();
+        void executar() override {}
         void movimentaçao() override;
         void danifcar() override;
         void desenhar(sf::RenderWindow& window);

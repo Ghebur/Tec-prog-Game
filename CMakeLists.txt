@@ -25,3 +25,9 @@ target_link_libraries(meu_jogo PRIVATE
     SFML::System
     SFML::Audio
 )
+
+add_custom_command(TARGET meu_jogo POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+    ${CMAKE_SOURCE_DIR}/assets
+    $<TARGET_FILE_DIR:meu_jogo>/assets
+)

@@ -19,6 +19,7 @@ private:
 
 public:
     Mapa1();
+    void executar() override {}
     void desenhar(sf::RenderWindow& window);
     int getTile(sf::Vector2f pos);
     void colidirComPersonagens(Personagens& p);
