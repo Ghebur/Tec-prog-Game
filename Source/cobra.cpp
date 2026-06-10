@@ -4,8 +4,10 @@
 Cobra::Cobra(float x, float y) :
 Inimigo(2, 1, {3.f, 0.f}, 12.f, {x, y}, 1),
 corpo(sf::Vector2f(12.f, 12.f)),
-origemX(x)
+origemX(x),
+venenosa(rand()%2)
 {
+    
     corpo.setPosition(posicao);
     corpo.setFillColor(sf::Color(30, 90, 30));
 }
@@ -19,7 +21,13 @@ void Cobra::movimentaçao() {
     corpo.setPosition(posicao);
 }
 
-void Cobra::danifcar() {}
+void Cobra::danifcar(Personagens& p) {
+    for(int i =0;i<=nivelDeMaldade;i++)
+        p.perderVida();
+    if(venenosa)
+        p.perderVida();
+
+}
 
 void Cobra::desenhar(sf::RenderWindow& window) {
     window.draw(corpo);

@@ -3,7 +3,7 @@
 
 Inimigo::Inimigo(int id, int vida, sf::Vector2f velocidade, float tamanho, sf::Vector2f pos, int nivelDeMaldade):
 Personagens(id, vida, velocidade, tamanho, pos),
-nivelDeMaldade(nivelDeMaldade)
+nivelDeMaldade(rand()%3)
 {}
 
 Inimigo::~Inimigo() {}
@@ -19,6 +19,6 @@ void Inimigo::colidirComPersonagem(Personagens& p) {
         p.empurrar(-dir * 250.f);
     } else if (!p.estaArmado() && p.podeReceberDano()) {
         p.receberKnockback({dir * 700.f, -400.f});
-        p.perderVida();
+        danifcar(p);
     }
 }

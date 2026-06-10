@@ -8,12 +8,13 @@ class Cobra : public Inimigo {
         sf::RectangleShape corpo;
         float origemX;
         float angulo = 0.f;
+        bool venenosa;
     public:
         Cobra(float x, float y);
         ~Cobra();
         void executar() override {}
         void movimentaçao() override;
-        void danifcar() override;
+        void danifcar(Personagens& p) override;
         void desenhar(sf::RenderWindow& window);
         void update(Mapa1& mapa, Personagens& p);
         sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }

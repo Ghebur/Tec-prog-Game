@@ -10,6 +10,7 @@ class Personagens:public Entidades{
         sf::Vector2f impulso;
         bool noChao;
         bool emOleo;
+        int frameAtual;
         int framesSemDano;
         
     public:

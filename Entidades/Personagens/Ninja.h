@@ -14,7 +14,7 @@ class Ninja : public Personagens {
 
     enum class EstadoAnim { IDLE, RUNNING, JUMPING };
     EstadoAnim estadoAnim = EstadoAnim::IDLE;
-    int frameAtual = 0;
+    
     sf::Clock relogioAnim;
     bool olhandoDireita = true;
 
