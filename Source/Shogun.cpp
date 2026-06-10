@@ -1,14 +1,13 @@
-#include "../Entidades/Personagens/Cobra.h"
-#define DELTA_TIME (1.0f / 60.0f) // Supondo 60 FPS#define
+#include "../Entidades/Personagens/Shogun.h"
 
-Cobra::Cobra(float x, float y) :
-Inimigo(2, 1, {1.5f, 0.f}, 42.f, {x, y}, 1),
-corpo(sf::Vector2f(12.f, 12.f)),
+Shogun::Shogun(float x, float y) :
+Inimigo(3, 7, {3.f, 0.f}, 90.f, {x, y}, 2),
+corpo(sf::Vector2f(20.f, 20.f)),
 origemX(x),
-venenosa(rand()%2)
+graduacao(rand() % 3 + 1)
 {
     corpo.setPosition(posicao);
-    texRun.loadFromFile("assets/CobraAnimacoes/Snake_walk.png");
+    texRun.loadFromFile("assets/SamuraiAnimacoes/Run.png");
 
     sprite.setTexture(texRun, true);
     sprite.setTextureRect(sf::IntRect{{0, 0}, {FRAME_W, FRAME_H}});
@@ -17,9 +16,11 @@ venenosa(rand()%2)
     sprite.setPosition(posicao);
 }
 
-Cobra::~Cobra() {}
+Shogun::~Shogun() {}
 
-void Cobra::movimentaçao() {
+#define DELTA_TIME (1.0f / 60.0f)
+
+void Shogun::movimentaçao() {
     float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
     angulo += velX * DELTA_TIME;
     posicao.x = origemX + std::sin(angulo) * 100.f;
@@ -27,19 +28,28 @@ void Cobra::movimentaçao() {
     atualizarAnimacao();
 }
 
-void Cobra::danifcar(Personagens& p) {
-    for(int i =0;i<=nivelDeMaldade;i++)
+void Shogun::danifcar(Personagens& p) {
+    for (int i = 0; i <= nivelDeMaldade; i++)
         p.perderVida();
-    if(venenosa)
-        p.perderVida();
-
 }
 
-void Cobra::atualizarAnimacao() {
+void Shogun::desenhar(sf::RenderWindow& window) {
+    window.draw(sprite);
+}
+
+void Shogun::update(Mapa1& mapa, Personagens& p) {
+    movimentaçao();
+    aplicarGravidade(1.f / 60.f);
+    verificarColisaoChao(mapa, corpo.getSize().y);
+    mapa.colidirComPersonagens(*this);
+}
+
+void Shogun::atualizarAnimacao() {
     float escala = (tamanho / FRAME_H);
-    int totalFrames = 4;
+    int totalFrames = 8;
     sf::Vector2f pos = posicao;
-    pos.y = posicao.y - 30.f;
+
+    pos.y = posicao.y - 38.f;
 
     if (relogioAnim.getElapsedTime().asSeconds() > 0.1f) {
         frameAtual = (frameAtual + 1) % totalFrames;
@@ -50,7 +60,7 @@ void Cobra::atualizarAnimacao() {
 
     sprite.setTextureRect(sf::IntRect{{frameAtual * FRAME_W, 0}, {FRAME_W, FRAME_H}});
 
-    if (indoPDireita) {
+    if (!indoPDireita) {
         sprite.setScale({-escala, escala});
         sprite.setOrigin({static_cast<float>(FRAME_W), 0.f});
     } else {
@@ -59,15 +69,4 @@ void Cobra::atualizarAnimacao() {
     }
 
     sprite.setPosition(pos);
-}
-
-void Cobra::desenhar(sf::RenderWindow& window) {
-    window.draw(sprite);
-}
-
-void Cobra::update(Mapa1& mapa, Personagens& p) {
-    movimentaçao();
-    aplicarGravidade(1.f / 60.f);
-    verificarColisaoChao(mapa, corpo.getSize().y);
-    mapa.colidirComPersonagens(*this);
 }

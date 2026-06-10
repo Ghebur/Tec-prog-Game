@@ -1,23 +1,25 @@
 #pragma once
 #include "Inimigos.h"
+#include "Personagens.h"
 #include "../../Fases/Mapas.h"
 #include <cmath>
 
-class Cobra : public Inimigo {
+class Shogun : public Inimigo {
     private:
         sf::RectangleShape corpo;
         float origemX;
         float angulo = 0.f;
-        bool venenosa;
+        int graduacao;
         sf::Texture texRun;
         sf::Sprite sprite{texRun};
         sf::Clock relogioAnim;
 
-        static constexpr int FRAME_W = 48;
-        static constexpr int FRAME_H = 48;
+        enum class EstadoAnim {RUNNING};
+        static constexpr int FRAME_W = 128;
+        static constexpr int FRAME_H = 128;
     public:
-        Cobra(float x, float y);
-        ~Cobra();
+        Shogun(float x, float y);
+        ~Shogun();
         void executar() override {}
         void movimentaçao() override;
         void danifcar(Personagens& p) override;

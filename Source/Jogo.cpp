@@ -9,6 +9,11 @@ Jogo::Jogo() :
     GG.getJanela().setFramerateLimit(60);
     camera.setSize(sf::Vector2f(800.f, 600.f));
     Ent::setGG(&GG);
+
+    texBackground.loadFromFile("assets/Background/hd.png");
+    background.setTexture(texBackground, true);
+    background.setScale({800.f / texBackground.getSize().x,
+                         600.f / texBackground.getSize().y});
 }
 
 Jogo::~Jogo() {}
@@ -31,6 +36,9 @@ void Jogo::Renderizar() {
     sf::RenderWindow& window = GG.getJanela();
     window.clear();
     window.setView(camera);
+
+    background.setPosition(camera.getCenter() - sf::Vector2f(400.f, 300.f));
+    window.draw(background);
 
     GG.desenharEnte(&mapa1);
     if (ninja.estaVivo()) GG.desenharEnte(&ninja);

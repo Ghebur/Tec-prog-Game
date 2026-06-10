@@ -31,11 +31,10 @@ int valores[LINHAS][COLUNAS] = {
     grade[8][25] = 5;   // x=1250 y=400  - cobra aleatoria 1
     grade[8][70] = 5;   // x=3500 y=400  - cobra aleatoria 2
 
-    // tile 7 = spawn de plataforma aleatoria (rows 7-8)
+    // tile 7 = spawn de plataforma aleatoria (3 posicoes)
     grade[7][20] = 7;   // x=1000 y=350
     grade[8][50] = 7;   // x=2500 y=400
     grade[8][75] = 7;   // x=3750 y=400
-    grade[8][85] = 7;   // x=4250 y=400
 
     // tile 4 extra perto do final - samurai aleatorio
     grade[10][90] = 4;  // x=4500 y=500

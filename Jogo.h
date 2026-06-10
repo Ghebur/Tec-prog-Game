@@ -9,6 +9,8 @@
 class Jogo {
     private:
         Gerenciador_Grafico GG;
+        sf::Texture texBackground;
+        sf::Sprite background{texBackground};
         Ninja ninja;
         Mapa1 mapa1;
         oleo oleo1{sf::Vector2f(400.f, 500.f)};

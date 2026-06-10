@@ -1347,8 +1347,6 @@ CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj: C:/Users/nicol/.vscode/codigos_prop
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/predefined_ops.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/ptr_traits.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/quoted_string.h \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/random.h \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/random.tcc \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/range_access.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/refwrap.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
@@ -1367,7 +1365,6 @@ CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj: C:/Users/nicol/.vscode/codigos_prop
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_iterator_base_types.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_list.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_multiset.h \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_numeric.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_pair.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_relops.h \
@@ -1381,7 +1378,6 @@ CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj: C:/Users/nicol/.vscode/codigos_prop
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/streambuf_iterator.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/string_view.tcc \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stringfwd.h \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/uniform_int_dist.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/unique_ptr.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/unordered_map.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/uses_allocator.h \
@@ -1427,14 +1423,11 @@ CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj: C:/Users/nicol/.vscode/codigos_prop
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/locale \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/memory \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/new \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/numeric \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/optional \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ostream \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/pstl/execution_defs.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/pstl/glue_memory_defs.h \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/pstl/glue_numeric_defs.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/pstl/pstl_config.h \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/random \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ratio \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/set \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/sstream \
@@ -1474,7 +1467,6 @@ CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj: C:/Users/nicol/.vscode/codigos_prop
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/messages_members.h \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/opt_random.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/time_members.h \
   C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
@@ -1513,16 +1505,11 @@ CMakeFiles/meu_jogo.dir/Source/Fase.cpp.obj: C:/Users/nicol/.vscode/codigos_prop
   C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
   C:/Users/nicol/compiladores/ucrt64/include/wchar.h \
   C:/Users/nicol/compiladores/ucrt64/include/wctype.h \
-  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
   C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitintrin.h \
-  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pmmintrin.h \
   C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
   C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
-  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/FasePrimeira.cpp \
   C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Elemento.h \
@@ -1692,8 +1679,6 @@ CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj: C:/Users/nicol/.vscode/codi
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/predefined_ops.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/ptr_traits.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/quoted_string.h \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/random.h \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/random.tcc \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/range_access.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/refwrap.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
@@ -1712,7 +1697,6 @@ CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj: C:/Users/nicol/.vscode/codi
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_iterator_base_types.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_list.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_multiset.h \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_numeric.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_pair.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_relops.h \
@@ -1726,7 +1710,6 @@ CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj: C:/Users/nicol/.vscode/codi
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/streambuf_iterator.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/string_view.tcc \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stringfwd.h \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/uniform_int_dist.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/unique_ptr.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/unordered_map.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/uses_allocator.h \
@@ -1772,14 +1755,11 @@ CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj: C:/Users/nicol/.vscode/codi
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/locale \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/memory \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/new \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/numeric \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/optional \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ostream \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/pstl/execution_defs.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/pstl/glue_memory_defs.h \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/pstl/glue_numeric_defs.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/pstl/pstl_config.h \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/random \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/ratio \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/set \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/sstream \
@@ -1819,7 +1799,6 @@ CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj: C:/Users/nicol/.vscode/codi
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/messages_members.h \
-  C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/opt_random.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h \
   C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/time_members.h \
   C:/Users/nicol/compiladores/ucrt64/include/corecrt.h \
@@ -1858,16 +1837,11 @@ CMakeFiles/meu_jogo.dir/Source/FasePrimeira.cpp.obj: C:/Users/nicol/.vscode/codi
   C:/Users/nicol/compiladores/ucrt64/include/vadefs.h \
   C:/Users/nicol/compiladores/ucrt64/include/wchar.h \
   C:/Users/nicol/compiladores/ucrt64/include/wctype.h \
-  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
   C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
   C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
-  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
-  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitintrin.h \
-  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pmmintrin.h \
   C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
   C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
-  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
-  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h
+  C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h
 
 CMakeFiles/meu_jogo.dir/Source/Gerenciador_Colisoes.cpp.obj: C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Gerenciador_Colisoes.cpp \
   C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Ent.h \
@@ -6230,8 +6204,6 @@ _deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp:
 
 _deps/sfml-src/include/SFML/Graphics/Image.hpp:
 
-C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/pstl/glue_numeric_defs.h:
-
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/pstl/glue_memory_defs.h:
 
 _deps/sfml-src/include/SFML/Graphics/Rect.inl:
@@ -6243,8 +6215,6 @@ C:/Users/nicol/compiladores/ucrt64/include/sec_api/sys/timeb_s.h:
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/basic_string.tcc:
 
 _deps/sfml-src/include/SFML/System/Utf.inl:
-
-C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/numeric:
 
 _deps/sfml-src/include/SFML/Graphics/RectangleShape.hpp:
 
@@ -6259,8 +6229,6 @@ _deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp:
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/postypes.h:
 
 _deps/sfml-src/include/SFML/Graphics/View.hpp:
-
-C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/opt_random.h:
 
 _deps/sfml-src/include/SFML/Graphics/RenderTexture.hpp:
 
@@ -6462,8 +6430,6 @@ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/atomic_base.h:
 
 C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/Mapa1.cpp:
 
-C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h:
-
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/atomic_lockfree_defines.h:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/basic_ios.h:
@@ -6491,8 +6457,6 @@ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/concept_check.h:
 C:/Users/nicol/compiladores/ucrt64/include/stdint.h:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/cpp_type_traits.h:
-
-C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/pmmintrin.h:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/cxxabi_forced.h:
 
@@ -6620,8 +6584,6 @@ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_uninitialized.h:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stream_iterator.h:
 
-C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h:
-
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/streambuf.tcc:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/streambuf_iterator.h:
@@ -6633,8 +6595,6 @@ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/uses_allocator.h:
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/uses_allocator_args.h:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/utility.h:
-
-C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/random.tcc:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/vector.tcc:
 
@@ -6708,8 +6668,6 @@ C:/Users/nicol/compiladores/ucrt64/include/corecrt_startup.h:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/string_view:
 
-C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/uniform_int_dist.h:
-
 C:/Users/nicol/compiladores/ucrt64/include/sec_api/stdlib_s.h:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/system_error:
@@ -6755,8 +6713,6 @@ C:/Users/nicol/compiladores/ucrt64/include/ctype.h:
 C:/Users/nicol/compiladores/ucrt64/include/malloc.h:
 
 C:/Users/nicol/compiladores/ucrt64/include/pthread.h:
-
-C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/random.h:
 
 C:/Users/nicol/compiladores/ucrt64/include/pthread_signal.h:
 
@@ -6812,11 +6768,7 @@ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/specfun.h:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_list.h:
 
-C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h:
-
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_multiset.h:
-
-C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/bits/stl_numeric.h:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/tr1/legendre_function.tcc:
 
@@ -6828,10 +6780,6 @@ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/cmath:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/list:
 
-C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/tr1/modified_bessel_func.tcc:
-
-C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/random:
-
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/set:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/tr1/beta_function.tcc:
@@ -6840,6 +6788,8 @@ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/tr1/gamma.tcc:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/tr1/hypergeometric.tcc:
 
+C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/tr1/modified_bessel_func.tcc:
+
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/tr1/poly_hermite.tcc:
 
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/tr1/poly_laguerre.tcc:
@@ -6847,8 +6797,6 @@ C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/tr1/poly_laguerre.tcc:
 C:/Users/nicol/compiladores/ucrt64/include/c++/15.2.0/tr1/special_function_util.h:
 
 C:/Users/nicol/compiladores/ucrt64/include/math.h:
-
-C:/Users/nicol/compiladores/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mwaitintrin.h:
 
 C:/Users/nicol/.vscode/codigos_proprios/Tec-prog-Game/Source/FasePrimeira.cpp:
 

@@ -1,5 +1,4 @@
 #include <SFML/Graphics.hpp>
-#include <random>
 #include "../Fases/Fase.h"
 #include "../Entidades/Personagens/Cobra.h"
 #include "../gerenciadores/Gerenciador_Grafico.h"
@@ -10,17 +9,16 @@ Fase::~Fase() {}
 
 void Fase::criarPlataformas(Mapa1& mapa) {
     const float offset = 125.f;
+    const float yChao = 500.f;
 
     auto garantidas = mapa.getSpawnPoints(5);
-    for (auto& pos : garantidas)
-        mapa.adicionarPlataforma(pos.x - offset, pos.y);
+    for (size_t i = 0; i < 3 && i < garantidas.size(); i++)
+        mapa.adicionarPlataforma(garantidas[i].x - offset, yChao);
 
-    std::mt19937 rng(std::random_device{}());
-    std::bernoulli_distribution dist(0.5);
     auto opcionais = mapa.getSpawnPoints(7);
     for (auto& pos : opcionais)
-        if (dist(rng))
-            mapa.adicionarPlataforma(pos.x - offset, pos.y);
+        if (rand() % 2)
+            mapa.adicionarPlataforma(pos.x - offset, yChao);
 }
 
 void Fase::criarInimigosFaceis(Mapa1& mapa) {
@@ -32,7 +30,7 @@ void Fase::criarInimigosFaceis(Mapa1& mapa) {
     auto platSpawns = mapa.getSpawnPoints(5);
     for (auto& pos : platSpawns)
         if (rand() % 2 == 0)
-            entidades.incluir(new Cobra(pos.x, pos.y));
+            entidades.incluir(new Cobra(pos.x, 488.f));
 }
 
 void Fase::atualizarInimigos(Mapa1& mapa, Personagens& jogador) {
