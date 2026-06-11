@@ -61,11 +61,13 @@ void Jogo::Atualizar() {
     if (!naFase2) {
         fase1.atualizarInimigos(mapa1, ninja);
         if (ninja.estaVivo()) ninja.update(mapa1);
+        ninja.setEmOleo(false);
         fase1.processarObstaculos(ninja);
         fase1.verificarTransicaoFase(ninja);
 
         if (ninja2) {
             if (ninja2->estaVivo()) ninja2->update(mapa1);
+            ninja2->setEmOleo(false);
             fase1.processarObstaculos(*ninja2);
             fase1.verificarTransicaoFase(*ninja2);
         }
@@ -79,11 +81,13 @@ void Jogo::Atualizar() {
     } else {
         fase2->atualizarInimigos(mapa1, ninja);
         if (ninja.estaVivo()) ninja.update(mapa1);
+        ninja.setEmOleo(false);
         fase2->processarObstaculos(ninja);
         fase2->verificarTransicaoFase(ninja);
 
         if (ninja2) {
             if (ninja2->estaVivo()) ninja2->update(mapa1);
+            ninja2->setEmOleo(false);
             fase2->processarObstaculos(*ninja2);
             fase2->verificarTransicaoFase(*ninja2);
         }

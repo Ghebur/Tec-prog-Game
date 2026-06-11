@@ -22,12 +22,10 @@ void Personagens::aplicarGravidade(float deltaTime) {
     if (framesSemDano > 0) framesSemDano--;
 }
 
-void Personagens::verificarColisaoChao(Mapa1& mapa, float alturaCorpo) {
+void Personagens::verificarColisaoChao(Mapa1& /*mapa*/, float alturaCorpo) {
     if (posicao.y + alturaCorpo >= 550.f) {
         posicao.y = 550.f - alturaCorpo;
         noChao = true;
-        sf::Vector2f pe = {posicao.x + alturaCorpo / 2.f, posicao.y + alturaCorpo + 1.f};
-        emOleo = (mapa.getTile(pe) == 2);
     } else {
         noChao = false;
         emOleo = false;

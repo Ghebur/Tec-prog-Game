@@ -17,16 +17,16 @@ void FasePrimeira::criarObstaculos(Mapa1& mapa) {
     criarOleo(mapa);
 }
 
-void FasePrimeira::criarOleo(Mapa1& mapa) {
-    auto garantidos = mapa.getSpawnPoints(9);
-    if (garantidos.size() >= 1) entidades.incluir(new oleo(sf::Vector2f(garantidos[0].x, garantidos[0].y)));
-    if (garantidos.size() >= 2) entidades.incluir(new oleo(sf::Vector2f(garantidos[1].x, garantidos[1].y)));
-    if (garantidos.size() >= 3) entidades.incluir(new oleo(sf::Vector2f(garantidos[2].x, garantidos[2].y)));
+void FasePrimeira::criarOleo(Mapa1& /*mapa*/) {
+    // 3 poças fixas espalhadas pela fase 1
+    entidades.incluir(new oleo({700.f,  500.f}, {100.f, 30.f}));
+    entidades.incluir(new oleo({2500.f, 500.f}, {100.f, 30.f}));
+    entidades.incluir(new oleo({3250.f, 500.f}, {100.f, 30.f}));
 
-    auto opcionais = mapa.getSpawnPoints(10);
-    for (auto& pos : opcionais)
-        if (rand() % 2)
-            entidades.incluir(new oleo(sf::Vector2f(pos.x, pos.y)));
+    // 3 poças aleatórias (50% cada)
+    if (rand() % 2) entidades.incluir(new oleo({1500.f, 500.f}, {100.f, 30.f}));
+    if (rand() % 2) entidades.incluir(new oleo({3900.f, 500.f}, {100.f, 30.f}));
+    if (rand() % 2) entidades.incluir(new oleo({4300.f, 500.f}, {100.f, 30.f}));
 }
 
 void FasePrimeira::criarInimigos(Mapa1& mapa) {
