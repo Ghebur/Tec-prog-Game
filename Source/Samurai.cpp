@@ -22,7 +22,7 @@ Samurai::~Samurai() {}
 
 #define DELTA_TIME (1.0f / 60.0f)
 
-void Samurai::movimentaçao() {
+void Samurai::movimentacao() {
     float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
     angulo += velX * DELTA_TIME;
     posicao.x = origemX + std::sin(angulo) * 100.f;
@@ -41,7 +41,7 @@ void Samurai::desenhar(sf::RenderWindow& window) {
 }
 
 void Samurai::update(Mapa1& mapa, Personagens& p) {
-    movimentaçao();
+    movimentacao();
     aplicarGravidade(1.f / 60.f);
     verificarColisaoChao(mapa, corpo.getSize().y);
     mapa.colidirComPersonagens(*this);

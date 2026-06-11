@@ -33,7 +33,8 @@ public:
     ~Ninja();
     void update(Mapa1& mapa);
     void desenhar(sf::RenderWindow& window);
-    void movimentaçao();
+    void movimentacao();
     bool estaArmado() const override { return armado; }
     sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
+    void setPosicao(sf::Vector2f novaPos);
 };

@@ -11,6 +11,8 @@ Entidades::~Entidades()
 {
 }
 
+
+
 sf::Vector2f Entidades::getPos() const { return posicao; }
 
 float Entidades::getTamanho() const { return tamanho; }

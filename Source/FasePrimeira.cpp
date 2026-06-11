@@ -1,6 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include "../Fases/FasePrimeira.h"
 #include "../Entidades/Obstaculos/Oleo.h"
+#include "../Entidades/Personagens/Ninja.h"
 
 FasePrimeira::FasePrimeira(Mapa1& mapa) {
     criarInimigos(mapa);
@@ -70,4 +71,43 @@ void FasePrimeira::criarFinal(Mapa1& mapa) {
 
 bool FasePrimeira::faseFinalizada() const {
     return blocoFinal && blocoFinal->foiAtingido();
+}
+
+
+FasePrimeira::BlocoFinal::BlocoFinal(sf::Vector2f pos):
+    Entidades(99, 20.f, pos)
+{
+    forma.setSize({20.f, 600.f});
+    forma.setPosition(pos);
+    forma.setFillColor(sf::Color(0, 220, 80));
+}
+
+FasePrimeira::BlocoFinal::~BlocoFinal() {}
+
+void FasePrimeira::BlocoFinal::passar(Personagens& p) {
+    if (forma.getGlobalBounds().findIntersection(p.getBounds()))
+        atingido = true;
+}
+
+void FasePrimeira::BlocoFinal::desenhar(sf::RenderWindow& window) {
+    window.draw(forma);
+}
+
+bool FasePrimeira::BlocoFinal::foiAtingido() const {
+    return atingido;
+}
+void FasePrimeira::BlocoFinal::executar() {
+}
+void FasePrimeira::verificarTransicaoFase(Ninja& jogador) {
+    // O bloco final faz a checagem com o jogador
+    if (blocoFinal != nullptr) {
+        blocoFinal->passar(jogador);
+    }
+
+    // Se a condição de término for atingida, realiza o teletransporte
+    if (faseFinalizada()) {
+        jogador.setPosicao({100.f, 1100.f});
+
+        blocoFinal = nullptr;
+    }
 }

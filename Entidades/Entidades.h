@@ -13,4 +13,5 @@ public:
     sf::Vector2f getPos() const;
     float getTamanho() const;
     virtual void desenhar(sf::RenderWindow& window) = 0;
+    
 };

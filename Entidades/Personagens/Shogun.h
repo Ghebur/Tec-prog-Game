@@ -21,7 +21,7 @@ class Shogun : public Inimigo {
         Shogun(float x, float y);
         ~Shogun();
         void executar() override {}
-        void movimentaçao() override;
+        void movimentacao() override;
         void danifcar(Personagens& p) override;
         void atualizarAnimacao();
         void desenhar(sf::RenderWindow& window);

@@ -19,7 +19,7 @@ venenosa(rand()%2)
 
 Cobra::~Cobra() {}
 
-void Cobra::movimentaçao() {
+void Cobra::movimentacao() {
     float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
     angulo += velX * DELTA_TIME;
     posicao.x = origemX + std::sin(angulo) * 100.f;
@@ -66,7 +66,7 @@ void Cobra::desenhar(sf::RenderWindow& window) {
 }
 
 void Cobra::update(Mapa1& mapa, Personagens& p) {
-    movimentaçao();
+    movimentacao();
     aplicarGravidade(1.f / 60.f);
     verificarColisaoChao(mapa, corpo.getSize().y);
     mapa.colidirComPersonagens(*this);

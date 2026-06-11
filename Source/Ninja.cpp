@@ -29,7 +29,7 @@ void Ninja::update(Mapa1& mapa) {
     aplicarGravidade(DELTA_TIME);
     verificarColisaoChao(mapa, corpo.getSize().y);
     mapa.colidirComPersonagens(*this);
-    movimentaçao();
+    movimentacao();
     corpo.setPosition(posicao);
 }
 
@@ -81,7 +81,7 @@ void Ninja::desenhar(sf::RenderWindow& window) {
         window.draw(lanca);
 }
 
-void Ninja::movimentaçao() {
+void Ninja::movimentacao() {
     float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
     bool moveu = false;
 
@@ -124,4 +124,9 @@ void Ninja::movimentaçao() {
     }
 
     atualizarAnimacao(moveu);
+}
+void Ninja::setPosicao(sf::Vector2f novaPos) {
+    posicao = novaPos; 
+    
+    corpo.setPosition(posicao); 
 }

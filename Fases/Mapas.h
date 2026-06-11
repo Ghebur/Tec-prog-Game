@@ -8,7 +8,7 @@ class Personagens;
 
 class Mapa1 : public Ent {
 private:
-    static const int LINHAS = 12,
+    static const int LINHAS = 25,
                      COLUNAS = 100;
     float alturaBloco = 50.f;
     float larguraBloco = 50.f;
