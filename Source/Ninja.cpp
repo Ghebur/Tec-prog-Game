@@ -4,7 +4,7 @@
 #define DELTA_TIME (1.0f / 60.0f)
 
 Ninja::Ninja(float x, float y, Controles controles) :
-    Personagens(1, 3, sf::Vector2f(4.5f, 4.5f), 50.f, sf::Vector2f(x, y)),
+    Personagens(1, 5, sf::Vector2f(4.5f, 4.5f), 50.f, sf::Vector2f(x, y)),
     controles(controles) {
     corpo.setSize(sf::Vector2f(tamanho/1.5f, tamanho));
     corpo.setFillColor(sf::Color::Transparent);
@@ -131,4 +131,11 @@ void Ninja::setPosicao(sf::Vector2f novaPos) {
     posicao = novaPos; 
     
     corpo.setPosition(posicao); 
+}
+
+float Ninja::getTempoParaArmar() const {
+    float t = relogioLanca.getElapsedTime().asSeconds();
+    if (estadoLanca == EstadoLanca::COOLDOWN)
+        return t < 4.f ? 4.f - t : 0.f;
+    return 0.f;
 }
