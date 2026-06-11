@@ -13,82 +13,26 @@ FaseSegunda::FaseSegunda(Mapa1& mapa) {
 FaseSegunda::~FaseSegunda() {}
 
 void FaseSegunda::criarInimigos(Mapa1& mapa) {
-    auto spawns4 = mapa.getSpawnPoints(4);
-    auto spawns5 = mapa.getSpawnPoints(5);
-
-    const float yPlatforma = 488.f;
-
-    // Chão: Cobra Cobra Shogun
-    if (spawns4.size() >= 1) entidades.incluir(new Cobra(spawns4[0].x, spawns4[0].y));
-    if (spawns4.size() >= 2) entidades.incluir(new Cobra(spawns4[1].x, spawns4[1].y));
-    if (spawns4.size() >= 3) entidades.incluir(new Shogun(spawns4[2].x, spawns4[2].y));
-
-    for (size_t i = 3; i < spawns4.size(); i++)
-        if (rand() % 2)
-            entidades.incluir(new Shogun(spawns4[i].x, spawns4[i].y));
-
-    // Plataformas: Cobra Shogun Shogun
-    if (spawns5.size() >= 1) entidades.incluir(new Cobra(spawns5[0].x, yPlatforma));
-    if (spawns5.size() >= 2) entidades.incluir(new Shogun(spawns5[1].x, yPlatforma));
-    if (spawns5.size() >= 3) entidades.incluir(new Shogun(spawns5[2].x, yPlatforma));
-
-    if (spawns5.size() >= 4 && rand() % 2)
-        entidades.incluir(new Cobra(spawns5[3].x, yPlatforma));
-    if (spawns5.size() >= 5 && rand() % 2)
-        entidades.incluir(new Shogun(spawns5[4].x, yPlatforma));
-    if (spawns5.size() >= 6 && rand() % 2)
-        entidades.incluir(new Cobra(spawns5[5].x, yPlatforma));
+    // boss Shogun perto do final do mapa
+    shogunBoss = new Shogun(4500.f, 530.f);
+    entidades.incluir(shogunBoss);
 }
 
-void FaseSegunda::criarObstaculos(Mapa1& mapa) {
-    // Espinhos distribuídos pelo mapa, na altura do chão
-    entidades.incluir(new Espinho({800.f,  500.f}, {100.f, 30.f}));
-    entidades.incluir(new Espinho({1700.f, 500.f}, {80.f,  30.f}));
-    entidades.incluir(new Espinho({2600.f, 500.f}, {120.f, 30.f}));
-    entidades.incluir(new Espinho({3400.f, 500.f}, {100.f, 30.f}));
-    entidades.incluir(new Espinho({4100.f, 500.f}, {80.f,  30.f}));
+void FaseSegunda::criarObstaculos(Mapa1& /*mapa*/) {
+    // y=520 → base em 550 (nível do chão); posições mínimo 50px longe de qualquer plataforma
+    // Plataformas garantidas: 375-725, 1625-1975, 2975-3325
+    // Plataformas opcionais:  875-1225, 2375-2725, 3625-3975
+    entidades.incluir(new Espinho({200.f,  520.f}, {100.f, 30.f})); // antes da 1ª plataforma
+    entidades.incluir(new Espinho({1310.f, 520.f}, {100.f, 30.f})); // entre opt-1 e garantida-2
+    entidades.incluir(new Espinho({2100.f, 520.f}, {100.f, 30.f})); // entre garantida-2 e opt-2
+    entidades.incluir(new Espinho({3430.f, 520.f}, {100.f, 30.f})); // entre garantida-3 e opt-3
+    entidades.incluir(new Espinho({4150.f, 520.f}, {100.f, 30.f})); // após opt-3
 }
 
-void FaseSegunda::criarFinal(Mapa1& mapa) {
-    blocoFinal = new BlocoFinal({4950.f, 0.f});
-    entidades.incluir(blocoFinal);
-}
+void FaseSegunda::criarFinal(Mapa1& /*mapa*/) {}
 
 bool FaseSegunda::faseFinalizada() const {
-    return finalizado || (blocoFinal && blocoFinal->foiAtingido());
+    return shogunBoss && !shogunBoss->estaVivo();
 }
 
-void FaseSegunda::verificarTransicaoFase(Ninja& jogador) {
-    if (blocoFinal != nullptr)
-        blocoFinal->passar(jogador);
-
-    if (!finalizado && blocoFinal && blocoFinal->foiAtingido()) {
-        finalizado = true;
-        blocoFinal = nullptr;
-    }
-}
-
-// ── BlocoFinal ──────────────────────────────────────────────────────────────
-
-FaseSegunda::BlocoFinal::BlocoFinal(sf::Vector2f pos) :
-    Entidades(99, 20.f, pos)
-{
-    forma.setSize({20.f, 600.f});
-    forma.setPosition(pos);
-    forma.setFillColor(sf::Color(0, 220, 80));
-}
-
-FaseSegunda::BlocoFinal::~BlocoFinal() {}
-
-void FaseSegunda::BlocoFinal::passar(Personagens& p) {
-    if (forma.getGlobalBounds().findIntersection(p.getBounds()))
-        atingido = true;
-}
-
-void FaseSegunda::BlocoFinal::desenhar(sf::RenderWindow& window) {
-    window.draw(forma);
-}
-
-bool FaseSegunda::BlocoFinal::foiAtingido() const {
-    return atingido;
-}
+void FaseSegunda::verificarTransicaoFase(Ninja& /*jogador*/) {}

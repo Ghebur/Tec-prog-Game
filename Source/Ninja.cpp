@@ -10,13 +10,12 @@ Ninja::Ninja(float x, float y, Controles controles) :
     corpo.setFillColor(sf::Color::Transparent);
     corpo.setPosition(posicao);
 
-    lanca.setSize({20.f, 4.f});
-    lanca.setFillColor(sf::Color(200, 200, 50));
     armado = false;
 
     texIdle.loadFromFile("assets/NinjaAnimacoes/Idle.png");
     texRun.loadFromFile("assets/NinjaAnimacoes/Run.png");
     texJump.loadFromFile("assets/NinjaAnimacoes/Jump.png");
+    texAttack.loadFromFile("assets/NinjaAnimacoes/Attack_3.png");
 
     sprite.setTexture(texIdle, true);
     sprite.setTextureRect(sf::IntRect{{0, 0}, {FRAME_W, FRAME_H}});
@@ -39,6 +38,8 @@ void Ninja::atualizarAnimacao(bool movendo) {
     EstadoAnim novoEstado;
     if (!noChao)
         novoEstado = EstadoAnim::JUMPING;
+    else if (armado)
+        novoEstado = EstadoAnim::ATTACKING;  // armado sobrepõe Run/Idle no chão
     else if (movendo)
         novoEstado = EstadoAnim::RUNNING;
     else
@@ -50,12 +51,13 @@ void Ninja::atualizarAnimacao(bool movendo) {
         relogioAnim.restart();
     }
 
-    int totalFrames = 6;
     sf::Texture* tex = &texIdle;
+    int totalFrames = 6;
     switch (estadoAnim) {
-        case EstadoAnim::IDLE:    tex = &texIdle; totalFrames = 6;  break;
-        case EstadoAnim::RUNNING: tex = &texRun;  totalFrames = 8;  break;
-        case EstadoAnim::JUMPING: tex = &texJump; totalFrames = 12; break;
+        case EstadoAnim::IDLE:      tex = &texIdle;   totalFrames = 6;  break;
+        case EstadoAnim::RUNNING:   tex = &texRun;    totalFrames = 8;  break;
+        case EstadoAnim::JUMPING:   tex = &texJump;   totalFrames = 12; break;
+        case EstadoAnim::ATTACKING: tex = &texAttack; totalFrames = 3;  break;
     }
 
     if (relogioAnim.getElapsedTime().asSeconds() > 0.1f) {
@@ -79,8 +81,6 @@ void Ninja::atualizarAnimacao(bool movendo) {
 
 void Ninja::desenhar(sf::RenderWindow& window) {
     window.draw(sprite);
-    if (armado)
-        window.draw(lanca);
 }
 
 void Ninja::movimentacao() {
@@ -112,7 +112,6 @@ void Ninja::movimentacao() {
             }
             break;
         case EstadoLanca::ARMADO:
-            lanca.setPosition({posicao.x + corpo.getSize().x, posicao.y + 2.f});
             if (t >= 2.f) {
                 armado = false;
                 estadoLanca = EstadoLanca::COOLDOWN;

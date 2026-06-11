@@ -1,5 +1,6 @@
 #pragma once
 #include "Personagens.h"
+#include "../Projetil.h"
 
 class Inimigo : public Personagens {
     protected:
@@ -12,6 +13,7 @@ class Inimigo : public Personagens {
         virtual void danifcar(Personagens& p) = 0;
         virtual void update(Mapa1& mapa, Personagens& p) = 0;
         virtual void desenhar(sf::RenderWindow& window) = 0;
+        virtual Projetil* getProjetilPendente() { return nullptr; }
         void colidirComPersonagem(Personagens& p);
 
 

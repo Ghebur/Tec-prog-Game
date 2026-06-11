@@ -6,6 +6,8 @@ class Espinho : public Obstaculos {
     private:
         short int danosidade;
         sf::RectangleShape forma;
+        sf::Texture tex;
+        sf::Sprite sprite{tex};
 
     public:
         Espinho(sf::Vector2f pos, sf::Vector2f tam);

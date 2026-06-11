@@ -12,14 +12,14 @@ struct Controles {
 class Ninja : public Personagens {
     private:
     sf::RectangleShape corpo;
-    sf::RectangleShape lanca;
 
     sf::Texture texIdle;
     sf::Texture texRun;
     sf::Texture texJump;
+    sf::Texture texAttack;
     sf::Sprite sprite{texIdle};
 
-    enum class EstadoAnim { IDLE, RUNNING, JUMPING };
+    enum class EstadoAnim { IDLE, RUNNING, JUMPING, ATTACKING };
     EstadoAnim estadoAnim = EstadoAnim::IDLE;
 
     sf::Clock relogioAnim;

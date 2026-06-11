@@ -7,19 +7,6 @@
 
 class FaseSegunda : public Fase {
 public:
-    class BlocoFinal : public Entidades {
-    private:
-        sf::RectangleShape forma;
-        bool atingido = false;
-    public:
-        BlocoFinal(sf::Vector2f pos);
-        ~BlocoFinal();
-        void passar(Personagens& p);
-        void desenhar(sf::RenderWindow& window) override;
-        bool foiAtingido() const;
-        void executar() override {}
-    };
-
     FaseSegunda(Mapa1& mapa);
     ~FaseSegunda();
     bool faseFinalizada() const override;
@@ -29,6 +16,7 @@ protected:
     void criarInimigos(Mapa1& mapa) override;
     void criarObstaculos(Mapa1& mapa) override;
     void criarFinal(Mapa1& mapa) override;
-    BlocoFinal* blocoFinal = nullptr;
-    bool finalizado = false;
+
+private:
+    Shogun* shogunBoss = nullptr;
 };

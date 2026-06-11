@@ -27,5 +27,6 @@ public:
     void induzirInimigo(Inimigo* pi);
     void induzirObstaculo(Obstaculos* po);
     void induzirProjetil(Projetil* ps);
+    void atualizarProjeteis();
     void executar();
 };

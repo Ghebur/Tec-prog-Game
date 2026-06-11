@@ -1,4 +1,5 @@
 #include "../gerenciadores/Gerenciador_De_Colisao.h"
+#include <vector>
 
 Gerenciador_Colisoes::Gerenciador_Colisoes() {}
 
@@ -27,8 +28,19 @@ void Gerenciador_Colisoes::tratarColisoesJogsInimigs() {
             ini->colidirComPersonagem(*log1);
 }
 
+void Gerenciador_Colisoes::atualizarProjeteis() {
+    std::vector<Projetil*> aRemover;
+    for (Projetil* proj : LPs) {
+        proj->update();
+        if (proj->estaMorta()) aRemover.push_back(proj);
+    }
+    for (Projetil* p : aRemover) LPs.erase(p);
+}
+
 void Gerenciador_Colisoes::tratarColisoesJogsProjeteis() {
-    // Projeteis nao implementados ainda
+    if (!log1) return;
+    for (Projetil* proj : LPs)
+        proj->danificar(*log1);
 }
 
 void Gerenciador_Colisoes::induzirInimigo(Inimigo* pi) {
