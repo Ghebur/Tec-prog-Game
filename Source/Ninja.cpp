@@ -6,7 +6,7 @@
 Ninja::Ninja(float x, float y, Controles controles) :
     Personagens(1, 3, sf::Vector2f(4.5f, 4.5f), 50.f, sf::Vector2f(x, y)),
     controles(controles) {
-    corpo.setSize(sf::Vector2f(tamanho/1.5f, tamanho));
+    corpo.setSize(sf::Vector2f(tamanho, tamanho));
     corpo.setFillColor(sf::Color::Transparent);
     corpo.setPosition(posicao);
 

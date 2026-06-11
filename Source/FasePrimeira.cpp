@@ -19,14 +19,14 @@ void FasePrimeira::criarObstaculos(Mapa1& mapa) {
 
 void FasePrimeira::criarOleo(Mapa1& /*mapa*/) {
     // 3 poças fixas espalhadas pela fase 1
-    entidades.incluir(new oleo({700.f,  500.f}, {100.f, 30.f}));
-    entidades.incluir(new oleo({2500.f, 500.f}, {100.f, 30.f}));
-    entidades.incluir(new oleo({3250.f, 500.f}, {100.f, 30.f}));
+    entidades.incluir(new oleo({700.f,  500.f}, {50.f, 50.f}));
+    entidades.incluir(new oleo({2500.f, 500.f}, {50.f, 50.f}));
+    entidades.incluir(new oleo({3250.f, 500.f}, {50.f, 50.f}));
 
     // 3 poças aleatórias (50% cada)
-    if (rand() % 2) entidades.incluir(new oleo({1500.f, 500.f}, {100.f, 30.f}));
-    if (rand() % 2) entidades.incluir(new oleo({3900.f, 500.f}, {100.f, 30.f}));
-    if (rand() % 2) entidades.incluir(new oleo({4300.f, 500.f}, {100.f, 30.f}));
+    if (rand() % 2) entidades.incluir(new oleo({1500.f, 500.f}, {50.f, 50.f}));
+    if (rand() % 2) entidades.incluir(new oleo({3900.f, 500.f}, {50.f, 50.f}));
+    if (rand() % 2) entidades.incluir(new oleo({4300.f, 500.f}, {50.f, 50.f}));
 }
 
 void FasePrimeira::criarInimigos(Mapa1& mapa) {
