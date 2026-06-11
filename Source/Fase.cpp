@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include "../Listas/Lista.h"
 #include "../Fases/Fase.h"
 #include "../Entidades/Personagens/Cobra.h"
 #include "../gerenciadores/Gerenciador_Grafico.h"
@@ -34,7 +35,7 @@ void Fase::criarInimigosFaceis(Mapa1& mapa) {
 }
 
 void Fase::atualizarInimigos(Mapa1& mapa, Personagens& jogador) {
-    for (Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
+    for (Lista<Entidades>::Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
         Inimigo* ini = dynamic_cast<Inimigo*>(e->getInfo());
         if (ini && ini->estaVivo())
             ini->update(mapa, jogador);
@@ -42,7 +43,7 @@ void Fase::atualizarInimigos(Mapa1& mapa, Personagens& jogador) {
 }
 
 void Fase::popularGerenciador() {
-    for (Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
+    for (Lista<Entidades>::Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
         Entidades* ent = e->getInfo();
         if (Inimigo* ini = dynamic_cast<Inimigo*>(ent)) {
             gerenciador.induzirInimigo(ini);
@@ -61,7 +62,7 @@ void Fase::processarObstaculos(Ninja& jogador) {
 }
 
 void Fase::desenharEntidades(Gerenciador_Grafico& gg) {
-    for (Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
+    for (Lista<Entidades>::Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
         Inimigo* ini = dynamic_cast<Inimigo*>(e->getInfo());
         if (ini) {
             if (ini->estaVivo()) gg.desenharEnte(ini);

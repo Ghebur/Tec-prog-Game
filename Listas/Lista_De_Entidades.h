@@ -11,7 +11,7 @@ public:
     ListaEntidades() {}
 
     ~ListaEntidades() {
-        for (Elemento<Entidades>* e = LEs.getPrimeiro(); e != nullptr; e = e->getProximo())
+        for (Lista<Entidades>::Elemento<Entidades>* e = LEs.getPrimeiro(); e != nullptr; e = e->getProximo())
             delete e->getInfo();
     }
 
@@ -20,11 +20,11 @@ public:
     }
 
     void percorrer(sf::RenderWindow& window) {
-        for (Elemento<Entidades>* e = LEs.getPrimeiro(); e != nullptr; e = e->getProximo())
+        for (Lista<Entidades>::Elemento<Entidades>* e = LEs.getPrimeiro(); e != nullptr; e = e->getProximo())
             e->getInfo()->desenhar(window);
     }
 
-    Elemento<Entidades>* getPrimeiro() const {
+    Lista<Entidades>::Elemento<Entidades>* getPrimeiro() const {
         return LEs.getPrimeiro();
     }
 };
