@@ -39,7 +39,7 @@ void Cobra::atualizarAnimacao() {
     float escala = (tamanho / FRAME_H);
     int totalFrames = 4;
     sf::Vector2f pos = posicao;
-    pos.y = posicao.y - 30.f;
+    pos.y = posicao.y - 29.f;
 
     if (relogioAnim.getElapsedTime().asSeconds() > 0.1f) {
         frameAtual = (frameAtual + 1) % totalFrames;
