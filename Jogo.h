@@ -22,6 +22,13 @@ class Jogo {
         std::optional<FaseSegunda> fase2;
         bool naFase2 = false;
         bool faseTerminada = false;
+
+        sf::Font fonteHUD;
+        sf::Text textoVidas;
+        sf::Text textoTempo;
+        sf::Text textoVidas2;
+        sf::Text textoTempo2;
+
         void ProcessarEventos();
         void Atualizar();
         void Renderizar();

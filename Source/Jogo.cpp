@@ -1,19 +1,52 @@
+#include <cmath>
 #include "../Jogo.h"
 
 Jogo::Jogo() :
     GG(sf::VideoMode({800, 600}), "Meu Jogo UTFPR"),
     ninja(300.f, 400.f),
     mapa1(),
-    fase1(mapa1)
+    fase1(mapa1),
+    textoVidas(fonteHUD),
+    textoTempo(fonteHUD),
+    textoVidas2(fonteHUD),
+    textoTempo2(fonteHUD)
 {
     GG.getJanela().setFramerateLimit(60);
     camera.setSize(sf::Vector2f(800.f, 600.f));
     Ent::setGG(&GG);
 
-    texBackground.loadFromFile("assets/Background/hd.png");
+    if (!texBackground.loadFromFile("assets/Background/hd.png")) {
+        // fallback loading can be handled here if needed
+    }
     background.setTexture(texBackground, true);
     background.setScale({800.f / texBackground.getSize().x,
                          600.f / texBackground.getSize().y});
+
+    bool carregouFonte = fonteHUD.openFromFile("assets/font.ttf");
+    if (!carregouFonte)
+        carregouFonte = fonteHUD.openFromFile("C:/Windows/Fonts/arial.ttf");
+
+    if (carregouFonte) {
+        textoVidas.setFont(fonteHUD);
+        textoVidas.setCharacterSize(22);
+        textoVidas.setFillColor(sf::Color::White);
+        textoVidas.setPosition({20.f, 20.f});
+
+        textoTempo.setFont(fonteHUD);
+        textoTempo.setCharacterSize(22);
+        textoTempo.setFillColor(sf::Color::White);
+        textoTempo.setPosition({20.f, 50.f});
+
+        textoVidas2.setFont(fonteHUD);
+        textoVidas2.setCharacterSize(22);
+        textoVidas2.setFillColor(sf::Color::White);
+        textoVidas2.setPosition({525.f, 20.f});
+
+        textoTempo2.setFont(fonteHUD);
+        textoTempo2.setCharacterSize(22);
+        textoTempo2.setFillColor(sf::Color::White);
+        textoTempo2.setPosition({525.f, 50.f});
+    }
 }
 
 Jogo::~Jogo() {}
@@ -85,6 +118,27 @@ void Jogo::Renderizar() {
         overlay.setPosition(camera.getCenter() - sf::Vector2f(400.f, 300.f));
         overlay.setFillColor(sf::Color(0, 180, 60, 160));
         window.draw(overlay);
+    }
+
+    window.setView(window.getDefaultView());
+    textoVidas.setString("Vidas: " + std::to_string(ninja.getVida()));
+    float tempoArmar = ninja.getTempoParaArmar();
+    std::string tempoArmarTexto = tempoArmar > 0.f
+        ? std::to_string(static_cast<int>(std::ceil(tempoArmar))) + "s"
+        : "Pronto";
+    textoTempo.setString("Tempo p/ armar: " + tempoArmarTexto);
+    window.draw(textoVidas);
+    window.draw(textoTempo);
+
+    if (ninja2) {
+        textoVidas2.setString("P2 Vidas: " + std::to_string(ninja2->getVida()));
+        float tempoArmar2 = ninja2->getTempoParaArmar();
+        std::string tempoArmar2Texto = tempoArmar2 > 0.f
+            ? std::to_string(static_cast<int>(std::ceil(tempoArmar2))) + "s"
+            : "Pronto";
+        textoTempo2.setString("P2 Tempo p/ armar: " + tempoArmar2Texto);
+        window.draw(textoVidas2);
+        window.draw(textoTempo2);
     }
 
     window.display();

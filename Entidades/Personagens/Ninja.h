@@ -45,5 +45,6 @@ public:
     void movimentacao();
     bool estaArmado() const override { return armado; }
     sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
+    float getTempoParaArmar() const;
     void setPosicao(sf::Vector2f novaPos);
 };
