@@ -5,6 +5,8 @@
 class oleo : public Obstaculos {
     private:
         sf::RectangleShape forma;
+        sf::Texture tex;
+        sf::Sprite sprite{tex};
 
     public:
         oleo(sf::Vector2f pos, sf::Vector2f tamanho = sf::Vector2f(100.f, 50.f));

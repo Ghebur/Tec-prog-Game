@@ -54,6 +54,10 @@ int valores[LINHAS][COLUNAS] = {
 
     chao.setSize({larguraBloco, alturaBloco});
 
+    texChao.loadFromFile("assets/Chao/bloco_grama_neve.png");
+    spriteChao.setTexture(texChao, true);
+    spriteChao.setScale({larguraBloco / texChao.getSize().x, alturaBloco / texChao.getSize().y});
+
     for (int i = 0; i < LINHAS; i++)
         for (int j = 0; j < COLUNAS; j++)
             if (grade[i][j] == 3)
@@ -64,9 +68,8 @@ void Mapa1::desenhar(sf::RenderWindow& window) {
     for (int i = 0; i < LINHAS; i++) {
         for (int j = 0; j < COLUNAS; j++) {
             if (grade[i][j] == 1 || grade[i][j] == 6) {
-                chao.setFillColor(sf::Color(34, 139, 34));
-                chao.setPosition({j * larguraBloco, i * alturaBloco});
-                window.draw(chao);
+                spriteChao.setPosition({j * larguraBloco, i * alturaBloco});
+                window.draw(spriteChao);
             } else if (grade[i][j] == 2) {
                 chao.setFillColor(sf::Color(80, 50, 0));
                 chao.setPosition({j * larguraBloco, i * alturaBloco});

@@ -15,6 +15,8 @@ private:
     int grade[LINHAS][COLUNAS];
 
     sf::RectangleShape chao;
+    sf::Texture texChao;
+    sf::Sprite spriteChao{texChao};
     std::vector<Plataforma> plataformas;
 
 public:
