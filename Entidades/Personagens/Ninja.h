@@ -2,6 +2,13 @@
 #include <SFML/Graphics.hpp>
 #include "Personagens.h"
 
+struct Controles {
+    sf::Keyboard::Key esquerda = sf::Keyboard::Key::A;
+    sf::Keyboard::Key direita  = sf::Keyboard::Key::D;
+    sf::Keyboard::Key pular    = sf::Keyboard::Key::W;
+    sf::Keyboard::Key lanca    = sf::Keyboard::Key::Space;
+};
+
 class Ninja : public Personagens {
     private:
     sf::RectangleShape corpo;
@@ -14,7 +21,7 @@ class Ninja : public Personagens {
 
     enum class EstadoAnim { IDLE, RUNNING, JUMPING };
     EstadoAnim estadoAnim = EstadoAnim::IDLE;
-    
+
     sf::Clock relogioAnim;
     bool olhandoDireita = true;
 
@@ -26,10 +33,12 @@ class Ninja : public Personagens {
     sf::Clock relogioLanca;
     bool armado;
 
+    Controles controles;
+
     void atualizarAnimacao(bool movendo);
 
 public:
-    Ninja(float x, float y);
+    Ninja(float x, float y, Controles controles = {});
     ~Ninja();
     void update(Mapa1& mapa);
     void desenhar(sf::RenderWindow& window);

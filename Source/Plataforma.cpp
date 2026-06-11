@@ -4,12 +4,12 @@
 Plataforma::Plataforma(float x, float y) :
 Obstaculos(2, false, 0.f, sf::Vector2f(x, y))
 {
-    plataforma.setSize(sf::Vector2f(250.f, 50.f));
+    plataforma.setSize(sf::Vector2f(350.f, 50.f));
     plataforma.setPosition(sf::Vector2f(x, y));
 
     textura.loadFromFile("assets/Plataforma/ice_rock4.png");
     sprite.setTexture(textura, true);
-    sprite.setScale({250.f / textura.getSize().x, 50.f / textura.getSize().y});
+    sprite.setScale({350.f / textura.getSize().x, 50.f / textura.getSize().y});
     sprite.setPosition(sf::Vector2f(x, y));
 }
 

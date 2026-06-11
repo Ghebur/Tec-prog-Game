@@ -70,7 +70,7 @@ void FasePrimeira::criarFinal(Mapa1& mapa) {
 }
 
 bool FasePrimeira::faseFinalizada() const {
-    return blocoFinal && blocoFinal->foiAtingido();
+    return finalizado || (blocoFinal && blocoFinal->foiAtingido());
 }
 
 
@@ -99,15 +99,12 @@ bool FasePrimeira::BlocoFinal::foiAtingido() const {
 void FasePrimeira::BlocoFinal::executar() {
 }
 void FasePrimeira::verificarTransicaoFase(Ninja& jogador) {
-    // O bloco final faz a checagem com o jogador
-    if (blocoFinal != nullptr) {
+    if (blocoFinal != nullptr)
         blocoFinal->passar(jogador);
-    }
 
-    // Se a condição de término for atingida, realiza o teletransporte
-    if (faseFinalizada()) {
+    if (!finalizado && blocoFinal && blocoFinal->foiAtingido()) {
+        finalizado = true;
         jogador.setPosicao({100.f, 1100.f});
-
         blocoFinal = nullptr;
     }
 }

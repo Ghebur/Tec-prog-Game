@@ -3,7 +3,9 @@
 
 #define DELTA_TIME (1.0f / 60.0f)
 
-Ninja::Ninja(float x, float y) : Personagens(1, 3, sf::Vector2f(4.5f, 4.5f), 50.f, sf::Vector2f(x, y)) {
+Ninja::Ninja(float x, float y, Controles controles) :
+    Personagens(1, 3, sf::Vector2f(4.5f, 4.5f), 50.f, sf::Vector2f(x, y)),
+    controles(controles) {
     corpo.setSize(sf::Vector2f(tamanho/1.5f, tamanho));
     corpo.setFillColor(sf::Color::Transparent);
     corpo.setPosition(posicao);
@@ -85,17 +87,17 @@ void Ninja::movimentacao() {
     float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
     bool moveu = false;
 
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A)) {
+    if (sf::Keyboard::isKeyPressed(controles.esquerda)) {
         posicao.x -= velX;
         olhandoDireita = false;
         moveu = true;
     }
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D)) {
+    if (sf::Keyboard::isKeyPressed(controles.direita)) {
         posicao.x += velX;
         olhandoDireita = true;
         moveu = true;
     }
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W) && noChao) {
+    if (sf::Keyboard::isKeyPressed(controles.pular) && noChao) {
         velocidade.y = emOleo ? -250.f : -700.f;
         noChao = false;
     }
@@ -103,7 +105,7 @@ void Ninja::movimentacao() {
     float t = relogioLanca.getElapsedTime().asSeconds();
     switch (estadoLanca) {
         case EstadoLanca::NORMAL:
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Space)) {
+            if (sf::Keyboard::isKeyPressed(controles.lanca)) {
                 armado = true;
                 estadoLanca = EstadoLanca::ARMADO;
                 relogioLanca.restart();
