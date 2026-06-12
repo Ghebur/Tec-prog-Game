@@ -70,9 +70,9 @@ void Fase::processarObstaculos(Ninja& jogador) {
 }
 
 void Fase::desenharEntidades(Gerenciador_Grafico& gg) {
-    for (Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
-        Inimigo* ini = dynamic_cast<Inimigo*>(e->getInfo());
-        if (ini) {
+    for (Lista<Entidades>::Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
+        Entidades* ent = e->getInfo();
+        if (Inimigo* ini = dynamic_cast<Inimigo*>(ent)) {
             if (ini->estaVivo()) gg.desenharEnte(ini);
         } else if (Projetil* proj = dynamic_cast<Projetil*>(ent)) {
             if (!proj->estaMorta()) gg.desenharEnte(proj);
