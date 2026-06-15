@@ -5,6 +5,7 @@
 #include "../FlechaShogun.h"
 #include <cmath>
 
+
 class Shogun : public Inimigo {
 private:
     sf::RectangleShape corpo;
@@ -43,4 +44,5 @@ public:
     void update(Mapa1& mapa, Personagens& p) override;
     Projetil* getProjetilPendente() override;
     sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
+    void salvar() override;
 };

@@ -22,9 +22,12 @@ protected:
 public:
     Fase();
     virtual ~Fase();
-
+    Lista<Entidades>::Elemento<Entidades>* getPrimeiroEntidade() { 
+    return entidades.getPrimeiro(); 
+    }
     void atualizarInimigos(Mapa1& mapa, Personagens& jogador);
     void processarObstaculos(Ninja& jogador);
     void desenharEntidades(Gerenciador_Grafico& gg);
     virtual bool faseFinalizada() const { return false; }
+    void salvarFase();
 };

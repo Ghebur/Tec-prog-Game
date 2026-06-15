@@ -1,10 +1,11 @@
 #include "../Entidades/Personagens/Shogun.h"
 #include <cmath>
+#include <fstream>
 
 #define DELTA_TIME (1.f / 60.f)
 
 Shogun::Shogun(float x, float y) :
-    Inimigo(3, 7, {3.f, 0.f}, 90.f, {x, y}, 2),
+    Inimigo(4, 7, {3.f, 0.f}, 90.f, {x, y}, 2),
     corpo({20.f, 20.f}),
     origemX(x)
 {
@@ -122,4 +123,15 @@ Projetil* Shogun::getProjetilPendente() {
 
 void Shogun::desenhar(sf::RenderWindow& window) {
     window.draw(sprite);
+}
+
+
+void Shogun::salvar() {
+    SalvarDataBuffer();
+    buffer += std::to_string(id) + " " + std::to_string(olhandoDireita) + " " +  std::to_string(origemX) + " " +  std::to_string(angulo) + "\n";
+    std::ofstream arquivo("assets/save_game.txt", std::ios::app);
+    if (arquivo.is_open()) {
+        arquivo << buffer;
+        arquivo.close();
+    }
 }

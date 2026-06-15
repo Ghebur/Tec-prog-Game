@@ -16,3 +16,7 @@ Entidades::~Entidades()
 sf::Vector2f Entidades::getPos() const { return posicao; }
 
 float Entidades::getTamanho() const { return tamanho; }
+
+void Entidades::salvarDataBuffer() {
+    buffer = std::to_string(posicao.x) + " " + std::to_string(posicao.y);
+}

@@ -6,3 +6,8 @@ danoso(dano)
 {}
 
 Obstaculos::~Obstaculos() {}
+
+void Obstaculos::SalvarDataBuffer() {
+    Entidades::salvarDataBuffer();
+    buffer += " " + std::to_string(danoso);
+}

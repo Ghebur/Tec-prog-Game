@@ -29,4 +29,5 @@ public:
     bool estaMorta() const override { return morta; }
     void desenhar(sf::RenderWindow& window) override;
     void executar() override {}
+    void salvar() override;
 };

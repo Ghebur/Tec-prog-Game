@@ -37,8 +37,10 @@ class Ninja : public Personagens {
 
     void atualizarAnimacao(bool movendo);
 
+    int pontos;
+
 public:
-    Ninja(float x, float y, Controles controles = {});
+    Ninja(float x, float y, Controles controles = {}, int pontos = 0);
     ~Ninja();
     void update(Mapa1& mapa);
     void desenhar(sf::RenderWindow& window);
@@ -47,4 +49,7 @@ public:
     sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
     float getTempoParaArmar() const;
     void setPosicao(sf::Vector2f novaPos);
+    void salvar() override;
+    void adicionarPontos(int valor);
+    int getPontos() const;
 };

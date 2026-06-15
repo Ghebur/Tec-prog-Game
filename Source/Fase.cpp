@@ -4,6 +4,7 @@
 #include "../Entidades/Personagens/Cobra.h"
 #include "../Entidades/Projetil.h"
 #include "../gerenciadores/Gerenciador_Grafico.h"
+#include <fstream>
 
 Fase::Fase() {}
 
@@ -79,5 +80,28 @@ void Fase::desenharEntidades(Gerenciador_Grafico& gg) {
         } else {
             gg.desenharEnte(ent);
         }
+    }
+}
+
+void Fase::salvarFase() {
+    // 1. Abre o arquivo em modo 'trunc' para apagar o save antigo e não duplicar os dados
+    std::ofstream arquivo("assets/save_game.txt", std::ios::trunc);
+    arquivo.close();
+
+    // 2. Pega o primeiro "nó" da sua lista de entidades
+    auto* atual = entidades.getPrimeiro();
+
+    // 3. Percorre a lista encadeada até o fim
+    while (atual != nullptr) {
+        // Pega o ponteiro da Entidade que está guardada dentro desse elemento
+        auto* entidade = atual->getInfo();
+        
+        // Se a entidade existir, manda ela se salvar
+        if (entidade != nullptr) {
+            entidade->salvar();
+        }
+
+        // Pula para o próximo "nó" da lista
+        atual = atual->getProximo();
     }
 }

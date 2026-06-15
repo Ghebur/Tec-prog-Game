@@ -1,6 +1,7 @@
 #include "../Entidades/FlechaShogun.h"
 #include "../Entidades/Personagens/Ninja.h"
 #include <cmath>
+#include <fstream>
 
 FlechaShogun::FlechaShogun(sf::Vector2f pos, float velX) :
     Projetil(pos, 14.f),
@@ -54,3 +55,7 @@ void FlechaShogun::danificar(Ninja& jogador) {
 void FlechaShogun::desenhar(sf::RenderWindow& window) {
     window.draw(spriteFlecha);
 }
+
+
+
+void FlechaShogun::salvar() {}

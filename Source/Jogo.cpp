@@ -1,11 +1,14 @@
 #include <cmath>
 #include "../Jogo.h"
+#include <fstream>
+#include <iostream> 
 
 Jogo::Jogo() :
     GG(sf::VideoMode({800, 600}), "Meu Jogo UTFPR"),
     ninja(300.f, 400.f),
     mapa1(),
     fase1(mapa1),
+    textoPausa(fonteHUD),
     textoVidas(fonteHUD),
     textoTempo(fonteHUD),
     textoVidas2(fonteHUD),
@@ -58,6 +61,8 @@ void Jogo::Atualizar() {
     posCamera.y = 300.f;
     camera.setCenter(posCamera);
 
+    if (pausado) return; 
+
     if (!naFase2) {
         fase1.atualizarInimigos(mapa1, ninja);
         if (ninja.estaVivo()) ninja.update(mapa1);
@@ -95,7 +100,6 @@ void Jogo::Atualizar() {
         if (fase2->faseFinalizada()) faseTerminada = true;
     }
 }
-
 void Jogo::Renderizar() {
     sf::RenderWindow& window = GG.getJanela();
     window.clear();
@@ -113,6 +117,26 @@ void Jogo::Renderizar() {
     else if (fase2)
         fase2->desenharEntidades(GG);
 
+    // ADICIONADO: Menu visual de Pausa (Desenha por cima do cenário/entidades, mas sob a HUD fixada)
+    if (pausado) {
+        sf::RectangleShape overlay({800.f, 600.f});
+        overlay.setPosition(camera.getCenter() - sf::Vector2f(400.f, 300.f));
+        overlay.setFillColor(sf::Color(0, 0, 0, 160)); // Filtro preto semi-transparente
+        window.draw(overlay);
+
+        textoPausa.setFont(fonteHUD);
+        textoPausa.setString("JOGO PAUSADO\n\n[P] Retornar ao Jogo\n[S] Salvar Jogada");
+        textoPausa.setCharacterSize(32);
+        textoPausa.setFillColor(sf::Color::White);
+        
+        // Centralização perfeita do texto em relação ao meio da câmera ativa
+        sf::FloatRect bounds = textoPausa.getLocalBounds();
+        textoPausa.setOrigin({bounds.size.x / 2.f, bounds.size.y / 2.f});
+        textoPausa.setPosition(camera.getCenter());
+        
+        window.draw(textoPausa);
+    }
+
     if (faseTerminada) {
         sf::RectangleShape overlay({800.f, 600.f});
         overlay.setPosition(camera.getCenter() - sf::Vector2f(400.f, 300.f));
@@ -120,7 +144,9 @@ void Jogo::Renderizar() {
         window.draw(overlay);
     }
 
+    // Retorna para a visualização padrão fixada na janela para renderizar a HUD estática
     window.setView(window.getDefaultView());
+    
     textoVidas.setString("Vidas: " + std::to_string(ninja.getVida()));
     float tempoArmar = ninja.getTempoParaArmar();
     std::string tempoArmarTexto = tempoArmar > 0.f
@@ -143,11 +169,22 @@ void Jogo::Renderizar() {
 
     window.display();
 }
-
 void Jogo::ProcessarEventos() {
     while (const std::optional event = GG.getJanela().pollEvent()) {
-        if (event->is<sf::Event::Closed>())
+        if (event->is<sf::Event::Closed>()) {
             GG.getJanela().close();
+        }
+
+        if (const auto* keyPressed = event->getIf<sf::Event::KeyPressed>()) {
+            
+            if (keyPressed->code == sf::Keyboard::Key::P) {
+                pausado = !pausado;
+            }
+
+            if (pausado && keyPressed->code == sf::Keyboard::Key::S) {
+                salvarJogo();
+            }
+        }
     }
 }
 
@@ -179,4 +216,47 @@ void Jogo::Rodar() {
         Atualizar();
         Renderizar();
     }
+}
+
+void Jogo::salvarJogo() {
+    // 1. Abre limpando o arquivo antigo para começar um save novo do zero
+    std::ofstream arquivo("assets/save_game.txt", std::ios::trunc);
+    if (!arquivo.is_open()) {
+        std::cerr << "Erro ao abrir o arquivo de salvamento!" << std::endl;
+        return;
+    }
+    arquivo.close(); // Fecha imediatamente, pois cada entidade abrirá em modo "append"
+
+    // 2. Salva o Jogador 1 (e o Jogador 2 se ele existir)
+    if (ninja.estaVivo()) {
+        ninja.salvar();
+    }
+    if (ninja2 && ninja2->estaVivo()) {
+        ninja2->salvar();
+    }
+
+    // 3. Ponteiro para guardar o elemento inicial da lista da fase ativa
+    Lista<Entidades>::Elemento<Entidades>* elementoAtual = nullptr;
+
+    if (!naFase2) {
+        elementoAtual = fase1.getPrimeiroEntidade();
+    } else if (fase2) {
+        elementoAtual = fase2->getPrimeiroEntidade();
+    }
+
+    // 4. Percorre a lista encadeada exatamente como você fez no destrutor e no desenhar!
+    while (elementoAtual != nullptr) {
+        Entidades* ent = elementoAtual->getInfo();
+
+        if (ent) {
+            // Segurança: impede de salvar o jogador novamente caso ele esteja na lista da fase
+            if (ent != &ninja && (!ninja2 || ent != &*ninja2)) {
+                ent->salvar(); // Chama o método polimórfico de cada Cobra, Espinho, etc.
+            }
+        }
+        // Avança para o próximo nó da lista encadeada
+        elementoAtual = elementoAtual->getProximo();
+    }
+
+    std::cout << "Jogo gravado com sucesso via Lista Encadeada!" << std::endl;
 }

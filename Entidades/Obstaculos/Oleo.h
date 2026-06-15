@@ -15,4 +15,5 @@ class oleo : public Obstaculos {
         ~oleo();
         void obstaculizar(Personagens& p) override;
         void desenhar(sf::RenderWindow& window) override;
+        void salvar() override;
 };

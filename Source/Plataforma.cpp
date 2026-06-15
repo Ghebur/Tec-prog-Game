@@ -1,5 +1,6 @@
 #include "../Entidades/Obstaculos/Plataforma.h"
 #include "../Entidades/Personagens/Personagens.h"
+#include <fstream>
 
 Plataforma::Plataforma(float x, float y) :
 Obstaculos(2, false, 0.f, sf::Vector2f(x, y))
@@ -66,4 +67,14 @@ void Plataforma::obstaculizar(Personagens& p) {
         p.setPos({pb.position.x - cb.size.x, p.getPos().y});
     else
         p.setPos({pb.position.x + pb.size.x, p.getPos().y});
+}
+
+void Plataforma::salvar() {
+    SalvarDataBuffer();
+    buffer += " " + std::to_string(id);
+    std::ofstream file("save_data.txt", std::ios::app);
+    if (file.is_open()) {
+        file << "Plataforma " << buffer << "\n";
+        file.close();
+    }
 }

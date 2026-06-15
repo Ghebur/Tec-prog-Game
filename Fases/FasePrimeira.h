@@ -21,6 +21,7 @@ public:
         void desenhar(sf::RenderWindow& window) override;
         bool foiAtingido() const;
         void executar() override;
+        void salvar() override {}
         };
     FasePrimeira(Mapa1& mapa);
     ~FasePrimeira();

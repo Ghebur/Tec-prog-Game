@@ -13,4 +13,5 @@ class Plataforma : public Obstaculos {
         ~Plataforma();
         void desenhar(sf::RenderWindow& window) override;
         void obstaculizar(Personagens& p) override;
+        void salvar() override;
 };

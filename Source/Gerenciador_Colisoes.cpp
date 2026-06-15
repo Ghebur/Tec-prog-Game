@@ -26,6 +26,7 @@ void Gerenciador_Colisoes::tratarColisoesJogsInimigs() {
     for (Inimigo* ini : LIs)
         if (ini->estaVivo())
             ini->colidirComPersonagem(*log1);
+            log1->adicionarPontos(1);
 }
 
 void Gerenciador_Colisoes::atualizarProjeteis() {

@@ -40,3 +40,9 @@ void Personagens::receberKnockback(sf::Vector2f forca) {
 }
 
 Personagens::~Personagens() {}
+
+void Personagens::SalvarDataBuffer() {
+    Entidades::salvarDataBuffer();
+    buffer += " " + std::to_string(vida);
+}
+

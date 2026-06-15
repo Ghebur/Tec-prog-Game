@@ -14,4 +14,5 @@ class Espinho : public Obstaculos {
         ~Espinho();
         void obstaculizar(Personagens& p) override;
         void desenhar(sf::RenderWindow& window) override;
+        void salvar() override;
 };

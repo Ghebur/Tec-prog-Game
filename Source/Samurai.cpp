@@ -1,7 +1,8 @@
 #include "../Entidades/Personagens/Samurai.h"
+#include <fstream>
 
 Samurai::Samurai(float x, float y) :
-Inimigo(2, 2, {3.f, 0.f}, 50.f, {x, y}, 1),
+Inimigo(3, 2, {3.f, 0.f}, 50.f, {x, y}, 1),
 corpo(sf::Vector2f(12.f, 12.f)),
 origemX(x),
 graduacao(rand()%3+1)
@@ -75,3 +76,12 @@ void Samurai::atualizarAnimacao(){
     sprite.setPosition(pos);
 }
 
+void Samurai::salvar() {
+    SalvarDataBuffer();
+    buffer += std::to_string(id) + " " + std::to_string(graduacao) + " " +  std::to_string(origemX) + " " +  std::to_string(angulo) + "\n";
+    std::ofstream arquivo("assets/save_game.txt", std::ios::app);
+    if (arquivo.is_open()) {
+        arquivo << buffer;
+        arquivo.close();
+    }
+}

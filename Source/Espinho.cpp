@@ -1,5 +1,6 @@
 #include "../Entidades/Obstaculos/Espinho.h"
 #include "../Entidades/Personagens/Personagens.h"
+#include <fstream>
 
 Espinho::Espinho(sf::Vector2f pos, sf::Vector2f tam) :
     Obstaculos(0, true, tam.x, pos),
@@ -28,4 +29,14 @@ void Espinho::obstaculizar(Personagens& p) {
 
 void Espinho::desenhar(sf::RenderWindow& window) {
     window.draw(sprite);
+}
+
+void Espinho::salvar() {
+    SalvarDataBuffer();
+    buffer += " " + std::to_string(id) + " " + std::to_string(danosidade);
+    std::ofstream file("save_data.txt", std::ios::app);
+    if (file.is_open()) {
+        file << "Espinho " << buffer << "\n";
+        file.close();
+    }
 }

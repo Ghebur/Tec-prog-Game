@@ -12,4 +12,5 @@ public:
     virtual void update() {}
     virtual void danificar(Ninja& jogador) {}
     virtual bool estaMorta() const { return false; }
+    virtual void salvar() override = 0;
 };

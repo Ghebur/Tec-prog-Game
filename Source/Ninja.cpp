@@ -1,9 +1,10 @@
 #include "../Entidades/Personagens/Ninja.h"
 #include <SFML/Window/Keyboard.hpp>
+#include <fstream>
 
 #define DELTA_TIME (1.0f / 60.0f)
 
-Ninja::Ninja(float x, float y, Controles controles) :
+Ninja::Ninja(float x, float y, Controles controles, int pontos) :
     Personagens(1, 5, sf::Vector2f(4.5f, 4.5f), 50.f, sf::Vector2f(x, y)),
     controles(controles) {
     corpo.setSize(sf::Vector2f(tamanho, tamanho));
@@ -137,4 +138,24 @@ float Ninja::getTempoParaArmar() const {
     if (estadoLanca == EstadoLanca::COOLDOWN)
         return t < 4.f ? 4.f - t : 0.f;
     return 0.f;
+}
+
+void Ninja::adicionarPontos(int valor) {
+    pontos += valor;
+}
+
+int Ninja::getPontos() const {
+    return pontos;
+}
+
+void Ninja::salvar() {
+    SalvarDataBuffer(); 
+
+    buffer += std::to_string(id) + " " + std::to_string(pontos) + "\n";
+
+    std::ofstream arquivo("assets/save_game.txt", std::ios::app);
+    if (arquivo.is_open()) {
+        arquivo << buffer;
+        arquivo.close();
+    }
 }

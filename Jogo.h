@@ -11,6 +11,9 @@
 
 class Jogo {
     private:
+        bool pausado{false};
+        sf::Text textoPausa;
+        void salvarJogo();
         Gerenciador_Grafico GG;
         sf::Texture texBackground;
         sf::Sprite background{texBackground};

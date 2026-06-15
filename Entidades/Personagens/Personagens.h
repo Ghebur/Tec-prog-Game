@@ -33,4 +33,6 @@ class Personagens:public Entidades{
         void setNoChao(bool v) { noChao = v; }
         void setVelocidadeY(float vy) { velocidade.y = vy; }
         float getVelocidadeY() const { return velocidade.y; }
+        void SalvarDataBuffer();
+        virtual void salvar() = 0;
 };

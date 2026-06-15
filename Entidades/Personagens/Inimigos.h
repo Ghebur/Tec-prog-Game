@@ -15,7 +15,8 @@ class Inimigo : public Personagens {
         virtual void desenhar(sf::RenderWindow& window) = 0;
         virtual Projetil* getProjetilPendente() { return nullptr; }
         void colidirComPersonagem(Personagens& p);
-
+        void SalvarDataBuffer();
+        void salvar() override = 0;
 
 
 };

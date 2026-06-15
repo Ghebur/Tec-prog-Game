@@ -1,4 +1,5 @@
 #include "../Entidades/Personagens/Cobra.h"
+#include <fstream>
 #define DELTA_TIME (1.0f / 60.0f) // Supondo 60 FPS#define
 
 Cobra::Cobra(float x, float y) :
@@ -70,4 +71,16 @@ void Cobra::update(Mapa1& mapa, Personagens& p) {
     aplicarGravidade(1.f / 60.f);
     verificarColisaoChao(mapa, corpo.getSize().y);
     mapa.colidirComPersonagens(*this);
+}
+
+void Cobra::salvar() {
+    salvarDataBuffer(); 
+
+    buffer = std::to_string(id) + " " + buffer + std::to_string(venenosa) + " " + std::to_string(origemX) + " " + std::to_string(angulo) + "\n";
+    
+    std::ofstream arquivo("assets/save_game.txt", std::ios::app);
+    if (arquivo.is_open()) {
+        arquivo << buffer;
+        arquivo.close();
+    }
 }

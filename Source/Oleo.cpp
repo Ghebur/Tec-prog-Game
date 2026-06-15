@@ -1,5 +1,6 @@
 #include "../Entidades/Obstaculos/Oleo.h"
 #include "../Entidades/Personagens/Personagens.h"
+#include <fstream>
 
 oleo::oleo(sf::Vector2f pos, sf::Vector2f tam) :
     Obstaculos(0, false, tam.y, pos)
@@ -29,5 +30,15 @@ void oleo::desenhar(sf::RenderWindow& window) {
     for (int i = 0; i < 3; i++) {
         sprite.setPosition({posBase.x + i * larguraTile, posBase.y});
         window.draw(sprite);
+    }
+}
+
+void oleo::salvar() {
+    SalvarDataBuffer();
+    buffer = std::to_string(id) + " " + buffer + " " + std::to_string(larguraTile); 
+    std::ofstream file("assets/save_game.txt", std::ios::app);
+    if (file.is_open()) {
+        file << buffer << "\n";
+        file.close();
     }
 }
