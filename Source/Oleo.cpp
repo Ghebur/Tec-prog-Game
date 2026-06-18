@@ -50,7 +50,7 @@ void oleo::desenhar(sf::RenderWindow& window) {
 void oleo::salvar() {
     SalvarDataBuffer();
     buffer = std::to_string(id) + " " + buffer + " " + std::to_string(larguraTile); 
-    std::ofstream file("assets/save_game.txt", std::ios::app);
+    std::ofstream file("assets/save_oleo.txt", std::ios::app);
     if (file.is_open()) {
         file << buffer << "\n";
         file.close();

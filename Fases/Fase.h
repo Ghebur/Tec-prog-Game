@@ -31,5 +31,6 @@ public:
     void desenharEntidades(Gerenciador_Grafico& gg);
     virtual bool faseFinalizada() const { return false; }
     void salvarFase();
+    //virtual void carregarFase() = 0;
     virtual FlechaShogun* criarProjeteis(sf::Vector2f pos, float dirX) { return nullptr; }
 };

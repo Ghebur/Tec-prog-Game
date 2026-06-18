@@ -23,4 +23,6 @@ class Cobra : public Inimigo {
         void executar(Mapa1& mapa, Personagens& p);
         sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
         void salvar() override;
+        void setVenenosa(int v);
+        void setAngulo(float a);
 };

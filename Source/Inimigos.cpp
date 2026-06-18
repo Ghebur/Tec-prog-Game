@@ -9,11 +9,12 @@ nivelDeMaldade(rand()%3),
 origemX(pos.x)
 {}
 
-void Inimigo::movimentacao() {
+bool Inimigo::movimentacao() {
     float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
     angulo += velX * DELTA_TIME;
     posicao.x = origemX + std::sin(angulo) * 100.f;
     atualizarAnimacao();
+    return true;
 }
 
 Inimigo::~Inimigo() {}

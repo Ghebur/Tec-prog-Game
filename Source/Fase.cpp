@@ -15,15 +15,21 @@ void Fase::criarPlataformas(Mapa1& mapa) {
     const float yChao = 500.f;
 
     auto garantidas = mapa.getSpawnPoints(5);
-    for (size_t i = 0; i < 3 && i < garantidas.size(); i++)
-        mapa.adicionarPlataforma(garantidas[i].x - offset, yChao);
+    for (size_t i = 0; i < 3 && i < garantidas.size(); i++) {
+        // ANTES: mapa.adicionarPlataforma(garantidas[i].x - offset, yChao);
+        // AGORA: Vai direto para a lista de entidades da Fase!
+        entidades.incluir(new Plataforma(garantidas[i].x - offset, yChao));
+    }
 
     auto opcionais = mapa.getSpawnPoints(7);
-    for (auto& pos : opcionais)
-        if (rand() % 2)
-            mapa.adicionarPlataforma(pos.x - offset, yChao);
+    for (auto& pos : opcionais) {
+        if (rand() % 2) {
+            // ANTES: mapa.adicionarPlataforma(pos.x - offset, yChao);
+            // AGORA: Vai direto para a lista de entidades da Fase!
+            entidades.incluir(new Plataforma(pos.x - offset, yChao));
+        }
+    }
 }
-
 void Fase::criarInimigosFaceis(Mapa1& mapa) {
     auto spawns = mapa.getSpawnPoints(4);
     if (spawns.size() >= 1) entidades.incluir(new Cobra(spawns[0].x, spawns[0].y));
@@ -76,7 +82,19 @@ void Fase::desenharEntidades(Gerenciador_Grafico& gg) {
 
 void Fase::salvarFase() {
     // 1. Abre o arquivo em modo 'trunc' para apagar o save antigo e não duplicar os dados
-    std::ofstream arquivo("assets/save_game.txt", std::ios::trunc);
+    std::ofstream arquivo("assets/save_ninja.txt", std::ios::trunc);
+    arquivo.close();
+        arquivo.open("assets/save_samurai.txt", std::ios::trunc);
+    arquivo.close();
+        arquivo.open("assets/save_cobra.txt", std::ios::trunc); 
+    arquivo.close();
+        arquivo.open("assets/save_espinho.txt", std::ios::trunc);
+    arquivo.close();    
+        arquivo.open("assets/save_shogun.txt", std::ios::trunc);
+    arquivo.close();    
+        arquivo.open("assets/save_oleo.txt", std::ios::trunc);
+    arquivo.close();
+        arquivo.open("assets/save_plataformas.txt", std::ios::trunc);
     arquivo.close();
 
     // 2. Pega o primeiro "nó" da sua lista de entidades

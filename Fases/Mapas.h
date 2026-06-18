@@ -17,14 +17,16 @@ private:
     sf::RectangleShape chao;
     sf::Texture texChao;
     sf::Sprite spriteChao{texChao};
-    std::vector<Plataforma> plataformas;
+    
+    // std::vector<Plataforma> plataformas; <-- DELETADO!
 
 public:
     Mapa1();
     void executar() override {}
     void desenhar(sf::RenderWindow& window);
     int getTile(sf::Vector2f pos);
-    void colidirComPersonagens(Personagens& p);
     std::vector<sf::Vector2f> getSpawnPoints(int tile = 4);
-    void adicionarPlataforma(float x, float y);
+    
+    // colidirComPersonagens <-- DELETADO!
+    // adicionarPlataforma <-- DELETADO!
 };

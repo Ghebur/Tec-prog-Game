@@ -17,6 +17,7 @@ protected:
     void criarInimigos(Mapa1& mapa) override;
     void criarObstaculos(Mapa1& mapa) override;
     void criarFinal(Mapa1& mapa) override;
+    //void carregarFase() override;
 
 private:
     Shogun* shogunBoss = nullptr;

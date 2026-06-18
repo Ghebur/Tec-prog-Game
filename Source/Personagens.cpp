@@ -34,3 +34,6 @@ void Personagens::SalvarDataBuffer() {
     buffer += " " + std::to_string(vida);
 }
 
+void Personagens::setVida(int novaVida) {
+    this->vida = novaVida;
+}

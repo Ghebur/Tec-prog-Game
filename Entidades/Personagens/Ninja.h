@@ -33,8 +33,6 @@ class Ninja : public Personagens {
     sf::Clock relogioLanca;
     bool armado;
 
-    Controles controles;
-
     void atualizarAnimacao(bool movendo);
 
     int pontos;
@@ -44,7 +42,7 @@ public:
     ~Ninja();
     void executar(Mapa1& mapa);
     void desenhar(sf::RenderWindow& window);
-    void movimentacao();
+    bool movimentacao();
     bool estaArmado() const override { return armado; }
     sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
     float getTempoParaArmar() const;
@@ -52,4 +50,6 @@ public:
     void salvar() override;
     void adicionarPontos(int valor);
     int getPontos() const;
+    Controles controles;
+    
 };

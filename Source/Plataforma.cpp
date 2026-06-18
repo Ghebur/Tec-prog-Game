@@ -1,5 +1,6 @@
 #include "../Entidades/Obstaculos/Plataforma.h"
 #include "../Entidades/Personagens/Personagens.h"
+#include "../Entidades/Personagens/Ninja.h"
 #include <fstream>
 
 Plataforma::Plataforma(float x, float y) :
@@ -44,35 +45,44 @@ void Plataforma::obstaculizar(Personagens& p) {
     float persoCenterY = cb.position.y + cb.size.y / 2.f;
     float platCenterY = pb.position.y + pb.size.y / 2.f;
 
+    // Se o Ninja está SUBINDO (vy < 0), ignore completamente a colisão de topo!
+    // Isso evita que a plataforma mate o pulo no frame em que ele acontece.
+    if (vy < 0.f && persoCenterY <= platCenterY) {
+        return; 
+    }
+
+    // 1. COLISÃO VERTICAL (Pousar ou Bater a cabeça)
     if (overlapY < overlapX) {
+        // Pousou no topo da plataforma (só checa se estiver caindo ou parado: vy >= 0)
         if (persoCenterY <= platCenterY && vy >= 0.f) {
-            
             p.setPos({p.getPos().x, pb.position.y - cb.size.y});
             p.setVelocidadeY(0.f);
             p.setNoChao(true);
             return;
         }
+        // Bateu a cabeça por baixo (teto)
         if (persoCenterY > platCenterY && vy < 0.f) {
-            // Bate a cabeça (fundo da plataforma)
             p.setPos({p.getPos().x, pb.position.y + pb.size.y});
-            p.setVelocidadeY(0.f);
+            p.setVelocidadeY(0.f); 
             return;
         }
+    } 
+    // 2. COLISÃO LATERAL (Paredes)
+    else {
+        float persoCenterX = cb.position.x + cb.size.x / 2.f;
+        float platCenterX = pb.position.x + pb.size.x / 2.f;
+        
+        if (persoCenterX < platCenterX) {
+            p.setPos({pb.position.x - cb.size.x, p.getPos().y});
+        } else {
+            p.setPos({pb.position.x + pb.size.x, p.getPos().y});
+        }
     }
-
-    // Colisão lateral — impede subir pelo lado
-    float persoCenterX = cb.position.x + cb.size.x / 2.f;
-    float platCenterX = pb.position.x + pb.size.x / 2.f;
-    if (persoCenterX < platCenterX)
-        p.setPos({pb.position.x - cb.size.x, p.getPos().y});
-    else
-        p.setPos({pb.position.x + pb.size.x, p.getPos().y});
 }
-
 void Plataforma::salvar() {
     SalvarDataBuffer();
     buffer += " " + std::to_string(id);
-    std::ofstream file("save_data.txt", std::ios::app);
+    std::ofstream file("assets/save_plataformas.txt", std::ios::app);
     if (file.is_open()) {
         file << "Plataforma " << buffer << "\n";
         file.close();

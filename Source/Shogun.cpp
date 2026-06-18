@@ -25,13 +25,14 @@ Shogun::Shogun(float x, float y, Fase* fase) :
 
 Shogun::~Shogun() {}
 
-void Shogun::movimentacao() {
-    if (estado == Estado::SHOOTING) return; // congela posicao durante animacao
+bool Shogun::movimentacao() {
+    if (estado == Estado::SHOOTING) return false; // congela posicao durante animacao
 
     float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
     angulo += velX * DELTA_TIME;
     posicao.x = origemX + std::sin(angulo) * 100.f;
     corpo.setPosition(posicao);
+    return true;
 }
 
 void Shogun::danifcar(Personagens& p) {
@@ -101,7 +102,7 @@ void Shogun::executar(Mapa1& mapa, Personagens& p) {
     movimentacao();
     aplicarGravidade(DELTA_TIME);
     verificarColisaoChao(mapa, corpo.getSize().y);
-    mapa.colidirComPersonagens(*this);
+
 
     // tenta entrar em modo tiro se estiver em idle/running
     if (estado != Estado::SHOOTING) {
@@ -123,7 +124,7 @@ void Shogun::desenhar(sf::RenderWindow& window) {
 void Shogun::salvar() {
     SalvarDataBuffer();
     buffer += std::to_string(id) + " " + std::to_string(olhandoDireita) + " " +  std::to_string(origemX) + " " +  std::to_string(angulo) + "\n";
-    std::ofstream arquivo("assets/save_game.txt", std::ios::app);
+    std::ofstream arquivo("assets/save_shogun.txt", std::ios::app);
     if (arquivo.is_open()) {
         arquivo << buffer;
         arquivo.close();

@@ -28,13 +28,21 @@ Ninja::Ninja(float x, float y, Controles controles, int pontos) :
 Ninja::~Ninja() {}
 
 void Ninja::executar(Mapa1& mapa) {
+    // 1. Guarda se o Ninja terminou o frame passado pisando em algo (Mapa ou Plataforma)
+    bool estavaNoChao = noChao;
+
     aplicarGravidade(DELTA_TIME);
     verificarColisaoChao(mapa, corpo.getSize().y);
-    mapa.colidirComPersonagens(*this);
-    movimentacao();
+
+    // 2. Se o gerenciador de colisões disse no frame passado que ele estava na plataforma,
+    // nós REFORÇAMOS o noChao aqui para o mapa não estragar o pulo!
+    if (estavaNoChao) {
+        noChao = true;
+    }
+
+    movimentacao(); // Agora o if (noChao) vai dar TRUE com certeza e o pulo vai sair!
     corpo.setPosition(posicao);
 }
-
 void Ninja::atualizarAnimacao(bool movendo) {
     EstadoAnim novoEstado;
     if (!noChao)
@@ -81,10 +89,17 @@ void Ninja::atualizarAnimacao(bool movendo) {
 }
 
 void Ninja::desenhar(sf::RenderWindow& window) {
+    // Verifica se as teclas de movimento estão pressionadas para passar para a animação
+    bool moveu = sf::Keyboard::isKeyPressed(controles.esquerda) || 
+                 sf::Keyboard::isKeyPressed(controles.direita);
+                 
+    // Agora sim! noChao já foi processado pela plataforma, o sprite ficará perfeito.
+    atualizarAnimacao(moveu); 
+    
     window.draw(sprite);
 }
 
-void Ninja::movimentacao() {
+bool Ninja::movimentacao() {
     float velX = emOleo ? velocidade.x * fatorOleo : velocidade.x;
     bool moveu = false;
 
@@ -125,7 +140,7 @@ void Ninja::movimentacao() {
             break;
     }
 
-    atualizarAnimacao(moveu);
+    return moveu;
 }
 void Ninja::setPosicao(sf::Vector2f novaPos) {
     posicao = novaPos; 
@@ -153,7 +168,7 @@ void Ninja::salvar() {
 
     buffer += std::to_string(id) + " " + std::to_string(pontos) + "\n";
 
-    std::ofstream arquivo("assets/save_game.txt", std::ios::app);
+    std::ofstream arquivo("assets/save_ninja.txt", std::ios::app);
     if (arquivo.is_open()) {
         arquivo << buffer;
         arquivo.close();

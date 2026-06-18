@@ -47,7 +47,7 @@ void Espinho::desenhar(sf::RenderWindow& window) {
 void Espinho::salvar() {
     SalvarDataBuffer();
     buffer += " " + std::to_string(id) + " " + std::to_string(danosidade);
-    std::ofstream file("save_data.txt", std::ios::app);
+    std::ofstream file("assets/save_espinho.txt", std::ios::app);
     if (file.is_open()) {
         file << "Espinho " << buffer << "\n";
         file.close();

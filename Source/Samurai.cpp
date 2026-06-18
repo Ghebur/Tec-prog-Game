@@ -44,7 +44,7 @@ void Samurai::executar(Mapa1& mapa, Personagens& p) {
     pular();
     aplicarGravidade(1.f / 60.f);
     verificarColisaoChao(mapa, corpo.getSize().y);
-    mapa.colidirComPersonagens(*this);
+
 }
 
 void Samurai::atualizarAnimacao(){
@@ -78,7 +78,7 @@ void Samurai::atualizarAnimacao(){
 void Samurai::salvar() {
     SalvarDataBuffer();
     buffer += std::to_string(id) + " " + std::to_string(graduacao) + " " +  std::to_string(origemX) + " " +  std::to_string(angulo) + "\n";
-    std::ofstream arquivo("assets/save_game.txt", std::ios::app);
+    std::ofstream arquivo("assets/save_samurai.txt", std::ios::app);
     if (arquivo.is_open()) {
         arquivo << buffer;
         arquivo.close();

@@ -19,6 +19,7 @@ public:
     Gerenciador_Colisoes();
     ~Gerenciador_Colisoes();
 
+    void tratarColisoesInimigsObstacs();
     void setJogador(Ninja* j);
     bool verificarColisao(Entidades* pe1, Entidades* pe2) const;
     void tratarColisoesJogsObstacs();

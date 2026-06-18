@@ -59,8 +59,22 @@ void Gerenciador_Colisoes::induzirProjetil(FlechaShogun* ps) {
     LPs.insert(ps);
 }
 
+void Gerenciador_Colisoes::tratarColisoesInimigsObstacs() {
+    // Varre todos os inimigos da lista
+    for (Inimigo* ini : LIs) {
+        // Só processa a colisão se o inimigo estiver vivão
+        if (ini && ini->estaVivo()) {
+            // Varre todas as plataformas para o inimigo atual testar colisão
+            for (Obstaculos* obs : LOs) {
+                obs->obstaculizar(*ini); // Usa a mesma física perfeita de alinhar no chão!
+            }
+        }
+    }
+}
+
 void Gerenciador_Colisoes::executar() {
     tratarColisoesJogsObstacs();
     tratarColisoesJogsInimigs();
     tratarColisoesJogsProjeteis();
+    tratarColisoesInimigsObstacs();
 }

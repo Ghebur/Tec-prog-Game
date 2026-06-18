@@ -37,7 +37,7 @@ public:
     Shogun(float x, float y, Fase* fase);
     ~Shogun();
     void executar() override {}
-    void movimentacao() override;
+    bool movimentacao() override;
     void danifcar(Personagens& p) override;
     void desenhar(sf::RenderWindow& window) override;
     void executar(Mapa1& mapa, Personagens& p) override;

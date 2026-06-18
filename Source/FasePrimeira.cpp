@@ -2,6 +2,7 @@
 #include "../Fases/FasePrimeira.h"
 #include "../Entidades/Obstaculos/Oleo.h"
 #include "../Entidades/Personagens/Ninja.h"
+#include <fstream>
 
 FasePrimeira::FasePrimeira(Mapa1& mapa) {
     criarInimigos(mapa);
@@ -108,3 +109,4 @@ void FasePrimeira::verificarTransicaoFase(Ninja& jogador) {
         blocoFinal = nullptr;
     }
 }
+

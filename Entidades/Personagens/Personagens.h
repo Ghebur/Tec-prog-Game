@@ -14,7 +14,7 @@ class Personagens:public Entidades{
         Personagens(int id, int vida=5,sf::Vector2f velocidade={4.5f, 0.f},float tamanho=12.f,sf::Vector2f pos={0,0});
         ~Personagens();
         void executar() override {}
-        virtual void movimentacao() = 0;
+        virtual bool movimentacao() = 0;
         void verificarColisaoChao(Mapa1& mapa, float alturaCorpo);
         void receberKnockback(sf::Vector2f forca);
         bool podeReceberDano() const { return framesSemDano <= 0; }
@@ -33,4 +33,5 @@ class Personagens:public Entidades{
         float getVelocidadeY() const { return velocidade.y; }
         void SalvarDataBuffer();
         virtual void salvar() = 0;
+        void setVida(int novaVida);
 };

@@ -35,4 +35,5 @@ protected:
     void criarFinal(Mapa1& mapa) override;
     BlocoFinal* blocoFinal = nullptr;
     bool finalizado = false;
+    //void carregarFase() override;
 };

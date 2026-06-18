@@ -57,11 +57,6 @@ int valores[LINHAS][COLUNAS] = {
     texChao.loadFromFile("assets/Chao/bloco_grama_neve.png");
     spriteChao.setTexture(texChao, true);
     spriteChao.setScale({larguraBloco / texChao.getSize().x, alturaBloco / texChao.getSize().y});
-
-    for (int i = 0; i < LINHAS; i++)
-        for (int j = 0; j < COLUNAS; j++)
-            if (grade[i][j] == 3)
-                plataformas.emplace_back(j * larguraBloco, i * alturaBloco);
 }
 
 void Mapa1::desenhar(sf::RenderWindow& window) {
@@ -78,8 +73,7 @@ void Mapa1::desenhar(sf::RenderWindow& window) {
         }
     }
 
-    for (auto& plat : plataformas)
-        plat.desenhar(window);
+
 }
 
 int Mapa1::getTile(sf::Vector2f pos) {
@@ -96,13 +90,4 @@ std::vector<sf::Vector2f> Mapa1::getSpawnPoints(int tile) {
             if (grade[i][j] == tile)
                 pontos.push_back({j * larguraBloco, i * alturaBloco});
     return pontos;
-}
-
-void Mapa1::adicionarPlataforma(float x, float y) {
-    plataformas.emplace_back(x, y);
-}
-
-void Mapa1::colidirComPersonagens(Personagens& p) {
-    for (auto& plat : plataformas)
-        plat.obstaculizar(p);
 }
