@@ -32,22 +32,22 @@ Jogo::Jogo() :
     if (carregouFonte) {
         textoVidas.setFont(fonteHUD);
         textoVidas.setCharacterSize(22);
-        textoVidas.setFillColor(sf::Color::White);
+        textoVidas.setFillColor(sf::Color::Black);
         textoVidas.setPosition({20.f, 20.f});
 
         textoTempo.setFont(fonteHUD);
         textoTempo.setCharacterSize(22);
-        textoTempo.setFillColor(sf::Color::White);
+        textoTempo.setFillColor(sf::Color::Black);
         textoTempo.setPosition({20.f, 50.f});
 
         textoVidas2.setFont(fonteHUD);
         textoVidas2.setCharacterSize(22);
-        textoVidas2.setFillColor(sf::Color::White);
+        textoVidas2.setFillColor(sf::Color::Black);
         textoVidas2.setPosition({525.f, 20.f});
 
         textoTempo2.setFont(fonteHUD);
         textoTempo2.setCharacterSize(22);
-        textoTempo2.setFillColor(sf::Color::White);
+        textoTempo2.setFillColor(sf::Color::Black);
         textoTempo2.setPosition({525.f, 50.f});
     }
 }

@@ -1,9 +1,20 @@
 #include "../Entidades/Personagens/Inimigos.h"
+#include <cmath>
+
+#define DELTA_TIME (1.f / 60.f)
 
 Inimigo::Inimigo(int id, int vida, sf::Vector2f velocidade, float tamanho, sf::Vector2f pos, int nivelDeMaldade):
 Personagens(id, vida, velocidade, tamanho, pos),
-nivelDeMaldade(rand()%3)
+nivelDeMaldade(rand()%3),
+origemX(pos.x)
 {}
+
+void Inimigo::movimentacao() {
+    float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
+    angulo += velX * DELTA_TIME;
+    posicao.x = origemX + std::sin(angulo) * 100.f;
+    atualizarAnimacao();
+}
 
 Inimigo::~Inimigo() {}
 

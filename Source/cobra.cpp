@@ -5,7 +5,6 @@
 Cobra::Cobra(float x, float y) :
 Inimigo(2, 1, {1.5f, 0.f}, 42.f, {x, y}, 1),
 corpo(sf::Vector2f(12.f, 12.f)),
-origemX(x),
 venenosa(rand()%2)
 {
     corpo.setPosition(posicao);
@@ -19,14 +18,6 @@ venenosa(rand()%2)
 }
 
 Cobra::~Cobra() {}
-
-void Cobra::movimentacao() {
-    float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
-    angulo += velX * DELTA_TIME;
-    posicao.x = origemX + std::sin(angulo) * 100.f;
-    corpo.setPosition(posicao);
-    atualizarAnimacao();
-}
 
 void Cobra::danifcar(Personagens& p) {
     for(int i =0;i<=nivelDeMaldade;i++)

@@ -2,7 +2,7 @@
 #include "../Listas/Lista.h"
 #include "../Fases/Fase.h"
 #include "../Entidades/Personagens/Cobra.h"
-#include "../Entidades/Projetil.h"
+#include "../Entidades/FlechaShogun.h"
 #include "../gerenciadores/Gerenciador_Grafico.h"
 #include <fstream>
 
@@ -39,14 +39,8 @@ void Fase::criarInimigosFaceis(Mapa1& mapa) {
 void Fase::atualizarInimigos(Mapa1& mapa, Personagens& jogador) {
     for (Lista<Entidades>::Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
         Inimigo* ini = dynamic_cast<Inimigo*>(e->getInfo());
-        if (ini && ini->estaVivo()) {
+        if (ini && ini->estaVivo())
             ini->update(mapa, jogador);
-            Projetil* proj = ini->getProjetilPendente();
-            if (proj) {
-                entidades.incluir(proj);
-                gerenciador.induzirProjetil(proj);
-            }
-        }
     }
     gerenciador.atualizarProjeteis();
 }
@@ -58,10 +52,7 @@ void Fase::popularGerenciador() {
             gerenciador.induzirInimigo(ini);
         } else if (Obstaculos* obs = dynamic_cast<Obstaculos*>(ent)) {
             gerenciador.induzirObstaculo(obs);
-        } 
-        //else if (Projetil* proj = dynamic_cast<Projetil*>(ent)) {
-        //  gerenciador.induzirProjetil(proj);
-        //}
+        }
     }
 }
 
@@ -75,7 +66,7 @@ void Fase::desenharEntidades(Gerenciador_Grafico& gg) {
         Entidades* ent = e->getInfo();
         if (Inimigo* ini = dynamic_cast<Inimigo*>(ent)) {
             if (ini->estaVivo()) gg.desenharEnte(ini);
-        } else if (Projetil* proj = dynamic_cast<Projetil*>(ent)) {
+        } else if (FlechaShogun* proj = dynamic_cast<FlechaShogun*>(ent)) {
             if (!proj->estaMorta()) gg.desenharEnte(proj);
         } else {
             gg.desenharEnte(ent);

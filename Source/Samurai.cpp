@@ -4,7 +4,6 @@
 Samurai::Samurai(float x, float y) :
 Inimigo(3, 2, {3.f, 0.f}, 50.f, {x, y}, 1),
 corpo(sf::Vector2f(12.f, 12.f)),
-origemX(x),
 graduacao(rand()%3+1)
 {
     vida = graduacao;
@@ -20,16 +19,6 @@ graduacao(rand()%3+1)
 }
 
 Samurai::~Samurai() {}
-
-#define DELTA_TIME (1.0f / 60.0f)
-
-void Samurai::movimentacao() {
-    float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
-    angulo += velX * DELTA_TIME;
-    posicao.x = origemX + std::sin(angulo) * 100.f;
-    corpo.setPosition(posicao);
-    atualizarAnimacao();
-}
 
 void Samurai::danifcar(Personagens& p) {
     for(int i =0;i<=nivelDeMaldade;i++)
@@ -59,7 +48,7 @@ void Samurai::atualizarAnimacao(){
         frameAtual = (frameAtual + 1) % totalFrames;
         relogioAnim.restart();
     }
-
+    //verifica se a deraivada de sen (cos) é negativa pra se basear no lado que o sprite está 
     bool indoPDireita = std::cos(angulo) > 0;
     
     sprite.setTextureRect(sf::IntRect{{frameAtual * FRAME_W, 0}, {FRAME_W, FRAME_H}});

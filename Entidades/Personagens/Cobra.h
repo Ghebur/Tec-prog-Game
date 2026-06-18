@@ -6,8 +6,6 @@
 class Cobra : public Inimigo {
     private:
         sf::RectangleShape corpo;
-        float origemX;
-        float angulo = 0.f;
         bool venenosa;
         sf::Texture texRun;
         sf::Sprite sprite{texRun};
@@ -19,9 +17,8 @@ class Cobra : public Inimigo {
         Cobra(float x, float y);
         ~Cobra();
         void executar() override {}
-        void movimentacao() override;
         void danifcar(Personagens& p) override;
-        void atualizarAnimacao();
+        void atualizarAnimacao() override;
         void desenhar(sf::RenderWindow& window);
         void update(Mapa1& mapa, Personagens& p);
         sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }

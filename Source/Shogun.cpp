@@ -1,13 +1,14 @@
 #include "../Entidades/Personagens/Shogun.h"
+#include "../Fases/Fase.h"
 #include <cmath>
 #include <fstream>
 
 #define DELTA_TIME (1.f / 60.f)
 
-Shogun::Shogun(float x, float y) :
+Shogun::Shogun(float x, float y, Fase* fase) :
     Inimigo(4, 7, {3.f, 0.f}, 90.f, {x, y}, 2),
     corpo({20.f, 20.f}),
-    origemX(x)
+    fase(fase)
 {
     corpo.setPosition(posicao);
 
@@ -70,14 +71,13 @@ void Shogun::atualizarAnimacao(Personagens& alvo) {
             frameAtual++;
             relogioAnim.restart();
             if (frameAtual >= FRAMES_SHOT) {
-                // animacao concluida: spawna flecha e volta ao RUNNING
                 frameAtual = 0;
                 estado = Estado::RUNNING;
                 sprite.setTexture(texRun, true);
 
                 float dirX = olhandoDireita ? 160.f : -160.f;
                 sf::Vector2f spawn = {posicao.x, 500.f};
-                projetilPendente = new FlechaShogun(spawn, dirX);
+                if (fase) fase->criarProjeteis(spawn, dirX);
             }
         }
     }
@@ -113,12 +113,6 @@ void Shogun::update(Mapa1& mapa, Personagens& p) {
     }
 
     atualizarAnimacao(p);
-}
-
-Projetil* Shogun::getProjetilPendente() {
-    Projetil* proj = projetilPendente;
-    projetilPendente = nullptr;
-    return proj;
 }
 
 void Shogun::desenhar(sf::RenderWindow& window) {

@@ -99,7 +99,7 @@ void Ninja::movimentacao() {
         moveu = true;
     }
     if (sf::Keyboard::isKeyPressed(controles.pular) && noChao) {
-        velocidade.y = emOleo ? -250.f : -700.f;
+        velocidade.y = emOleo ? -250.f : -500.f;
         noChao = false;
     }
 

@@ -11,6 +11,7 @@ public:
     ~FaseSegunda();
     bool faseFinalizada() const override;
     void verificarTransicaoFase(Ninja& jogador);
+    FlechaShogun* criarProjeteis(sf::Vector2f pos, float dirX) override;
 
 protected:
     void criarInimigos(Mapa1& mapa) override;

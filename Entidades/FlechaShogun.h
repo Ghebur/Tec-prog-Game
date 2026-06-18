@@ -1,10 +1,10 @@
 #pragma once
-#include "Projetil.h"
+#include "Entidades.h"
 #include <cmath>
 
 class Ninja;
 
-class FlechaShogun : public Projetil {
+class FlechaShogun : public Entidades {
 private:
     sf::RectangleShape forma;   // hitbox
     sf::Texture texFlecha;
@@ -24,9 +24,9 @@ public:
     FlechaShogun(sf::Vector2f pos, float velX);
     ~FlechaShogun() override = default;
 
-    void update() override;
-    void danificar(Ninja& jogador) override;
-    bool estaMorta() const override { return morta; }
+    void update();
+    void danificar(Ninja& jogador);
+    bool estaMorta() const { return morta; }
     void desenhar(sf::RenderWindow& window) override;
     void executar() override {}
     void salvar() override;

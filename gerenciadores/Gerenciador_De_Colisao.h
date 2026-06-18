@@ -5,14 +5,14 @@
 #include "Entidades/Entidades.h"
 #include "Entidades/Personagens/Inimigos.h"
 #include "Entidades/Obstaculos/Obstaculos.h"
-#include "Entidades/Projetil.h"
+#include "Entidades/FlechaShogun.h"
 #include "Entidades/Personagens/Ninja.h"
 
 class Gerenciador_Colisoes {
 private:
     std::vector<Inimigo*>   LIs;
     std::list<Obstaculos*>  LOs;
-    std::set<Projetil*>     LPs;
+    std::set<FlechaShogun*> LPs;
     Ninja*                  log1 = nullptr;
 
 public:
@@ -26,7 +26,7 @@ public:
     void tratarColisoesJogsProjeteis();
     void induzirInimigo(Inimigo* pi);
     void induzirObstaculo(Obstaculos* po);
-    void induzirProjetil(Projetil* ps);
+    void induzirProjetil(FlechaShogun* ps);
     void atualizarProjeteis();
     void executar();
 };

@@ -23,24 +23,27 @@ void Gerenciador_Colisoes::tratarColisoesJogsObstacs() {
 
 void Gerenciador_Colisoes::tratarColisoesJogsInimigs() {
     if (!log1) return;
-    for (Inimigo* ini : LIs)
-        if (ini->estaVivo())
+    for (Inimigo* ini : LIs){
+        if (ini->estaVivo()){
             ini->colidirComPersonagem(*log1);
             log1->adicionarPontos(1);
+        }
+    }
 }
 
+
 void Gerenciador_Colisoes::atualizarProjeteis() {
-    std::vector<Projetil*> aRemover;
-    for (Projetil* proj : LPs) {
+    std::vector<FlechaShogun*> aRemover;
+    for (FlechaShogun* proj : LPs) {
         proj->update();
         if (proj->estaMorta()) aRemover.push_back(proj);
     }
-    for (Projetil* p : aRemover) LPs.erase(p);
+    for (FlechaShogun* p : aRemover) LPs.erase(p);
 }
 
 void Gerenciador_Colisoes::tratarColisoesJogsProjeteis() {
     if (!log1) return;
-    for (Projetil* proj : LPs)
+    for (FlechaShogun* proj : LPs)
         proj->danificar(*log1);
 }
 
@@ -52,7 +55,7 @@ void Gerenciador_Colisoes::induzirObstaculo(Obstaculos* po) {
     LOs.push_back(po);
 }
 
-void Gerenciador_Colisoes::induzirProjetil(Projetil* ps) {
+void Gerenciador_Colisoes::induzirProjetil(FlechaShogun* ps) {
     LPs.insert(ps);
 }
 

@@ -3,7 +3,7 @@
 #include <fstream>
 
 oleo::oleo(sf::Vector2f pos, sf::Vector2f tam) :
-    Obstaculos(0, false, tam.y, pos)
+    Obstaculos(6, false, tam.y, pos)
 {
     larguraTile = tam.x;
 

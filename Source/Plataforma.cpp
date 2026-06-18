@@ -3,7 +3,7 @@
 #include <fstream>
 
 Plataforma::Plataforma(float x, float y) :
-Obstaculos(2, false, 0.f, sf::Vector2f(x, y))
+Obstaculos(5, false, 0.f, sf::Vector2f(x, y))
 {
     plataforma.setSize(sf::Vector2f(290.f, 50.f));   // 30px menos em cada lado
     plataforma.setPosition(sf::Vector2f(x + 30.f, y));

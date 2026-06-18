@@ -4,7 +4,7 @@
 #include <fstream>
 
 FlechaShogun::FlechaShogun(sf::Vector2f pos, float velX) :
-    Projetil(pos, 14.f),
+    Entidades(0, 14.f, pos),
     vel(velX * 1.8f, 0.f)    // mais rapido horizontalmente
 {
     // hitbox pequeno centrado na posicao

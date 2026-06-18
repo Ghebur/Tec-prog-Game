@@ -3,7 +3,7 @@
 #include <fstream>
 
 Espinho::Espinho(sf::Vector2f pos, sf::Vector2f tam) :
-    Obstaculos(0, true, tam.x, pos),
+    Obstaculos(7, true, tam.x, pos),
     danosidade(1)
 {
     forma.setSize(tam);

@@ -7,6 +7,10 @@ protected:
     sf::Vector2f posicao;
     float tamanho;
     std::string buffer;
+    sf::Vector2f velocidade;
+    sf::Vector2f impulso;
+    bool noChao;
+    int framesSemDano;
 
 public:
     Entidades(int id, float tamanho = 12.f, sf::Vector2f pos = {0, 0});
@@ -16,5 +20,6 @@ public:
     sf::Vector2f getPos() const;
     float getTamanho() const;
     virtual void desenhar(sf::RenderWindow& window) = 0;
-    
+    void aplicarGravidade(float deltaTime);
+
 };

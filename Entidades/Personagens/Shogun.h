@@ -5,12 +5,11 @@
 #include "../FlechaShogun.h"
 #include <cmath>
 
+class Fase;
 
 class Shogun : public Inimigo {
 private:
     sf::RectangleShape corpo;
-    float origemX;
-    float angulo = 0.f;
     bool olhandoDireita = true;
 
     sf::Texture texIdle, texRun, texShot;
@@ -26,23 +25,22 @@ private:
     static constexpr int FRAMES_IDLE    = 9;
     static constexpr int FRAMES_RUN     = 8;
     static constexpr int FRAMES_SHOT    = 14;
-    static constexpr float DIST_TIRO    = 300.f; // px
-    static constexpr float INTERVALO_TIRO = 7.f; // segundos
+    static constexpr float DIST_TIRO    = 300.f;
+    static constexpr float INTERVALO_TIRO = 7.f;
 
-    FlechaShogun* projetilPendente = nullptr;
+    Fase* fase;
 
     void atualizarAnimacao(Personagens& alvo);
     void entrarModoTiro();
 
 public:
-    Shogun(float x, float y);
+    Shogun(float x, float y, Fase* fase);
     ~Shogun();
     void executar() override {}
     void movimentacao() override;
     void danifcar(Personagens& p) override;
     void desenhar(sf::RenderWindow& window) override;
     void update(Mapa1& mapa, Personagens& p) override;
-    Projetil* getProjetilPendente() override;
     sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
     void salvar() override;
 };
