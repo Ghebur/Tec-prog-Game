@@ -40,7 +40,7 @@ public:
     void movimentacao() override;
     void danifcar(Personagens& p) override;
     void desenhar(sf::RenderWindow& window) override;
-    void update(Mapa1& mapa, Personagens& p) override;
+    void executar(Mapa1& mapa, Personagens& p) override;
     sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
     void salvar() override;
 };

@@ -76,7 +76,7 @@ void Shogun::atualizarAnimacao(Personagens& alvo) {
                 sprite.setTexture(texRun, true);
 
                 float dirX = olhandoDireita ? 160.f : -160.f;
-                sf::Vector2f spawn = {posicao.x, 500.f};
+                sf::Vector2f spawn = {posicao.x, posicao.y + corpo.getSize().y - 30.f};
                 if (fase) fase->criarProjeteis(spawn, dirX);
             }
         }
@@ -97,7 +97,7 @@ void Shogun::atualizarAnimacao(Personagens& alvo) {
     sprite.setPosition(pos);
 }
 
-void Shogun::update(Mapa1& mapa, Personagens& p) {
+void Shogun::executar(Mapa1& mapa, Personagens& p) {
     movimentacao();
     aplicarGravidade(DELTA_TIME);
     verificarColisaoChao(mapa, corpo.getSize().y);

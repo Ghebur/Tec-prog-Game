@@ -9,10 +9,14 @@ class oleo : public Obstaculos {
         sf::Sprite sprite{tex};
         sf::Vector2f posBase;
         float larguraTile;
+        sf::Clock relogioVisc;
+        float viscosidade = 1.f;
 
     public:
         oleo(sf::Vector2f pos, sf::Vector2f tamanho = sf::Vector2f(50.f, 50.f));
         ~oleo();
+        float variaViscosidade();
+        void executar() override;
         void obstaculizar(Personagens& p) override;
         void desenhar(sf::RenderWindow& window) override;
         void salvar() override;

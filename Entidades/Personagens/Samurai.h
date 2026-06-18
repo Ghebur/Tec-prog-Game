@@ -11,6 +11,7 @@ class Samurai : public Inimigo {
         sf::Texture texRun;
         sf::Sprite sprite{texRun};
         sf::Clock relogioAnim;
+        float ultimoSin = 0.f;
 
         static constexpr int FRAME_W = 128;
         static constexpr int FRAME_H = 128;
@@ -20,8 +21,9 @@ class Samurai : public Inimigo {
         void executar() override {}
         void danifcar(Personagens& p) override;
         void atualizarAnimacao() override;
+        void pular();
         void desenhar(sf::RenderWindow& window);
-        void update(Mapa1& mapa, Personagens& p);
+        void executar(Mapa1& mapa, Personagens& p);
         sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
         void salvar() override;
 };

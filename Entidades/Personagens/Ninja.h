@@ -42,7 +42,7 @@ class Ninja : public Personagens {
 public:
     Ninja(float x, float y, Controles controles = {}, int pontos = 0);
     ~Ninja();
-    void update(Mapa1& mapa);
+    void executar(Mapa1& mapa);
     void desenhar(sf::RenderWindow& window);
     void movimentacao();
     bool estaArmado() const override { return armado; }

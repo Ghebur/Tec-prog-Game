@@ -40,7 +40,7 @@ void Fase::atualizarInimigos(Mapa1& mapa, Personagens& jogador) {
     for (Lista<Entidades>::Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
         Inimigo* ini = dynamic_cast<Inimigo*>(e->getInfo());
         if (ini && ini->estaVivo())
-            ini->update(mapa, jogador);
+            ini->executar(mapa, jogador);
     }
     gerenciador.atualizarProjeteis();
 }

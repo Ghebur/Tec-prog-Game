@@ -1,6 +1,7 @@
 #include "../Entidades/Obstaculos/Oleo.h"
 #include "../Entidades/Personagens/Personagens.h"
 #include <fstream>
+#include <cmath>
 
 oleo::oleo(sf::Vector2f pos, sf::Vector2f tam) :
     Obstaculos(6, false, tam.y, pos)
@@ -21,9 +22,22 @@ oleo::oleo(sf::Vector2f pos, sf::Vector2f tam) :
 
 oleo::~oleo() {}
 
+float oleo::variaViscosidade() {
+    float t = relogioVisc.getElapsedTime().asSeconds();
+    viscosidade = 0.75f + 0.25f * std::sin(t);
+    return viscosidade;
+}
+
+void oleo::executar() {
+    variaViscosidade();
+}
+
 void oleo::obstaculizar(Personagens& p) {
-    if (forma.getGlobalBounds().findIntersection(p.getBounds()))
+    executar();
+    if (forma.getGlobalBounds().findIntersection(p.getBounds())) {
         p.setEmOleo(true);
+        p.setFatorOleo(viscosidade);
+    }
 }
 
 void oleo::desenhar(sf::RenderWindow& window) {

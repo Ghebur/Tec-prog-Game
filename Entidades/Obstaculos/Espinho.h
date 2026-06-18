@@ -8,10 +8,15 @@ class Espinho : public Obstaculos {
         sf::RectangleShape forma;
         sf::Texture tex;
         sf::Sprite sprite{tex};
+        int contadorToques = 0;
+        bool semDano = false;
+
+        void contarToque();
 
     public:
         Espinho(sf::Vector2f pos, sf::Vector2f tam);
         ~Espinho();
+        void executar() override;
         void obstaculizar(Personagens& p) override;
         void desenhar(sf::RenderWindow& window) override;
         void salvar() override;

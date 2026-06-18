@@ -27,7 +27,7 @@ Ninja::Ninja(float x, float y, Controles controles, int pontos) :
 
 Ninja::~Ninja() {}
 
-void Ninja::update(Mapa1& mapa) {
+void Ninja::executar(Mapa1& mapa) {
     aplicarGravidade(DELTA_TIME);
     verificarColisaoChao(mapa, corpo.getSize().y);
     mapa.colidirComPersonagens(*this);
@@ -85,7 +85,7 @@ void Ninja::desenhar(sf::RenderWindow& window) {
 }
 
 void Ninja::movimentacao() {
-    float velX = emOleo ? velocidade.x * 0.4f : velocidade.x;
+    float velX = emOleo ? velocidade.x * fatorOleo : velocidade.x;
     bool moveu = false;
 
     if (sf::Keyboard::isKeyPressed(controles.esquerda)) {
@@ -99,7 +99,7 @@ void Ninja::movimentacao() {
         moveu = true;
     }
     if (sf::Keyboard::isKeyPressed(controles.pular) && noChao) {
-        velocidade.y = emOleo ? -250.f : -500.f;
+        velocidade.y = emOleo ? -500.f * fatorOleo : -500.f;
         noChao = false;
     }
 

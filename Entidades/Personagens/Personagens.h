@@ -7,6 +7,7 @@ class Personagens:public Entidades{
     protected:
         int vida;
         bool emOleo;
+        float fatorOleo = 1.f;
         int frameAtual;
 
     public:
@@ -24,6 +25,8 @@ class Personagens:public Entidades{
         void empurrar(float forcaX) { impulso.x = forcaX; }
         virtual sf::FloatRect getBounds() { return {posicao, {tamanho, tamanho}}; }
         void setEmOleo(bool v) { emOleo = v; }
+        void setFatorOleo(float f) { fatorOleo = f; }
+        float getFatorOleo() const { return fatorOleo; }
         void setPos(sf::Vector2f pos) { posicao = pos; }
         void setNoChao(bool v) { noChao = v; }
         void setVelocidadeY(float vy) { velocidade.y = vy; }

@@ -24,10 +24,9 @@ public:
     FlechaShogun(sf::Vector2f pos, float velX);
     ~FlechaShogun() override = default;
 
-    void update();
+    void executar() override;
     void danificar(Ninja& jogador);
     bool estaMorta() const { return morta; }
     void desenhar(sf::RenderWindow& window) override;
-    void executar() override {}
     void salvar() override;
 };

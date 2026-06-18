@@ -18,12 +18,25 @@ Espinho::Espinho(sf::Vector2f pos, sf::Vector2f tam) :
 
 Espinho::~Espinho() {}
 
+void Espinho::contarToque() {
+    contadorToques++;
+    semDano = (contadorToques % 3 == 0);
+}
+
+void Espinho::executar() {
+    contarToque();
+}
+
 void Espinho::obstaculizar(Personagens& p) {
     if (!forma.getGlobalBounds().findIntersection(p.getBounds())) return;
     if (!p.podeReceberDano()) return;
 
+    executar();
+
     float dir = (p.getPos().x < posicao.x) ? -1.f : 1.f;
     p.receberKnockback({dir * 700.f, -400.f});
+    if (semDano) return;
+
     p.perderVida();
 }
 

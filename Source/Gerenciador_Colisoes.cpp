@@ -35,7 +35,7 @@ void Gerenciador_Colisoes::tratarColisoesJogsInimigs() {
 void Gerenciador_Colisoes::atualizarProjeteis() {
     std::vector<FlechaShogun*> aRemover;
     for (FlechaShogun* proj : LPs) {
-        proj->update();
+        proj->executar();
         if (proj->estaMorta()) aRemover.push_back(proj);
     }
     for (FlechaShogun* p : aRemover) LPs.erase(p);

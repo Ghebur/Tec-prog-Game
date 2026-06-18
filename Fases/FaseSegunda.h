@@ -20,4 +20,7 @@ protected:
 
 private:
     Shogun* shogunBoss = nullptr;
+    Shogun* shogunA    = nullptr;
+    Shogun* shogunB    = nullptr;
+    Shogun* shogunRand = nullptr;
 };

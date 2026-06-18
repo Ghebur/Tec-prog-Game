@@ -57,7 +57,7 @@ void Cobra::desenhar(sf::RenderWindow& window) {
     window.draw(sprite);
 }
 
-void Cobra::update(Mapa1& mapa, Personagens& p) {
+void Cobra::executar(Mapa1& mapa, Personagens& p) {
     movimentacao();
     aplicarGravidade(1.f / 60.f);
     verificarColisaoChao(mapa, corpo.getSize().y);

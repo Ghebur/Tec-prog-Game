@@ -21,7 +21,7 @@ FlechaShogun::FlechaShogun(sf::Vector2f pos, float velX) :
     spriteFlecha.setPosition(pos);
 }
 
-void FlechaShogun::update() {
+void FlechaShogun::executar() {
     tempoVoo += DELTA;
 
     // gravidade so entra apos o delay; antes a flecha vai em linha reta

@@ -30,8 +30,18 @@ void Samurai::desenhar(sf::RenderWindow& window) {
     window.draw(sprite);
 }
 
-void Samurai::update(Mapa1& mapa, Personagens& p) {
+void Samurai::pular() {
+    float sinAtual = std::sin(angulo);
+    if (ultimoSin < 0.f && sinAtual >= 0.f && noChao) {
+        velocidade.y = -167.f;
+        noChao = false;
+    }
+    ultimoSin = sinAtual;
+}
+
+void Samurai::executar(Mapa1& mapa, Personagens& p) {
     movimentacao();
+    pular();
     aplicarGravidade(1.f / 60.f);
     verificarColisaoChao(mapa, corpo.getSize().y);
     mapa.colidirComPersonagens(*this);
