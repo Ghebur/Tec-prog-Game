@@ -42,6 +42,7 @@ public:
     void executar(Mapa1& mapa);
     bool movimentacao();
     bool estaArmado() const override { return armado; }
+    void tentarRecuperar() override { if (rand() % 3 == 0) ++(*this); }
     sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
     float getTempoParaArmar() const;
     void setPosicao(sf::Vector2f novaPos);

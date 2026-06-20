@@ -28,7 +28,7 @@ void Inimigo::colidirComPersonagem(Personagens& p) {
         --(*this);
         receberKnockback({dir * 600.f, -300.f});
         p.empurrar(-dir * 250.f);
-        if (rand() % 3 == 0) ++p;
+        p.tentarRecuperar();
     } else if (!p.estaArmado() && p.podeReceberDano()) {
         p.receberKnockback({dir * 700.f, -400.f});
         danifcar(p);

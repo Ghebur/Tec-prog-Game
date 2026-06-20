@@ -21,6 +21,7 @@ class Personagens:public Entidades{
         bool estaVivo() const { return vida > 0; }
         Personagens& operator--() { if (vida > 0) vida--; return *this; }
         Personagens& operator++() { if (vida < 4) vida++; return *this; }
+        virtual void tentarRecuperar() {}
         int getVida() const { return vida; }
         virtual bool estaArmado() const { return false; }
         void empurrar(float forcaX) { impulso.x = forcaX; }
