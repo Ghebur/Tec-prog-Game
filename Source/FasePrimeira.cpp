@@ -31,38 +31,23 @@ void FasePrimeira::criarOleo(Mapa1& /*mapa*/) {
 }
 
 void FasePrimeira::criarInimigos(Mapa1& mapa) {
-    auto spawns4 = mapa.getSpawnPoints(4);  // chao: x=1000, 2400, 4000, 4500
-    auto spawns5 = mapa.getSpawnPoints(5);  // plataformas: x=500, 1750, 3100(row7) | x=1250, 2250, 3500(row8)
+    criarInimigosFaceis(mapa);
+    criarInimigosMedios(mapa);
+}
 
-    // Garantidos no chao: C C S
-    if (spawns4.size() >= 1) entidades.incluir(new Cobra(spawns4[0].x, spawns4[0].y));
-    if (spawns4.size() >= 2) entidades.incluir(new Cobra(spawns4[1].x, spawns4[1].y));
-    if (spawns4.size() >= 3) entidades.incluir(new Samurai(spawns4[2].x, spawns4[2].y));
-
-    // Samurai aleatorio perto do final (tile-4 extras)
-    for (size_t i = 3; i < spawns4.size(); i++)
-        if (rand() % 2)
-            entidades.incluir(new Samurai(spawns4[i].x, spawns4[i].y));
-
-    // y=488: plataforma em y=500, hitbox dos inimigos é 12px, então nasce em cima
+void FasePrimeira::criarInimigosMedios(Mapa1& mapa) {
+    auto spawns4 = mapa.getSpawnPoints(4);
+    auto spawns5 = mapa.getSpawnPoints(5);
     const float yPlatforma = 488.f;
 
-    // Garantidos na plataforma: C (3a cobra) S S
-    if (spawns5.size() >= 1) entidades.incluir(new Cobra(spawns5[0].x, yPlatforma));
+    // 3 samurais garantidos
+    if (spawns4.size() >= 3) entidades.incluir(new Samurai(spawns4[2].x, spawns4[2].y));
     if (spawns5.size() >= 2) entidades.incluir(new Samurai(spawns5[1].x, yPlatforma));
     if (spawns5.size() >= 3) entidades.incluir(new Samurai(spawns5[2].x, yPlatforma));
 
-    // Cobra aleatoria em plataforma fixa (spawns5[3] = x=1250)
-    if (spawns5.size() >= 4 && rand() % 2)
-        entidades.incluir(new Cobra(spawns5[3].x, yPlatforma));
-
-    // Samurai aleatorio em plataforma (spawns5[4] = x=2250)
-    if (spawns5.size() >= 5 && rand() % 2)
-        entidades.incluir(new Samurai(spawns5[4].x, yPlatforma));
-
-    // Cobra aleatoria em plataforma fixa (spawns5[5] = x=3500)
-    if (spawns5.size() >= 6 && rand() % 2)
-        entidades.incluir(new Cobra(spawns5[5].x, yPlatforma));
+    // 1 samurai aleatorio
+    if (spawns4.size() >= 4 && rand() % 2)
+        entidades.incluir(new Samurai(spawns4[3].x, spawns4[3].y));
 }
 
 void FasePrimeira::criarFinal(Mapa1& mapa) {

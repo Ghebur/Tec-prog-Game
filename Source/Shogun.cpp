@@ -1,5 +1,6 @@
 #include "../Entidades/Personagens/Shogun.h"
 #include "../Fases/Fase.h"
+#include "../Figura.h"
 #include <cmath>
 #include <fstream>
 
@@ -16,11 +17,11 @@ Shogun::Shogun(float x, float y, Fase* fase) :
     texRun.loadFromFile("assets/Shogun/Run.png");
     texShot.loadFromFile("assets/Shogun/Shot.png");
 
-    sprite.setTexture(texRun, true);
-    sprite.setTextureRect(sf::IntRect{{0, 0}, {FRAME_W, FRAME_H}});
+    pFig = new Figura(texRun);
+    pFig->getSprite().setTextureRect(sf::IntRect{{0, 0}, {FRAME_W, FRAME_H}});
     float escala = tamanho / FRAME_H;
-    sprite.setScale({escala, escala});
-    sprite.setPosition(posicao);
+    pFig->getSprite().setScale({escala, escala});
+    pFig->getSprite().setPosition(posicao);
 }
 
 Shogun::~Shogun() {}
@@ -37,14 +38,14 @@ bool Shogun::movimentacao() {
 
 void Shogun::danifcar(Personagens& p) {
     for (int i = 0; i <= nivelDeMaldade; i++)
-        p.perderVida();
+        --p;
 }
 
 void Shogun::entrarModoTiro() {
     estado = Estado::SHOOTING;
     frameAtual = 0;
     relogioAnim.restart();
-    sprite.setTexture(texShot, true);
+    pFig->getSprite().setTexture(texShot, true);
 }
 
 void Shogun::atualizarAnimacao(Personagens& alvo) {
@@ -59,8 +60,8 @@ void Shogun::atualizarAnimacao(Personagens& alvo) {
         sf::Texture* tex = movendo ? &texRun : &texIdle;
         int total = movendo ? FRAMES_RUN : FRAMES_IDLE;
 
-        if (&sprite.getTexture() != tex)
-            sprite.setTexture(*tex, true);
+        if (&pFig->getSprite().getTexture() != tex)
+            pFig->getSprite().setTexture(*tex, true);
 
         if (relogioAnim.getElapsedTime().asSeconds() > secsPerFrame) {
             frameAtual = (frameAtual + 1) % total;
@@ -74,7 +75,7 @@ void Shogun::atualizarAnimacao(Personagens& alvo) {
             if (frameAtual >= FRAMES_SHOT) {
                 frameAtual = 0;
                 estado = Estado::RUNNING;
-                sprite.setTexture(texRun, true);
+                pFig->getSprite().setTexture(texRun, true);
 
                 float dirX = olhandoDireita ? 160.f : -160.f;
                 sf::Vector2f spawn = {posicao.x, posicao.y + corpo.getSize().y - 30.f};
@@ -85,17 +86,17 @@ void Shogun::atualizarAnimacao(Personagens& alvo) {
 
     // aplica frame e espelhamento
     int frameClamp = std::min(frameAtual, FRAMES_SHOT - 1);
-    sprite.setTextureRect(sf::IntRect{{frameClamp * FRAME_W, 0}, {FRAME_W, FRAME_H}});
+    pFig->getSprite().setTextureRect(sf::IntRect{{frameClamp * FRAME_W, 0}, {FRAME_W, FRAME_H}});
 
     sf::Vector2f pos = {posicao.x, posicao.y - (tamanho - corpo.getSize().y)};
     if (olhandoDireita) {
-        sprite.setScale({escala, escala});
-        sprite.setOrigin({0.f, 0.f});
+        pFig->getSprite().setScale({escala, escala});
+        pFig->getSprite().setOrigin({0.f, 0.f});
     } else {
-        sprite.setScale({-escala, escala});
-        sprite.setOrigin({static_cast<float>(FRAME_W), 0.f});
+        pFig->getSprite().setScale({-escala, escala});
+        pFig->getSprite().setOrigin({static_cast<float>(FRAME_W), 0.f});
     }
-    sprite.setPosition(pos);
+    pFig->getSprite().setPosition(pos);
 }
 
 void Shogun::executar(Mapa1& mapa, Personagens& p) {
@@ -115,11 +116,6 @@ void Shogun::executar(Mapa1& mapa, Personagens& p) {
 
     atualizarAnimacao(p);
 }
-
-void Shogun::desenhar(sf::RenderWindow& window) {
-    window.draw(sprite);
-}
-
 
 void Shogun::salvar() {
     SalvarDataBuffer();

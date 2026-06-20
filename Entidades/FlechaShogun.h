@@ -8,7 +8,6 @@ class FlechaShogun : public Entidades {
 private:
     sf::RectangleShape forma;   // hitbox
     sf::Texture texFlecha;
-    sf::Sprite spriteFlecha{texFlecha};
     sf::Vector2f vel;
     bool morta = false;
     float tempoVoo = 0.f;           // tempo desde spawn (segundos)
@@ -27,6 +26,5 @@ public:
     void executar() override;
     void danificar(Ninja& jogador);
     bool estaMorta() const { return morta; }
-    void desenhar(sf::RenderWindow& window) override;
     void salvar() override;
 };

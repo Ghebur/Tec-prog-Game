@@ -19,7 +19,8 @@ class Personagens:public Entidades{
         void receberKnockback(sf::Vector2f forca);
         bool podeReceberDano() const { return framesSemDano <= 0; }
         bool estaVivo() const { return vida > 0; }
-        void perderVida() { if (vida > 0) vida--; }
+        Personagens& operator--() { if (vida > 0) vida--; return *this; }
+        Personagens& operator++() { if (vida < 4) vida++; return *this; }
         int getVida() const { return vida; }
         virtual bool estaArmado() const { return false; }
         void empurrar(float forcaX) { impulso.x = forcaX; }

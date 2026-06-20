@@ -17,7 +17,6 @@ class Ninja : public Personagens {
     sf::Texture texRun;
     sf::Texture texJump;
     sf::Texture texAttack;
-    sf::Sprite sprite{texIdle};
 
     enum class EstadoAnim { IDLE, RUNNING, JUMPING, ATTACKING };
     EstadoAnim estadoAnim = EstadoAnim::IDLE;
@@ -41,7 +40,6 @@ public:
     Ninja(float x, float y, Controles controles = {}, int pontos = 0);
     ~Ninja();
     void executar(Mapa1& mapa);
-    void desenhar(sf::RenderWindow& window);
     bool movimentacao();
     bool estaArmado() const override { return armado; }
     sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }

@@ -13,7 +13,6 @@ class Obstaculos : public Entidades {
         virtual ~Obstaculos();
         void executar() override {}
         virtual void obstaculizar(Personagens& p) = 0;
-        virtual void desenhar(sf::RenderWindow& window) = 0;
         void SalvarDataBuffer();
         virtual void salvar() override = 0;
 };

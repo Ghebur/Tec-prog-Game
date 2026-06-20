@@ -9,7 +9,6 @@ class Samurai : public Inimigo {
         sf::RectangleShape corpo;
         int graduacao;
         sf::Texture texRun;
-        sf::Sprite sprite{texRun};
         sf::Clock relogioAnim;
         float ultimoSin = 0.f;
 
@@ -22,7 +21,6 @@ class Samurai : public Inimigo {
         void danifcar(Personagens& p) override;
         void atualizarAnimacao() override;
         void pular();
-        void desenhar(sf::RenderWindow& window);
         void executar(Mapa1& mapa, Personagens& p);
         sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
         void salvar() override;

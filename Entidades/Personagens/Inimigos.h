@@ -14,7 +14,6 @@ class Inimigo : public Personagens {
         virtual bool movimentacao();
         virtual void danifcar(Personagens& p) = 0;
         virtual void executar(Mapa1& mapa, Personagens& p) = 0;
-        virtual void desenhar(sf::RenderWindow& window) = 0;
         void colidirComPersonagem(Personagens& p);
         void SalvarDataBuffer();
         void salvar() override = 0;

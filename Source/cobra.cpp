@@ -1,4 +1,5 @@
 #include "../Entidades/Personagens/Cobra.h"
+#include "../Figura.h"
 #include <fstream>
 #define DELTA_TIME (1.0f / 60.0f) // Supondo 60 FPS#define
 
@@ -10,20 +11,20 @@ venenosa(rand()%2)
     corpo.setPosition(posicao);
     texRun.loadFromFile("assets/CobraAnimacoes/Snake_walk.png");
 
-    sprite.setTexture(texRun, true);
-    sprite.setTextureRect(sf::IntRect{{0, 0}, {FRAME_W, FRAME_H}});
+    pFig = new Figura(texRun);
+    pFig->getSprite().setTextureRect(sf::IntRect{{0, 0}, {FRAME_W, FRAME_H}});
     float escala = tamanho / FRAME_H;
-    sprite.setScale({escala, escala});
-    sprite.setPosition(posicao);
+    pFig->getSprite().setScale({escala, escala});
+    pFig->getSprite().setPosition(posicao);
 }
 
 Cobra::~Cobra() {}
 
 void Cobra::danifcar(Personagens& p) {
     for(int i =0;i<=nivelDeMaldade;i++)
-        p.perderVida();
+        --p;
     if(venenosa)
-        p.perderVida();
+        --p;
 
 }
 
@@ -40,21 +41,17 @@ void Cobra::atualizarAnimacao() {
 
     bool indoPDireita = std::cos(angulo) > 0;
 
-    sprite.setTextureRect(sf::IntRect{{frameAtual * FRAME_W, 0}, {FRAME_W, FRAME_H}});
+    pFig->getSprite().setTextureRect(sf::IntRect{{frameAtual * FRAME_W, 0}, {FRAME_W, FRAME_H}});
 
     if (indoPDireita) {
-        sprite.setScale({-escala, escala});
-        sprite.setOrigin({static_cast<float>(FRAME_W), 0.f});
+        pFig->getSprite().setScale({-escala, escala});
+        pFig->getSprite().setOrigin({static_cast<float>(FRAME_W), 0.f});
     } else {
-        sprite.setScale({escala, escala});
-        sprite.setOrigin({0.f, 0.f});
+        pFig->getSprite().setScale({escala, escala});
+        pFig->getSprite().setOrigin({0.f, 0.f});
     }
 
-    sprite.setPosition(pos);
-}
-
-void Cobra::desenhar(sf::RenderWindow& window) {
-    window.draw(sprite);
+    pFig->getSprite().setPosition(pos);
 }
 
 void Cobra::executar(Mapa1& mapa, Personagens& p) {

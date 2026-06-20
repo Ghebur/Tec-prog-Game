@@ -13,7 +13,6 @@ private:
     bool olhandoDireita = true;
 
     sf::Texture texIdle, texRun, texShot;
-    sf::Sprite sprite{texIdle};
     sf::Clock relogioAnim;
     sf::Clock relogioTiro;
 
@@ -39,7 +38,6 @@ public:
     void executar() override {}
     bool movimentacao() override;
     void danifcar(Personagens& p) override;
-    void desenhar(sf::RenderWindow& window) override;
     void executar(Mapa1& mapa, Personagens& p) override;
     sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
     void salvar() override;

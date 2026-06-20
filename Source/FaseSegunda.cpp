@@ -14,23 +14,19 @@ FaseSegunda::~FaseSegunda() {}
 
 void FaseSegunda::criarInimigos(Mapa1& mapa) {
     criarInimigosFaceis(mapa);
+    criarInimigosDificeis(mapa);
+}
 
-    // Boss principal no final do mapa
+void FaseSegunda::criarInimigosDificeis(Mapa1& /*mapa*/) {
     shogunBoss = new Shogun(4500.f, 530.f, this);
     entidades.incluir(shogunBoss);
 
-    // Shogun fixo A: sobre a plataforma P1 (x=375-665, topo y=500)
-    // corpo 20px → nasce em y=480, oscila 420-620 dentro da plataforma
     shogunA = new Shogun(520.f, 480.f, this);
     entidades.incluir(shogunA);
 
-    // Shogun fixo B: no chão entre P5 opcional (fim 2665) e P3 garantida (início 2975)
-    // oscilação 2720-2920, longe dos espinhos em 2100-2200 e 3430-3530
     shogunB = new Shogun(2820.f, 530.f, this);
     entidades.incluir(shogunB);
 
-    // Shogun aleatório: no chão entre P6 opcional (fim 3915) e espinho opcional (início 4150)
-    // oscilação 3930-4130, com 50% de chance de aparecer
     if (rand() % 2) {
         shogunRand = new Shogun(4030.f, 530.f, this);
         entidades.incluir(shogunRand);

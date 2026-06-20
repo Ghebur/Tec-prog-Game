@@ -1,5 +1,6 @@
 #include "../Entidades/Obstaculos/Espinho.h"
 #include "../Entidades/Personagens/Personagens.h"
+#include "../Figura.h"
 #include <fstream>
 
 Espinho::Espinho(sf::Vector2f pos, sf::Vector2f tam) :
@@ -11,9 +12,9 @@ Espinho::Espinho(sf::Vector2f pos, sf::Vector2f tam) :
     forma.setFillColor(sf::Color::Transparent);
 
     tex.loadFromFile("assets/Espinho/crystal_lime1.png");
-    sprite.setTexture(tex, true);
-    sprite.setScale({tam.x / tex.getSize().x, tam.y / tex.getSize().y});
-    sprite.setPosition(pos);
+    pFig = new Figura(tex);
+    pFig->getSprite().setScale({tam.x / tex.getSize().x, tam.y / tex.getSize().y});
+    pFig->getSprite().setPosition(pos);
 }
 
 Espinho::~Espinho() {}
@@ -37,11 +38,7 @@ void Espinho::obstaculizar(Personagens& p) {
     p.receberKnockback({dir * 700.f, -400.f});
     if (semDano) return;
 
-    p.perderVida();
-}
-
-void Espinho::desenhar(sf::RenderWindow& window) {
-    window.draw(sprite);
+    --p;
 }
 
 void Espinho::salvar() {

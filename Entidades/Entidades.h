@@ -19,7 +19,6 @@ public:
     virtual void salvar() = 0;
     sf::Vector2f getPos() const;
     float getTamanho() const;
-    virtual void desenhar(sf::RenderWindow& window) = 0;
     void aplicarGravidade(float deltaTime);
 
 };

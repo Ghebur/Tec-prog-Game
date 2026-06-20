@@ -1,5 +1,6 @@
 #include "../Entidades/FlechaShogun.h"
 #include "../Entidades/Personagens/Ninja.h"
+#include "../Figura.h"
 #include <cmath>
 #include <fstream>
 
@@ -14,11 +15,11 @@ FlechaShogun::FlechaShogun(sf::Vector2f pos, float velX) :
     forma.setPosition(pos);
 
     texFlecha.loadFromFile("assets/Flecha/Arrow.png");
-    spriteFlecha.setTexture(texFlecha, true);
-    spriteFlecha.setScale({SPRITE_W / texFlecha.getSize().x,
-                           SPRITE_H / texFlecha.getSize().y});
-    spriteFlecha.setOrigin({SPRITE_W / 2.f, SPRITE_H / 2.f});
-    spriteFlecha.setPosition(pos);
+    pFig = new Figura(texFlecha);
+    pFig->getSprite().setScale({SPRITE_W / texFlecha.getSize().x,
+                                SPRITE_H / texFlecha.getSize().y});
+    pFig->getSprite().setOrigin({SPRITE_W / 2.f, SPRITE_H / 2.f});
+    pFig->getSprite().setPosition(pos);
 }
 
 void FlechaShogun::executar() {
@@ -34,8 +35,8 @@ void FlechaShogun::executar() {
     float ang = (tempoVoo > DELAY_GRAVIDADE)
                 ? std::atan2(vel.y, vel.x)
                 : (vel.x >= 0.f ? 0.f : static_cast<float>(M_PI));
-    spriteFlecha.setRotation(sf::radians(ang));
-    spriteFlecha.setPosition(posicao);
+    pFig->getSprite().setRotation(sf::radians(ang));
+    pFig->getSprite().setPosition(posicao);
     forma.setRotation(sf::radians(ang));
     forma.setPosition(posicao);
 
@@ -47,15 +48,9 @@ void FlechaShogun::danificar(Ninja& jogador) {
     if (morta) return;
     if (forma.getGlobalBounds().findIntersection(jogador.getBounds()) &&
         jogador.podeReceberDano()) {
-        jogador.perderVida();
+        --jogador;
         morta = true;
     }
 }
-
-void FlechaShogun::desenhar(sf::RenderWindow& window) {
-    window.draw(spriteFlecha);
-}
-
-
 
 void FlechaShogun::salvar() {}

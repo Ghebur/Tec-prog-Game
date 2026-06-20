@@ -8,7 +8,6 @@ class Cobra : public Inimigo {
         sf::RectangleShape corpo;
         bool venenosa;
         sf::Texture texRun;
-        sf::Sprite sprite{texRun};
         sf::Clock relogioAnim;
 
         static constexpr int FRAME_W = 48;
@@ -19,7 +18,6 @@ class Cobra : public Inimigo {
         void executar() override {}
         void danifcar(Personagens& p) override;
         void atualizarAnimacao() override;
-        void desenhar(sf::RenderWindow& window);
         void executar(Mapa1& mapa, Personagens& p);
         sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
         void salvar() override;

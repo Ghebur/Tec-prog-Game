@@ -1,4 +1,5 @@
 #include "../Entidades/Personagens/Ninja.h"
+#include "../Figura.h"
 #include <SFML/Window/Keyboard.hpp>
 #include <fstream>
 
@@ -18,29 +19,22 @@ Ninja::Ninja(float x, float y, Controles controles, int pontos) :
     texJump.loadFromFile("assets/NinjaAnimacoes/Jump.png");
     texAttack.loadFromFile("assets/NinjaAnimacoes/Attack_3.png");
 
-    sprite.setTexture(texIdle, true);
-    sprite.setTextureRect(sf::IntRect{{0, 0}, {FRAME_W, FRAME_H}});
+    pFig = new Figura(texIdle);
+    pFig->getSprite().setTextureRect(sf::IntRect{{0, 0}, {FRAME_W, FRAME_H}});
     float escala = tamanho / FRAME_H;
-    sprite.setScale({escala, escala});
-    sprite.setPosition(posicao);
+    pFig->getSprite().setScale({escala, escala});
+    pFig->getSprite().setPosition(posicao);
 }
 
 Ninja::~Ninja() {}
 
 void Ninja::executar(Mapa1& mapa) {
-    // 1. Guarda se o Ninja terminou o frame passado pisando em algo (Mapa ou Plataforma)
     bool estavaNoChao = noChao;
-
     aplicarGravidade(DELTA_TIME);
     verificarColisaoChao(mapa, corpo.getSize().y);
-
-    // 2. Se o gerenciador de colisões disse no frame passado que ele estava na plataforma,
-    // nós REFORÇAMOS o noChao aqui para o mapa não estragar o pulo!
-    if (estavaNoChao) {
-        noChao = true;
-    }
-
-    movimentacao(); // Agora o if (noChao) vai dar TRUE com certeza e o pulo vai sair!
+    if (estavaNoChao) { noChao = true; }
+    bool moveu = movimentacao();
+    atualizarAnimacao(moveu);
     corpo.setPosition(posicao);
 }
 void Ninja::atualizarAnimacao(bool movendo) {
@@ -75,28 +69,17 @@ void Ninja::atualizarAnimacao(bool movendo) {
     }
 
     float escala = tamanho / FRAME_H;
-    sprite.setTexture(*tex);
-    sprite.setTextureRect(sf::IntRect{{frameAtual * FRAME_W, 0}, {FRAME_W, FRAME_H}});
+    pFig->getSprite().setTexture(*tex);
+    pFig->getSprite().setTextureRect(sf::IntRect{{frameAtual * FRAME_W, 0}, {FRAME_W, FRAME_H}});
 
     if (olhandoDireita) {
-        sprite.setScale({escala, escala});
-        sprite.setOrigin({0.f, 0.f});
+        pFig->getSprite().setScale({escala, escala});
+        pFig->getSprite().setOrigin({0.f, 0.f});
     } else {
-        sprite.setScale({-escala, escala});
-        sprite.setOrigin({static_cast<float>(FRAME_W), 0.f});
+        pFig->getSprite().setScale({-escala, escala});
+        pFig->getSprite().setOrigin({static_cast<float>(FRAME_W), 0.f});
     }
-    sprite.setPosition(posicao);
-}
-
-void Ninja::desenhar(sf::RenderWindow& window) {
-    // Verifica se as teclas de movimento estão pressionadas para passar para a animação
-    bool moveu = sf::Keyboard::isKeyPressed(controles.esquerda) || 
-                 sf::Keyboard::isKeyPressed(controles.direita);
-                 
-    // Agora sim! noChao já foi processado pela plataforma, o sprite ficará perfeito.
-    atualizarAnimacao(moveu); 
-    
-    window.draw(sprite);
+    pFig->getSprite().setPosition(posicao);
 }
 
 bool Ninja::movimentacao() {

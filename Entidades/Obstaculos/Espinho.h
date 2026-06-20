@@ -7,7 +7,6 @@ class Espinho : public Obstaculos {
         short int danosidade;
         sf::RectangleShape forma;
         sf::Texture tex;
-        sf::Sprite sprite{tex};
         int contadorToques = 0;
         bool semDano = false;
 
@@ -18,6 +17,5 @@ class Espinho : public Obstaculos {
         ~Espinho();
         void executar() override;
         void obstaculizar(Personagens& p) override;
-        void desenhar(sf::RenderWindow& window) override;
         void salvar() override;
 };

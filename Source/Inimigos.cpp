@@ -25,9 +25,10 @@ void Inimigo::colidirComPersonagem(Personagens& p) {
     float dir = (p.getPos().x < getPos().x) ? -1.f : 1.f;
 
     if (p.estaArmado() && podeReceberDano()) {
-        perderVida();
+        --(*this);
         receberKnockback({dir * 600.f, -300.f});
         p.empurrar(-dir * 250.f);
+        if (rand() % 3 == 0) ++p;
     } else if (!p.estaArmado() && p.podeReceberDano()) {
         p.receberKnockback({dir * 700.f, -400.f});
         danifcar(p);

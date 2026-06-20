@@ -30,6 +30,7 @@ public:
 
 protected:
     void criarInimigos(Mapa1& mapa) override;
+    void criarInimigosMedios(Mapa1& mapa);
     void criarObstaculos(Mapa1& mapa) override;
     void criarOleo(Mapa1& mapa);
     void criarFinal(Mapa1& mapa) override;

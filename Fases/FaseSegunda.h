@@ -15,6 +15,7 @@ public:
 
 protected:
     void criarInimigos(Mapa1& mapa) override;
+    void criarInimigosDificeis(Mapa1& mapa);
     void criarObstaculos(Mapa1& mapa) override;
     void criarFinal(Mapa1& mapa) override;
     //void carregarFase() override;
