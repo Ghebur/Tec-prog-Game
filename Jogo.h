@@ -26,6 +26,11 @@ class Jogo {
         bool naFase2 = false;
         bool faseTerminada = false;
         bool gameOver = false;
+        bool vitoria{false};
+        std::string nomeP1{""};
+        std::string nomeP2{""};
+        bool digitandoP2{false}; 
+        
 
         sf::Font fonteHUD;
         sf::Text textoVidas;
@@ -34,10 +39,12 @@ class Jogo {
         sf::Text textoTempo2;
         sf::Text textoPontos;
         sf::Text textoPontos2;
+        sf::Text textoVitoria;
 
         void ProcessarEventos();
         void Atualizar();
         void Renderizar();
+        void salvarRanking();
 
     public:
         Jogo();

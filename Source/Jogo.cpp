@@ -17,7 +17,8 @@ Jogo::Jogo() :
     textoVidas2(fonteHUD),
     textoTempo2(fonteHUD),
     textoPontos(fonteHUD),
-    textoPontos2(fonteHUD)
+    textoPontos2(fonteHUD),
+    textoVitoria(fonteHUD)
 {
     GG.getJanela().setFramerateLimit(60);
     camera.setSize(sf::Vector2f(800.f, 600.f));
@@ -119,6 +120,10 @@ void Jogo::Atualizar() {
         }
 
         if (fase2->faseFinalizada()) faseTerminada = true;
+
+        if (naFase2 && fase2->getQuantidadeInimigosVivos() == 0) {
+    vitoria = true;
+}
     }
 }
 void Jogo::Renderizar() {
@@ -183,6 +188,38 @@ void Jogo::Renderizar() {
         window.draw(textoPausa);
     }
 
+    if (vitoria) {
+        sf::RectangleShape overlay({800.f, 600.f});
+        overlay.setPosition(camera.getCenter() - sf::Vector2f(400.f, 300.f));
+        overlay.setFillColor(sf::Color(218, 165, 32, 200)); // Amarelo Dourado Transparente
+        window.draw(overlay);
+
+        textoVitoria.setFont(fonteHUD);
+        textoVitoria.setCharacterSize(30);
+        textoVitoria.setFillColor(sf::Color::White);
+
+        // Monta o texto dinâmico mostrando os pontos e o que o cara tá digitando
+        std::string texto = "VITORIA!\nTodos os inimigos foram derrotados!\n\n";
+        texto += "Pontos P1: " + std::to_string(ninja.getPontos()) + "\nNome P1: " + nomeP1;
+        if (!digitandoP2) texto += "_"; // Simula um cursor piscando pro P1
+        
+        if (ninja2) {
+            texto += "\n\nPontos P2: " + std::to_string(ninja2->getPontos()) + "\nNome P2: " + nomeP2;
+            if (digitandoP2) texto += "_"; // Cursor muda pro P2
+        }
+
+        texto += "\n\n[ENTER] para Confirmar";
+
+        textoVitoria.setString(texto);
+        
+        // Centraliza perfeito na tela
+        sf::FloatRect bounds = textoVitoria.getLocalBounds();
+        textoVitoria.setOrigin({bounds.size.x / 2.f, bounds.size.y / 2.f});
+        textoVitoria.setPosition(camera.getCenter());
+        
+        window.draw(textoVitoria);
+    }
+
     // Retorna para a visualização padrão fixada na janela para renderizar a HUD estática
     window.setView(window.getDefaultView());
     
@@ -237,6 +274,36 @@ void Jogo::ProcessarEventos() {
                 // Em vez de chamar Rodar(), nós apenas fechamos a janela interna do loop secundário.
                 // Mas como o loop principal do Rodar() usa isOpen(), vamos quebrar o loop secundário limpando as fases ou saindo do loop de jogo!
                 return; 
+            }
+        }
+        if (const auto* textEvent = event->getIf<sf::Event::TextEntered>()) {
+            if (vitoria) {
+                char32_t unicode = textEvent->unicode;
+                
+                // Escolhe qual string estamos editando (P1 ou P2)
+                std::string& nomeAtual = digitandoP2 ? nomeP2 : nomeP1;
+
+                if (unicode == '\b' || unicode == 8) { // Se apertou Backspace
+                    if (!nomeAtual.empty()) nomeAtual.pop_back();
+                } 
+                else if (unicode == '\r' || unicode == '\n') { // Se apertou Enter
+                    if (ninja2 && !digitandoP2) {
+                        // Se tem jogador 2 e o P1 já deu Enter, passa a vez pro P2
+                        digitandoP2 = true;
+                    } else {
+                        // Se for só 1 jogador ou o P2 já deu Enter, finaliza!
+                        salvarRanking();
+                        vitoria = false;
+                        nomeP1 = ""; // Limpa pra próxima partida
+                        nomeP2 = "";
+                        digitandoP2 = false;
+                        return; // Quebra o loop para voltar pro Menu (igual no GameOver)
+                    }
+                } 
+                else if (unicode < 128 && nomeAtual.size() < 10) { 
+                    // Aceita letras normais e limita a 10 caracteres
+                    nomeAtual += static_cast<char>(unicode);
+                }
             }
         }
     }
@@ -334,4 +401,19 @@ void Jogo::salvarJogo() {
     }
 
     std::cout << "Jogo gravado com sucesso via Lista Encadeada!" << std::endl;
+}
+
+void Jogo::salvarRanking() {
+    // ios::app garante que os novos pontos não apaguem o histórico
+    std::ofstream arquivo("assets/ranking.txt", std::ios::app);
+    if (arquivo.is_open()) {
+        if (!nomeP1.empty()) 
+            arquivo << nomeP1 << " " << ninja.getPontos() << "\n";
+            
+        if (ninja2 && !nomeP2.empty()) 
+            arquivo << nomeP2 << " " << ninja2->getPontos() << "\n";
+            
+        arquivo.close();
+        std::cout << "Ranking salvo com sucesso!" << std::endl;
+    }
 }

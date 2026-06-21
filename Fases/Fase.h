@@ -35,6 +35,7 @@ public:
     void salvarFase();
     //virtual void carregarFase() = 0;
     virtual Entidades::FlechaShogun* criarProjeteis(sf::Vector2f pos, float dirX) { return nullptr; }
+    int getQuantidadeInimigosVivos();
 };
 
 } // namespace Fases

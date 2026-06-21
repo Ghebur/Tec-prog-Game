@@ -83,6 +83,35 @@ void Fase::desenharEntidades(Gerenciador_Grafico& gg) {
     }
 }
 
+int Fase::getQuantidadeInimigosVivos() { // Troque FasePrimeira para o nome da sua classe
+    int contagem = 0;
+    
+    // Pega o primeiro elemento da sua lista
+    auto* elementoAtual = getPrimeiroEntidade(); 
+
+    while (elementoAtual != nullptr) {
+        Entidades::Entidades* ent = elementoAtual->getInfo();
+
+        if (ent != nullptr) {
+            // Tenta converter a Entidade genérica para um Inimigo
+            // Se "ent" for um bloco ou o ninja, o resultado será nullptr
+            Personagens::Inimigo* inimigo = dynamic_cast<Personagens::Inimigo*>(ent);
+            
+            // Se a conversão deu certo, significa que é um inimigo!
+            if (inimigo != nullptr) {
+                if (inimigo->estaVivo()) {
+                    contagem++; // Conta +1 inimigo vivo
+                }
+            }
+        }
+        
+        // Vai para o próximo da lista
+        elementoAtual = elementoAtual->getProximo();
+    }
+
+    return contagem;
+}
+
 void Fase::salvarFase() {
     std::ofstream arquivo("assets/save_ninja.txt", std::ios::trunc);
     arquivo.close();
