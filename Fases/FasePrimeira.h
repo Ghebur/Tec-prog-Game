@@ -11,7 +11,8 @@ class FasePrimeira : public Fase {
 public:
     class BlocoFinal : public Entidades::Entidades {
     private:
-        sf::RectangleShape forma;
+        sf::RectangleShape mastro;
+        sf::RectangleShape pano;
         bool atingido = false;
 
     public:

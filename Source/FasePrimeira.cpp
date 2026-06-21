@@ -64,20 +64,29 @@ bool FasePrimeira::faseFinalizada() const {
 FasePrimeira::BlocoFinal::BlocoFinal(sf::Vector2f pos) :
     Entidades::Entidades(99, 20.f, pos)
 {
-    forma.setSize({20.f, 600.f});
-    forma.setPosition(pos);
-    forma.setFillColor(sf::Color(0, 220, 80));
+
+
+    // Configurando o mastro (haste da bandeira)
+    mastro.setSize({5.f, 60.f});
+    mastro.setFillColor(sf::Color(150, 150, 150));
+    mastro.setPosition({pos.x + 7.5f, pos.y + 490.f}); 
+
+    // Configurando o pano vermelho
+    pano.setSize({40.f, 25.f});
+    pano.setFillColor(sf::Color(220, 20, 20));
+    pano.setPosition({pos.x + 12.5f, pos.y + 490.f});
 }
 
 FasePrimeira::BlocoFinal::~BlocoFinal() {}
 
 void FasePrimeira::BlocoFinal::passar(Personagens::Personagens& p) {
-    if (forma.getGlobalBounds().findIntersection(p.getBounds()))
+    if (mastro.getGlobalBounds().findIntersection(p.getBounds()))
         atingido = true;
 }
 
 void FasePrimeira::BlocoFinal::desenhar(sf::RenderWindow& window) {
-    window.draw(forma);
+    window.draw(mastro);
+    window.draw(pano);
 }
 
 bool FasePrimeira::BlocoFinal::foiAtingido() const {

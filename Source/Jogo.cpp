@@ -58,6 +58,12 @@ Jogo::Jogo() :
 Jogo::~Jogo() {}
 
 void Jogo::Atualizar() {
+    if (!ninja.estaVivo() && (!ninja2 || !ninja2->estaVivo())) {
+        gameOver = true;
+    }
+
+    if (gameOver || faseTerminada) return;
+
     if (faseTerminada) return;
 
     sf::Vector2f posCamera = ninja.getPos();
@@ -120,11 +126,11 @@ void Jogo::Renderizar() {
     else if (fase2)
         fase2->desenharEntidades(GG);
 
-    // ADICIONADO: Menu visual de Pausa (Desenha por cima do cenário/entidades, mas sob a HUD fixada)
+    // Menu visual de Pausa
     if (pausado) {
         sf::RectangleShape overlay({800.f, 600.f});
         overlay.setPosition(camera.getCenter() - sf::Vector2f(400.f, 300.f));
-        overlay.setFillColor(sf::Color(0, 0, 0, 160)); // Filtro preto semi-transparente
+        overlay.setFillColor(sf::Color(0, 0, 0, 160));
         window.draw(overlay);
 
         textoPausa.setFont(fonteHUD);
@@ -132,7 +138,6 @@ void Jogo::Renderizar() {
         textoPausa.setCharacterSize(32);
         textoPausa.setFillColor(sf::Color::White);
         
-        // Centralização perfeita do texto em relação ao meio da câmera ativa
         sf::FloatRect bounds = textoPausa.getLocalBounds();
         textoPausa.setOrigin({bounds.size.x / 2.f, bounds.size.y / 2.f});
         textoPausa.setPosition(camera.getCenter());
@@ -145,6 +150,25 @@ void Jogo::Renderizar() {
         overlay.setPosition(camera.getCenter() - sf::Vector2f(400.f, 300.f));
         overlay.setFillColor(sf::Color(0, 180, 60, 160));
         window.draw(overlay);
+    }
+
+    // --- CORREÇÃO DO GAME OVER (Desenha ANTES de resetar a View para a HUD estática!) ---
+    if (gameOver) {
+        sf::RectangleShape overlay({800.f, 600.f});
+        overlay.setPosition(camera.getCenter() - sf::Vector2f(400.f, 300.f));
+        overlay.setFillColor(sf::Color(180, 0, 0, 160)); // Filtro Vermelho
+        window.draw(overlay);
+
+        textoPausa.setFont(fonteHUD);
+        textoPausa.setString("VOCE MORREU!\n\n[N] Reiniciar\n[Fechar Janela] Sair");
+        textoPausa.setCharacterSize(32);
+        textoPausa.setFillColor(sf::Color::White);
+        
+        sf::FloatRect bounds = textoPausa.getLocalBounds();
+        textoPausa.setOrigin({bounds.size.x / 2.f, bounds.size.y / 2.f});
+        textoPausa.setPosition(camera.getCenter()); // Agora centraliza perfeitamente no meio da tela do jogo!
+        
+        window.draw(textoPausa);
     }
 
     // Retorna para a visualização padrão fixada na janela para renderizar a HUD estática
@@ -169,6 +193,19 @@ void Jogo::Renderizar() {
         window.draw(textoVidas2);
         window.draw(textoTempo2);
     }
+    // 1. Criando o Mastro (A haste da bandeira)
+    sf::RectangleShape mastro({5.f, 60.f}); // 5 pixels de largura, 60 de altura
+    mastro.setFillColor(sf::Color(150, 150, 150)); // Cor Cinza
+    mastro.setPosition({4950.f, 500.f});
+
+    // 2. Criando o Pano da Bandeira
+    sf::RectangleShape pano({40.f, 25.f}); // 40 pixels de largura, 25 de altura
+    pano.setFillColor(sf::Color(220, 20, 20)); // Cor Vermelha (estilo Mario!)
+    pano.setPosition({4955.f, 500.f});
+
+    // 3. Desenhando na tela (Lembre de colocar isso onde você tem acesso ao window)
+    window.draw(mastro);
+    window.draw(pano);
 
     window.display();
 }
@@ -187,40 +224,72 @@ void Jogo::ProcessarEventos() {
             if (pausado && keyPressed->code == sf::Keyboard::Key::S) {
                 salvarJogo();
             }
+
+            // --- CORREÇÃO DO BOTÃO N (Só fecha a janela do loop principal para voltar pro loop do Rodar()) ---
+            if (gameOver && keyPressed->code == sf::Keyboard::Key::N) {
+                gameOver = false;
+                ninja.ressuscitar(); 
+                if (ninja2) ninja2->ressuscitar();
+                
+                // Em vez de chamar Rodar(), nós apenas fechamos a janela interna do loop secundário.
+                // Mas como o loop principal do Rodar() usa isOpen(), vamos quebrar o loop secundário limpando as fases ou saindo do loop de jogo!
+                return; 
+            }
         }
     }
 }
 
 void Jogo::Rodar() {
-    Menu menu;
-    ConfigJogo config = menu.executar(GG.getJanela());
-    if (config.sair) {
-        GG.getJanela().close();
-        return;
-    }
-
-    if (config.numJogadores >= 2) {
-        Controles ctrl2;
-        ctrl2.esquerda = sf::Keyboard::Key::Left;
-        ctrl2.direita  = sf::Keyboard::Key::Right;
-        ctrl2.pular    = sf::Keyboard::Key::Up;
-        ctrl2.lanca    = sf::Keyboard::Key::M;
-        ninja2.emplace(350.f, 400.f, ctrl2);
-    }
-
-    if (config.fase == 2) {
-        fase2.emplace(mapa1);
-        naFase2 = true;
-        if (ninja2) ninja2->setPosicao({350.f, 400.f});
-    }
-
+    // Colocamos um while externo. Sempre que o jogo terminar ou voltar pro menu, ele reinicia aqui sem estourar a memória!
     while (GG.getJanela().isOpen()) {
-        ProcessarEventos();
-        Atualizar();
-        Renderizar();
+        Menu menu;
+        ConfigJogo config = menu.executar(GG.getJanela());
+        if (config.sair) {
+            GG.getJanela().close();
+            return;
+        }
+
+        // Reseta estados do jogo para uma nova partida limpa
+        gameOver = false;
+        faseTerminada = false;
+        pausado = false;
+        naFase2 = false;
+        ninja.ressuscitar(); // Garante que o ninja começa vivo e no lugar certo
+
+        if (config.numJogadores >= 2) {
+            Controles ctrl2;
+            ctrl2.esquerda = sf::Keyboard::Key::Left;
+            ctrl2.direita  = sf::Keyboard::Key::Right;
+            ctrl2.pular    = sf::Keyboard::Key::Up;
+            ctrl2.lanca    = sf::Keyboard::Key::M;
+            ninja2.emplace(350.f, 400.f, ctrl2);
+        } else {
+            ninja2.reset(); // Remove o jogador 2 se escolheu 1 jogador
+        }
+
+        if (config.fase == 2) {
+            fase2.emplace(mapa1);
+            naFase2 = true;
+            if (ninja2) ninja2->setPosicao({350.f, 400.f});
+        }
+
+        // Loop de gameplay da partida atual
+        // Ele vai rodar até a janela fechar OU até o jogador voltar pro menu (gameOver virar false após apertar M)
+        while (GG.getJanela().isOpen()) {
+            ProcessarEventos();
+            
+            // Se o jogador apertou M, o gameOver é resetado para false e as vidas voltam ao normal.
+            // Para sair desse loop interno e recarregar o menu do while de cima, checamos se o Ninja acabou de ressuscitar:
+            if (ninja.getVida() > 0 && !ninja.estaVivo()) {
+                // Isso significa que saímos do Game Over pressionando M!
+                break; 
+            }
+
+            Atualizar();
+            Renderizar();
+        }
     }
 }
-
 void Jogo::salvarJogo() {
     // 1. Abre limpando o arquivo antigo para começar um save novo do zero
     std::ofstream arquivo("assets/save_game.txt", std::ios::trunc);

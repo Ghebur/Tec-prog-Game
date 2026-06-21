@@ -148,6 +148,19 @@ int Ninja::getPontos() const {
     return pontos;
 }
 
+void Ninja::ressuscitar() {
+    vida = 5; 
+    posicao = {300.f, 400.f}; 
+    noChao = false; 
+    velocidade = {4.5f, 0.f}; 
+    impulso = {0.f, 0.f}; 
+    framesSemDano = 0; 
+    pontos = 0; 
+    relogioLanca.restart(); 
+    estadoLanca = EstadoLanca::NORMAL; 
+    armado = false; 
+}
+
 void Ninja::salvar() {
     SalvarDataBuffer(); 
 

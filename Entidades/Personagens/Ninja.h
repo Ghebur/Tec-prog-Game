@@ -51,6 +51,7 @@ public:
     void salvar() override;
     void adicionarPontos(int valor);
     int getPontos() const;
+    void ressuscitar();
     Controles controles;
 
 };
