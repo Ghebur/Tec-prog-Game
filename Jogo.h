@@ -32,6 +32,8 @@ class Jogo {
         sf::Text textoTempo;
         sf::Text textoVidas2;
         sf::Text textoTempo2;
+        sf::Text textoPontos;
+        sf::Text textoPontos2;
 
         void ProcessarEventos();
         void Atualizar();

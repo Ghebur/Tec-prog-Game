@@ -15,7 +15,9 @@ Jogo::Jogo() :
     textoVidas(fonteHUD),
     textoTempo(fonteHUD),
     textoVidas2(fonteHUD),
-    textoTempo2(fonteHUD)
+    textoTempo2(fonteHUD),
+    textoPontos(fonteHUD),
+    textoPontos2(fonteHUD)
 {
     GG.getJanela().setFramerateLimit(60);
     camera.setSize(sf::Vector2f(800.f, 600.f));
@@ -52,6 +54,16 @@ Jogo::Jogo() :
         textoTempo2.setCharacterSize(22);
         textoTempo2.setFillColor(sf::Color::Black);
         textoTempo2.setPosition({525.f, 50.f});
+
+        textoPontos.setFont(fonteHUD);
+        textoPontos.setCharacterSize(22);
+        textoPontos.setFillColor(sf::Color::Black);
+        textoPontos.setPosition({20.f, 80.f});
+
+        textoPontos2.setFont(fonteHUD);
+        textoPontos2.setCharacterSize(22);
+        textoPontos2.setFillColor(sf::Color::Black);
+        textoPontos2.setPosition({525.f, 80.f});
     }
 }
 
@@ -180,8 +192,10 @@ void Jogo::Renderizar() {
         ? std::to_string(static_cast<int>(std::ceil(tempoArmar))) + "s"
         : "Pronto";
     textoTempo.setString("Tempo p/ armar: " + tempoArmarTexto);
+    textoPontos.setString("Pontos: " + std::to_string(ninja.getPontos()));
     window.draw(textoVidas);
     window.draw(textoTempo);
+    window.draw(textoPontos);
 
     if (ninja2) {
         textoVidas2.setString("P2 Vidas: " + std::to_string(ninja2->getVida()));
@@ -190,22 +204,11 @@ void Jogo::Renderizar() {
             ? std::to_string(static_cast<int>(std::ceil(tempoArmar2))) + "s"
             : "Pronto";
         textoTempo2.setString("P2 Tempo p/ armar: " + tempoArmar2Texto);
+        textoPontos2.setString("P2 Pontos: " + std::to_string(ninja2->getPontos()));
         window.draw(textoVidas2);
         window.draw(textoTempo2);
+        window.draw(textoPontos2);
     }
-    // 1. Criando o Mastro (A haste da bandeira)
-    sf::RectangleShape mastro({5.f, 60.f}); // 5 pixels de largura, 60 de altura
-    mastro.setFillColor(sf::Color(150, 150, 150)); // Cor Cinza
-    mastro.setPosition({4950.f, 500.f});
-
-    // 2. Criando o Pano da Bandeira
-    sf::RectangleShape pano({40.f, 25.f}); // 40 pixels de largura, 25 de altura
-    pano.setFillColor(sf::Color(220, 20, 20)); // Cor Vermelha (estilo Mario!)
-    pano.setPosition({4955.f, 500.f});
-
-    // 3. Desenhando na tela (Lembre de colocar isso onde você tem acesso ao window)
-    window.draw(mastro);
-    window.draw(pano);
 
     window.display();
 }

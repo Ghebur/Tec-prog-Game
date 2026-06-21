@@ -27,8 +27,16 @@ void Gerenciador_Colisoes::tratarColisoesJogsInimigs() {
     if (!log1) return;
     for (Personagens::Inimigo* ini : LIs) {
         if (ini->estaVivo()) {
+            // 1. O inimigo está vivo. Vamos guardar essa informação.
+            bool estavaVivo = true; 
+            
+            // 2. Faz a checagem de colisão e aplica os danos, se houver.
             ini->colidirComPersonagem(*log1);
-            log1->adicionarPontos(1);
+            
+            // 3. Se ele estava vivo antes da colisão, mas a função acima fez ele morrer...
+            if (estavaVivo && !ini->estaVivo()) {
+                log1->adicionarPontos(10);
+            }
         }
     }
 }
