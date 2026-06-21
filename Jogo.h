@@ -14,15 +14,15 @@ class Jogo {
         bool pausado{false};
         sf::Text textoPausa;
         void salvarJogo();
-        Gerenciador_Grafico GG;
+        Gerenciadores::Gerenciador_Grafico GG;
         sf::Texture texBackground;
         sf::Sprite background{texBackground};
-        Ninja ninja;
-        std::optional<Ninja> ninja2;
+        Personagens::Ninja ninja;
+        std::optional<Personagens::Ninja> ninja2;
         Mapa1 mapa1;
         sf::View camera;
-        FasePrimeira fase1;
-        std::optional<FaseSegunda> fase2;
+        Fases::FasePrimeira fase1;
+        std::optional<Fases::FaseSegunda> fase2;
         bool naFase2 = false;
         bool faseTerminada = false;
 

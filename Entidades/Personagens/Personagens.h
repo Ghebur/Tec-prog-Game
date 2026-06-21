@@ -3,7 +3,9 @@
 #include "../Entidades.h"
 #include "../../Fases/Mapas.h"
 
-class Personagens:public Entidades{
+namespace Personagens {
+
+class Personagens : public Entidades::Entidades {
     protected:
         int vida;
         bool emOleo;
@@ -37,3 +39,5 @@ class Personagens:public Entidades{
         virtual void salvar() = 0;
         void setVida(int novaVida);
 };
+
+} // namespace Personagens

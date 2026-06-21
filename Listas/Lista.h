@@ -1,5 +1,7 @@
 #pragma once
 
+namespace Listas {
+
 template<typename TL>
 class Lista {
 public:
@@ -55,3 +57,5 @@ public:
 
     Elemento<TL>* getPrimeiro() const { return pPrimeiro; }
 };
+
+} // namespace Listas

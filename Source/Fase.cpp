@@ -6,6 +6,14 @@
 #include "../gerenciadores/Gerenciador_Grafico.h"
 #include <fstream>
 
+namespace Fases {
+
+using namespace Personagens;
+using namespace Obstaculos;
+using namespace Entidades;
+using namespace Gerenciadores;
+using namespace Listas;
+
 Fase::Fase() {}
 
 Fase::~Fase() {}
@@ -15,21 +23,16 @@ void Fase::criarPlataformas(Mapa1& mapa) {
     const float yChao = 500.f;
 
     auto garantidas = mapa.getSpawnPoints(5);
-    for (size_t i = 0; i < 3 && i < garantidas.size(); i++) {
-        // ANTES: mapa.adicionarPlataforma(garantidas[i].x - offset, yChao);
-        // AGORA: Vai direto para a lista de entidades da Fase!
+    for (size_t i = 0; i < 3 && i < garantidas.size(); i++)
         entidades.incluir(new Plataforma(garantidas[i].x - offset, yChao));
-    }
 
     auto opcionais = mapa.getSpawnPoints(7);
     for (auto& pos : opcionais) {
-        if (rand() % 2) {
-            // ANTES: mapa.adicionarPlataforma(pos.x - offset, yChao);
-            // AGORA: Vai direto para a lista de entidades da Fase!
+        if (rand() % 2)
             entidades.incluir(new Plataforma(pos.x - offset, yChao));
-        }
     }
 }
+
 void Fase::criarInimigosFaceis(Mapa1& mapa) {
     auto spawns = mapa.getSpawnPoints(4);
     if (spawns.size() >= 1) entidades.incluir(new Cobra(spawns[0].x, spawns[0].y));
@@ -42,8 +45,8 @@ void Fase::criarInimigosFaceis(Mapa1& mapa) {
             entidades.incluir(new Cobra(pos.x, 488.f));
 }
 
-void Fase::atualizarInimigos(Mapa1& mapa, Personagens& jogador) {
-    for (Lista<Entidades>::Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
+void Fase::atualizarInimigos(Mapa1& mapa, Personagens::Personagens& jogador) {
+    for (Lista<Entidades::Entidades>::Elemento<Entidades::Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
         Inimigo* ini = dynamic_cast<Inimigo*>(e->getInfo());
         if (ini && ini->estaVivo())
             ini->executar(mapa, jogador);
@@ -52,11 +55,11 @@ void Fase::atualizarInimigos(Mapa1& mapa, Personagens& jogador) {
 }
 
 void Fase::popularGerenciador() {
-    for (Lista<Entidades>::Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
-        Entidades* ent = e->getInfo();
+    for (Lista<Entidades::Entidades>::Elemento<Entidades::Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
+        Entidades::Entidades* ent = e->getInfo();
         if (Inimigo* ini = dynamic_cast<Inimigo*>(ent)) {
             gerenciador.induzirInimigo(ini);
-        } else if (Obstaculos* obs = dynamic_cast<Obstaculos*>(ent)) {
+        } else if (Obstaculos::Obstaculos* obs = dynamic_cast<Obstaculos::Obstaculos*>(ent)) {
             gerenciador.induzirObstaculo(obs);
         }
     }
@@ -68,8 +71,8 @@ void Fase::processarObstaculos(Ninja& jogador) {
 }
 
 void Fase::desenharEntidades(Gerenciador_Grafico& gg) {
-    for (Lista<Entidades>::Elemento<Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
-        Entidades* ent = e->getInfo();
+    for (Lista<Entidades::Entidades>::Elemento<Entidades::Entidades>* e = entidades.getPrimeiro(); e != nullptr; e = e->getProximo()) {
+        Entidades::Entidades* ent = e->getInfo();
         if (Inimigo* ini = dynamic_cast<Inimigo*>(ent)) {
             if (ini->estaVivo()) gg.desenharEnte(ini);
         } else if (FlechaShogun* proj = dynamic_cast<FlechaShogun*>(ent)) {
@@ -81,36 +84,28 @@ void Fase::desenharEntidades(Gerenciador_Grafico& gg) {
 }
 
 void Fase::salvarFase() {
-    // 1. Abre o arquivo em modo 'trunc' para apagar o save antigo e não duplicar os dados
     std::ofstream arquivo("assets/save_ninja.txt", std::ios::trunc);
     arquivo.close();
-        arquivo.open("assets/save_samurai.txt", std::ios::trunc);
+    arquivo.open("assets/save_samurai.txt", std::ios::trunc);
     arquivo.close();
-        arquivo.open("assets/save_cobra.txt", std::ios::trunc); 
+    arquivo.open("assets/save_cobra.txt", std::ios::trunc);
     arquivo.close();
-        arquivo.open("assets/save_espinho.txt", std::ios::trunc);
-    arquivo.close();    
-        arquivo.open("assets/save_shogun.txt", std::ios::trunc);
-    arquivo.close();    
-        arquivo.open("assets/save_oleo.txt", std::ios::trunc);
+    arquivo.open("assets/save_espinho.txt", std::ios::trunc);
     arquivo.close();
-        arquivo.open("assets/save_plataformas.txt", std::ios::trunc);
+    arquivo.open("assets/save_shogun.txt", std::ios::trunc);
+    arquivo.close();
+    arquivo.open("assets/save_oleo.txt", std::ios::trunc);
+    arquivo.close();
+    arquivo.open("assets/save_plataformas.txt", std::ios::trunc);
     arquivo.close();
 
-    // 2. Pega o primeiro "nó" da sua lista de entidades
     auto* atual = entidades.getPrimeiro();
-
-    // 3. Percorre a lista encadeada até o fim
     while (atual != nullptr) {
-        // Pega o ponteiro da Entidade que está guardada dentro desse elemento
         auto* entidade = atual->getInfo();
-        
-        // Se a entidade existir, manda ela se salvar
-        if (entidade != nullptr) {
+        if (entidade != nullptr)
             entidade->salvar();
-        }
-
-        // Pula para o próximo "nó" da lista
         atual = atual->getProximo();
     }
 }
+
+} // namespace Fases

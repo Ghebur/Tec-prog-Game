@@ -3,10 +3,12 @@
 #include "../Entidades/Personagens/Ninja.h"
 #include <fstream>
 
+namespace Obstaculos {
+
 Plataforma::Plataforma(float x, float y) :
 Obstaculos(5, false, 0.f, sf::Vector2f(x, y))
 {
-    plataforma.setSize(sf::Vector2f(290.f, 50.f));   // 30px menos em cada lado
+    plataforma.setSize(sf::Vector2f(290.f, 50.f));
     plataforma.setPosition(sf::Vector2f(x + 30.f, y));
 
     textura.loadFromFile("assets/Plataforma/ice_rock4.png");
@@ -31,7 +33,7 @@ void Plataforma::desenhar(sf::RenderWindow& window) {
     window.draw(sprite);
 }
 
-void Plataforma::obstaculizar(Personagens& p) {
+void Plataforma::obstaculizar(Personagens::Personagens& p) {
     sf::FloatRect pb = plataforma.getGlobalBounds();
     sf::FloatRect cb = p.getBounds();
 
@@ -45,33 +47,26 @@ void Plataforma::obstaculizar(Personagens& p) {
     float persoCenterY = cb.position.y + cb.size.y / 2.f;
     float platCenterY = pb.position.y + pb.size.y / 2.f;
 
-    // Se o Ninja está SUBINDO (vy < 0), ignore completamente a colisão de topo!
-    // Isso evita que a plataforma mate o pulo no frame em que ele acontece.
     if (vy < 0.f && persoCenterY <= platCenterY) {
-        return; 
+        return;
     }
 
-    // 1. COLISÃO VERTICAL (Pousar ou Bater a cabeça)
     if (overlapY < overlapX) {
-        // Pousou no topo da plataforma (só checa se estiver caindo ou parado: vy >= 0)
         if (persoCenterY <= platCenterY && vy >= 0.f) {
             p.setPos({p.getPos().x, pb.position.y - cb.size.y});
             p.setVelocidadeY(0.f);
             p.setNoChao(true);
             return;
         }
-        // Bateu a cabeça por baixo (teto)
         if (persoCenterY > platCenterY && vy < 0.f) {
             p.setPos({p.getPos().x, pb.position.y + pb.size.y});
-            p.setVelocidadeY(0.f); 
+            p.setVelocidadeY(0.f);
             return;
         }
-    } 
-    // 2. COLISÃO LATERAL (Paredes)
-    else {
+    } else {
         float persoCenterX = cb.position.x + cb.size.x / 2.f;
         float platCenterX = pb.position.x + pb.size.x / 2.f;
-        
+
         if (persoCenterX < platCenterX) {
             p.setPos({pb.position.x - cb.size.x, p.getPos().y});
         } else {
@@ -79,6 +74,7 @@ void Plataforma::obstaculizar(Personagens& p) {
         }
     }
 }
+
 void Plataforma::salvar() {
     SalvarDataBuffer();
     buffer += " " + std::to_string(id);
@@ -88,3 +84,5 @@ void Plataforma::salvar() {
         file.close();
     }
 }
+
+} // namespace Obstaculos

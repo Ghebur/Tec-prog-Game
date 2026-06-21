@@ -3,6 +3,8 @@
 #include <string>
 #include "../Ent.h"
 
+namespace Gerenciadores {
+
 class Gerenciador_Grafico {
 private:
     sf::RenderWindow janela;
@@ -14,3 +16,5 @@ public:
     void desenharEnte(Ent* pE);
     sf::RenderWindow& getJanela();
 };
+
+} // namespace Gerenciadores

@@ -1,15 +1,17 @@
 #include "../gerenciadores/Gerenciador_De_Colisao.h"
 #include <vector>
 
+namespace Gerenciadores {
+
 Gerenciador_Colisoes::Gerenciador_Colisoes() {}
 
 Gerenciador_Colisoes::~Gerenciador_Colisoes() {}
 
-void Gerenciador_Colisoes::setJogador(Ninja* j) {
+void Gerenciador_Colisoes::setJogador(Personagens::Ninja* j) {
     log1 = j;
 }
 
-bool Gerenciador_Colisoes::verificarColisao(Entidades* pe1, Entidades* pe2) const {
+bool Gerenciador_Colisoes::verificarColisao(Entidades::Entidades* pe1, Entidades::Entidades* pe2) const {
     sf::FloatRect b1{pe1->getPos(), {pe1->getTamanho(), pe1->getTamanho()}};
     sf::FloatRect b2{pe2->getPos(), {pe2->getTamanho(), pe2->getTamanho()}};
     return b1.findIntersection(b2).has_value();
@@ -17,56 +19,52 @@ bool Gerenciador_Colisoes::verificarColisao(Entidades* pe1, Entidades* pe2) cons
 
 void Gerenciador_Colisoes::tratarColisoesJogsObstacs() {
     if (!log1) return;
-    for (Obstaculos* obs : LOs)
+    for (Obstaculos::Obstaculos* obs : LOs)
         obs->obstaculizar(*log1);
 }
 
 void Gerenciador_Colisoes::tratarColisoesJogsInimigs() {
     if (!log1) return;
-    for (Inimigo* ini : LIs){
-        if (ini->estaVivo()){
+    for (Personagens::Inimigo* ini : LIs) {
+        if (ini->estaVivo()) {
             ini->colidirComPersonagem(*log1);
             log1->adicionarPontos(1);
         }
     }
 }
 
-
 void Gerenciador_Colisoes::atualizarProjeteis() {
-    std::vector<FlechaShogun*> aRemover;
-    for (FlechaShogun* proj : LPs) {
+    std::vector<Entidades::FlechaShogun*> aRemover;
+    for (Entidades::FlechaShogun* proj : LPs) {
         proj->executar();
         if (proj->estaMorta()) aRemover.push_back(proj);
     }
-    for (FlechaShogun* p : aRemover) LPs.erase(p);
+    for (Entidades::FlechaShogun* p : aRemover) LPs.erase(p);
 }
 
 void Gerenciador_Colisoes::tratarColisoesJogsProjeteis() {
     if (!log1) return;
-    for (FlechaShogun* proj : LPs)
+    for (Entidades::FlechaShogun* proj : LPs)
         proj->danificar(*log1);
 }
 
-void Gerenciador_Colisoes::induzirInimigo(Inimigo* pi) {
+void Gerenciador_Colisoes::induzirInimigo(Personagens::Inimigo* pi) {
     LIs.push_back(pi);
 }
 
-void Gerenciador_Colisoes::induzirObstaculo(Obstaculos* po) {
+void Gerenciador_Colisoes::induzirObstaculo(Obstaculos::Obstaculos* po) {
     LOs.push_back(po);
 }
 
-void Gerenciador_Colisoes::induzirProjetil(FlechaShogun* ps) {
+void Gerenciador_Colisoes::induzirProjetil(Entidades::FlechaShogun* ps) {
     LPs.insert(ps);
 }
 
 void Gerenciador_Colisoes::tratarColisoesInimigsObstacs() {
-    // Varre todos os inimigos da lista
-    for (Inimigo* ini : LIs) {
-        // Só processa a colisão se o inimigo estiver vivão
+    for (Personagens::Inimigo* ini : LIs) {
         if (ini && ini->estaVivo()) {
-            // Varre todas as plataformas para o inimigo atual testar colisão
-            for (Obstaculos* obs : LOs) {
-                obs->obstaculizar(*ini); // Usa a mesma física perfeita de alinhar no chão!
+            for (Obstaculos::Obstaculos* obs : LOs) {
+                obs->obstaculizar(*ini);
             }
         }
     }
@@ -78,3 +76,5 @@ void Gerenciador_Colisoes::executar() {
     tratarColisoesJogsProjeteis();
     tratarColisoesInimigsObstacs();
 }
+
+} // namespace Gerenciadores

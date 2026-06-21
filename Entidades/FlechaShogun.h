@@ -2,7 +2,9 @@
 #include "Entidades.h"
 #include <cmath>
 
-class Ninja;
+namespace Personagens { class Ninja; }
+
+namespace Entidades {
 
 class FlechaShogun : public Entidades {
 private:
@@ -24,7 +26,9 @@ public:
     ~FlechaShogun() override = default;
 
     void executar() override;
-    void danificar(Ninja& jogador);
+    void danificar(Personagens::Ninja& jogador);
     bool estaMorta() const { return morta; }
     void salvar() override;
 };
+
+} // namespace Entidades

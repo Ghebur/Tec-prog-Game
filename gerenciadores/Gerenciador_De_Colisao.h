@@ -8,26 +8,30 @@
 #include "Entidades/FlechaShogun.h"
 #include "Entidades/Personagens/Ninja.h"
 
+namespace Gerenciadores {
+
 class Gerenciador_Colisoes {
 private:
-    std::vector<Inimigo*>   LIs;
-    std::list<Obstaculos*>  LOs;
-    std::set<FlechaShogun*> LPs;
-    Ninja*                  log1 = nullptr;
+    std::vector<Personagens::Inimigo*>    LIs;
+    std::list<Obstaculos::Obstaculos*>    LOs;
+    std::set<Entidades::FlechaShogun*>    LPs;
+    Personagens::Ninja*                   log1 = nullptr;
 
 public:
     Gerenciador_Colisoes();
     ~Gerenciador_Colisoes();
 
     void tratarColisoesInimigsObstacs();
-    void setJogador(Ninja* j);
-    bool verificarColisao(Entidades* pe1, Entidades* pe2) const;
+    void setJogador(Personagens::Ninja* j);
+    bool verificarColisao(Entidades::Entidades* pe1, Entidades::Entidades* pe2) const;
     void tratarColisoesJogsObstacs();
     void tratarColisoesJogsInimigs();
     void tratarColisoesJogsProjeteis();
-    void induzirInimigo(Inimigo* pi);
-    void induzirObstaculo(Obstaculos* po);
-    void induzirProjetil(FlechaShogun* ps);
+    void induzirInimigo(Personagens::Inimigo* pi);
+    void induzirObstaculo(Obstaculos::Obstaculos* po);
+    void induzirProjetil(Entidades::FlechaShogun* ps);
     void atualizarProjeteis();
     void executar();
 };
+
+} // namespace Gerenciadores

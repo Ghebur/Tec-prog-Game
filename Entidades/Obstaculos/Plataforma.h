@@ -2,6 +2,8 @@
 #include <SFML/Graphics.hpp>
 #include "Obstaculos.h"
 
+namespace Obstaculos {
+
 class Plataforma : public Obstaculos {
     private:
         sf::RectangleShape plataforma;
@@ -12,6 +14,8 @@ class Plataforma : public Obstaculos {
         Plataforma(const Plataforma& other);
         ~Plataforma();
         void desenhar(sf::RenderWindow& window) override;
-        void obstaculizar(Personagens& p) override;
+        void obstaculizar(Personagens::Personagens& p) override;
         void salvar() override;
 };
+
+} // namespace Obstaculos

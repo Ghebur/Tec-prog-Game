@@ -1,5 +1,7 @@
 #include "../Entidades/Entidades.h"
 
+namespace Entidades {
+
 Entidades::Entidades(int id, float tam, sf::Vector2f pos):
 Ent(id),
 posicao(pos),
@@ -33,3 +35,5 @@ float Entidades::getTamanho() const { return tamanho; }
 void Entidades::salvarDataBuffer() {
     buffer = std::to_string(posicao.x) + " " + std::to_string(posicao.y);
 }
+
+} // namespace Entidades

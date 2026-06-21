@@ -1,5 +1,6 @@
 #include "../Entidades/Personagens/Personagens.h"
 
+namespace Personagens {
 
 Personagens::Personagens(int id, int vida, sf::Vector2f velocidade, float tamanho, sf::Vector2f pos):
 Entidades(id, tamanho, pos),
@@ -37,3 +38,5 @@ void Personagens::SalvarDataBuffer() {
 void Personagens::setVida(int novaVida) {
     this->vida = novaVida;
 }
+
+} // namespace Personagens

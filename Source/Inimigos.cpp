@@ -3,6 +3,8 @@
 
 #define DELTA_TIME (1.f / 60.f)
 
+namespace Personagens {
+
 Inimigo::Inimigo(int id, int vida, sf::Vector2f velocidade, float tamanho, sf::Vector2f pos, int nivelDeMaldade):
 Personagens(id, vida, velocidade, tamanho, pos),
 nivelDeMaldade(rand()%3),
@@ -38,3 +40,5 @@ void Inimigo::SalvarDataBuffer() {
     Personagens::SalvarDataBuffer();
     buffer += " " + std::to_string(nivelDeMaldade);
 }
+
+} // namespace Personagens

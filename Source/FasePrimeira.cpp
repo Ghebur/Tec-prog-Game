@@ -4,6 +4,12 @@
 #include "../Entidades/Personagens/Ninja.h"
 #include <fstream>
 
+namespace Fases {
+
+using namespace Personagens;
+using namespace Obstaculos;
+using namespace Entidades;
+
 FasePrimeira::FasePrimeira(Mapa1& mapa) {
     criarInimigos(mapa);
     criarPlataformas(mapa);
@@ -19,12 +25,10 @@ void FasePrimeira::criarObstaculos(Mapa1& mapa) {
 }
 
 void FasePrimeira::criarOleo(Mapa1& /*mapa*/) {
-    // 3 poças fixas espalhadas pela fase 1
     entidades.incluir(new oleo({700.f,  500.f}, {50.f, 50.f}));
     entidades.incluir(new oleo({2500.f, 500.f}, {50.f, 50.f}));
     entidades.incluir(new oleo({3250.f, 500.f}, {50.f, 50.f}));
 
-    // 3 poças aleatórias (50% cada)
     if (rand() % 2) entidades.incluir(new oleo({1500.f, 500.f}, {50.f, 50.f}));
     if (rand() % 2) entidades.incluir(new oleo({3900.f, 500.f}, {50.f, 50.f}));
     if (rand() % 2) entidades.incluir(new oleo({4300.f, 500.f}, {50.f, 50.f}));
@@ -40,12 +44,10 @@ void FasePrimeira::criarInimigosMedios(Mapa1& mapa) {
     auto spawns5 = mapa.getSpawnPoints(5);
     const float yPlatforma = 488.f;
 
-    // 3 samurais garantidos
     if (spawns4.size() >= 3) entidades.incluir(new Samurai(spawns4[2].x, spawns4[2].y));
     if (spawns5.size() >= 2) entidades.incluir(new Samurai(spawns5[1].x, yPlatforma));
     if (spawns5.size() >= 3) entidades.incluir(new Samurai(spawns5[2].x, yPlatforma));
 
-    // 1 samurai aleatorio
     if (spawns4.size() >= 4 && rand() % 2)
         entidades.incluir(new Samurai(spawns4[3].x, spawns4[3].y));
 }
@@ -59,9 +61,8 @@ bool FasePrimeira::faseFinalizada() const {
     return finalizado || (blocoFinal && blocoFinal->foiAtingido());
 }
 
-
-FasePrimeira::BlocoFinal::BlocoFinal(sf::Vector2f pos):
-    Entidades(99, 20.f, pos)
+FasePrimeira::BlocoFinal::BlocoFinal(sf::Vector2f pos) :
+    Entidades::Entidades(99, 20.f, pos)
 {
     forma.setSize({20.f, 600.f});
     forma.setPosition(pos);
@@ -70,7 +71,7 @@ FasePrimeira::BlocoFinal::BlocoFinal(sf::Vector2f pos):
 
 FasePrimeira::BlocoFinal::~BlocoFinal() {}
 
-void FasePrimeira::BlocoFinal::passar(Personagens& p) {
+void FasePrimeira::BlocoFinal::passar(Personagens::Personagens& p) {
     if (forma.getGlobalBounds().findIntersection(p.getBounds()))
         atingido = true;
 }
@@ -82,8 +83,9 @@ void FasePrimeira::BlocoFinal::desenhar(sf::RenderWindow& window) {
 bool FasePrimeira::BlocoFinal::foiAtingido() const {
     return atingido;
 }
-void FasePrimeira::BlocoFinal::executar() {
-}
+
+void FasePrimeira::BlocoFinal::executar() {}
+
 void FasePrimeira::verificarTransicaoFase(Ninja& jogador) {
     if (blocoFinal != nullptr)
         blocoFinal->passar(jogador);
@@ -95,3 +97,4 @@ void FasePrimeira::verificarTransicaoFase(Ninja& jogador) {
     }
 }
 
+} // namespace Fases

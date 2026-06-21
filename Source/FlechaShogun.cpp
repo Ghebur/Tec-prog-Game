@@ -4,11 +4,12 @@
 #include <cmath>
 #include <fstream>
 
+namespace Entidades {
+
 FlechaShogun::FlechaShogun(sf::Vector2f pos, float velX) :
     Entidades(0, 14.f, pos),
-    vel(velX * 1.8f, 0.f)    // mais rapido horizontalmente
+    vel(velX * 1.8f, 0.f)
 {
-    // hitbox pequeno centrado na posicao
     forma.setSize({SPRITE_W, SPRITE_H});
     forma.setOrigin({SPRITE_W / 2.f, SPRITE_H / 2.f});
     forma.setFillColor(sf::Color::Transparent);
@@ -25,13 +26,11 @@ FlechaShogun::FlechaShogun(sf::Vector2f pos, float velX) :
 void FlechaShogun::executar() {
     tempoVoo += DELTA;
 
-    // gravidade so entra apos o delay; antes a flecha vai em linha reta
     if (tempoVoo > DELAY_GRAVIDADE)
         vel.y += GRAVIDADE * DELTA;
 
     posicao += vel * DELTA;
 
-    // angulo so inclina quando a gravidade ja atuou, senao aponta reto
     float ang = (tempoVoo > DELAY_GRAVIDADE)
                 ? std::atan2(vel.y, vel.x)
                 : (vel.x >= 0.f ? 0.f : static_cast<float>(M_PI));
@@ -44,7 +43,7 @@ void FlechaShogun::executar() {
         morta = true;
 }
 
-void FlechaShogun::danificar(Ninja& jogador) {
+void FlechaShogun::danificar(Personagens::Ninja& jogador) {
     if (morta) return;
     if (forma.getGlobalBounds().findIntersection(jogador.getBounds()) &&
         jogador.podeReceberDano()) {
@@ -54,3 +53,5 @@ void FlechaShogun::danificar(Ninja& jogador) {
 }
 
 void FlechaShogun::salvar() {}
+
+} // namespace Entidades

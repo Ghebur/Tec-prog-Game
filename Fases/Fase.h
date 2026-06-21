@@ -6,12 +6,14 @@
 #include "../gerenciadores/Gerenciador_De_Colisao.h"
 #include "Entidades/FlechaShogun.h"
 
-class Gerenciador_Grafico;
+namespace Gerenciadores { class Gerenciador_Grafico; }
+
+namespace Fases {
 
 class Fase {
 protected:
-    ListaEntidades entidades;
-    Gerenciador_Colisoes gerenciador;
+    Listas::ListaEntidades entidades;
+    Gerenciadores::Gerenciador_Colisoes gerenciador;
 
     virtual void criarInimigos(Mapa1& mapa) = 0;
     void criarPlataformas(Mapa1& mapa);
@@ -23,14 +25,16 @@ protected:
 public:
     Fase();
     virtual ~Fase();
-    Lista<Entidades>::Elemento<Entidades>* getPrimeiroEntidade() {
-    return entidades.getPrimeiro();
+    Listas::Lista<Entidades::Entidades>::Elemento<Entidades::Entidades>* getPrimeiroEntidade() {
+        return entidades.getPrimeiro();
     }
-    void atualizarInimigos(Mapa1& mapa, Personagens& jogador);
-    void processarObstaculos(Ninja& jogador);
-    void desenharEntidades(Gerenciador_Grafico& gg);
+    void atualizarInimigos(Mapa1& mapa, Personagens::Personagens& jogador);
+    void processarObstaculos(Personagens::Ninja& jogador);
+    void desenharEntidades(Gerenciadores::Gerenciador_Grafico& gg);
     virtual bool faseFinalizada() const { return false; }
     void salvarFase();
     //virtual void carregarFase() = 0;
-    virtual FlechaShogun* criarProjeteis(sf::Vector2f pos, float dirX) { return nullptr; }
+    virtual Entidades::FlechaShogun* criarProjeteis(sf::Vector2f pos, float dirX) { return nullptr; }
 };
+
+} // namespace Fases

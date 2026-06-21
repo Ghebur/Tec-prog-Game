@@ -2,6 +2,8 @@
 #include <SFML/Graphics.hpp>
 #include "Obstaculos.h"
 
+namespace Obstaculos {
+
 class Espinho : public Obstaculos {
     private:
         short int danosidade;
@@ -16,6 +18,8 @@ class Espinho : public Obstaculos {
         Espinho(sf::Vector2f pos, sf::Vector2f tam);
         ~Espinho();
         void executar() override;
-        void obstaculizar(Personagens& p) override;
+        void obstaculizar(Personagens::Personagens& p) override;
         void salvar() override;
 };
+
+} // namespace Obstaculos

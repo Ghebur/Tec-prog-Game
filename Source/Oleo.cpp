@@ -3,12 +3,13 @@
 #include <fstream>
 #include <cmath>
 
+namespace Obstaculos {
+
 oleo::oleo(sf::Vector2f pos, sf::Vector2f tam) :
     Obstaculos(6, false, tam.y, pos)
 {
     larguraTile = tam.x;
 
-    // colisão cobre os 3 blocos
     forma.setSize({tam.x * 3.f, tam.y});
     forma.setPosition(pos);
 
@@ -16,7 +17,6 @@ oleo::oleo(sf::Vector2f pos, sf::Vector2f tam) :
     sprite.setTexture(tex, true);
     sprite.setScale({tam.x / tex.getSize().x, tam.y / tex.getSize().y});
 
-    // sprite desenhado na linha do chão (y+50), sem esticar
     posBase = {pos.x, pos.y + tam.y};
 }
 
@@ -32,7 +32,7 @@ void oleo::executar() {
     variaViscosidade();
 }
 
-void oleo::obstaculizar(Personagens& p) {
+void oleo::obstaculizar(Personagens::Personagens& p) {
     executar();
     if (forma.getGlobalBounds().findIntersection(p.getBounds())) {
         p.setEmOleo(true);
@@ -49,10 +49,12 @@ void oleo::desenhar(sf::RenderWindow& window) {
 
 void oleo::salvar() {
     SalvarDataBuffer();
-    buffer = std::to_string(id) + " " + buffer + " " + std::to_string(larguraTile); 
+    buffer = std::to_string(id) + " " + buffer + " " + std::to_string(larguraTile);
     std::ofstream file("assets/save_oleo.txt", std::ios::app);
     if (file.is_open()) {
         file << buffer << "\n";
         file.close();
     }
 }
+
+} // namespace Obstaculos

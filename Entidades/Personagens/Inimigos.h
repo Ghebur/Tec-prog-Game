@@ -1,6 +1,8 @@
 #pragma once
 #include "Personagens.h"
 
+namespace Personagens {
+
 class Inimigo : public Personagens {
     protected:
         int nivelDeMaldade;
@@ -18,3 +20,5 @@ class Inimigo : public Personagens {
         void SalvarDataBuffer();
         void salvar() override = 0;
 };
+
+} // namespace Personagens

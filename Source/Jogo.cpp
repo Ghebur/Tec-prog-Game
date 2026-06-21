@@ -1,7 +1,10 @@
 #include <cmath>
 #include "../Jogo.h"
 #include <fstream>
-#include <iostream> 
+#include <iostream>
+
+using namespace Personagens;
+using namespace Fases;
 
 Jogo::Jogo() :
     GG(sf::VideoMode({800, 600}), "Meu Jogo UTFPR"),
@@ -236,7 +239,7 @@ void Jogo::salvarJogo() {
     }
 
     // 3. Ponteiro para guardar o elemento inicial da lista da fase ativa
-    Lista<Entidades>::Elemento<Entidades>* elementoAtual = nullptr;
+    Listas::Lista<Entidades::Entidades>::Elemento<Entidades::Entidades>* elementoAtual = nullptr;
 
     if (!naFase2) {
         elementoAtual = fase1.getPrimeiroEntidade();
@@ -246,7 +249,7 @@ void Jogo::salvarJogo() {
 
     // 4. Percorre a lista encadeada exatamente como você fez no destrutor e no desenhar!
     while (elementoAtual != nullptr) {
-        Entidades* ent = elementoAtual->getInfo();
+        Entidades::Entidades* ent = elementoAtual->getInfo();
 
         if (ent) {
             // Segurança: impede de salvar o jogador novamente caso ele esteja na lista da fase

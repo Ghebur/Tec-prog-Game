@@ -2,6 +2,8 @@
 #include "../Figura.h"
 #include <fstream>
 
+namespace Personagens {
+
 Samurai::Samurai(float x, float y) :
 Inimigo(3, 2, {3.f, 0.f}, 50.f, {x, y}, 1),
 corpo(sf::Vector2f(12.f, 12.f)),
@@ -80,3 +82,5 @@ void Samurai::salvar() {
         arquivo.close();
     }
 }
+
+} // namespace Personagens

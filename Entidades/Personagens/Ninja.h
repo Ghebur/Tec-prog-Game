@@ -2,6 +2,8 @@
 #include <SFML/Graphics.hpp>
 #include "Personagens.h"
 
+namespace Personagens {
+
 struct Controles {
     sf::Keyboard::Key esquerda = sf::Keyboard::Key::A;
     sf::Keyboard::Key direita  = sf::Keyboard::Key::D;
@@ -50,5 +52,7 @@ public:
     void adicionarPontos(int valor);
     int getPontos() const;
     Controles controles;
-    
+
 };
+
+} // namespace Personagens

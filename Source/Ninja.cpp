@@ -5,6 +5,8 @@
 
 #define DELTA_TIME (1.0f / 60.0f)
 
+namespace Personagens {
+
 Ninja::Ninja(float x, float y, Controles controles, int pontos) :
     Personagens(1, 5, sf::Vector2f(4.5f, 4.5f), 50.f, sf::Vector2f(x, y)),
     controles(controles) {
@@ -157,3 +159,5 @@ void Ninja::salvar() {
         arquivo.close();
     }
 }
+
+} // namespace Personagens

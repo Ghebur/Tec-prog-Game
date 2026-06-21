@@ -5,13 +5,15 @@
 #include "../Entidades/Obstaculos/Espinho.h"
 #include <SFML/Graphics.hpp>
 
+namespace Fases {
+
 class FaseSegunda : public Fase {
 public:
     FaseSegunda(Mapa1& mapa);
     ~FaseSegunda();
     bool faseFinalizada() const override;
-    void verificarTransicaoFase(Ninja& jogador);
-    FlechaShogun* criarProjeteis(sf::Vector2f pos, float dirX) override;
+    void verificarTransicaoFase(Personagens::Ninja& jogador);
+    Entidades::FlechaShogun* criarProjeteis(sf::Vector2f pos, float dirX) override;
 
 protected:
     void criarInimigos(Mapa1& mapa) override;
@@ -21,8 +23,10 @@ protected:
     //void carregarFase() override;
 
 private:
-    Shogun* shogunBoss = nullptr;
-    Shogun* shogunA    = nullptr;
-    Shogun* shogunB    = nullptr;
-    Shogun* shogunRand = nullptr;
+    Personagens::Shogun* shogunBoss = nullptr;
+    Personagens::Shogun* shogunA    = nullptr;
+    Personagens::Shogun* shogunB    = nullptr;
+    Personagens::Shogun* shogunRand = nullptr;
 };
+
+} // namespace Fases

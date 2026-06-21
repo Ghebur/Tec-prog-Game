@@ -3,6 +3,8 @@
 #include <fstream>
 #define DELTA_TIME (1.0f / 60.0f) // Supondo 60 FPS#define
 
+namespace Personagens {
+
 Cobra::Cobra(float x, float y) :
 Inimigo(2, 1, {1.5f, 0.f}, 42.f, {x, y}, 1),
 corpo(sf::Vector2f(12.f, 12.f)),
@@ -79,3 +81,5 @@ void Cobra::setVenenosa(int v) {
 void Cobra::setAngulo(float a) {
     this->angulo = a;
 }
+
+} // namespace Personagens

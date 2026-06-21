@@ -4,6 +4,8 @@
 #include "../../Fases/Mapas.h"
 #include <cmath>
 
+namespace Personagens {
+
 class Samurai : public Inimigo {
     private:
         sf::RectangleShape corpo;
@@ -25,3 +27,5 @@ class Samurai : public Inimigo {
         sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
         void salvar() override;
 };
+
+} // namespace Personagens

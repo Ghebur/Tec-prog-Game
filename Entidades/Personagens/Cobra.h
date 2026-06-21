@@ -3,6 +3,8 @@
 #include "../../Fases/Mapas.h"
 #include <cmath>
 
+namespace Personagens {
+
 class Cobra : public Inimigo {
     private:
         sf::RectangleShape corpo;
@@ -24,3 +26,5 @@ class Cobra : public Inimigo {
         void setVenenosa(int v);
         void setAngulo(float a);
 };
+
+} // namespace Personagens

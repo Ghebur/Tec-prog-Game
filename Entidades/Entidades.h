@@ -2,6 +2,8 @@
 #include <SFML/Graphics.hpp>
 #include "../Ent.h"
 
+namespace Entidades {
+
 class Entidades : public Ent {
 protected:
     sf::Vector2f posicao;
@@ -22,3 +24,5 @@ public:
     void aplicarGravidade(float deltaTime);
 
 };
+
+} // namespace Entidades

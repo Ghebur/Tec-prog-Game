@@ -6,7 +6,9 @@
 
 #define DELTA_TIME (1.f / 60.f)
 
-Shogun::Shogun(float x, float y, Fase* fase) :
+namespace Personagens {
+
+Shogun::Shogun(float x, float y, Fases::Fase* fase) :
     Inimigo(4, 7, {3.f, 0.f}, 90.f, {x, y}, 2),
     corpo({20.f, 20.f}),
     fase(fase)
@@ -126,3 +128,5 @@ void Shogun::salvar() {
         arquivo.close();
     }
 }
+
+} // namespace Personagens

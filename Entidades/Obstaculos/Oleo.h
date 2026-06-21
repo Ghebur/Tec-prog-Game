@@ -2,6 +2,8 @@
 #include <SFML/Graphics.hpp>
 #include "Obstaculos.h"
 
+namespace Obstaculos {
+
 class oleo : public Obstaculos {
     private:
         sf::RectangleShape forma;
@@ -17,7 +19,9 @@ class oleo : public Obstaculos {
         ~oleo();
         float variaViscosidade();
         void executar() override;
-        void obstaculizar(Personagens& p) override;
+        void obstaculizar(Personagens::Personagens& p) override;
         void desenhar(sf::RenderWindow& window) override;
         void salvar() override;
 };
+
+} // namespace Obstaculos

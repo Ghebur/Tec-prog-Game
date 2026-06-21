@@ -2,9 +2,11 @@
 #include <SFML/Graphics.hpp>
 #include "../Entidades.h"
 
-class Personagens;
+namespace Personagens { class Personagens; }
 
-class Obstaculos : public Entidades {
+namespace Obstaculos {
+
+class Obstaculos : public Entidades::Entidades {
     protected:
         bool danoso;
 
@@ -12,7 +14,9 @@ class Obstaculos : public Entidades {
         Obstaculos(int id, bool dano, float tamanho, sf::Vector2f pos);
         virtual ~Obstaculos();
         void executar() override {}
-        virtual void obstaculizar(Personagens& p) = 0;
+        virtual void obstaculizar(Personagens::Personagens& p) = 0;
         void SalvarDataBuffer();
         virtual void salvar() override = 0;
 };
+
+} // namespace Obstaculos

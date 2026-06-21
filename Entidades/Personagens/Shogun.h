@@ -5,7 +5,9 @@
 #include "../FlechaShogun.h"
 #include <cmath>
 
-class Fase;
+namespace Fases { class Fase; }
+
+namespace Personagens {
 
 class Shogun : public Inimigo {
 private:
@@ -27,13 +29,13 @@ private:
     static constexpr float DIST_TIRO    = 300.f;
     static constexpr float INTERVALO_TIRO = 7.f;
 
-    Fase* fase;
+    Fases::Fase* fase;
 
     void atualizarAnimacao(Personagens& alvo);
     void entrarModoTiro();
 
 public:
-    Shogun(float x, float y, Fase* fase);
+    Shogun(float x, float y, Fases::Fase* fase);
     ~Shogun();
     void executar() override {}
     bool movimentacao() override;
@@ -42,3 +44,5 @@ public:
     sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
     void salvar() override;
 };
+
+} // namespace Personagens

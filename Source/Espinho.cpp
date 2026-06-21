@@ -3,6 +3,8 @@
 #include "../Figura.h"
 #include <fstream>
 
+namespace Obstaculos {
+
 Espinho::Espinho(sf::Vector2f pos, sf::Vector2f tam) :
     Obstaculos(7, true, tam.x, pos),
     danosidade(1)
@@ -28,7 +30,7 @@ void Espinho::executar() {
     contarToque();
 }
 
-void Espinho::obstaculizar(Personagens& p) {
+void Espinho::obstaculizar(Personagens::Personagens& p) {
     if (!forma.getGlobalBounds().findIntersection(p.getBounds())) return;
     if (!p.podeReceberDano()) return;
 
@@ -50,3 +52,5 @@ void Espinho::salvar() {
         file.close();
     }
 }
+
+} // namespace Obstaculos

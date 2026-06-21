@@ -4,7 +4,7 @@
 #include "../Ent.h"
 #include "../Entidades/Obstaculos/Plataforma.h"
 
-class Personagens;
+namespace Personagens { class Personagens; }
 
 class Mapa1 : public Ent {
 private:
