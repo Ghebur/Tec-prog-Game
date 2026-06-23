@@ -27,7 +27,7 @@ public:
 
     void executar() override;
     void danificar(Personagens::Ninja& jogador);
-    bool estaMorta() const { return morta; }
+    bool estaMorta() const;
     void salvar() override;
 };
 

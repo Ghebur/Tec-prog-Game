@@ -43,13 +43,14 @@ public:
     ~Ninja();
     void executar(Mapa1& mapa);
     bool movimentacao();
-    bool estaArmado() const override { return armado; }
-    void tentarRecuperar() override { if (rand() % 3 == 0) ++(*this); }
-    sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
+    bool estaArmado() const override;
+    void tentarRecuperar() override;
+    sf::FloatRect getBounds() override;
     float getTempoParaArmar() const;
     void setPosicao(sf::Vector2f novaPos);
     void salvar() override;
     void adicionarPontos(int valor);
+    void setPontos(int p);
     int getPontos() const;
     void ressuscitar();
     Controles controles;

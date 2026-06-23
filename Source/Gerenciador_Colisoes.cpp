@@ -85,4 +85,11 @@ void Gerenciador_Colisoes::executar() {
     tratarColisoesInimigsObstacs();
 }
 
+void Gerenciadores::Gerenciador_Colisoes::limpar() {
+    LIs.clear();
+    LOs.clear();
+    LPs.clear();
+    log1 = nullptr; // Tira a referência do jogador antigo
+}
+
 } // namespace Gerenciadores

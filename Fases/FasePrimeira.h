@@ -24,7 +24,7 @@ public:
         void executar() override;
         void salvar() override {}
     };
-    FasePrimeira(Mapa1& mapa);
+    FasePrimeira(Mapa1& mapa, bool carregar = false);
     ~FasePrimeira();
     bool faseFinalizada() const override;
     void verificarTransicaoFase(Personagens::Ninja& jogador);

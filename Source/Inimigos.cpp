@@ -21,6 +21,10 @@ bool Inimigo::movimentacao() {
 
 Inimigo::~Inimigo() {}
 
+int Inimigo::getNivelDeMaldade() const {
+    return nivelDeMaldade;
+}
+
 void Inimigo::colidirComPersonagem(Personagens& p) {
     if (!getBounds().findIntersection(p.getBounds())) return;
 

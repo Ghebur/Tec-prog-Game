@@ -45,9 +45,12 @@ class Jogo {
         void Atualizar();
         void Renderizar();
         void salvarRanking();
+        
+    
 
     public:
         Jogo();
         ~Jogo();
         void Rodar();
+        void carregarEntidades(Fases::Fase* faseAtual);
 };

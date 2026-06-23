@@ -30,6 +30,10 @@ void Cobra::danifcar(Personagens& p) {
 
 }
 
+sf::FloatRect Cobra::getBounds() {
+    return {posicao, corpo.getSize()};
+}
+
 void Cobra::atualizarAnimacao() {
     float escala = (tamanho / FRAME_H);
     int totalFrames = 4;
@@ -65,7 +69,7 @@ void Cobra::executar(Mapa1& mapa, Personagens& p) {
 void Cobra::salvar() {
     salvarDataBuffer(); 
 
-    buffer = std::to_string(id) + " " + buffer + std::to_string(venenosa) + " " + std::to_string(origemX) + " " + std::to_string(angulo) + "\n";
+   buffer = std::to_string(id) + " " + buffer + " " + std::to_string(venenosa) + " " + std::to_string(origemX) + " " + std::to_string(angulo) + "\n";
     
     std::ofstream arquivo("assets/save_cobra.txt", std::ios::app);
     if (arquivo.is_open()) {

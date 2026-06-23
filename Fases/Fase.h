@@ -14,13 +14,14 @@ class Fase {
 protected:
     Listas::ListaEntidades entidades;
     Gerenciadores::Gerenciador_Colisoes gerenciador;
+    bool carregandoSave = false;
 
     virtual void criarInimigos(Mapa1& mapa) = 0;
     void criarPlataformas(Mapa1& mapa);
     virtual void criarObstaculos(Mapa1& mapa) = 0;
     virtual void criarFinal(Mapa1& mapa) = 0;
     void criarInimigosFaceis(Mapa1& mapa);
-    void popularGerenciador();
+    
 
 public:
     Fase();
@@ -31,11 +32,14 @@ public:
     void atualizarInimigos(Mapa1& mapa, Personagens::Personagens& jogador);
     void processarObstaculos(Personagens::Ninja& jogador);
     void desenharEntidades(Gerenciadores::Gerenciador_Grafico& gg);
-    virtual bool faseFinalizada() const { return false; }
+    virtual bool faseFinalizada() const;
     void salvarFase();
-    //virtual void carregarFase() = 0;
     virtual Entidades::FlechaShogun* criarProjeteis(sf::Vector2f pos, float dirX) { return nullptr; }
     int getQuantidadeInimigosVivos();
+    void adicionarEntidade(Entidades::Entidades* entidade);
+    void popularGerenciador();
+    void limparParaLoad();
+    
 };
 
 } // namespace Fases

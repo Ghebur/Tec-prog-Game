@@ -23,6 +23,10 @@ FlechaShogun::FlechaShogun(sf::Vector2f pos, float velX) :
     pFig->getSprite().setPosition(pos);
 }
 
+bool FlechaShogun::estaMorta() const {
+    return morta;
+}
+
 void FlechaShogun::executar() {
     tempoVoo += DELTA;
 

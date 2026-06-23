@@ -9,11 +9,12 @@ namespace Fases {
 
 class FaseSegunda : public Fase {
 public:
-    FaseSegunda(Mapa1& mapa);
+    FaseSegunda(Mapa1& mapa, bool carregar = false);
     ~FaseSegunda();
     bool faseFinalizada() const override;
     void verificarTransicaoFase(Personagens::Ninja& jogador);
     Entidades::FlechaShogun* criarProjeteis(sf::Vector2f pos, float dirX) override;
+
 
 protected:
     void criarInimigos(Mapa1& mapa) override;

@@ -24,7 +24,7 @@ class Samurai : public Inimigo {
         void atualizarAnimacao() override;
         void pular();
         void executar(Mapa1& mapa, Personagens& p);
-        sf::FloatRect getBounds() override { return {posicao, corpo.getSize()}; }
+        sf::FloatRect getBounds() override;
         void salvar() override;
 };
 

@@ -28,6 +28,10 @@ Shogun::Shogun(float x, float y, Fases::Fase* fase) :
 
 Shogun::~Shogun() {}
 
+sf::FloatRect Shogun::getBounds() {
+    return {posicao, corpo.getSize()};
+}
+
 bool Shogun::movimentacao() {
     if (estado == Estado::SHOOTING) return false; // congela posicao durante animacao
 

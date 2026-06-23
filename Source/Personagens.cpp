@@ -11,6 +11,7 @@ frameAtual(0)
     this->velocidade = velocidade;
 }
 
+
 void Personagens::verificarColisaoChao(Mapa1& /*mapa*/, float alturaCorpo) {
     if (posicao.y + alturaCorpo >= 550.f) {
         posicao.y = 550.f - alturaCorpo;
