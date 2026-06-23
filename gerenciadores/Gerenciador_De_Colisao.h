@@ -32,6 +32,7 @@ public:
     void induzirProjetil(Entidades::FlechaShogun* ps);
     void atualizarProjeteis();
     void executar();
+    void limpar();
 };
 
 } // namespace Gerenciadores

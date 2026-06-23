@@ -22,6 +22,11 @@ graduacao(rand()%3+1)
 
 Samurai::~Samurai() {}
 
+sf::FloatRect Samurai::getBounds() {
+    return {posicao, {tamanho, tamanho}};
+}
+
+
 void Samurai::danifcar(Personagens& p) {
     for(int i =0;i<=nivelDeMaldade;i++)
         --p;

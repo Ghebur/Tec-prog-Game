@@ -77,10 +77,9 @@ void Plataforma::obstaculizar(Personagens::Personagens& p) {
 
 void Plataforma::salvar() {
     SalvarDataBuffer();
-    buffer += " " + std::to_string(id);
     std::ofstream file("assets/save_plataformas.txt", std::ios::app);
     if (file.is_open()) {
-        file << "Plataforma " << buffer << "\n";
+        file << buffer << "\n";
         file.close();
     }
 }

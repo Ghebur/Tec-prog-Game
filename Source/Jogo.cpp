@@ -1,5 +1,6 @@
 #include <cmath>
 #include "../Jogo.h"
+#include "../Entidades/Obstaculos/Plataforma.h"
 #include <fstream>
 #include <iostream>
 
@@ -343,6 +344,16 @@ void Jogo::Rodar() {
             if (ninja2) ninja2->setPosicao({350.f, 400.f});
         }
 
+        if (config.carregarSave) {
+            if (!naFase2) {
+                fase1.limparParaLoad(); // Limpa as entidades atuais da fase antes de carregar
+                carregarEntidades(&fase1);
+            } else {
+                fase2->limparParaLoad();
+                carregarEntidades(&*fase2);
+            }
+        }
+
         // Loop de gameplay da partida atual
         // Ele vai rodar até a janela fechar OU até o jogador voltar pro menu (gameOver virar false após apertar M)
         while (GG.getJanela().isOpen()) {
@@ -358,10 +369,16 @@ void Jogo::Rodar() {
             Atualizar();
             Renderizar();
         }
+
+        
     }
 }
 void Jogo::salvarJogo() {
-    // 1. Abre limpando o arquivo antigo para começar um save novo do zero
+    std::ofstream arq1("assets/save_game.txt", std::ios::trunc); arq1.close();
+    std::ofstream arq2("assets/save_ninja.txt", std::ios::trunc); arq2.close();
+    std::ofstream arq3("assets/save_samurai.txt", std::ios::trunc); arq3.close();
+    std::ofstream arq4("assets/save_shogun.txt", std::ios::trunc); arq4.close();
+    std::ofstream arq5("assets/save_cobra.txt", std::ios::trunc); arq5.close();
     std::ofstream arquivo("assets/save_game.txt", std::ios::trunc);
     if (!arquivo.is_open()) {
         std::cerr << "Erro ao abrir o arquivo de salvamento!" << std::endl;
@@ -416,4 +433,92 @@ void Jogo::salvarRanking() {
         arquivo.close();
         std::cout << "Ranking salvo com sucesso!" << std::endl;
     }
+}
+
+void Jogo::carregarEntidades(Fases::Fase* faseAtual) {
+    if (!faseAtual) return;
+
+    // 1. CARREGAR NINJA
+    std::ifstream arqNinja("assets/save_ninja.txt");
+    if (arqNinja.is_open()) {
+        float x, y;
+        int vida, id, pontos;
+        
+        // Só precisa ler, pois geralmente é 1 jogador
+        if (arqNinja >> x >> y >> vida >> pontos) {
+            
+            
+            ninja.setPosicao({x, y}); // Atualiza a posição
+            ninja.setVida(vida);      // Atualiza a vida
+            ninja.setPontos(pontos);  // Atualiza os pontos
+
+            faseAtual->adicionarEntidade(&ninja); // Adiciona o Ninja à lista da fase
+            
+            // Não dê 'new', e se ele já estiver na lista da fase, não dê 'incluir' de novo!
+        }
+        arqNinja.close();
+    }
+
+    // 2. CARREGAR SAMURAI
+    std::ifstream arqSamurai("assets/save_samurai.txt");
+    if (arqSamurai.is_open()) {
+        float x, y, origemX, angulo;
+        int vida, id, graduacao;
+        while (arqSamurai >> x >> y >> vida >> id >> graduacao >> origemX >> angulo) {
+            Personagens::Samurai* samurai = new Personagens::Samurai(x, y); 
+            samurai->setVida(vida);
+            // Se você tiver setters para as outras variáveis, aplique-os aqui:
+            // samurai->setGraduacao(graduacao); 
+            // samurai->setOrigemX(origemX);
+            
+            faseAtual->adicionarEntidade(samurai);
+        }
+        arqSamurai.close();
+    }
+
+    // 3. CARREGAR SHOGUN
+    std::ifstream arqShogun("assets/save_shogun.txt");
+    if (arqShogun.is_open()) {
+        float x, y, origemX, angulo;
+        int vida, id;
+        bool olhandoDireita;
+        while (arqShogun >> x >> y >> vida >> id >> olhandoDireita >> origemX >> angulo) {
+            Personagens::Shogun* shogun = new Personagens::Shogun(x, y, faseAtual);
+            shogun->setVida(vida);
+            // shogun->setOlhandoDireita(olhandoDireita);
+            faseAtual->adicionarEntidade(shogun);
+        }
+        arqShogun.close();
+    }
+
+    // 4. CARREGAR COBRA
+    std::ifstream arqCobra("assets/save_cobra.txt");
+    if (arqCobra.is_open()) {
+        float x, y, origemX, angulo;
+        int id;
+        bool venenosa;
+        // ATENÇÃO: A Cobra usa salvarDataBuffer() da Entidade, então ela NÃO salva a vida!
+        while (arqCobra >> id >> x >> y >> venenosa >> origemX >> angulo) {
+            Personagens::Cobra* cobra = new Personagens::Cobra(x, y);
+            // cobra->setVenenosa(venenosa);
+            faseAtual->adicionarEntidade(cobra);
+        }
+        arqCobra.close();
+    }
+
+    
+    std::ifstream arqPlat("assets/save_plataformas.txt");
+
+    if (arqPlat.is_open()) {
+        float platX, platY, danoso;
+        while (arqPlat >> platX >> platY >> danoso) {
+            // Recria as plataformas na memória e adiciona na lista limpa da fase!
+            faseAtual->adicionarEntidade(new Obstaculos::Plataforma(platX, platY));
+        }
+        arqPlat.close();
+    }
+        
+
+    // Após carregar todos, avisa o gerenciador para repuxar a lista atualizada
+    faseAtual->popularGerenciador();
 }

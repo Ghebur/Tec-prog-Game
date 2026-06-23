@@ -29,6 +29,10 @@ public:
     Lista<Entidades::Entidades>::Elemento<Entidades::Entidades>* getPrimeiro() const {
         return LEs.getPrimeiro();
     }
+
+    void limpar() {
+        LEs.limpar();
+    }
 };
 
 } // namespace Listas

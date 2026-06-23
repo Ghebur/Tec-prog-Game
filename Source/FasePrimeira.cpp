@@ -10,11 +10,14 @@ using namespace Personagens;
 using namespace Obstaculos;
 using namespace Entidades;
 
-FasePrimeira::FasePrimeira(Mapa1& mapa) {
-    criarInimigos(mapa);
-    criarPlataformas(mapa);
-    criarObstaculos(mapa);
+FasePrimeira::FasePrimeira(Mapa1& mapa, bool carregar) {
     criarFinal(mapa);
+    if (!carregar) {
+        criarInimigos(mapa);
+        criarPlataformas(mapa);
+        criarObstaculos(mapa);
+    }
+    
     popularGerenciador();
 }
 

@@ -30,6 +30,20 @@ Ninja::Ninja(float x, float y, Controles controles, int pontos) :
 
 Ninja::~Ninja() {}
 
+bool Ninja::estaArmado() const {
+    return armado;
+}
+
+void Ninja::tentarRecuperar() {
+    if (rand() % 3 == 0) {
+        ++(*this);
+    }
+}
+
+sf::FloatRect Ninja::getBounds() {
+    return {posicao, corpo.getSize()};
+}
+
 void Ninja::executar(Mapa1& mapa) {
     bool estavaNoChao = noChao;
     aplicarGravidade(DELTA_TIME);
@@ -161,10 +175,14 @@ void Ninja::ressuscitar() {
     armado = false; 
 }
 
+void Ninja::setPontos(int p) {
+    pontos = p;
+}
+
 void Ninja::salvar() {
     SalvarDataBuffer(); 
 
-    buffer += std::to_string(id) + " " + std::to_string(pontos) + "\n";
+    buffer += " " + std::to_string(pontos) + "\n";
 
     std::ofstream arquivo("assets/save_ninja.txt", std::ios::app);
     if (arquivo.is_open()) {
