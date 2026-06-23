@@ -29,6 +29,10 @@ textura(other.textura)
 
 Plataforma::~Plataforma() {}
 
+void Plataforma::executar() {
+    Entidades::aplicarGravidade(1.f / 60.f);
+}
+
 void Plataforma::desenhar(sf::RenderWindow& window) {
     window.draw(sprite);
 }

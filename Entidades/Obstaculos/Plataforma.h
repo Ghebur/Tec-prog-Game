@@ -16,6 +16,7 @@ class Plataforma : public Obstaculos {
         void desenhar(sf::RenderWindow& window) override;
         void obstaculizar(Personagens::Personagens& p) override;
         void salvar() override;
+        void executar() override;
 };
 
 } // namespace Obstaculos

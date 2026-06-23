@@ -34,7 +34,7 @@ namespace Fases {
     }
 
 
-    bool faseFinalizada() {
+    bool Fase::faseFinalizada() const {
         return false;
     }
  
