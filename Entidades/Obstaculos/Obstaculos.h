@@ -15,8 +15,8 @@ class Obstaculos : public Entidades::Entidades {
         virtual ~Obstaculos();
         void executar() override {}
         virtual void obstaculizar(Personagens::Personagens& p) = 0;
-        void SalvarDataBuffer();
         virtual void salvar() override = 0;
+        void SalvarDataBuffer();
 };
 
 } // namespace Obstaculos

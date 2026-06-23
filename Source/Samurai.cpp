@@ -2,7 +2,7 @@
 #include "../Figura.h"
 #include <fstream>
 
-namespace Personagens {
+namespace Personagens {                                                                             
 
 Samurai::Samurai(float x, float y) :
 Inimigo(3, 2, {3.f, 0.f}, 50.f, {x, y}, 1),
@@ -23,7 +23,7 @@ graduacao(rand()%3+1)
 Samurai::~Samurai() {}
 
 sf::FloatRect Samurai::getBounds() {
-    return {posicao, {tamanho, tamanho}};
+    return {posicao, corpo.getSize()};
 }
 
 
